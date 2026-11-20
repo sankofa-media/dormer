@@ -1,3 +1,4 @@
+// Seed verified against IFHA NP_2024.pdf on 2026-11-20 (pages containing F, N, S).
 // A deliberately small seed, not a substitute for the registry's full review.
 export const protectedNames = ['Ferdinand','Secretariat','Frankel','Seabiscuit','Northern Dancer'];
 export const protectedSource='https://www.ifhaonline.org/resources/NP_2024.pdf';

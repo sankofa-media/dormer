@@ -36,7 +36,8 @@ async function search(){const value=q<HTMLInputElement>('#search-input').value.t
  // Pagefind supplies escaped HTML with mark tags only; strip everything else.
  const doc=new DOMParser().parseFromString(hit.excerpt,'text/html');for(const el of doc.body.querySelectorAll('*'))if(el.tagName!=='MARK')el.replaceWith(document.createTextNode(el.textContent??''));snippet.append(...doc.body.childNodes);a.append(h,snippet);out.append(a)}
  if(!unique.length)out.textContent=t('Ничего не найдено.','No stories found.');
- }catch{if(version===searchVersion)out.textContent=t('Поиск доступен после npm run build → npm run preview.','Search is available after npm run build → npm run preview.')}}
+ }catch{if(version===searchVersion)out.textContent=t('Поиск временно недоступен. Попробуйте позже.','Search is temporarily unavailable. Please try again later.')}}
+document.querySelectorAll<HTMLFormElement>('[data-inline-search]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();q<HTMLDialogElement>('#search-dialog').showModal();q<HTMLInputElement>('#search-input').value=form.querySelector('input')!.value;q<HTMLInputElement>('#search-input').focus();void search()}));
 q('#search-form').addEventListener('submit',e=>{e.preventDefault();void search()});let debounce:number;q('#search-input').addEventListener('input',()=>{clearTimeout(debounce);debounce=window.setTimeout(()=>void search(),180)});
 let updateRace:(()=>void)|undefined;
 if(!p){
@@ -68,7 +69,7 @@ if(!p){
  raf=requestAnimationFrame(animate)}raf=requestAnimationFrame(animate);
  addEventListener('pagehide',()=>cancelAnimationFrame(raf));
  addEventListener('scroll',()=>{const now=performance.now();velocity=Math.min(4,Math.abs(scrollY-lastY)/Math.max(16,now-lastTime));lastY=scrollY;lastTime=now;updateRace?.()},{passive:true});addEventListener('resize',()=>updateRace?.());updateRace();
- q('#start').addEventListener('click',()=>{document.body.classList.add('fired');q('#start').textContent=t('Поехали!','They’re off!');ambience.fire();setTimeout(()=>go(0,true),calm?0:450)});
+ q('#start-race').addEventListener('click',()=>{document.body.classList.add('fired');q('#start-race').textContent=t('Поехали!','They’re off!');ambience.fire();setTimeout(()=>go(0,true),calm?0:450)});
  q('#calm').addEventListener('click',()=>{const n=current;calm=!calm||isCalm();write('dormer.calm',String(calm));applyCalm();updateRace?.();go(n)});
  q('#sound').addEventListener('click',async()=>{const on=await ambience.toggle();q('#sound').setAttribute('aria-pressed',String(on));q('#sound').textContent=on?t('Звук: вкл.','Sound: on'):t('Звук: выкл.','Sound: off')});
  q('#programme').addEventListener('click',()=>q<HTMLDialogElement>('#programme-dialog').showModal());

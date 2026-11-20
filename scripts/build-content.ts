@@ -1,9 +1,11 @@
 // Adapted from Sankofa's YAML feature compiler and responsive-media pipeline.
-import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,readdir,statfs} from 'node:fs/promises';
 import path from 'node:path';
 import {parse} from 'yaml';
 import sharp from 'sharp';
 import {validateProject,type Entry,type Project,type Media} from '../src/model.ts';
+const disk=await statfs('.');
+if(disk.bavail*disk.bsize<3*1024**3)throw Error('Stopped: less than 3 GiB of disk space is free.');
 const read=async(p:string)=>parse(await readFile(p,'utf8'));
 const entries:Entry[]=(await read('content/projects/index.yaml')).projects;
 const projects:Record<string,Project>={};const media:Record<string,Media>={};
