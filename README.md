@@ -66,7 +66,7 @@ npm run screenshots
 
 Playwright uses the built site, in Chromium at 1440×900 and mobile at 390×844.
 Screenshots are saved in `.shots/<desktop|mobile>-<scene>.png`; the screenshot test
-also covers the complete home wall, the cover, start, all nine poles, five aftermath
+also covers the complete home wall, the cover, start, all nine poles, the constructor, five aftermath
 screens and the calm article. `.shots/manifest.txt` lists the generated files.
 See `VERIFICATION.md` for the recorded run and limitations.
 
