@@ -26,7 +26,9 @@ readable without JavaScript. Unknown project routes should return the host's 404
 `content/projects/index.yaml` is the wall catalogue. Upcoming entries have no
 project links or invented descriptions. Tile types: layers, video, image, empty,
 and type. Image/video tiles accept a `src`; type tiles may use `quote`.
-`content/projects/<id>/project.yaml` contains bilingual scenes, blocks and sources.
+`content/projects/<id>/project.yaml` contains bilingual scenes, blocks, fact IDs and sources.
+`fact-sources.json` snapshots the supplied research sources; the build checks that each
+block contains exactly the deduplicated sources for its own fact IDs.
 English blocks explicitly carry `draft: true`. The Russian prose is copied from
 the storyboard, with the flagged sentences excluded (see `editorial_notes`).
 
@@ -48,10 +50,11 @@ PNG files become WebP originals plus w480/w960/w1600 versions in `public/media/`
 The generated `media/manifest.json` lists every asset. Existing track-plate.png is
 used for the racetrack and tile. Scene files use `<scene>-plate.png` followed by
 `<scene>-<layer>.png`; scene IDs are in project.yaml. Whole layers retain margins.
-Horse frames use `horse-<1..13>-gallop-<k>.png` with numeric frame ordering.
-Missing art falls back to CSS washes and horse shapes. CSS figures do not represent
-verified jockey silks. The photo-finish drawings are labelled placeholders, not
-video stills. No third-party photographs or newspaper scans are reproduced.
+The art manifest validates five horses, each with ten gallop and eight walk frames.
+Thirteen runners reuse horses 2–5; horse 1 is the unique grey winner. There are no
+CSS horse silhouettes or hue shifts. The pack walks when scrolling stops.
+The cover tile uses `cover-plate` and `cover-grey` with pointer depth.
+The photo-finish drawings are original illustrations, not video stills. No third-party photographs or newspaper scans are reproduced.
 
 ## Verification
 
