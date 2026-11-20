@@ -32,3 +32,15 @@ describe('block-level provenance',()=>{
   expect(project.scenes[12].blocks[1].fact_ids).toEqual(['followup-07','followup-10','followup-11','followup-12']);
  });
 });
+
+import {raceTimeline,runnerPosition} from '../src/engine/race';
+describe('reading timeline and race field',()=>{
+ it('holds long chapters through their last pixel, and reverses continuously',()=>{
+ const t=raceTimeline([0,1200,40]);expect(t.at(t.stops[1].start+1199)).toEqual({pole:1,position:1,read:1199});expect(t.at(t.stops[1].start+1200).read).toBe(1200);expect(t.at(t.stops[2].start)).toEqual({pole:2,position:2,read:0});expect(t.at(1e6).read).toBe(40);
+ });
+ it('starts Bull eighth, keeps him there, then advances through the field to win',()=>{
+ const rank=(p:number)=>1+Array.from({length:12},(_,i)=>runnerPosition(i+1,p)).filter(x=>x>runnerPosition(0,p)).length;
+ expect(rank(0)).toBe(8);expect(rank(.6)).toBe(8);expect(rank(.85)).toBeLessThan(8);expect(rank(1)).toBe(1);
+ const field=Array.from({length:13},(_,i)=>runnerPosition(i,.4));expect(Math.max(...field)-Math.min(...field)).toBeGreaterThan(.8);
+ });
+});

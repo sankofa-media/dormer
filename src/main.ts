@@ -3,10 +3,11 @@ import raw from './generated.json';
 import {type Data,type Lang} from './model';
 import {homePage,projectPage,pick,esc,sources} from './render';
 import {isCalm,onCalm} from './engine/calm';
-import {scrollToX,clamp,ahead,load} from './engine/scroll';
+import {clamp,ahead,load} from './engine/scroll';
 import {ink} from './engine/ink';
 import {mountArt,spriteFrames} from './engine/layers';
 import {checkName,suggest,type Declarations} from './names';
+import {raceTimeline,runnerPosition} from './engine/race';
 import {Ambience} from './engine/sound';
 const data=raw as Data;
 const lang:Lang=location.pathname.startsWith('/ru/')?'ru':'en';
@@ -52,13 +53,26 @@ if(!p){
 }else{
  mountArt(data,p.id);ahead(app);
  const race=q('#race'),track=q('.track'),stage=q('.race-stage');const chapters=[...document.querySelectorAll<HTMLElement>('.chapter')];const ambience=new Ambience();let current=0,lastY=scrollY,lastTime=performance.now(),velocity=0,raf=0;
- const top=()=>race.getBoundingClientRect().top+scrollY- q('.race-tools').clientHeight;
- const length=()=>Math.max(1,race.offsetHeight-stage.offsetHeight);
- const go=(i:number,focus=false)=>{if(calm)chapters[i].scrollIntoView({behavior:'auto',block:'start'});else window.scrollTo({top:top()+length()*i/9,behavior:'instant'});history.replaceState({},'',`#${chapters[i].id}`);if(focus)chapters[i].querySelector<HTMLElement>('.chapter-paper')!.focus({preventScroll:true});updateRace?.()};
+ const top=()=>race.getBoundingClientRect().top+scrollY- q('.race-tools').getBoundingClientRect().height;
+ const papers=chapters.map(c=>c.querySelector<HTMLElement>('.chapter-paper')!);
+ let timeline=raceTimeline(papers.map(()=>0));
+ const length=()=>timeline.length;
+ const measure=()=>{
+  if(calm){race.style.height='';return;}
+  timeline=raceTimeline(papers.map(p=>p.scrollHeight-p.clientHeight));
+  race.style.height=`${stage.offsetHeight+timeline.length}px`;
+  chapters.forEach((c,i)=>c.dataset.scrollStart=String(timeline.stops[i].start));
+ };
+ measure();
+ let startTimer:number|undefined;
+ const go=(i:number,focus=false)=>{clearTimeout(startTimer);if(calm)chapters[i].scrollIntoView({behavior:'auto',block:'start'});else window.scrollTo({top:top()+timeline.stops[i].start,behavior:'instant'});history.replaceState({},'',`#${chapters[i].id}`);if(focus)chapters[i].querySelector<HTMLElement>('.chapter-paper')!.focus({preventScroll:true});updateRace?.()};
  const ticker=[t('13 лошадей · 9 фурлонгов · мокрая дорожка','13 runners · 9 furlongs · sloppy track'),t('Bull Inthe Heather держится примерно восьмым','Bull Inthe Heather sits around eighth'),t('Серый жеребец · отец — Фердинанд','Grey colt · sire: Ferdinand'),t('Кличка: не больше 18 знаков','A name: no more than 18 characters'),t('Sear Sound, Нью-Йорк · осень 1993','Sear Sound, New York · autumn 1993'),t('Ким Гордон · Кэтлин Ханна','Kim Gordon · Kathleen Hanna'),t('Клип сняла Тамра Дэвис','Video directed by Tamra Davis'),t('UK № 24 · US Alternative № 13','UK no. 24 · US Alternative no. 13'),t('Great Navigator выдохся; Bull проходит между лошадьми','Great Navigator fades; Bull moves between horses'),t('Bull Inthe Heather — первый! Два корпуса · 1:51⅕ · $60.80','Bull Inthe Heather wins! Two lengths · 1:51⅕ · $60.80')];
  updateRace=()=>{
   if(calm){chapters.forEach(s=>{s.inert=false;s.removeAttribute('aria-hidden');load(s)});track.style.transform='';return;}
-  const x=scrollToX(scrollY,top(),length(),innerWidth*9);track.style.transform=`translateX(${-x}px)`;const n=Math.round(x/innerWidth);current=n;
+  const state=timeline.at(scrollY-top());const x=state.position*innerWidth;
+  track.style.transform=`translateX(${-x}px)`;const n=state.pole;current=n;
+  papers[n].scrollTop=state.read;
+  document.querySelectorAll<HTMLElement>('.herd .horse').forEach((horse,i)=>horse.style.setProperty('--position',String(runnerPosition(i,state.position/9))));
   for(let i=0;i<chapters.length;i++){chapters[i].style.setProperty('--paper-x',`${x-i*innerWidth}px`);chapters[i].inert=i!==n;chapters[i].setAttribute('aria-hidden',String(i!==n));if(Math.abs(i-n)<=1)load(chapters[i]);}
   q('#progress').textContent=`${n} / 9`;q('#ticker-fact').textContent=ticker[n];document.body.classList.toggle('photo-freeze',n===6);stage.style.setProperty('--race-p',String(x/(innerWidth*9)));stage.dataset.pole=String(n);
  };
@@ -66,12 +80,15 @@ if(!p){
  for(const urls of walking.values())urls.forEach(src=>{const img=new Image();img.src=src});
  let phase=0,previous=performance.now();
  function animate(now:number){const dt=Math.min(100,now-previous);previous=now;velocity*=Math.exp(-dt/220);const speed=calm?0:Math.min(3,velocity);stage.style.setProperty('--gallop',`${1.8-speed*.48}s`);stage.style.setProperty('--blur',`${Math.min(3,speed)}px`);ambience.speed=speed;
- if(!calm&&current!==6&&!document.hidden){phase+=dt/1000*(2+speed*5);for(const [n,img]of frameEls){const urls=(speed>.3&&current!==9?frames:walking).get(n)!;const src=urls[(Math.floor(phase)+n*2)%urls.length];if(!img.src.endsWith(src))img.src=src}}
+ if(!calm&&current!==6&&!document.hidden){phase+=dt/1000*(2+speed*5);for(const [n,img]of frameEls){const urls=(speed>.3&&current!==9?frames:walking).get(n)!;const src=urls[(Math.floor(phase*(.91+(n%5)*.047))+n*2)%urls.length];if(!img.src.endsWith(src))img.src=src}}
  raf=requestAnimationFrame(animate)}raf=requestAnimationFrame(animate);
  addEventListener('pagehide',()=>cancelAnimationFrame(raf));
- addEventListener('scroll',()=>{const now=performance.now();velocity=Math.min(4,Math.abs(scrollY-lastY)/Math.max(16,now-lastTime));lastY=scrollY;lastTime=now;updateRace?.()},{passive:true});addEventListener('resize',()=>updateRace?.());updateRace();
- q('#start-race').addEventListener('click',()=>{document.body.classList.add('fired');q('#start-race').textContent=t('Поехали!','They’re off!');ambience.fire();setTimeout(()=>go(0,true),calm?0:450)});
- q('#calm').addEventListener('click',()=>{const n=current;calm=!calm||isCalm();write('dormer.calm',String(calm));applyCalm();updateRace?.();go(n)});
+ addEventListener('scroll',()=>{const now=performance.now();velocity=Math.min(4,Math.abs(scrollY-lastY)/Math.max(16,now-lastTime));lastY=scrollY;lastTime=now;updateRace?.()},{passive:true});addEventListener('resize',()=>{measure();updateRace?.()});
+ const observer=new ResizeObserver(()=>{measure();updateRace?.()});
+ papers.forEach(p=>{observer.observe(p);for(const child of p.children)observer.observe(child)});
+ document.fonts.ready.then(()=>{measure();updateRace?.()});updateRace();
+ q('#start-race').addEventListener('click',()=>{document.body.classList.add('fired');q('#start-race').textContent=t('Поехали!','They’re off!');ambience.fire();startTimer=window.setTimeout(()=>go(0,true),calm?0:450)});
+ q('#calm').addEventListener('click',()=>{const n=current;calm=!calm||isCalm();write('dormer.calm',String(calm));applyCalm();measure();updateRace?.();go(n)});
  q('#sound').addEventListener('click',async()=>{const on=await ambience.toggle();q('#sound').setAttribute('aria-pressed',String(on));q('#sound').textContent=on?t('Звук: вкл.','Sound: on'):t('Звук: выкл.','Sound: off')});
  q('#programme').addEventListener('click',()=>q<HTMLDialogElement>('#programme-dialog').showModal());
  for(const b of document.querySelectorAll<HTMLElement>('[data-go]'))b.addEventListener('click',e=>{e.preventDefault();q<HTMLDialogElement>('#programme-dialog').close();go(Number(b.dataset.go),true)});

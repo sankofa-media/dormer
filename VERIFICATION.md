@@ -1,3 +1,37 @@
+# Verification — fix round 2, 2026-11-20
+
+Chapter reading now consumes document scroll while the horizontal track stays at
+its pole. Each pole receives its measured overflow distance plus a reading pause;
+only then does travel resume. ResizeObserver recalculates this for fonts, viewport
+changes, source expansion, form feedback and video content. Reverse scrolling
+retraces the same text. Calm and no-JavaScript versions retain the full article.
+
+Russian tile tags use localized names; the Bull subtitle has an opaque paper
+strip on desktop and phones. Thirteen runners have unequal track positions and
+individual gait rates. Bull stays around eighth until the late advance, then
+passes through the pack and finishes first; Great Navigator fades. This follows
+`research3-11` in the supplied sibling `facts.yaml`. Other runner trajectories,
+spacing and gait remain illustrative, not a reconstruction of the race chart.
+
+Validation covers all nine poles in Russian and English at 1440×900, 390×844 and
+360×740: every 100px of reading, stationary track, and arrival at the exact bottom
+before leaving the pole. Screenshots include overlapping 250px reading steps for
+long Russian chapters, alongside all existing scene captures. Files remain in
+`.shots/`, with per-viewport manifests and a combined `manifest.txt`.
+
+The initial browser pass exposed a one-pixel toolbar-border discrepancy and a
+race between the delayed Start action and programme navigation. Both were fixed.
+
+Final checks: production build passed; 12 unit tests and 30 Chromium browser
+checks passed; git diff --check passed. 127 screenshots were refreshed and
+viewport image dimensions verified. All nine pole starts were visually reviewed
+at both phone sizes, plus the mobile subtitle, reading continuation and finish.
+Screenshots remain local ignored artifacts. No push or deployment.
+
+Previous-round evidence and general limitations follow below.
+
+---
+
 # Verification — fix round 1, 2026-11-20
 
 - `npm run build`: passed; four prerendered pages, two Pagefind article entries.

@@ -46,3 +46,9 @@ body:not(.enhanced) .chapter-paper{max-height:none}
 @media(max-width:650px){.herd .horse{left:calc(8% - var(--i)*2.8%)}.herd .horse-0{left:calc(-25% + var(--race-p,0)*39%)}}
 
 .enhanced:not(.calm) .race-stage{overflow:clip}
+
+/* Document scroll reads the whole paper before advancing the track. */
+.enhanced:not(.calm) .chapter-paper{overflow:hidden;overflow-anchor:none}
+.tile-0 .tile-inner>p{background:#f4f1e7;padding:9px 12px;box-shadow:2px 3px 0 #29372c22;width:fit-content}
+.herd .horse{height:70%;left:calc(2% + var(--position,0)*72%);top:calc(var(--lane)*10%);transition:none}
+@media(max-width:650px){.herd .horse{height:48%;left:calc(-8% + var(--position,0)*64%);top:calc(22% + var(--lane)*13%)}}

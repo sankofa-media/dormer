@@ -16,7 +16,7 @@ test('start, every pole, constructor, programme and final paddock',async({page})
 });
 test('wheel progress and reduced motion fallback',async({page})=>{
  await page.goto('/projects/bull-in-the-heather/');await page.locator('#start-race').click();await expect(page.locator('body')).toHaveClass(/fired/);await page.waitForTimeout(550);await page.mouse.move(10,400);await page.mouse.wheel(0,1200);await expect(page.locator('.race-stage')).toHaveAttribute('data-pole','1');
- await page.evaluate(()=>{const r=document.querySelector<HTMLElement>('#race')!,s=document.querySelector<HTMLElement>('.race-stage')!,bar=document.querySelector<HTMLElement>('.race-tools')!;scrollTo(0,r.offsetTop-bar.offsetHeight+(r.offsetHeight-s.offsetHeight)*5/9)});await expect(page.locator('.race-stage')).toHaveAttribute('data-pole','5');
+ await page.evaluate(()=>{const r=document.querySelector<HTMLElement>('#race')!,s=document.querySelector<HTMLElement>('.race-stage')!,bar=document.querySelector<HTMLElement>('.race-tools')!;scrollTo(0,r.offsetTop-bar.offsetHeight+Number(document.querySelector<HTMLElement>('#pole-5')!.dataset.scrollStart))});await expect(page.locator('.race-stage')).toHaveAttribute('data-pole','5');
  await page.emulateMedia({reducedMotion:'reduce'});await expect(page.locator('body')).toHaveClass(/calm/);await expect(page.locator('#pole-2')).not.toHaveAttribute('aria-hidden','true');await expect(page.locator('#pole-3 .chapter-paper')).toHaveCSS('max-height','none');await page.locator('#pole-3').scrollIntoViewIfNeeded();await expect(page.locator('#horse-name')).toBeVisible();expect(await page.locator('.track').evaluate(el=>getComputedStyle(el).transform)).toBe('none');
 });
 test('no JavaScript retains article and SEO',async({browser,baseURL})=>{
@@ -52,4 +52,29 @@ test('review: approved home copy and layered cover respond to pointer',async({pa
  const tile=page.locator('.tile-0');await tile.dispatchEvent('pointermove',{clientX:200,clientY:500});
  expect(await tile.evaluate(el=>el.style.getPropertyValue('--px'))).not.toBe('');
  await expect(page.locator('.tile-1 .tile-meta')).not.toBeVisible();
+});
+
+test('round 2: every paper is read fully before horizontal travel',async({page})=>{
+ test.setTimeout(90000);
+ for(const locale of ['/ru','']){
+  await page.goto(`${locale}/projects/bull-in-the-heather/`);
+  await page.evaluate(()=>document.fonts.ready);
+  for(let i=1;i<=9;i++){
+   await page.locator('#programme').click();await page.locator(`[data-go="${i}"]`).click();
+   const paper=page.locator(`#pole-${i} .chapter-paper`);
+   const overflow=await paper.evaluate(el=>el.scrollHeight-el.clientHeight);
+   const initial=await page.locator('.track').evaluate(el=>getComputedStyle(el).transform);
+   for(let d=0;d<=overflow;d+=100){
+    await page.evaluate(({i,d})=>{const r=document.querySelector<HTMLElement>('#race')!;const c=document.querySelector<HTMLElement>(`#pole-${i}`)!;scrollTo(0,r.offsetTop-document.querySelector<HTMLElement>('.race-tools')!.offsetHeight+Number(c.dataset.scrollStart)+d)}, {i,d});
+    await expect.poll(()=>paper.evaluate(el=>el.scrollTop)).toBeCloseTo(d,0);
+    expect(await page.locator('.track').evaluate(el=>getComputedStyle(el).transform)).toBe(initial);
+   }
+   await page.evaluate(({i,overflow})=>{const r=document.querySelector<HTMLElement>('#race')!;scrollTo(0,r.offsetTop-document.querySelector<HTMLElement>('.race-tools')!.offsetHeight+Number(document.querySelector<HTMLElement>(`#pole-${i}`)!.dataset.scrollStart)+overflow)}, {i,overflow});
+   await expect.poll(()=>paper.evaluate(el=>Math.abs(el.scrollHeight-el.clientHeight-el.scrollTop))).toBeLessThanOrEqual(1);
+   await expect(page.locator('.race-stage')).toHaveAttribute('data-pole',String(i));
+  }
+ }
+});
+test('round 2: localized tags and opaque subtitle strip',async({page})=>{
+ await page.goto('/ru/');await expect(page.locator('.tile-0 .tile-meta')).toContainText('Музыка / Лошади');await expect(page.locator('.tile-2 .tile-meta')).toContainText('Искусство');await expect(page.locator('.tile-3 .tile-meta')).toContainText('Парфюмерия');await expect(page.locator('.tile-0 .tile-inner>p')).toHaveCSS('background-color','rgb(244, 241, 231)');
 });
