@@ -59,13 +59,14 @@ if(!p){
  updateRace=()=>{
   if(calm){chapters.forEach(s=>{s.inert=false;s.removeAttribute('aria-hidden');load(s)});track.style.transform='';return;}
   const x=scrollToX(scrollY,top(),length(),innerWidth*9);track.style.transform=`translateX(${-x}px)`;const n=Math.round(x/innerWidth);current=n;
-  for(let i=0;i<chapters.length;i++){chapters[i].inert=i!==n;chapters[i].setAttribute('aria-hidden',String(i!==n));if(Math.abs(i-n)<=1)load(chapters[i]);}
+  for(let i=0;i<chapters.length;i++){chapters[i].style.setProperty('--paper-x',`${x-i*innerWidth}px`);chapters[i].inert=i!==n;chapters[i].setAttribute('aria-hidden',String(i!==n));if(Math.abs(i-n)<=1)load(chapters[i]);}
   q('#progress').textContent=`${n} / 9`;q('#ticker-fact').textContent=ticker[n];document.body.classList.toggle('photo-freeze',n===6);stage.style.setProperty('--race-p',String(x/(innerWidth*9)));stage.dataset.pole=String(n);
  };
- const frames=spriteFrames(data,p.id);const frameEls=new Map<number,HTMLImageElement>();for(const [n,urls]of frames){const el=q(`.herd .horse-${n}`);el.classList.add('has-frames');const img=document.createElement('img');img.alt='';img.src=urls[0];el.append(img);frameEls.set(n,img);urls.forEach(src=>{const i=new Image();i.src=src})}
+ const frames=spriteFrames(data,p.id);const walking=spriteFrames(data,p.id,'walk');const frameEls=new Map<number,HTMLImageElement>();for(const [n,urls]of frames){const el=q(`.herd .horse-${n}`);el.classList.add('has-frames');const img=el.querySelector('img')!;img.src=urls[0];frameEls.set(n,img);urls.forEach(src=>{const i=new Image();i.src=src})}
+ for(const urls of walking.values())urls.forEach(src=>{const img=new Image();img.src=src});
  let phase=0,previous=performance.now();
  function animate(now:number){const dt=Math.min(100,now-previous);previous=now;velocity*=Math.exp(-dt/220);const speed=calm?0:Math.min(3,velocity);stage.style.setProperty('--gallop',`${1.8-speed*.48}s`);stage.style.setProperty('--blur',`${Math.min(3,speed)}px`);ambience.speed=speed;
- if(!calm&&current!==6&&!document.hidden){phase+=dt/1000*(2+speed*5);for(const [n,img]of frameEls){const urls=frames.get(n)!;const src=urls[Math.floor(phase)%urls.length];if(!img.src.endsWith(src))img.src=src}}
+ if(!calm&&current!==6&&!document.hidden){phase+=dt/1000*(2+speed*5);for(const [n,img]of frameEls){const urls=(speed>.3&&current!==9?frames:walking).get(n)!;const src=urls[(Math.floor(phase)+n*2)%urls.length];if(!img.src.endsWith(src))img.src=src}}
  raf=requestAnimationFrame(animate)}raf=requestAnimationFrame(animate);
  addEventListener('pagehide',()=>cancelAnimationFrame(raf));
  addEventListener('scroll',()=>{const now=performance.now();velocity=Math.min(4,Math.abs(scrollY-lastY)/Math.max(16,now-lastTime));lastY=scrollY;lastTime=now;updateRace?.()},{passive:true});addEventListener('resize',()=>updateRace?.());updateRace();

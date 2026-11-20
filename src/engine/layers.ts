@@ -13,7 +13,7 @@ export function mountArt(data:Data,id:string):void{
   for(const key of keys){const img=image(media[key],!key.endsWith('-plate'));if(immediate){img.src=img.dataset.src!;delete img.dataset.src;}art.append(img)}target.prepend(art);return true;
  }
  const track=media[prefix+'track-plate'];
- if(track)for(const target of document.querySelectorAll('.race-backdrop,.tile-landscape')){const img=image(track);img.src=img.dataset.src!;delete img.dataset.src;target.prepend(img);}
+ if(track)for(const target of document.querySelectorAll('.race-backdrop')){const img=image(track);img.src=track.src;delete img.dataset.src;target.prepend(img);}
  const cover=document.querySelector('.cover-landscape');
  if(cover){const found=group('start',cover,true);if(found)cover.classList.add('has-art');}
  for(const section of document.querySelectorAll<HTMLElement>('.after-scene')){
@@ -27,10 +27,10 @@ export function mountArt(data:Data,id:string):void{
  document.querySelectorAll('.figure-placeholder').forEach((target,i)=>{if(group(`clip-${i+1}`,target))target.classList.add('has-art')});
  for(let n=1;n<=9;n++){const pole=document.querySelector(`#pole-${n} .pole`);const asset=media[prefix+`track-pole-${n}`];if(pole&&asset){const img=image(asset,true);pole.append(img)}}
 }
-export function spriteFrames(data:Data,id:string):Map<number,string[]>{
+export function spriteFrames(data:Data,id:string,gait:'walk'|'gallop'='gallop'):Map<number,string[]>{
  const frames=new Map<number,string[]>();
  for(let n=0;n<13;n++){
-  const keys=Object.keys(data.media).filter(k=>new RegExp(`^${id}/horse-${n+1}-gallop-\\d+$`).test(k)).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
+  const keys=Object.keys(data.media).filter(k=>new RegExp(`^${id}/horse-${n===0?1:2+(n-1)%4}-${gait}-\\d+$`).test(k)).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
   if(keys.length)frames.set(n,keys.map(k=>data.media[k].widths['480']));
  }
  return frames;
