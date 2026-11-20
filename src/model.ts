@@ -1,7 +1,7 @@
 export type Lang = 'en' | 'ru';
 export type Bi = Record<Lang, string>;
 export interface Source { id?: string; title: string; url: string }
-export interface Block { id: string; ru: string; en: {text: string; draft: boolean}; sources: Source[] }
+export interface Block { id: string; fact_ids: string[]; ru: string; en: {text: string; draft: boolean}; sources: Source[] }
 export interface Scene { id: string; name: Bi; blocks: Block[] }
 export interface Entry { id: string; title: Bi; dek?: Bi; tags: string[]; upcoming?: boolean; tile: {type: 'video'|'empty'|'layers'|'type'|'image'; src?: string; quote?: Bi} }
 export interface Project { id: string; title: Bi; dek: Bi; date: string; scenes: Scene[]; runners: {position:number;horse:string;verification:string}[]; runner_sources:Source[]; clippings: (Source & {quote:string;date:string})[]; name_stories: {name:string;id:string;summary:string;sources:Source[]}[] }

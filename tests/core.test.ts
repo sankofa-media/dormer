@@ -20,3 +20,15 @@ describe('content loader',()=>{
  it('rejects duplicate scenes and invalid sources',()=>{const duplicate=structuredClone(project);duplicate.scenes.push(duplicate.scenes[0]);expect(()=>validateProject(duplicate)).toThrow();const bad=structuredClone(project);bad.scenes[1].blocks[0].sources[0].url='javascript:alert(1)';expect(()=>validateProject(bad)).toThrow('Invalid source')});
  it('excludes the flagged sentences without rewriting the remainder',()=>{expect(project.scenes[14].blocks[0].ru).toBe('В апреле 2014 года Булли было двадцать четыре года.');expect(project.scenes[7].blocks[0].ru).not.toContain('впервые снова');expect(project.scenes[6].blocks[0].ru).toMatch(/^В 1994 году/)});
 });
+
+describe('block-level provenance',()=>{
+ const catalog=JSON.parse(readFileSync('content/projects/bull-in-the-heather/fact-sources.json','utf8'));
+ it('resolves each block from its own fact ids, deduplicated by URL',()=>{
+  for(const scene of project.scenes)for(const block of scene.blocks){
+   const expected=[...new Map(block.fact_ids.flatMap(id=>catalog[id]).map((s:{url:string})=>[s.url,s])).values()];
+   expect(block.sources,block.id).toEqual(expected);
+  }
+  expect(project.scenes[3].blocks[1].fact_ids).toEqual(['research3-04','research3-05','research3-06']);
+  expect(project.scenes[12].blocks[1].fact_ids).toEqual(['followup-07','followup-10','followup-11','followup-12']);
+ });
+});

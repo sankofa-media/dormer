@@ -23,12 +23,14 @@ scenes:
           text: Bull in the Heather
           draft: true
         sources: []
+        fact_ids: []
       - id: cover-1
         ru: Песня Sonic Youth, скаковой конь, в честь которого она названа, и его отец
         en:
           text: The Sonic Youth song, the racehorse it was named after, and his father
           draft: true
         sources: []
+        fact_ids: []
   - id: start
     name:
       ru: Старт
@@ -41,26 +43,31 @@ scenes:
           draft: true
         sources:
           - id: followup-22
-            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
             title: "Churchill Downs — Stakes Histories: Florida Derby"
+            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
           - id: followup-23
-            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
             title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
+            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
           - id: followup-23
-            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
             title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
           - id: followup-23
-            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
             title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
           - id: research3-07
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
             title: Old Friends — BULL INTHE HEATHER (1990–2014)
+            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
           - id: research3-07
-            url: https://www.jbis.jp/horse/0000576487/pedigree/sire/
             title: "JBIS — Sire line: Ferdinand, best progeny"
+            url: https://www.jbis.jp/horse/0000576487/pedigree/sire/
           - id: research3-07
-            url: https://www.latimes.com/archives/la-xpm-1993-05-01-sp-29774-story.html
             title: Los Angeles Times — Kentucky Derby Capsules
+            url: https://www.latimes.com/archives/la-xpm-1993-05-01-sp-29774-story.html
+        fact_ids:
+          - followup-21
+          - followup-22
+          - followup-23
+          - research3-07
   - id: pole-1
     name:
       ru: Наклейка на бампере
@@ -73,8 +80,10 @@ scenes:
           draft: true
         sources:
           - id: horse-10
-            url: https://www.udiscovermusic.com/stories/sonic-youth-best-songs-feature/
             title: "uDiscover Music — The Best Sonic Youth Songs: Alternative Classics"
+            url: https://www.udiscovermusic.com/stories/sonic-youth-best-songs-feature/
+        fact_ids:
+          - horse-10
   - id: pole-2
     name:
       ru: Чей он сын
@@ -87,152 +96,81 @@ scenes:
           draft: true
         sources:
           - id: horse-02
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
             title: Old Friends — BULL INTHE HEATHER (1990–2014)
+            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
           - id: horse-02
-            url: https://en.netkeiba.com/db/horse/000a02173d/
             title: netkeiba — Bull Inthe Heather, horse 000a02173d
+            url: https://en.netkeiba.com/db/horse/000a02173d/
           - id: horse-03
-            url: https://cms.equibase.com/node/4118
             title: Equibase — Bull Inthe Heather Euthanized at Old Friends
+            url: https://cms.equibase.com/node/4118
           - id: horse-03
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
             title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - id: followup-01
-            url: https://www.kentuckyderby.com/past-winners/
             title: Kentucky Derby — Past Winners
+            url: https://www.kentuckyderby.com/past-winners/
           - id: followup-01
-            url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
             title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
+            url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
           - id: followup-02
-            url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
             title: The Jockey Club — Fact Book Racing Chronicle (2022)
+            url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
           - id: followup-02
-            url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
             title: Los Angeles Times — Ferdinand Is Horse of the Year
-          - id: research3-04
-            url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
-            title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
-          - id: research3-04
-            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
-            title: The Washington Post — No Easy Task to Name Names
-          - id: research3-05
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-            title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
-          - id: research3-06
-            url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
-            title: The Jockey Club — Foal crop 2000, sire contributions
-          - id: research3-01
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
-          - id: research3-01
-            url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
-            title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
-          - id: research3-02
-            url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
-            title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
+            url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
+        fact_ids:
+          - horse-02
+          - horse-03
+          - followup-01
+          - followup-02
       - id: pole-2-1
         ru: "Обратите внимание, как пишется его кличка: Inthe — слитно. Правила разрешают коню имя не длиннее восемнадцати знаков вместе с пробелами. «Bull In The Heather» с пробелами — девятнадцать. «Bull Inthe Heather» — ровно восемнадцать."
         en:
           text: "Notice how his name is written: Inthe is one word. The rules allow a horse’s name to have no more than eighteen characters, including spaces. “Bull In The Heather” with spaces has nineteen. “Bull Inthe Heather” has exactly eighteen."
           draft: true
         sources:
-          - id: horse-02
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
-          - id: horse-02
-            url: https://en.netkeiba.com/db/horse/000a02173d/
-            title: netkeiba — Bull Inthe Heather, horse 000a02173d
-          - id: horse-03
-            url: https://cms.equibase.com/node/4118
-            title: Equibase — Bull Inthe Heather Euthanized at Old Friends
-          - id: horse-03
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-          - id: followup-01
-            url: https://www.kentuckyderby.com/past-winners/
-            title: Kentucky Derby — Past Winners
-          - id: followup-01
-            url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
-            title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
-          - id: followup-02
-            url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
-            title: The Jockey Club — Fact Book Racing Chronicle (2022)
-          - id: followup-02
-            url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
-            title: Los Angeles Times — Ferdinand Is Horse of the Year
           - id: research3-04
-            url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
             title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
+            url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
           - id: research3-04
-            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
             title: The Washington Post — No Easy Task to Name Names
+            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
           - id: research3-05
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
             title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
+            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
           - id: research3-06
-            url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
             title: The Jockey Club — Foal crop 2000, sire contributions
-          - id: research3-01
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
-          - id: research3-01
-            url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
-            title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
-          - id: research3-02
-            url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
-            title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
+            url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
+        fact_ids:
+          - research3-04
+          - research3-05
+          - research3-06
       - id: pole-2-2
         ru: Откуда взялось имя отца, рассказывают по-разному. Историк чистокровного коннозаводства Авалин Хантер связывает его с быком Фердинандом из детской книжки Манро Лифа — с быком, который не хотел драться на корриде и любил сидеть под пробковым дубом и нюхать цветы. А сам владелец, Говард Кек, вспоминал, что имя пришло от статуэтки буйвола, которая была у его жены Элизабет. Как бы то ни было, у сына в кличке тоже бык — только в вереске.
         en:
           text: "There are different accounts of his father’s name. Thoroughbred historian Avalyn Hunter connects it to Ferdinand the bull in Munro Leaf’s children’s book: the bull who did not want to fight in the bullring and liked sitting under a cork tree smelling flowers. But his owner, Howard Keck, recalled that the name came from a buffalo figurine belonging to his wife, Elizabeth. Either way, there is a bull in the son’s name too, only this one is in the heather."
           draft: true
         sources:
-          - id: horse-02
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
-          - id: horse-02
-            url: https://en.netkeiba.com/db/horse/000a02173d/
-            title: netkeiba — Bull Inthe Heather, horse 000a02173d
-          - id: horse-03
-            url: https://cms.equibase.com/node/4118
-            title: Equibase — Bull Inthe Heather Euthanized at Old Friends
-          - id: horse-03
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-          - id: followup-01
-            url: https://www.kentuckyderby.com/past-winners/
-            title: Kentucky Derby — Past Winners
-          - id: followup-01
-            url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
-            title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
-          - id: followup-02
-            url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
-            title: The Jockey Club — Fact Book Racing Chronicle (2022)
-          - id: followup-02
-            url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
-            title: Los Angeles Times — Ferdinand Is Horse of the Year
-          - id: research3-04
-            url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
-            title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
-          - id: research3-04
-            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
-            title: The Washington Post — No Easy Task to Name Names
-          - id: research3-05
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-            title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
-          - id: research3-06
-            url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
-            title: The Jockey Club — Foal crop 2000, sire contributions
           - id: research3-01
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
             title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
+            url: https://www.americanclassicpedigrees.com/ferdinand.html
           - id: research3-01
-            url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
             title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
+            url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
           - id: research3-02
-            url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
             title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
+            url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
+          - id: research3-03
+            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+            url: https://cms.equibase.com/node/4118
+          - id: research3-03
+            title: Old Friends — BULL INTHE HEATHER (1990–2014)
+            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
+        fact_ids:
+          - research3-01
+          - research3-02
+          - research3-03
   - id: pole-3
     name:
       ru: Как дают имена скаковым лошадям
@@ -245,77 +183,44 @@ scenes:
           draft: true
         sources:
           - id: naming-03
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
             title: The Jockey Club — Principal Rules and Requirements of The American Stud Book, Rule 6
-          - id: naming-06
-            url: https://support.racingadmin.co.uk/opencms/export/sites/weatherbys/racing-admin-support/.galleries/racing-admin-downloads/User-Guide-Register-Name.pdf
+            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
+          - id: naming-04
             title: "Weatherbys Racing Admin — User Guide: Register Horse Name"
-          - id: naming-05
-            url: https://www.britishhorseracing.com/regulation/ownership/horse-name-availability/
-            title: British Horseracing Authority — Horse name availability
+            url: https://support.racingadmin.co.uk/opencms/export/sites/weatherbys/racing-admin-support/.galleries/racing-admin-downloads/User-Guide-Register-Name.pdf
           - id: naming-08
-            url: https://www.ifhaonline.org/default.asp?AREA=2&section=IABRW
             title: IFHA — International Agreement on Breeding, Racing and Wagering, Article 14
+            url: https://www.ifhaonline.org/default.asp?AREA=2&section=IABRW
           - id: naming-10
-            url: https://www.ifhaonline.org/resources/NP_2024.pdf
             title: IFHA — International List of Protected Names, Appendix 9
-          - id: naming-11
-            url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
-            title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
-          - id: naming-12
-            url: https://a.espncdn.com/classic/s/add_seabiscuit.html
-            title: ESPN Classic — Heart of a Champion
-          - id: naming-13
-            url: https://nslmblog.wordpress.com/2023/08/30/eclipses-loveliest-son-pot8os/
-            title: National Sporting Library & Museum, Jamie Eagle — Eclipse’s Loveliest Son, Pot8o’s
-          - id: naming-15
-            url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
-            title: Racing Post — The art, rules and rudeness of naming racehorses
-          - id: naming-16
-            url: https://apnews.com/article/9a5abbac9fa0639291dd0c97fb47edf0
-            title: Associated Press — Austrian Painter horse renamed after complaint it referenced Adolf Hitler
-          - id: naming-17
-            url: https://folkways-media.si.edu/docs/folkways/artwork/SFW40103.pdf
-            title: Smithsonian Folkways — Lead Belly compilation liner notes, Stewball (Version 2), p. 22
+            url: https://www.ifhaonline.org/resources/NP_2024.pdf
+        fact_ids:
+          - naming-01
+          - naming-03
+          - naming-04
+          - naming-07
+          - naming-08
+          - naming-09
+          - naming-10
       - id: pole-3-1
         ru: "Чаще всего кличку собирают из имён родителей. Отца британского чемпиона Kauto Star звали Village Star, мать — Kauto Relka. Отца Сухаря, Seabiscuit, звали Hard Tack — и то и другое значит «морской сухарь». А бывает, что проверку проскакивает то, что не должно было проскочить: в Южной Африке бегал конь по кличке Hoof Hearted — прочтите вслух."
         en:
           text: "Names are most often assembled from the parents’ names. The British champion Kauto Star’s sire was Village Star and his dam was Kauto Relka. Seabiscuit’s sire was Hard Tack: both names mean a ship’s biscuit. Sometimes something slips through that should not: a horse in South Africa raced as Hoof Hearted. Read it aloud."
           draft: true
         sources:
-          - id: naming-03
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-            title: The Jockey Club — Principal Rules and Requirements of The American Stud Book, Rule 6
-          - id: naming-06
-            url: https://support.racingadmin.co.uk/opencms/export/sites/weatherbys/racing-admin-support/.galleries/racing-admin-downloads/User-Guide-Register-Name.pdf
-            title: "Weatherbys Racing Admin — User Guide: Register Horse Name"
-          - id: naming-05
-            url: https://www.britishhorseracing.com/regulation/ownership/horse-name-availability/
-            title: British Horseracing Authority — Horse name availability
-          - id: naming-08
-            url: https://www.ifhaonline.org/default.asp?AREA=2&section=IABRW
-            title: IFHA — International Agreement on Breeding, Racing and Wagering, Article 14
-          - id: naming-10
-            url: https://www.ifhaonline.org/resources/NP_2024.pdf
-            title: IFHA — International List of Protected Names, Appendix 9
           - id: naming-11
-            url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
             title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
+            url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
           - id: naming-12
-            url: https://a.espncdn.com/classic/s/add_seabiscuit.html
             title: ESPN Classic — Heart of a Champion
-          - id: naming-13
-            url: https://nslmblog.wordpress.com/2023/08/30/eclipses-loveliest-son-pot8os/
-            title: National Sporting Library & Museum, Jamie Eagle — Eclipse’s Loveliest Son, Pot8o’s
-          - id: naming-15
-            url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
+            url: https://a.espncdn.com/classic/s/add_seabiscuit.html
+          - id: naming-14
             title: Racing Post — The art, rules and rudeness of naming racehorses
-          - id: naming-16
-            url: https://apnews.com/article/9a5abbac9fa0639291dd0c97fb47edf0
-            title: Associated Press — Austrian Painter horse renamed after complaint it referenced Adolf Hitler
-          - id: naming-17
-            url: https://folkways-media.si.edu/docs/folkways/artwork/SFW40103.pdf
-            title: Smithsonian Folkways — Lead Belly compilation liner notes, Stewball (Version 2), p. 22
+            url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
+        fact_ids:
+          - naming-11
+          - naming-12
+          - naming-14
   - id: pole-4
     name:
       ru: Как записали песню
@@ -328,26 +233,34 @@ scenes:
           draft: true
         sources:
           - id: song-01
-            url: https://web.archive.org/web/20150218044901/http://www.sonicyouth.com/mustang/lp/ep35.html
             title: SonicYouth.com discography — Bull in the Heather (archived 2015-02-18)
+            url: https://web.archive.org/web/20150218044901/http://www.sonicyouth.com/mustang/lp/ep35.html
           - id: song-01
-            url: https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1990s/1994/RR-1994-03-04.pdf
             title: Radio & Records — Sonic Youth’s 10th, p. 28
+            url: https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1990s/1994/RR-1994-03-04.pdf
           - id: song-03
-            url: https://gearspace.com/threads/interview-with-butch-vig-with-co-engineer-billy-bush.1366015/
             title: Gearspace — Interview with Butch Vig with co-engineer Billy Bush
+            url: https://gearspace.com/threads/interview-with-butch-vig-with-co-engineer-billy-bush.1366015/
           - id: song-08
-            url: https://www.soniclife.ca/sy/cc/timeline.html
             title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
+            url: https://www.soniclife.ca/sy/cc/timeline.html
           - id: song-09
-            url: https://www.newsreview.com/chico/content/history-in-the-mix/70653/
             title: Chico News & Review — History in the mix
+            url: https://www.newsreview.com/chico/content/history-in-the-mix/70653/
           - id: song-10
-            url: https://musicbrainz.org/release/d210933c-f7ad-42a5-96d6-9fc50dfeb0ad
             title: "MusicBrainz — CMJ New Music Monthly, Volume 10: May 1994"
+            url: https://musicbrainz.org/release/d210933c-f7ad-42a5-96d6-9fc50dfeb0ad
           - id: research3-14
-            url: https://www.grammy.com/news/nirvanas-era-defining-nevermind-record/
             title: "Ana Monroy Yglesias / Recording Academy — Nirvana’s Era-Defining Nevermind: For The Record"
+            url: https://www.grammy.com/news/nirvanas-era-defining-nevermind-record/
+        fact_ids:
+          - song-01
+          - song-02
+          - song-03
+          - song-08
+          - song-09
+          - song-10
+          - research3-14
   - id: pole-5
     name:
       ru: О чём песня
@@ -360,8 +273,10 @@ scenes:
           draft: true
         sources:
           - id: words-03
-            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
             title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
+            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
+        fact_ids:
+          - words-03
   - id: pole-6
     name:
       ru: Клип
@@ -374,20 +289,25 @@ scenes:
           draft: true
         sources:
           - id: video-01
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
             title: Billboard 106(22), Production Notes p. 34; charts
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
           - id: video-02
-            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
             title: CMJ New Music Report, May 9 1994 — video review and album advertisement
+            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
           - id: video-02
-            url: https://www.vogue.com/article/kim-gordon-girl-in-a-band-youtube-videos
             title: Alex Frank — On the Eve of Her New Memoir, the Best Videos of Kim Gordon on YouTube
+            url: https://www.vogue.com/article/kim-gordon-girl-in-a-band-youtube-videos
           - id: video-04
-            url: https://au.rollingstone.com/music/music-lists/best-music-videos-28407/sonic-youth-bull-in-the-heather-28441/
             title: Rolling Stone Australia — Sonic Youth, Bull in the Heather (best music videos)
+            url: https://au.rollingstone.com/music/music-lists/best-music-videos-28407/sonic-youth-bull-in-the-heather-28441/
           - id: words-03
-            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
             title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
+            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
+        fact_ids:
+          - video-01
+          - video-02
+          - video-04
+          - words-03
   - id: pole-7
     name:
       ru: Чарты и газеты
@@ -400,32 +320,40 @@ scenes:
           draft: true
         sources:
           - id: archive-04
-            url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
             title: Los Angeles Times — Hanging Out on the Fringe
+            url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
           - id: video-05
-            url: https://www.worldradiohistory.com/Archive-All-Music/Hard-Report/1994/Hard-Report-1994-06-24.pdf
             title: The Hard Report — MTV playlist effective June 27, 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/Hard-Report/1994/Hard-Report-1994-06-24.pdf
           - id: charts-01
-            url: https://www.officialcharts.com/songs/sonic-youth-bull-in-the-heather/
             title: Official Charts — Bull in the Heather
+            url: https://www.officialcharts.com/songs/sonic-youth-bull-in-the-heather/
           - id: charts-04
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-07-02.pdf
             title: Billboard — Modern Rock Tracks, week ending July 2 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-07-02.pdf
           - id: charts-07
-            url: https://www.chartvault.fm/song/47970/bull-in-the-heather-sonic-youth
             title: ChartVault — Bull In The Heather, Sonic Youth
+            url: https://www.chartvault.fm/song/47970/bull-in-the-heather-sonic-youth
           - id: charts-03
-            url: https://www.officialcharts.com/albums/sonic-youth-experimental-jet-set-trash-and-no-star/
             title: Official Charts — Experimental Jet Set, Trash and No Star
+            url: https://www.officialcharts.com/albums/sonic-youth-experimental-jet-set-trash-and-no-star/
           - id: song-04
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
             title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
           - id: song-04
-            url: https://www.allmusic.com/album/experimental-jet-set-trash-no-star-mw0000107964
             title: AllMusic — Experimental Jet Set, Trash and No Star
+            url: https://www.allmusic.com/album/experimental-jet-set-trash-no-star-mw0000107964
           - id: song-04
-            url: https://www.udiscovermusic.com/stories/sonic-youth-experimental-jet-set-trash-and-no-star/
             title: "Wyoming Reynolds — Experimental Jet Set, Trash and No Star: A Sonic Youth Masterpiece"
+            url: https://www.udiscovermusic.com/stories/sonic-youth-experimental-jet-set-trash-and-no-star/
+        fact_ids:
+          - archive-04
+          - video-05
+          - charts-01
+          - charts-04
+          - charts-07
+          - charts-03
+          - song-04
   - id: pole-8
     name:
       ru: Что было с песней дальше
@@ -438,23 +366,30 @@ scenes:
           draft: true
         sources:
           - id: afterlife-01
-            url: https://www.spinmagazine.com/2009/01/stephen-malkmus-pavements-funky-tune/
             title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune
+            url: https://www.spinmagazine.com/2009/01/stephen-malkmus-pavements-funky-tune/
           - id: afterlife-03
-            url: https://www.kexp.org/subpop/sp701-sp800/
             title: KEXP — Sub Pop catalogue SP701–SP800, SP0756
+            url: https://www.kexp.org/subpop/sp701-sp800/
           - id: afterlife-04
-            url: https://www.youtube.com/watch?v=xwccuQSe98w
             title: The Go! Team — Bull In The Heather, official audio
+            url: https://www.youtube.com/watch?v=xwccuQSe98w
           - id: afterlife-05
-            url: https://www.setlist.fm/stats/songs/sonic-youth-2bd6b812.html?songid=5bd68b14
             title: setlist.fm — Bull in the Heather performed by Sonic Youth
+            url: https://www.setlist.fm/stats/songs/sonic-youth-2bd6b812.html?songid=5bd68b14
           - id: afterlife-08
-            url: https://www.youtube.com/watch?v=O93OobL8QpI
             title: "Sonic Youth — Bull In The Heather (Battery Park, NYC: July 4th 2008), official audio"
+            url: https://www.youtube.com/watch?v=O93OobL8QpI
           - id: afterlife-07
-            url: https://www.spinmagazine.com/2019/10/kim-gordon-sonic-youth-best-songs/
             title: SPIN — 13 Best Sonic Youth Songs That Showcase Kim Gordon
+            url: https://www.spinmagazine.com/2019/10/kim-gordon-sonic-youth-best-songs/
+        fact_ids:
+          - afterlife-01
+          - afterlife-03
+          - afterlife-04
+          - afterlife-05
+          - afterlife-08
+          - afterlife-07
   - id: pole-9
     name:
       ru: Столб 9 и финиш
@@ -467,17 +402,22 @@ scenes:
           draft: true
         sources:
           - id: followup-21
-            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
             title: "Churchill Downs — Stakes Histories: Florida Derby"
-          - id: followup-24
-            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-            title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
           - id: followup-23
-            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
+            title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
+          - id: followup-23
             title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
           - id: research3-11
-            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
             title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
+            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
+        fact_ids:
+          - followup-21
+          - followup-24
+          - followup-23
+          - research3-11
   - id: kentucky
     name:
       ru: Полтора месяца спустя
@@ -490,17 +430,21 @@ scenes:
           draft: true
         sources:
           - id: followup-26
-            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Kentucky-Derby-1964-2007.pdf
             title: Churchill Downs — Kentucky Derby charts 1964–2007, Sea Hero / May 1, 1993
+            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Kentucky-Derby-1964-2007.pdf
           - id: followup-27
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
             title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - id: followup-27
-            url: https://cms.equibase.com/node/4118
             title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+            url: https://cms.equibase.com/node/4118
           - id: horse-08
-            url: https://www.thoroughbreddailynews.com/pdf/tdn/1994/tdn941005.pdf
             title: Thoroughbred Daily News, p. 3
+            url: https://www.thoroughbreddailynews.com/pdf/tdn/1994/tdn941005.pdf
+        fact_ids:
+          - followup-26
+          - followup-27
+          - horse-08
   - id: father
     name:
       ru: Отец
@@ -513,47 +457,44 @@ scenes:
           draft: true
         sources:
           - id: followup-04
-            url: https://www.americasbestracing.net/the-sport/2021-ferdinand-whittinghams-memorable-derby-winner
             title: "America's Best Racing — Ferdinand: Whittingham’s Memorable Derby Winner"
-          - id: followup-12
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
+            url: https://www.americasbestracing.net/the-sport/2021-ferdinand-whittinghams-memorable-derby-winner
+          - id: followup-04
             title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
-          - id: followup-07
-            url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
-            title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
+            url: https://www.americanclassicpedigrees.com/ferdinand.html
           - id: followup-06
-            url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
+            title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
+            url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
+          - id: followup-06
             title: Thoroughbred Daily News — Ferdinand Likely Slaughtered in Japan
-          - id: followup-10
-            url: https://www.manesandtailsorganization.org/spring_2007.html
-            title: Manes and Tails Organization — Spring 2007
-          - id: followup-11
-            url: https://www.winnipegfreepress.com/historic/2006/09/17/saddling-up-for-slaughter
-            title: Winnipeg Free Press — Saddling up FOR SLAUGHTER
+            url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
+        fact_ids:
+          - followup-04
+          - followup-05
+          - followup-06
       - id: father-1
         ru: Американские конники были потрясены. На нью-йоркских ипподромах ввели добровольный «сбор Фердинанда» — два доллара в пользу приютов для старых скаковых лошадей. В договоры о продаже жеребцов за границу стали вписывать право выкупить коня домой, когда он больше не нужен.
         en:
           text: "American horse people were shocked. New York racetracks introduced a voluntary “Ferdinand fee”: two dollars to support homes for retired racehorses. Contracts for stallions sold abroad began to include the right to buy a horse back home when he was no longer needed."
           draft: true
         sources:
-          - id: followup-04
-            url: https://www.americasbestracing.net/the-sport/2021-ferdinand-whittinghams-memorable-derby-winner
-            title: "America's Best Racing — Ferdinand: Whittingham’s Memorable Derby Winner"
-          - id: followup-12
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
           - id: followup-07
-            url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
             title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
-          - id: followup-06
-            url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
-            title: Thoroughbred Daily News — Ferdinand Likely Slaughtered in Japan
+            url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
           - id: followup-10
-            url: https://www.manesandtailsorganization.org/spring_2007.html
             title: Manes and Tails Organization — Spring 2007
+            url: https://www.manesandtailsorganization.org/spring_2007.html
           - id: followup-11
-            url: https://www.winnipegfreepress.com/historic/2006/09/17/saddling-up-for-slaughter
             title: Winnipeg Free Press — Saddling up FOR SLAUGHTER
+            url: https://www.winnipegfreepress.com/historic/2006/09/17/saddling-up-for-slaughter
+          - id: followup-12
+            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
+            url: https://www.americanclassicpedigrees.com/ferdinand.html
+        fact_ids:
+          - followup-07
+          - followup-10
+          - followup-11
+          - followup-12
   - id: old-friends
     name:
       ru: Сын
@@ -566,47 +507,36 @@ scenes:
           draft: true
         sources:
           - id: followup-14
-            url: https://oldfriendsequine.org/who-we-are/
             title: Old Friends — Who We Are
+            url: https://oldfriendsequine.org/who-we-are/
           - id: research3-13
-            url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
             title: Bruce Schreiner / AP — For ex-Derby winner Silver Charm, it's a life of leisure and Old Friends at Kentucky retirement farm
-          - id: followup-15
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
-          - id: followup-15
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-          - id: followup-16
-            url: https://oldfriendsblog.wordpress.com/2014/04/
-            title: Beth — April 7, 2014, Old Friends Blog (April archive)
+            url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
           - id: research3-13
-            url: https://therideoftheirlives.com/introduction
             title: Michael Blowen — Introduction to The Ride of Their Lives
+            url: https://therideoftheirlives.com/introduction
+        fact_ids:
+          - followup-13
+          - followup-14
+          - research3-13
       - id: old-friends-1
         ru: В 2006 году туда привезли Bull Inthe Heather. На ферме его звали Булли. Он любил угощения, любил, когда ему чешут спину, и устраивал скачки с соседями через изгородь паддока.
         en:
           text: Bull Inthe Heather arrived in 2006. On the farm he was called Bully. He liked treats and having his back scratched, and raced his neighbours across the paddock fence.
           draft: true
         sources:
-          - id: followup-14
-            url: https://oldfriendsequine.org/who-we-are/
-            title: Old Friends — Who We Are
-          - id: research3-13
-            url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
-            title: Bruce Schreiner / AP — For ex-Derby winner Silver Charm, it's a life of leisure and Old Friends at Kentucky retirement farm
           - id: followup-15
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
             title: Old Friends — BULL INTHE HEATHER (1990–2014)
+            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
           - id: followup-15
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
             title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - id: followup-16
-            url: https://oldfriendsblog.wordpress.com/2014/04/
             title: Beth — April 7, 2014, Old Friends Blog (April archive)
-          - id: research3-13
-            url: https://therideoftheirlives.com/introduction
-            title: Michael Blowen — Introduction to The Ride of Their Lives
+            url: https://oldfriendsblog.wordpress.com/2014/04/
+        fact_ids:
+          - followup-15
+          - followup-16
   - id: april
     name:
       ru: Апрель 2014
@@ -619,11 +549,13 @@ scenes:
           draft: true
         sources:
           - id: followup-18
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
             title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - id: followup-18
-            url: https://cms.equibase.com/node/4118
             title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+            url: https://cms.equibase.com/node/4118
+        fact_ids:
+          - followup-18
   - id: paddock
     name:
       ru: Последний экран
@@ -635,12 +567,11 @@ scenes:
           text: Bull in the Heather. Sonic Youth, 1994.
           draft: true
         sources:
-          - id: followup-18
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-          - id: followup-18
-            url: https://cms.equibase.com/node/4118
-            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+          - id: song-08
+            title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
+            url: https://www.soniclife.ca/sy/cc/timeline.html
+        fact_ids:
+          - song-08
       - id: paddock-1
         ru: Bull Inthe Heather. 1990–2014.
         en:
@@ -648,11 +579,13 @@ scenes:
           draft: true
         sources:
           - id: followup-18
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
             title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - id: followup-18
-            url: https://cms.equibase.com/node/4118
             title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+            url: https://cms.equibase.com/node/4118
+        fact_ids:
+          - followup-18
 runners:
   - position: 1
     horse: Bull Inthe Heather
