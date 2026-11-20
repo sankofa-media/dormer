@@ -1,0 +1,17 @@
+Dormer
+Copyright 2026 Dormer contributors
+
+This product includes code and design ideas adapted from Sankofa
+(https://github.com/tym83/sankofa), licensed under Apache License 2.0.
+Source snapshot: /Users/tym83/projects/sankofa-int, November 20, 2026.
+
+src/engine/calm.ts is copied from Sankofa's features/engine/calm.ts.
+src/engine/scroll.ts adapts ahead-loading and scene progress from scroll.ts.
+src/engine/layers.ts and ink.ts adapt the layered plate/figure and pointer-depth
+contracts. src/render.ts and model.ts adapt Kit/host scene and bilingual block
+contracts. scripts/build-content.ts adapts the YAML feature and responsive-media
+pipeline; scripts/seo.ts adapts the prerendered head and discovery-file pipeline.
+Museum-specific player, clap, dictionary, and routing dependencies are omitted.
+
+Research and editorial content originate in the adjacent Bull in the Heather
+project. Source URLs and titles are preserved with each content block.

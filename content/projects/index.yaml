@@ -1,0 +1,40 @@
+projects:
+  - id: bull-in-the-heather
+    title:
+      ru: Bull in the Heather
+      en: Bull in the Heather
+    dek:
+      ru: Песня Sonic Youth, скаковой конь, в честь которого она названа, и его отец
+      en: The Sonic Youth song, the racehorse it was named after, and his father
+    tags:
+      - music
+      - horses
+    tile:
+      type: layers
+  - id: transparent
+    title:
+      ru: Прозрачная
+      en: Transparent
+    tags:
+      - music
+    upcoming: true
+    tile:
+      type: empty
+  - id: girl-on-a-ball
+    title:
+      ru: Девочка на шаре
+      en: Girl on a Ball
+    tags:
+      - art
+    upcoming: true
+    tile:
+      type: type
+  - id: perfume
+    title:
+      ru: Парфюмерия
+      en: Perfumery
+    tags:
+      - perfume
+    upcoming: true
+    tile:
+      type: empty
