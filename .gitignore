@@ -5,4 +5,6 @@ test-results/
 playwright-report/
 src/generated.json
 public/media/
-codex-build.log
+*.log
+*-TASK.md
+FIX-*.md

@@ -1,0 +1,3766 @@
+{
+  "status": "technical_checks_passed",
+  "generator": "built-in image_gen",
+  "horse_scope": "5 horses requested under permitted reduction; verify frame counts below",
+  "notes": [
+    "Generated sources resized and positioned with ImageMagick.",
+    "Silks are illustrative, not historically verified owner colors.",
+    "Technical alpha checks do not establish anatomical correctness or motion quality."
+  ],
+  "files": [
+    {
+      "file": "clip-1-bass.webp",
+      "role": "layer",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 113600,
+      "sha256": "f840bc2e9d8639b38886d7585595dd7baf34bef5e10d1409414243f971a33580",
+      "technical_pass": true,
+      "box": [
+        190,
+        420,
+        600,
+        980
+      ],
+      "alpha_y_range": [
+        420,
+        1399
+      ]
+    },
+    {
+      "file": "clip-1-drummer.webp",
+      "role": "layer",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 167470,
+      "sha256": "09797c0ee172a6a8299fdedb2974b9d40084588a5f2111248e679b829f24cdfe",
+      "technical_pass": true,
+      "box": [
+        1050,
+        500,
+        780,
+        750
+      ],
+      "alpha_y_range": [
+        555,
+        1247
+      ]
+    },
+    {
+      "file": "clip-1-full.webp",
+      "role": "composite",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 631288,
+      "sha256": "0551bc9723f7636b447a2920f57ebad8acbda97418ec9c4403c3fcdb04e5eea3",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-1-guitar-left.webp",
+      "role": "layer",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 100548,
+      "sha256": "ed6ace6e4774297568fd55ff938d1bb6d00878b74c2c2b30a2852cf4043568ce",
+      "technical_pass": true,
+      "box": [
+        700,
+        380,
+        560,
+        1020
+      ],
+      "alpha_y_range": [
+        437,
+        1399
+      ]
+    },
+    {
+      "file": "clip-1-guitar-right.webp",
+      "role": "layer",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 103828,
+      "sha256": "f7a3714eeb1c04a067c338e2c9a8d437f3ee2ab85fdfd4df89c948e28ac942a4",
+      "technical_pass": true,
+      "box": [
+        1670,
+        400,
+        600,
+        1000
+      ],
+      "alpha_y_range": [
+        400,
+        1399
+      ]
+    },
+    {
+      "file": "clip-1-plate.webp",
+      "role": "plate",
+      "scene": "clip-1",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 456116,
+      "sha256": "096f80aea3b483f256eb2e13d36d0d90ae585f06c0414deac9ecf80099fbc007",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-2-bassist.webp",
+      "role": "layer",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 113966,
+      "sha256": "2f53aeb67f783defcd6caada1b9da0cba3ba75c077639cdf2c19a9a6803e8850",
+      "technical_pass": true,
+      "box": [
+        1630,
+        440,
+        620,
+        960
+      ],
+      "alpha_y_range": [
+        442,
+        1397
+      ]
+    },
+    {
+      "file": "clip-2-dancer.webp",
+      "role": "layer",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 127152,
+      "sha256": "254f913411e87579da9f8b85dfcff98e193df8cd27fb31de7063678009708247",
+      "technical_pass": true,
+      "box": [
+        850,
+        360,
+        720,
+        1040
+      ],
+      "alpha_y_range": [
+        378,
+        1399
+      ]
+    },
+    {
+      "file": "clip-2-drummer.webp",
+      "role": "layer",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 141888,
+      "sha256": "484f9a7ab56be2a2209fa6acbb4b386abc675f87a99826dbe4beadc042694d46",
+      "technical_pass": true,
+      "box": [
+        1100,
+        300,
+        700,
+        650
+      ],
+      "alpha_y_range": [
+        326,
+        947
+      ]
+    },
+    {
+      "file": "clip-2-full.webp",
+      "role": "composite",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 665154,
+      "sha256": "a64724c042f3c772f7bd2c7cc8a68fcc9c94a6d8351c6e4fb07bb7609628fb94",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-2-guitar-right.webp",
+      "role": "layer",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 86548,
+      "sha256": "206011fb0cc1ed3bf0adf20fce389b42cb3c4af2b47e34dd209e156a17da30a6",
+      "technical_pass": true,
+      "box": [
+        650,
+        300,
+        500,
+        850
+      ],
+      "alpha_y_range": [
+        300,
+        1149
+      ]
+    },
+    {
+      "file": "clip-2-guitarist.webp",
+      "role": "layer",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 104322,
+      "sha256": "ff5781320211c36f866dd7c1aa1774d422c71e30b64503b36c3161a568c7ba28",
+      "technical_pass": true,
+      "box": [
+        200,
+        410,
+        650,
+        990
+      ],
+      "alpha_y_range": [
+        410,
+        1399
+      ]
+    },
+    {
+      "file": "clip-2-plate.webp",
+      "role": "plate",
+      "scene": "clip-2",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 478744,
+      "sha256": "5d0f42862bd3b616961859e95507e2d43dca74c94e523e2a17453b6884dc913f",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-3-figure.webp",
+      "role": "layer",
+      "scene": "clip-3",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 106576,
+      "sha256": "3056ff7cb9b873feda7999c49cdfec012b338be362fcdead2260ccb8db506a07",
+      "technical_pass": true,
+      "box": [
+        850,
+        600,
+        750,
+        780
+      ],
+      "alpha_y_range": [
+        637,
+        1376
+      ]
+    },
+    {
+      "file": "clip-3-full.webp",
+      "role": "composite",
+      "scene": "clip-3",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 484916,
+      "sha256": "53d9668d958d8ed7ca53f3412abb5a7fff010cc1aeaa1d26157c2a867cc32331",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-3-plate.webp",
+      "role": "plate",
+      "scene": "clip-3",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 449902,
+      "sha256": "410959a3760959154571825346945cd7a44fd265b25bd06d919dca34a14ef82a",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-4-full.webp",
+      "role": "composite",
+      "scene": "clip-4",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 565336,
+      "sha256": "38a07983dbd4ddad8fcd19236ff535cbaf485011d8b8ccc69d8a881383c18f9d",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-4-man.webp",
+      "role": "layer",
+      "scene": "clip-4",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 84480,
+      "sha256": "5650ca293dede736b265568a9b831eb50246f37e5635bf316f529d9da7d5a853",
+      "technical_pass": true,
+      "box": [
+        1270,
+        380,
+        500,
+        1020
+      ],
+      "alpha_y_range": [
+        380,
+        1396
+      ]
+    },
+    {
+      "file": "clip-4-plate.webp",
+      "role": "plate",
+      "scene": "clip-4",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 576722,
+      "sha256": "547a9c40f8197cd890601c3754f5316b00c81687a36eb0561ad60ae6c54b7645",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "clip-4-woman.webp",
+      "role": "layer",
+      "scene": "clip-4",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 84716,
+      "sha256": "4bf5c4e2f869d05eb99b151368f9c12d54d961817278ee0c28e41bd6dff6104f",
+      "technical_pass": true,
+      "box": [
+        600,
+        400,
+        480,
+        1000
+      ],
+      "alpha_y_range": [
+        400,
+        1396
+      ]
+    },
+    {
+      "file": "cover-full.webp",
+      "role": "composite",
+      "scene": "cover",
+      "width": 1600,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 506938,
+      "sha256": "7b2a6ccfd4a1be5e492d0b255f3002f72c2609414a444f6339d258153dae7282",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "cover-grey.webp",
+      "role": "layer",
+      "scene": "cover",
+      "width": 1600,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 269076,
+      "sha256": "d054294d56617feace59fe3156bc75f18700c886a8ba4ccdea085e32b4de5815",
+      "technical_pass": true,
+      "box": [
+        160,
+        450,
+        1280,
+        940
+      ],
+      "alpha_y_range": [
+        504,
+        1389
+      ]
+    },
+    {
+      "file": "cover-plate.webp",
+      "role": "plate",
+      "scene": "cover",
+      "width": 1600,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 508684,
+      "sha256": "35009b7a4ec306f3c638f6d5fa3a847ec8590abb69b13da2a0e2f12cfa0728e6",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        1280,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "horse-1-gallop-1.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 123506,
+      "sha256": "bafb7be6a768de0aa94b4c8af21978d6d8b482274756b4d6fe3a73a1fbb22a6d",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        139,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        142,
+        994,
+        635
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-10.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 119208,
+      "sha256": "06abea2dbac348fa8df80efcf81ce2994c6bde0104241698de6c2b2be8fd4ff3",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 10,
+      "phase": 0.9,
+      "ground_y": 810,
+      "alpha_y_range": [
+        206,
+        777
+      ],
+      "visible_bbox": [
+        103,
+        209,
+        994,
+        568
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-2.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 114980,
+      "sha256": "3f11bd4551d21f666225f34ff183708f33fb1a307b8592d801b4cf23c1ec7f6e",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 2,
+      "phase": 0.1,
+      "ground_y": 810,
+      "alpha_y_range": [
+        183,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        184,
+        992,
+        623
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-3.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 115422,
+      "sha256": "71a3c65b7c05e608015d404aee71aeff9d37fd89cd6790b84376d4b30b947a8d",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 3,
+      "phase": 0.2,
+      "ground_y": 810,
+      "alpha_y_range": [
+        195,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        197,
+        992,
+        610
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-4.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 114078,
+      "sha256": "1abd874b0d82d29c03b348788452b34fc7f89e46fa83b395923b51e0290bf22a",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 4,
+      "phase": 0.3,
+      "ground_y": 810,
+      "alpha_y_range": [
+        186,
+        807
+      ],
+      "visible_bbox": [
+        103,
+        188,
+        994,
+        618
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-5.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 115506,
+      "sha256": "2ae6ed7302266f626f85ec6c3c506cbf14de7e094b4babc01464df9eb078eb28",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 5,
+      "phase": 0.4,
+      "ground_y": 810,
+      "alpha_y_range": [
+        207,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        211,
+        994,
+        597
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-6.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 125090,
+      "sha256": "75a5b46a542fbc64c07054bb9b9147d3011704a3fbd5141b25e1b736f8dc8438",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 6,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        185,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        188,
+        994,
+        619
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-7.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 113544,
+      "sha256": "0a4e4381e2586111be426cfe1b0a9c9c314b7efe7afb37a3636f32b136c15a45",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 7,
+      "phase": 0.6,
+      "ground_y": 810,
+      "alpha_y_range": [
+        184,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        187,
+        993,
+        620
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-8.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 124892,
+      "sha256": "258eb8117e4c64c24403c205da9f0c09ae40751af9e908d4e4a12b3474bcd30e",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 8,
+      "phase": 0.7,
+      "ground_y": 810,
+      "alpha_y_range": [
+        190,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        192,
+        995,
+        614
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-gallop-9.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 108168,
+      "sha256": "0cb39426ae52093ee3554f11d7448e823c4ad12ce17ec995ac14dfb667ee3773",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "gallop",
+      "frame": 9,
+      "phase": 0.8,
+      "ground_y": 810,
+      "alpha_y_range": [
+        240,
+        779
+      ],
+      "visible_bbox": [
+        102,
+        244,
+        995,
+        533
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-1.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 116518,
+      "sha256": "4446a502b259b2f7e23081b0b51fda60f0d1f6b96e63bb5b7a5a23b064f9cd86",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        152,
+        134,
+        893,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-2.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 105166,
+      "sha256": "69e2514296b56613bd824781978444d2046bc4d3fa07fb3b502acd4e6224888f",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 2,
+      "phase": 0.125,
+      "ground_y": 810,
+      "alpha_y_range": [
+        131,
+        809
+      ],
+      "visible_bbox": [
+        170,
+        133,
+        860,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-3.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 119898,
+      "sha256": "5752a17b02c1d1806d5538179ea1e5f1e864bf94a07563aff40a4a1182cbe5be",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 3,
+      "phase": 0.25,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        135,
+        134,
+        930,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-4.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 106390,
+      "sha256": "505e046bc60170c6aa99333a542a4c6d69761167a7d4cfe80d0e4ebe98d9dd3b",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 4,
+      "phase": 0.375,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        170,
+        133,
+        859,
+        675
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-5.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 105432,
+      "sha256": "31d72733af3ad0ebcee692fffc25d950f8500297d5349686fee276179ba99246",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 5,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        151,
+        133,
+        898,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-6.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 97300,
+      "sha256": "d60836eff635abd6d78dad93f69a746bac348f1f631fb84c254eaae16ad2e9be",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 6,
+      "phase": 0.625,
+      "ground_y": 810,
+      "alpha_y_range": [
+        133,
+        807
+      ],
+      "visible_bbox": [
+        177,
+        134,
+        847,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-7.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96742,
+      "sha256": "9f056f86019716b14e2e84ccf02feb90b9df0456bd6558c240f419ee58bb6608",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 7,
+      "phase": 0.75,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        174,
+        135,
+        852,
+        672
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-1-walk-8.webp",
+      "role": "animation",
+      "scene": "horse-1",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 99804,
+      "sha256": "c97828999466b99acfe072c712d0eea7b8588df34911212899ca2ae4869f2ba6",
+      "technical_pass": true,
+      "horse": 1,
+      "gait": "walk",
+      "frame": 8,
+      "phase": 0.875,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        167,
+        134,
+        865,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-1.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 103020,
+      "sha256": "6807c71c2961a2458cca1fec24a0cd65738d56381af2d7f73b82a24d5212b118",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        138,
+        777
+      ],
+      "visible_bbox": [
+        104,
+        141,
+        992,
+        636
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-10.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 111414,
+      "sha256": "8da2137f9ccb0fd911ba4d4ba8889b4c1914ace10768864eee39f0b37600991e",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 10,
+      "phase": 0.9,
+      "ground_y": 810,
+      "alpha_y_range": [
+        203,
+        777
+      ],
+      "visible_bbox": [
+        103,
+        206,
+        993,
+        570
+      ],
+      "visible_bottom_y": 776,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-2.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 108138,
+      "sha256": "0accbae29eb46e50df2ed9cda262bc942586f4929e27bf62cdcaebd5e3df41ee",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 2,
+      "phase": 0.1,
+      "ground_y": 810,
+      "alpha_y_range": [
+        182,
+        808
+      ],
+      "visible_bbox": [
+        104,
+        183,
+        992,
+        624
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-3.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 106298,
+      "sha256": "c24727e6314f7ca3ec86137de54a20d8a17990f8dcc947cc49d79d0bb5415b08",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 3,
+      "phase": 0.2,
+      "ground_y": 810,
+      "alpha_y_range": [
+        189,
+        808
+      ],
+      "visible_bbox": [
+        104,
+        192,
+        992,
+        614
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-4.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 104670,
+      "sha256": "35ec8a0a2c9ef666fb9f8811dca08356579343f6a3843547ecc5e0516bf16d59",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 4,
+      "phase": 0.3,
+      "ground_y": 810,
+      "alpha_y_range": [
+        184,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        186,
+        994,
+        621
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-5.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 104650,
+      "sha256": "edec9a75b87f288e0320a4e4d04ee1cf3f74058cdbe246bc5b8a2cafceb58648",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 5,
+      "phase": 0.4,
+      "ground_y": 810,
+      "alpha_y_range": [
+        206,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        208,
+        994,
+        598
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-6.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 107996,
+      "sha256": "10778760e5be6d361d6243d7e75c6ee55b8ef1caec6baeaf99485183d5a5cad2",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 6,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        182,
+        809
+      ],
+      "visible_bbox": [
+        102,
+        183,
+        995,
+        624
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-7.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 102234,
+      "sha256": "8c300dbec0ca97747ac7cd36f748904ffd6488afe51b96f3b9534e92b373373c",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 7,
+      "phase": 0.6,
+      "ground_y": 810,
+      "alpha_y_range": [
+        181,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        185,
+        992,
+        623
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-8.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 104460,
+      "sha256": "57755a85b969d5348fe517a6d53ab94a6da8f2c80f122546143877a214dad325",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 8,
+      "phase": 0.7,
+      "ground_y": 810,
+      "alpha_y_range": [
+        187,
+        807
+      ],
+      "visible_bbox": [
+        103,
+        190,
+        993,
+        616
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-gallop-9.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 95680,
+      "sha256": "385c3f22190e6ea84a05b4832ffe35ec0ef40e8fe836b8a4ab973cbe1d9ec078",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "gallop",
+      "frame": 9,
+      "phase": 0.8,
+      "ground_y": 810,
+      "alpha_y_range": [
+        234,
+        777
+      ],
+      "visible_bbox": [
+        103,
+        238,
+        993,
+        539
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-1.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 98794,
+      "sha256": "60309d66f4624873fba0e0f2ad420ebd4b2907a9c1f80ba179f8975843660387",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        807
+      ],
+      "visible_bbox": [
+        154,
+        134,
+        890,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-2.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 93688,
+      "sha256": "ed898e66619ed0faee6c5fd357adf5b75fa23dce2c25d0ebd2a4d0b0b0f13449",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 2,
+      "phase": 0.125,
+      "ground_y": 810,
+      "alpha_y_range": [
+        131,
+        809
+      ],
+      "visible_bbox": [
+        171,
+        133,
+        857,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-3.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 104152,
+      "sha256": "179329364cd058eb5b464d44eb9461a0282cab3ff5a4eb7f6a4102e5e3cf2422",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 3,
+      "phase": 0.25,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        808
+      ],
+      "visible_bbox": [
+        136,
+        134,
+        928,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-4.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96020,
+      "sha256": "b9f38926af816cab2b5f680f683eadc7eae0a7d68126b57a25dea3025b1f699d",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 4,
+      "phase": 0.375,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        172,
+        134,
+        855,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-5.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 92176,
+      "sha256": "9500b8e3385f0644422bc391244e0a880ab2fd96046b557462ed8dc0bdc02702",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 5,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        131,
+        808
+      ],
+      "visible_bbox": [
+        151,
+        134,
+        896,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-6.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 102894,
+      "sha256": "5c517cbc137a71ecdfb58974ba424a6c8f14071cc1c032460cfeb59320373e4e",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 6,
+      "phase": 0.625,
+      "ground_y": 810,
+      "alpha_y_range": [
+        133,
+        809
+      ],
+      "visible_bbox": [
+        178,
+        135,
+        844,
+        672
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-7.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 93672,
+      "sha256": "fa0b6529e9a6dea55672a91b8d2fdad3b5a9b78780821d2ab8cde036325da1a3",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 7,
+      "phase": 0.75,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        176,
+        133,
+        847,
+        672
+      ],
+      "visible_bottom_y": 805,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-2-walk-8.webp",
+      "role": "animation",
+      "scene": "horse-2",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 94892,
+      "sha256": "d5f6ca5635c854b6771b40291957bc2e713cfacca390a1690232f1eb39f6a34f",
+      "technical_pass": true,
+      "horse": 2,
+      "gait": "walk",
+      "frame": 8,
+      "phase": 0.875,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        167,
+        133,
+        865,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-1.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 112990,
+      "sha256": "1a9a1c097a58e6ea6174a85170d274d8430cb5285efa5c7e880b99be2a7135fe",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        139,
+        778
+      ],
+      "visible_bbox": [
+        103,
+        142,
+        993,
+        635
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-10.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 120522,
+      "sha256": "75bc32578856e05e0dc3d56f6099722e07e4a0b1eb7525161ff86c19bc89706a",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 10,
+      "phase": 0.9,
+      "ground_y": 810,
+      "alpha_y_range": [
+        201,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        204,
+        993,
+        573
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-2.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 114236,
+      "sha256": "d6b659c96a889805c04a3b9c3fcb4179265e38a9222296cf68ae77453f242142",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 2,
+      "phase": 0.1,
+      "ground_y": 810,
+      "alpha_y_range": [
+        177,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        180,
+        993,
+        627
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-3.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 120592,
+      "sha256": "892f37aacc2169720391c1a2ebe25d2b5abd8abbadff56e805a820f337578ce4",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 3,
+      "phase": 0.2,
+      "ground_y": 810,
+      "alpha_y_range": [
+        189,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        192,
+        993,
+        615
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-4.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 125194,
+      "sha256": "9f3f73073e581f310af15e97c1fd54b0e5ade257609ecabe0a923a02445606ac",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 4,
+      "phase": 0.3,
+      "ground_y": 810,
+      "alpha_y_range": [
+        182,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        184,
+        994,
+        624
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-5.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 118838,
+      "sha256": "f05d0fbe2bfb0c30acb1fb3e5be22760d6549f218e9a65062c622c2854717730",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 5,
+      "phase": 0.4,
+      "ground_y": 810,
+      "alpha_y_range": [
+        208,
+        807
+      ],
+      "visible_bbox": [
+        104,
+        212,
+        992,
+        594
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-6.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 118468,
+      "sha256": "91ec6a4c2e54d8a5b4692f031a2bfd562d692efd6d2d719e5c5d8a0c7bcf0c35",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 6,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        176,
+        809
+      ],
+      "visible_bbox": [
+        102,
+        177,
+        995,
+        631
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-7.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 113138,
+      "sha256": "9e21d5c98b10f3d7d6b65e16ba4bf2e194e199cb4243e4fa72108eb12aac23d8",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 7,
+      "phase": 0.6,
+      "ground_y": 810,
+      "alpha_y_range": [
+        183,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        187,
+        993,
+        619
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-8.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 115182,
+      "sha256": "72da0565f1e5c1a01cdc588b56a5e141d7835f11fca2a11535db8f8457eb85ba",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 8,
+      "phase": 0.7,
+      "ground_y": 810,
+      "alpha_y_range": [
+        185,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        188,
+        993,
+        618
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-gallop-9.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 112922,
+      "sha256": "02adcd2ad50faace7867ad598c0738f1cc5e0be1714ad11662c1b362b0797ed7",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "gallop",
+      "frame": 9,
+      "phase": 0.8,
+      "ground_y": 810,
+      "alpha_y_range": [
+        239,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        242,
+        993,
+        536
+      ],
+      "visible_bottom_y": 778,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-1.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 107328,
+      "sha256": "b0ef5810c241ca76d8e22775d7eca25484bbfb96484385df4ddc70059f5a454b",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        808
+      ],
+      "visible_bbox": [
+        152,
+        134,
+        895,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-2.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 101682,
+      "sha256": "561b8a388deb174ab3e3fa3ea6d04fb9bedebb2742a57ea09c8971b46951eddc",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 2,
+      "phase": 0.125,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        171,
+        133,
+        858,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-3.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 106846,
+      "sha256": "d9876326afadbfb59c67386548e58651f2d73d58190d2eefa718084074363244",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 3,
+      "phase": 0.25,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        136,
+        133,
+        928,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-4.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 114872,
+      "sha256": "4ed170a0b9d3105268b33c1b7800ac9d994c34b1975599339c670a20bc4ac718",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 4,
+      "phase": 0.375,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        165,
+        133,
+        870,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-5.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 107462,
+      "sha256": "3d36e3e21cd1b6ecd4e84017e65c3256424e86bcb579858cc41249cbd2613e51",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 5,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        808
+      ],
+      "visible_bbox": [
+        149,
+        134,
+        901,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-6.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 103822,
+      "sha256": "db60c9377128399ed2aca8fdfd3ef944ba2364f063384cdf2fb3fa0ad84f8540",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 6,
+      "phase": 0.625,
+      "ground_y": 810,
+      "alpha_y_range": [
+        133,
+        809
+      ],
+      "visible_bbox": [
+        178,
+        134,
+        843,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-7.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 101686,
+      "sha256": "90b484548a6aeb3c4838ebddc1a7656745c062b364d13da72151042d778e151a",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 7,
+      "phase": 0.75,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        808
+      ],
+      "visible_bbox": [
+        173,
+        134,
+        853,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-3-walk-8.webp",
+      "role": "animation",
+      "scene": "horse-3",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 110942,
+      "sha256": "5ed87604136871afe5e4443adb10ddee8046336bd24294c2d0d6e4d76e7851b8",
+      "technical_pass": true,
+      "horse": 3,
+      "gait": "walk",
+      "frame": 8,
+      "phase": 0.875,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        171,
+        132,
+        856,
+        675
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-1.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 97258,
+      "sha256": "5b3a6e37d1c2808f311da0b42b48a8861b6240e0f655abb90a60822ddec05f8d",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        136,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        139,
+        994,
+        638
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-10.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 105574,
+      "sha256": "56694555e659c2b32be05dbd6b7eb6ac5191537f0f4c10869d2b2e0f4994f9ca",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 10,
+      "phase": 0.9,
+      "ground_y": 810,
+      "alpha_y_range": [
+        203,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        206,
+        994,
+        570
+      ],
+      "visible_bottom_y": 776,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-2.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 108588,
+      "sha256": "2bb6859f948b28e8e3ecb69e117ac5653d56cd75446d2a42bea1c31024417110",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 2,
+      "phase": 0.1,
+      "ground_y": 810,
+      "alpha_y_range": [
+        178,
+        808
+      ],
+      "visible_bbox": [
+        103,
+        181,
+        993,
+        626
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-3.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 103324,
+      "sha256": "a3d6d70dc3ac14bb5b38141aaf6721f113fb1a878517b707a66f32616462c000",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 3,
+      "phase": 0.2,
+      "ground_y": 810,
+      "alpha_y_range": [
+        193,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        195,
+        994,
+        612
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-4.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 103742,
+      "sha256": "aee293ba020bb83822453ed3630286896863e3fec164dfff0510f0a6a5acfccb",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 4,
+      "phase": 0.3,
+      "ground_y": 810,
+      "alpha_y_range": [
+        187,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        189,
+        992,
+        618
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-5.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96660,
+      "sha256": "b7ff0b672cd39f45cf8752b0d6eee6865251d2697b1011c44c4567e517d880f8",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 5,
+      "phase": 0.4,
+      "ground_y": 810,
+      "alpha_y_range": [
+        202,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        205,
+        994,
+        601
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-6.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 102240,
+      "sha256": "ff55b73758bf512dee1f06c5add4df2986008d0b771605386076af7237060064",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 6,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        183,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        185,
+        992,
+        622
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-7.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 95266,
+      "sha256": "1b661eacf190a19e3228d33222cea25569dbbf468de539105e67c63a4b4e6e90",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 7,
+      "phase": 0.6,
+      "ground_y": 810,
+      "alpha_y_range": [
+        182,
+        808
+      ],
+      "visible_bbox": [
+        103,
+        184,
+        993,
+        622
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-8.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 92564,
+      "sha256": "55d3b9cd864794a106d014b0c331aaec0c9d4b824db31a870c9f85ffba655a10",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 8,
+      "phase": 0.7,
+      "ground_y": 810,
+      "alpha_y_range": [
+        190,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        193,
+        993,
+        613
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-gallop-9.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 92594,
+      "sha256": "e6802da2bdcffa35d46f1ae23d81cfdea4347c72c84787cb9b854e0660df5b76",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "gallop",
+      "frame": 9,
+      "phase": 0.8,
+      "ground_y": 810,
+      "alpha_y_range": [
+        238,
+        778
+      ],
+      "visible_bbox": [
+        103,
+        241,
+        994,
+        537
+      ],
+      "visible_bottom_y": 778,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-1.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 90960,
+      "sha256": "9ad1f3ca26c8ed51ed22392c75fd19756c450045cdee57f4054c139b928a56d6",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        155,
+        134,
+        889,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-2.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 89334,
+      "sha256": "4124095f93598976bdbc580326930a67ac1d6137e099d15d0d42c6f6062e9706",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 2,
+      "phase": 0.125,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        171,
+        134,
+        855,
+        674
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-3.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 93040,
+      "sha256": "7f0ce28bd85163e40011a291eb2e8d58dce9a2039ae6db373a378f596865fe1d",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 3,
+      "phase": 0.25,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        140,
+        134,
+        922,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-4.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 90458,
+      "sha256": "df994cfbf99f4332942a357afc3451c0afa1911fc4ef7de8950aaab59ca19e11",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 4,
+      "phase": 0.375,
+      "ground_y": 810,
+      "alpha_y_range": [
+        131,
+        809
+      ],
+      "visible_bbox": [
+        169,
+        134,
+        860,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-5.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96546,
+      "sha256": "2b541b1c9f08a7ab139b9264ecd56e965adae506831f3d8f1f63252763a07727",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 5,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        148,
+        133,
+        903,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-6.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96074,
+      "sha256": "1f7bb2d88f15624c7c267660858fdd07baee75d6f63220e8a74ab93508e4c5f7",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 6,
+      "phase": 0.625,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        174,
+        134,
+        853,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-7.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 93738,
+      "sha256": "ef64c76e64ea8ae6170a90ebadf85382303aeb08aec7cd7fde9d2e9272c6207d",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 7,
+      "phase": 0.75,
+      "ground_y": 810,
+      "alpha_y_range": [
+        133,
+        809
+      ],
+      "visible_bbox": [
+        176,
+        135,
+        847,
+        672
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-4-walk-8.webp",
+      "role": "animation",
+      "scene": "horse-4",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 89506,
+      "sha256": "34739cf4e16ff599c34a21a9c8c260de02781a67123f2dd74513b5f9c6c0b31a",
+      "technical_pass": true,
+      "horse": 4,
+      "gait": "walk",
+      "frame": 8,
+      "phase": 0.875,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        170,
+        133,
+        860,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-1.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 105010,
+      "sha256": "f676793b5f517706a920cd2c0ca7fe3b0c76577c7f86ccc54d2d666a4426d398",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        135,
+        777
+      ],
+      "visible_bbox": [
+        104,
+        137,
+        993,
+        640
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-10.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 107332,
+      "sha256": "1bff4f427b0d11d62b7ede32fc09742825f2be4ee38ef45544cdace853fad935",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 10,
+      "phase": 0.9,
+      "ground_y": 810,
+      "alpha_y_range": [
+        204,
+        779
+      ],
+      "visible_bbox": [
+        103,
+        206,
+        993,
+        570
+      ],
+      "visible_bottom_y": 776,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-2.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 111670,
+      "sha256": "e8f7c20d36c8ad3259c3c50d0977eaa9097c086435aab4881bc606744cda8dc3",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 2,
+      "phase": 0.1,
+      "ground_y": 810,
+      "alpha_y_range": [
+        178,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        182,
+        994,
+        625
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-3.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 109156,
+      "sha256": "d6c29501af1efe2d58d257899ff383437f54a13b951a34563ca98dba59b19a7d",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 3,
+      "phase": 0.2,
+      "ground_y": 810,
+      "alpha_y_range": [
+        193,
+        808
+      ],
+      "visible_bbox": [
+        104,
+        196,
+        993,
+        611
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-4.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 112066,
+      "sha256": "16776bf4bd78366046068fab57ca9f5378338a501d8d345b683c868201b8add1",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 4,
+      "phase": 0.3,
+      "ground_y": 810,
+      "alpha_y_range": [
+        181,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        184,
+        994,
+        623
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-5.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 107854,
+      "sha256": "1d95bb2134e8f7089e7b6e1ca44197231cf4ce96f15b808c55854f7f35a7e0a6",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 5,
+      "phase": 0.4,
+      "ground_y": 810,
+      "alpha_y_range": [
+        203,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        205,
+        993,
+        603
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-6.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 111492,
+      "sha256": "bc9057624a8d57a8809bfaaf43853ab29eb891f7fb6ef3207c647085dfa9c9db",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 6,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        183,
+        809
+      ],
+      "visible_bbox": [
+        104,
+        186,
+        993,
+        622
+      ],
+      "visible_bottom_y": 808,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-7.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 108010,
+      "sha256": "21bc200bd105bc50aed7e1802b45834ca767c6c6e60917293e4481a827b2b0a5",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 7,
+      "phase": 0.6,
+      "ground_y": 810,
+      "alpha_y_range": [
+        185,
+        809
+      ],
+      "visible_bbox": [
+        103,
+        189,
+        993,
+        618
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-8.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 109206,
+      "sha256": "6f2ddc86c0a1555617927706e9769e8160a1121eae7b1b71bcd9bdc7f19c0d2b",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 8,
+      "phase": 0.7,
+      "ground_y": 810,
+      "alpha_y_range": [
+        189,
+        806
+      ],
+      "visible_bbox": [
+        104,
+        192,
+        992,
+        614
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-gallop-9.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 102338,
+      "sha256": "eadfd506ffec03d6d7b487563dc9cc3454abb51c62fd03b71b2399a84cc68888",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "gallop",
+      "frame": 9,
+      "phase": 0.8,
+      "ground_y": 810,
+      "alpha_y_range": [
+        238,
+        779
+      ],
+      "visible_bbox": [
+        104,
+        241,
+        992,
+        536
+      ],
+      "visible_bottom_y": 777,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-1.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 100382,
+      "sha256": "352b220c5413c71ad3f1146efcbcdc5647d1f3d2562ba9569565046544df3a63",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 1,
+      "phase": 0,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        808
+      ],
+      "visible_bbox": [
+        153,
+        134,
+        891,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-2.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 90116,
+      "sha256": "759361bb2740e7c2b996986f690ba210923a2e7050f37398abec17fbe9ec12f0",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 2,
+      "phase": 0.125,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        169,
+        133,
+        861,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-3.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 99056,
+      "sha256": "9af7a6554c1e508752be3eb69dc271482f6921b2408da71416668b128ade1d16",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 3,
+      "phase": 0.25,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        135,
+        133,
+        929,
+        674
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-4.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 99556,
+      "sha256": "6595f51e54df2bd2003ae007fd51f768b7deee80e9bdfd8dc102dc5c98d4aa3f",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 4,
+      "phase": 0.375,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        173,
+        134,
+        853,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-5.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 96394,
+      "sha256": "5d4e9f232b532e6d120460f45bc284787b65ce7c8d0e0379895b2621c6fffbe7",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 5,
+      "phase": 0.5,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        150,
+        134,
+        899,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-6.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 98684,
+      "sha256": "6d7c903efa52070f556507a45e98738c944a9a99a04894b31bf66b765960b76b",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 6,
+      "phase": 0.625,
+      "ground_y": 810,
+      "alpha_y_range": [
+        130,
+        809
+      ],
+      "visible_bbox": [
+        177,
+        135,
+        845,
+        672
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-7.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 101750,
+      "sha256": "d800d18ffd1d6674fa715fca9bd8b5c19a0f1d18bff242a0dd10019c2ca1e1d3",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 7,
+      "phase": 0.75,
+      "ground_y": 810,
+      "alpha_y_range": [
+        132,
+        809
+      ],
+      "visible_bbox": [
+        177,
+        134,
+        845,
+        672
+      ],
+      "visible_bottom_y": 806,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "horse-5-walk-8.webp",
+      "role": "animation",
+      "scene": "horse-5",
+      "width": 1200,
+      "height": 900,
+      "opaque": false,
+      "edge_band_px": 72,
+      "edge_alpha_max": 0,
+      "bytes": 92618,
+      "sha256": "4e6c901f5e1f2e968586428d97900fc7df0a690c1e1e75d39cb34eb2c2613524",
+      "technical_pass": true,
+      "horse": 5,
+      "gait": "walk",
+      "frame": 8,
+      "phase": 0.875,
+      "ground_y": 810,
+      "alpha_y_range": [
+        131,
+        809
+      ],
+      "visible_bbox": [
+        171,
+        134,
+        857,
+        673
+      ],
+      "visible_bottom_y": 807,
+      "ground_alignment_pass": true
+    },
+    {
+      "file": "kentucky-full.webp",
+      "role": "composite",
+      "scene": "kentucky",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 646172,
+      "sha256": "75a75dfe282df607cd793046d49f9d5375dfdc31b77ec554fef6248942b59ba5",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "kentucky-plate.webp",
+      "role": "plate",
+      "scene": "kentucky",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 646172,
+      "sha256": "75a75dfe282df607cd793046d49f9d5375dfdc31b77ec554fef6248942b59ba5",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "paddock-full.webp",
+      "role": "composite",
+      "scene": "paddock",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 666588,
+      "sha256": "335c0601e11a5bab4880d8c4206f202e9b9c20a466766a658fe5f5f16749fa74",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "paddock-grey.webp",
+      "role": "layer",
+      "scene": "paddock",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 125858,
+      "sha256": "6aa68546cae89f1dc59a3e0ee0cbfb71d36fc9f46757cc877820147e0ff0e803",
+      "technical_pass": true,
+      "box": [
+        240,
+        790,
+        900,
+        610
+      ],
+      "alpha_y_range": [
+        833,
+        1399
+      ]
+    },
+    {
+      "file": "paddock-plate.webp",
+      "role": "plate",
+      "scene": "paddock",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 611876,
+      "sha256": "900b64748ef96f56163013d7fe440d13b5ec1162246f43743e27c475176ff302",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "paddock-reader.webp",
+      "role": "layer",
+      "scene": "paddock",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 119198,
+      "sha256": "699b0135d5b9cc2f91a397d9ed6fc617bd8fdef004f6b064dd2ce5ca5635c2d3",
+      "technical_pass": true,
+      "box": [
+        1260,
+        790,
+        900,
+        610
+      ],
+      "alpha_y_range": [
+        791,
+        1399
+      ]
+    },
+    {
+      "file": "paper-1.webp",
+      "role": "layer",
+      "scene": "paper",
+      "width": 1200,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 209270,
+      "sha256": "080f546e1ca633574b4d47335dfcc03a7529af5248045701534db26e9054ac77",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        880,
+        1280
+      ],
+      "alpha_y_range": [
+        293,
+        1439
+      ]
+    },
+    {
+      "file": "paper-2.webp",
+      "role": "layer",
+      "scene": "paper",
+      "width": 1200,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 197568,
+      "sha256": "91934a02cf3a432fa88d312aae8f826c726dcab20346f78b9835e05a6c3a3892",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        880,
+        1280
+      ],
+      "alpha_y_range": [
+        162,
+        1439
+      ]
+    },
+    {
+      "file": "paper-3.webp",
+      "role": "layer",
+      "scene": "paper",
+      "width": 1200,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 234446,
+      "sha256": "562aa533160dd86838c924246733d539200159a559ced3e357e611cd9f8b1448",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        880,
+        1280
+      ],
+      "alpha_y_range": [
+        301,
+        1439
+      ]
+    },
+    {
+      "file": "paper-4.webp",
+      "role": "layer",
+      "scene": "paper",
+      "width": 1200,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 228232,
+      "sha256": "5104939b6e36d9f5092a7f6adf46740ba13ac07f45ecc7147a371201f0ea767b",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        880,
+        1280
+      ],
+      "alpha_y_range": [
+        160,
+        1439
+      ]
+    },
+    {
+      "file": "stall-full.webp",
+      "role": "composite",
+      "scene": "stall",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 398218,
+      "sha256": "d9238299c6ce438a2cb90a8f0efeaf2989ac46818c7a4c58d8dd993373b16aba",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "stall-plate.webp",
+      "role": "plate",
+      "scene": "stall",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 398218,
+      "sha256": "d9238299c6ce438a2cb90a8f0efeaf2989ac46818c7a4c58d8dd993373b16aba",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "start-full.webp",
+      "role": "composite",
+      "scene": "start",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 674962,
+      "sha256": "4bc43908f12c83815f3e334a9f84eb8cce2752dcd08e2f0272b5b013ae696f28",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "start-hand.webp",
+      "role": "layer",
+      "scene": "start",
+      "width": 2400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 51924,
+      "sha256": "a1ccc1c70667db44dbb60b995765089f4089dd7f22856e9e552b30e3c4e4ce44",
+      "technical_pass": true,
+      "box": [
+        180,
+        650,
+        600,
+        780
+      ],
+      "alpha_y_range": [
+        873,
+        1429
+      ]
+    },
+    {
+      "file": "start-plate.webp",
+      "role": "plate",
+      "scene": "start",
+      "width": 2400,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 663608,
+      "sha256": "45dd854e3226b393f80df6b58d137089a6a3257163cfe2848ef44cc7f298b74d",
+      "technical_pass": true,
+      "box": [
+        160,
+        160,
+        2080,
+        1280
+      ],
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "track-finish.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 600,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 16482,
+      "sha256": "313dda2ab72a2c97f525d8eb0a555f26d38a09f5632b41d2bc46d951692dc177",
+      "technical_pass": true,
+      "alpha_y_range": [
+        537,
+        1031
+      ]
+    },
+    {
+      "file": "track-full.webp",
+      "role": "composite",
+      "scene": "track",
+      "width": 7200,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 857596,
+      "sha256": "f6fe4bef4c6a73d19da47d015235dff869850b63c7612b9eeac1a834e17bb808",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "track-plate.webp",
+      "role": "plate",
+      "scene": "track",
+      "width": 7200,
+      "height": 1600,
+      "opaque": true,
+      "edge_band_px": 128,
+      "edge_alpha_max": 255,
+      "bytes": 856562,
+      "sha256": "a71ae752a40ae4026bb626ce33926f1929a5585b5b35fb1a2ea8a484b8a07a28",
+      "technical_pass": true,
+      "alpha_y_range": [
+        0,
+        1599
+      ]
+    },
+    {
+      "file": "track-pole-1.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 4376,
+      "sha256": "6d72fac4a24ab85016c850c34f83d5eaf89ea9200a5997dde122ae59db7f8ef4",
+      "technical_pass": true,
+      "alpha_y_range": [
+        702,
+        909
+      ]
+    },
+    {
+      "file": "track-pole-2.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 3850,
+      "sha256": "541aca39749c0e8294a75664c6cd51fad0f013c8bf9f7efa07ab3c91389ff29e",
+      "technical_pass": true,
+      "alpha_y_range": [
+        701,
+        910
+      ]
+    },
+    {
+      "file": "track-pole-3.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 3874,
+      "sha256": "212ccb72f28cb59bc54ec6c017b10be24e987ab36641c7dc2d3e410e8e065745",
+      "technical_pass": true,
+      "alpha_y_range": [
+        708,
+        899
+      ]
+    },
+    {
+      "file": "track-pole-4.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 3842,
+      "sha256": "0bba241e20e7096109dfc083b62f3e4e1332645254a2347767e902cfc08f46b4",
+      "technical_pass": true,
+      "alpha_y_range": [
+        716,
+        904
+      ]
+    },
+    {
+      "file": "track-pole-5.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 3992,
+      "sha256": "0025ffc8091aae1f753b4115860ff21d5563e23128f797d96adbdbd18c82cd18",
+      "technical_pass": true,
+      "alpha_y_range": [
+        710,
+        909
+      ]
+    },
+    {
+      "file": "track-pole-6.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 4144,
+      "sha256": "70e1a95140623646639824c2087b2b4ddf4b518c0d9b405c036245626feccff1",
+      "technical_pass": true,
+      "alpha_y_range": [
+        698,
+        905
+      ]
+    },
+    {
+      "file": "track-pole-7.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 4136,
+      "sha256": "31c93063c943b255af6db284f17e08253e4daec062b88d8c14b03a93c24ca97e",
+      "technical_pass": true,
+      "alpha_y_range": [
+        704,
+        894
+      ]
+    },
+    {
+      "file": "track-pole-8.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 3972,
+      "sha256": "32913b9f32d13e11ea87f86dfec38c3205694139500dfc6acfcdc5fb3b03a0a8",
+      "technical_pass": true,
+      "alpha_y_range": [
+        718,
+        909
+      ]
+    },
+    {
+      "file": "track-pole-9.webp",
+      "role": "layer",
+      "scene": "track",
+      "width": 400,
+      "height": 1600,
+      "opaque": false,
+      "edge_band_px": 128,
+      "edge_alpha_max": 0,
+      "bytes": 4154,
+      "sha256": "74b54e0fecfdef4b466051b68eadd20bc3bb98cd182f1fd0c5496dfb9a6ca605",
+      "technical_pass": true,
+      "alpha_y_range": [
+        694,
+        899
+      ]
+    }
+  ],
+  "missing_requested_files": [],
+  "frame_counts": {
+    "1": {
+      "gallop": 10,
+      "walk": 8
+    },
+    "2": {
+      "gallop": 10,
+      "walk": 8
+    },
+    "3": {
+      "gallop": 10,
+      "walk": 8
+    },
+    "4": {
+      "gallop": 10,
+      "walk": 8
+    },
+    "5": {
+      "gallop": 10,
+      "walk": 8
+    }
+  },
+  "source_manifest": "../bull-in-the-heather/art/manifest.json (import provenance only; not a build dependency)",
+  "encoding": {
+    "format": "webp",
+    "quality": 88,
+    "alphaQuality": 100,
+    "resize": false
+  }
+}

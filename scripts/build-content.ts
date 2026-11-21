@@ -17,12 +17,12 @@ for(const e of entries){
   const expected=[...new Map(block.fact_ids.flatMap(id=>{if(!facts[id])throw Error(`Unknown fact: ${id}`);return facts[id]}).map((s:any)=>[s.url,s])).values()];
   if(JSON.stringify(expected)!==JSON.stringify(block.sources))throw Error(`Stale block sources: ${block.id}`);
  }
- const dirs=[path.resolve(`../${e.id}/art`),path.resolve(`content/projects/${e.id}/art`)];
- for(const dir of dirs){
+ const dir=path.resolve(`content/projects/${e.id}/art`);
+ {
   const manifest=await readFile(path.join(dir,'manifest.json'),'utf8').then(JSON.parse).catch(()=>null);
   const files:string[]=manifest?manifest.files.map((f:{file:string;technical_pass:boolean})=>{if(!f.technical_pass)throw Error(`Art failed checks: ${f.file}`);return f.file}):await readdir(dir).catch(()=>[]);
   if(manifest)for(let horse=1;horse<=5;horse++)for(const [gait,count] of [['gallop',10],['walk',8]] as const){
-   for(let frame=1;frame<=count;frame++)if(!files.includes(`horse-${horse}-${gait}-${frame}.png`))throw Error(`Missing horse ${horse} ${gait} frame ${frame}`);
+   for(let frame=1;frame<=count;frame++)if(!['png','webp'].some(ext=>files.includes(`horse-${horse}-${gait}-${frame}.${ext}`)))throw Error(`Missing horse ${horse} ${gait} frame ${frame}`);
   }
   for(const file of files.filter(f=>/\.(png|jpg|jpeg|webp)$/i.test(f))){
    const key=`${e.id}/${file.replace(/\.[^.]+$/,'')}`;

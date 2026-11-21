@@ -5,7 +5,7 @@ import {homePage,projectPage,esc,url,home} from '../src/render.ts';
 import {type Data,type Lang,text} from '../src/model.ts';
 const data:Data=JSON.parse(await readFile('src/generated.json','utf8'));
 const template=await readFile('dist/index.html','utf8');
-const site=(process.env.SITE_URL??'http://localhost:4173').replace(/\/$/,'');
+const site=(process.env.SITE_URL??'https://dormer.workshop.aenix.io').replace(/\/$/,'');
 if(!/^https?:\/\//.test(site))throw Error('SITE_URL must be an absolute HTTP(S) URL');
 const json=(v:unknown)=>JSON.stringify(v).replace(/</g,'\\u003c');
 const pages:{path:string;lang:Lang;title:string;description:string;alternate:string;body:string;id?:string}[]=[];

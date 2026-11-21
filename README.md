@@ -16,8 +16,8 @@ npm run preview
 # http://localhost:4173 and http://localhost:4173/ru/
 ```
 
-Set the real public origin before publishing: `SITE_URL=https://your-domain.example npm run build`.
-The default canonical origin is localhost. No deployment or remote is configured.
+The default SEO origin is `https://dormer.workshop.aenix.io`. Override it with
+`SITE_URL=https://your-domain.example npm run build`.
 Serve `dist/` with directory indexes. Both languages are prerendered and remain
 readable without JavaScript. Unknown project routes should return the host's 404.
 
@@ -42,14 +42,15 @@ require declarations; protected names are a small, explicitly disclosed IFHA sam
 
 ## Art
 
-The build copies and converts images from `../bull-in-the-heather/art/` and
-`content/projects/bull-in-the-heather/art/` (local content overrides sibling files).
-No runtime imports or absolute cross-repository code dependencies are used.
-Commit final artwork into the content art directory for a standalone checkout.
-PNG files become WebP originals plus w480/w960/w1600 versions in `public/media/`.
-The generated `media/manifest.json` lists every asset. Existing track-plate.png is
-used for the racetrack and tile. Scene files use `<scene>-plate.png` followed by
-`<scene>-<layer>.png`; scene IDs are in project.yaml. Whole layers retain margins.
+All 140 artwork sources are committed as WebP in
+`content/projects/bull-in-the-heather/art/` (24.04 MB, quality 88, original
+sizes and lossless alpha). No sibling checkout is needed to build the site.
+The source manifest retains technical checks and geometry; file sizes and SHA-256
+refer to the WebP files. Support scripts from the original art workspace are not
+part of this snapshot. The build reads only `content/projects/<id>/art/` and writes
+WebP originals plus w480/w960/w1600 versions to `public/media/`, without enlargement.
+The generated `media/manifest.json` lists every asset. `track-plate.webp` is
+used for the racetrack. Scene assets keep their base names and layer margins.
 The art manifest validates five horses, each with ten gallop and eight walk frames.
 Thirteen runners reuse horses 2–5; horse 1 is the unique grey winner. There are no
 CSS horse silhouettes or hue shifts. The pack walks when scrolling stops.
@@ -81,3 +82,38 @@ is used; Russian exact/prefix matching works, Russian morphology is not enabled.
 
 Apache-2.0; see LICENSE and NOTICE for Sankofa adaptation details. Original source
 links remain with the research text. External media retains its own rights.
+
+## Deployment
+
+`deploy/nginx.conf` serves `dist/` on port 8080, including directory indexes for
+`/projects/<id>/` and `/ru/...`, real 404s, UTF-8, gzip, and Pagefind MIME types.
+HTML and search bundles revalidate; hashed assets cache for a year and media for
+one week. HTML validators are disabled because image layers use fixed timestamps.
+
+On a machine with stand access, run:
+
+```sh
+./hack/deploy.sh
+# Custom domain (also sets the SEO origin unless SITE_URL is explicitly set):
+DORMER_HOST=stories.example.org ./hack/deploy.sh
+```
+
+Requires Node 24+, npm, bash, rsync, BSD tar (macOS tar, as used by the museum),
+curl, kubectl and crane at `~/go/bin/crane` (override with `CRANE`). No Docker
+daemon is needed. The script runs `npm ci` and `npm run build`, makes sorted layers
+with fixed UTC timestamps, modes and owners, and uses `crane append` on
+`nginxinc/nginx-unprivileged:1.29-alpine`, the museum's base image. Layer bytes are
+reproducible for identical build output; the upstream base tag itself can change.
+
+Deployment depends on the checkout at `~/projects/sankofa-int` (override with
+`SANKOFA_ROOT`): it sources `hack/stand/env.sh` for the **same `km` function** and
+calls that checkout's `hack/stand/push.sh` to distribute the image to the stand's
+node registries. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT` overrides apply.
+Serialize deployments with other stand pushes: the shared helper uses port 15001.
+
+The pushed digest supplies `DORMER_IMAGE`; `DORMER_HOST` defaults to
+`dormer.workshop.aenix.io`. The script renders `dist/dormer.yaml`, applies the
+Namespace, Deployment, Service and Ingress, waits for rollout, then checks HTTPS
+and compares the served home page with this build. DNS must point to the stand;
+its nginx ingress controller and cert-manager ClusterIssuer `letsencrypt` must
+exist. TLS uses the `dormer-tls` secret in namespace `dormer`.
