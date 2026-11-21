@@ -16,7 +16,7 @@ npm run preview
 # http://localhost:4173 and http://localhost:4173/ru/
 ```
 
-The default SEO origin is `https://dormer.workshop.aenix.io`. Override it with
+The default SEO origin is `https://dormer.sankofa.workshop.aenix.io`. Override it with
 `SITE_URL=https://your-domain.example npm run build`.
 Serve `dist/` with directory indexes. Both languages are prerendered and remain
 readable without JavaScript. Unknown project routes should return the host's 404.
@@ -112,7 +112,7 @@ node registries. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT` overrides apply.
 Serialize deployments with other stand pushes: the shared helper uses port 15001.
 
 The pushed digest supplies `DORMER_IMAGE`; `DORMER_HOST` defaults to
-`dormer.workshop.aenix.io`. The script renders `dist/dormer.yaml`, applies the
+`dormer.sankofa.workshop.aenix.io`. The script renders `dist/dormer.yaml`, applies the
 Namespace, Deployment, Service and Ingress, waits for rollout, then checks HTTPS
 and compares the served home page with this build. DNS must point to the stand;
 its nginx ingress controller and cert-manager ClusterIssuer `letsencrypt` must

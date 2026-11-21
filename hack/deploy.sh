@@ -5,7 +5,7 @@ cd "$(dirname "$0")/.."
 repo=$PWD
 stand=${SANKOFA_ROOT:-$HOME/projects/sankofa-int}
 source "$stand/hack/stand/env.sh"
-export DORMER_HOST=${DORMER_HOST:-dormer.workshop.aenix.io}
+export DORMER_HOST=${DORMER_HOST:-dormer.sankofa.workshop.aenix.io}
 export SITE_URL=${SITE_URL:-https://$DORMER_HOST}
 [[ $DORMER_HOST =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] || { echo 'Invalid DORMER_HOST' >&2; exit 1; }
 crane=${CRANE:-$HOME/go/bin/crane}
