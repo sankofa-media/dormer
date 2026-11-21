@@ -392,7 +392,7 @@ scenes:
           - afterlife-07
   - id: pole-9
     name:
-      ru: Столб 9 и финиш
+      ru: Финиш
       en: The finish
     blocks:
       - id: pole-9-0
@@ -558,7 +558,7 @@ scenes:
           - followup-18
   - id: paddock
     name:
-      ru: Последний экран
+      ru: Паддок
       en: The last paddock
     blocks:
       - id: paddock-0

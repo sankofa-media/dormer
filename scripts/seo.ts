@@ -10,7 +10,7 @@ if(!/^https?:\/\//.test(site))throw Error('SITE_URL must be an absolute HTTP(S) 
 const json=(v:unknown)=>JSON.stringify(v).replace(/</g,'\\u003c');
 const pages:{path:string;lang:Lang;title:string;description:string;alternate:string;body:string;id?:string}[]=[];
 for(const lang of ['en','ru'] as Lang[]){
- pages.push({path:home(lang),lang,title:'Dormer',description:lang==='ru'?'Независимые мультимедийные истории о музыке и искусстве.':'Independent multimedia stories about music and art.',alternate:home(lang==='ru'?'en':'ru'),body:homePage(data,lang)});
+ pages.push({path:home(lang),lang,title:'Dormer',description:lang==='ru'?'Большие истории о музыке, живописи, театре, запахах — обо всём, что нам интересно.':'Independent multimedia stories about music and art.',alternate:home(lang==='ru'?'en':'ru'),body:homePage(data,lang)});
  for(const p of Object.values(data.projects))pages.push({path:url(p.id,lang),lang,title:p.title[lang],description:p.dek[lang],alternate:url(p.id,lang==='ru'?'en':'ru'),body:projectPage(data,p,lang),id:p.id});
 }
 await mkdir('dist/media',{recursive:true});
