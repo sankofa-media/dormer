@@ -105,8 +105,9 @@ with fixed UTC timestamps, modes and owners, and uses `crane append` on
 `nginxinc/nginx-unprivileged:1.29-alpine`, the museum's base image. Layer bytes are
 reproducible for identical build output; the upstream base tag itself can change.
 
-Deployment depends on the checkout at `~/projects/sankofa-int` (override with
-`SANKOFA_ROOT`): it sources `hack/stand/env.sh` for the **same `km` function** and
+Deployment depends on a checkout of
+[sankofa-media/sankofa](https://github.com/sankofa-media/sankofa), by default at
+`~/projects/sankofa-int` (override with `SANKOFA_ROOT`): it sources `hack/stand/env.sh` for the **same `km` function** and
 calls that checkout's `hack/stand/push.sh` to distribute the image to the stand's
 node registries. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT` overrides apply.
 Serialize deployments with other stand pushes: the shared helper uses port 15001.
