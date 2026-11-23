@@ -2,8 +2,8 @@ Dormer
 Copyright 2026 Dormer contributors
 
 This product includes code and design ideas adapted from Sankofa
-(https://github.com/tym83/sankofa), licensed under Apache License 2.0.
-Source snapshot: /Users/tym83/projects/sankofa-int, November 20, 2026.
+(https://github.com/sankofa-media/sankofa), licensed under Apache License 2.0.
+Source snapshot: sankofa-media/sankofa as of November 20, 2026.
 
 src/engine/calm.ts is copied from Sankofa's features/engine/calm.ts.
 src/engine/scroll.ts adapts ahead-loading and scene progress from scroll.ts.
