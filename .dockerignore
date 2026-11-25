@@ -1,0 +1,15 @@
+.git
+node_modules
+dist
+public/media
+src/generated.json
+.shots
+test-results
+playwright-report
+*.log
+*-TASK.md
+FIX-*.md
+Dockerfile
+.dockerignore
+.github
+hack
