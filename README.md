@@ -90,31 +90,38 @@ links remain with the research text. External media retains its own rights.
 HTML and search bundles revalidate; hashed assets cache for a year and media for
 one week. HTML validators are disabled because image layers use fixed timestamps.
 
-On a machine with stand access, run:
+The image is built by CI, not locally. The `Images` workflow
+(`.github/workflows/images.yml`) runs on every push to `main` and on `v*` tags,
+builds the `Dockerfile` and publishes `ghcr.io/sankofa-media/dormer` for
+`linux/amd64` and `linux/arm64` with tags `sha-<7-char commit>`, `latest` (main
+only) and the semver version (tags). The Dockerfile runs `npm ci` and
+`npm run build` on Node 24 with `SITE_URL=https://dormer.sankofa.workshop.aenix.io`
+(override with the `SITE_URL` build argument), then copies `dist/media` and the rest
+of `dist/` as two separate layers onto `nginxinc/nginx-unprivileged:1.29-alpine`,
+the museum's base image, with `deploy/nginx.conf` as `conf.d/default.conf`. Fixed
+file timestamps keep the media layer digest stable while the art is unchanged.
+
+On a machine with stand access, after the workflow for the current commit has
+finished, run:
 
 ```sh
 ./hack/deploy.sh
-# Custom domain (also sets the SEO origin unless SITE_URL is explicitly set):
-DORMER_HOST=stories.example.org ./hack/deploy.sh
 ```
 
-Requires Node 24+, npm, bash, rsync, BSD tar (macOS tar, as used by the museum),
-curl, kubectl and crane at `~/go/bin/crane` (override with `CRANE`). No Docker
-daemon is needed. The script runs `npm ci` and `npm run build`, makes sorted layers
-with fixed UTC timestamps, modes and owners, and uses `crane append` on
-`nginxinc/nginx-unprivileged:1.29-alpine`, the museum's base image. Layer bytes are
-reproducible for identical build output; the upstream base tag itself can change.
+Requires bash, curl, kubectl and crane at `~/go/bin/crane` (override with `CRANE`).
+The script resolves the digest of `ghcr.io/sankofa-media/dormer:sha-<HEAD>` and
+fails if CI has not published it yet. The pinned reference supplies `DORMER_IMAGE`;
+`DORMER_HOST` defaults to `dormer.sankofa.workshop.aenix.io`. A different
+`DORMER_HOST` only changes the Ingress: SEO URLs come from the build, so a custom
+domain also needs an image built with a matching `SITE_URL`.
 
 Deployment depends on a checkout of
 [sankofa-media/sankofa](https://github.com/sankofa-media/sankofa), by default at
-`~/projects/sankofa-int` (override with `SANKOFA_ROOT`): it sources `hack/stand/env.sh` for the **same `km` function** and
-calls that checkout's `hack/stand/push.sh` to distribute the image to the stand's
-node registries. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT` overrides apply.
-Serialize deployments with other stand pushes: the shared helper uses port 15001.
+`~/projects/sankofa` (override with `SANKOFA_ROOT`): it sources `hack/stand/env.sh`
+for the **same `km` function**. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT`
+overrides apply.
 
-The pushed digest supplies `DORMER_IMAGE`; `DORMER_HOST` defaults to
-`dormer.sankofa.workshop.aenix.io`. The script renders `dist/dormer.yaml`, applies the
-Namespace, Deployment, Service and Ingress, waits for rollout, then checks HTTPS
-and compares the served home page with this build. DNS must point to the stand;
-its nginx ingress controller and cert-manager ClusterIssuer `letsencrypt` must
-exist. TLS uses the `dormer-tls` secret in namespace `dormer`.
+The script renders `dist/dormer.yaml`, applies the Namespace, Deployment, Service
+and Ingress, waits for rollout, then checks `/healthz` over HTTPS. DNS must point
+to the stand; its nginx ingress controller and cert-manager ClusterIssuer
+`letsencrypt` must exist. TLS uses the `dormer-tls` secret in namespace `dormer`.
