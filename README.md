@@ -111,7 +111,7 @@ node registries. Its `MUSEUM_KUBECONFIG` and `MUSEUM_CONTEXT` overrides apply.
 Serialize deployments with other stand pushes: the shared helper uses port 15001.
 
 The pushed digest supplies `DORMER_IMAGE`; `DORMER_HOST` defaults to
-`dormer.sankofa.workshop.aenix.io`. The script renders `dist/dormer.yaml`, applies the
+`dormer.sankofa.black` (the workshop address redirects to it). The script renders `dist/dormer.yaml`, applies the
 Namespace, Deployment, Service and Ingress, waits for rollout, then checks HTTPS
 and compares the served home page with this build. DNS must point to the stand;
 its nginx ingress controller and cert-manager ClusterIssuer `letsencrypt` must
