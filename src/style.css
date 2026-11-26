@@ -178,3 +178,23 @@
 .smap-tools,.smap-body{max-width:none}
 .smap-plane{width:1100px;height:825px}
 @media(max-width:900px){.smap-photo{max-height:150px;width:120px;float:left;margin:0 12px 6px 0}.smap-item h4{font-size:16px}}
+/* Shelf: the rest of a step as compact cards with one shared frame */
+.shelf{max-width:100%!important;clear:both;margin:40px 0}
+.shelf h3{font:800 clamp(18px,2.2vw,24px)/1.2 'Unbounded',sans-serif;margin:0 0 14px}
+.shelf ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;align-items:start}
+.shelf li{background:#ffffffd9;color:#2a1f1a;padding:10px;font:13px/1.4 'DM Sans',sans-serif;min-width:0}
+.theme-scent[data-dark=true] .shelf li{background:#1b1411e6;color:#efe6d6}
+.shelf-photo{aspect-ratio:4/5;background:#fff;margin-bottom:8px;display:grid;place-items:center;overflow:hidden}
+.shelf-photo img{width:100%;height:100%;object-fit:contain;display:block}
+.shelf-photo span{font:800 40px 'Unbounded',sans-serif;color:#2a1f1a55}
+.shelf h4{font:700 14px/1.25 'Unbounded',sans-serif;margin:0 0 2px;overflow-wrap:anywhere}
+.shelf-brand{margin:0 0 8px;font:11px/1.3 'IBM Plex Mono',monospace;opacity:.75;overflow-wrap:anywhere}
+.shelf-meters{display:grid;grid-template-columns:76px 1fr 18px;gap:4px 6px;align-items:center;font:600 9px 'IBM Plex Mono',monospace;text-transform:uppercase;margin-bottom:8px}
+.shelf-meters i{height:6px;background:linear-gradient(90deg,currentColor calc(var(--v)*10%),#8884 0)}.shelf-meters b{text-align:right}
+.shelf-teaser{margin:0 0 6px}
+.shelf details summary{cursor:pointer;font:600 11px 'IBM Plex Mono',monospace;text-transform:uppercase}
+.shelf details p{margin:8px 0}.shelf dl{display:grid;grid-template-columns:max-content 1fr;gap:3px 8px;margin:0 0 6px;font-size:12px}.shelf dt{font:600 9px 'IBM Plex Mono',monospace;text-transform:uppercase;opacity:.7;padding-top:3px}.shelf dd{margin:0}
+.shelf .credit{font-size:11px}
+.smap-plane{width:1500px;height:1300px}
+.smap-scroll{max-height:82vh}
+@media(max-width:700px){.shelf ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.shelf li{padding:8px}.shelf-meters{grid-template-columns:52px 1fr 14px}.shelf h4{font-size:12px}}
