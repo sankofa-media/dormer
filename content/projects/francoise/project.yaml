@@ -558,6 +558,7 @@ chapters:
           - title: "Rock&Folk — Françoise Hardy : « Les guitares électriques planantes… », 20.05.2018"
             url: https://www.rocknfolk.com/interview/francoise-hardy-les-guitares-electriques-planantes-cest-ce-dont-jai-reve-toute-ma-vie/4087
       - type: song
+        artist: Françoise Hardy
         title: "Tous les garçons et les filles"
         year: "1962"
         credits: {ru: "Слова — Франсуаза Арди, музыка — Арди и Роже Самин", en: "Lyrics by Françoise Hardy; music by Hardy and Roger Samyn"}
@@ -583,6 +584,7 @@ chapters:
           - title: Musée Sacem — La télévision yéyé
             url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=3881
       - type: song
+        artist: Françoise Hardy
         title: "Le Temps de l'amour"
         video_id: F9we8i2Lj5w
         year: "1962"
@@ -596,6 +598,7 @@ chapters:
           - title: ABKCO — Moonrise Kingdom soundtrack
             url: https://www.abkco.com/film/moonrise-kingdom-2/
       - type: song
+        artist: Françoise Hardy
         title: "J'suis d'accord"
         video_id: yS6Hr5Hl8Po
         year: "1962"
@@ -607,6 +610,7 @@ chapters:
           - title: Encyclopédisque — Vogue EPL 7967
             url: https://www.encyclopedisque.fr/disque/19790.html
       - type: song
+        artist: Françoise Hardy
         title: "Le Premier Bonheur du jour"
         year: "1963"
         credits: {ru: "Слова — Франк Жеральд, музыка — Жан Ренар", en: "Lyrics by Frank Gérald; music by Jean Renard"}
@@ -619,6 +623,7 @@ chapters:
           - title: BnF — Le Premier Bonheur du jour, partition
             url: https://catalogue.bnf.fr/ark%3A/12148/cb44261036v
       - type: song
+        artist: Françoise Hardy
         title: "L'amour s'en va"
         year: "1963"
         credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
@@ -639,6 +644,7 @@ chapters:
           en: "A television studio in 1963: a tall young woman sings in front of an orchestra, with cameras on cranes"
         size: wide
       - type: song
+        artist: Françoise Hardy
         title: "J'aurais voulu"
         year: "1963"
         credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
@@ -689,6 +695,7 @@ chapters:
           en: "A tall young woman leaves a London studio at dusk carrying a guitar case; a red bus, rain"
         size: bleed
       - type: song
+        artist: Françoise Hardy
         title: "Mon amie la rose"
         year: "1964"
         credits: {ru: "Слова — Сесиль Колье, музыка — Колье и Жак Лаком", en: "Lyrics by Cécile Caulier; music by Caulier and Jacques Lacome"}
@@ -702,6 +709,7 @@ chapters:
           - title: BnF — Mon amie la rose
             url: https://catalogue.bnf.fr/rechercher.do?index=AUT3&numNotice=14835202
       - type: song
+        artist: Françoise Hardy
         title: "Et même"
         video_id: n9JuMRHOGcQ
         year: "1964"
@@ -713,6 +721,7 @@ chapters:
           - title: Official Charts — Françoise Hardy
             url: https://www.officialcharts.com/artist/11186/francoise-hardy/
       - type: song
+        artist: Françoise Hardy
         title: "All Over the World"
         video_id: M3Fs7bo_Cts
         year: "1965"
@@ -724,6 +733,7 @@ chapters:
           - title: Official Charts — All Over the World
             url: https://www.officialcharts.com/songs/francoise-hardy-all-over-the-world/
       - type: song
+        artist: Françoise Hardy
         title: "L'Amitié"
         video_id: JPcftALP7tw
         year: "1965"
@@ -735,6 +745,7 @@ chapters:
           - title: Discographie de Françoise Hardy
             url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
       - type: song
+        artist: Françoise Hardy
         title: "Ce petit cœur"
         video_id: NEnGf5x0bVg
         year: "1965"
@@ -746,6 +757,7 @@ chapters:
           - title: MusicBrainz — Comment te dire adieu, recording credits
             url: https://musicbrainz.org/release/cb9f9cb6-900c-4b93-b682-641c1b9b16c4
       - type: song
+        artist: Françoise Hardy
         title: "Le Temps des souvenirs"
         video_id: XWXe6SXpte8
         year: "1965"
@@ -971,6 +983,7 @@ chapters:
           - title: Le Monde (EN) — Pop culture icon Françoise Hardy has died, 12.06.2024
             url: https://www.lemonde.fr/en/obituaries/article/2024/06/12/pop-culture-icon-francoise-hardy-has-died_6674549_15.html
       - type: song
+        artist: Françoise Hardy
         title: "Ma jeunesse fout le camp…"
         video_id: hkWgpDf9FR8
         year: "1967"
@@ -982,6 +995,7 @@ chapters:
           - title: Ultratop — Ma jeunesse fout l’camp
             url: https://www.ultratop.be/fr/song/604b5/Francoise-Hardy-Ma-jeunesse-fout-l%27camp
       - type: song
+        artist: Françoise Hardy
         title: "La Maison où j'ai grandi"
         video_id: z-fqX1MhdN8
         year: "1966"
@@ -993,6 +1007,7 @@ chapters:
           - title: Musée Sacem — Françoise Hardy
             url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/SimpleExhibitions?id=4821
       - type: song
+        artist: Françoise Hardy
         title: "Des ronds dans l'eau"
         video_id: vs_JRgKz7Qo
         year: "1967"
@@ -1004,6 +1019,7 @@ chapters:
           - title: BnF — Des ronds dans l’eau
             url: https://catalogue.bnf.fr/ark%3A/12148/cb39650648b
       - type: song
+        artist: Françoise Hardy
         title: "Comment te dire adieu"
         year: "1968"
         credits: {ru: "Французский текст — Серж Генсбур; оригинал It Hurts to Say Goodbye — Арнольд Голанд и Джек Голд", en: "French lyrics by Serge Gainsbourg; original song, It Hurts to Say Goodbye, by Arnold Goland and Jack Gold"}
@@ -1018,6 +1034,7 @@ chapters:
           - title: Comment te dire adieu (chanson)
             url: https://fr.wikipedia.org/wiki/Comment_te_dire_adieu_%28chanson%29
       - type: song
+        artist: Françoise Hardy
         title: "Il n'y a pas d'amour heureux"
         year: "1968"
         credits: {ru: "Стихи — Луи Арагон, музыка — Жорж Брассенс", en: "Poem by Louis Aragon; music by Georges Brassens"}
@@ -1030,6 +1047,7 @@ chapters:
           - title: MusicBrainz — recording credits
             url: https://musicbrainz.org/release/cb9f9cb6-900c-4b93-b682-641c1b9b16c4
       - type: song
+        artist: Françoise Hardy
         title: "Suzanne"
         year: "1968"
         credits: {ru: "Леонард Коэн, французский текст — Грэм Олрайт", en: "Leonard Cohen; French lyrics by Graeme Allwright"}
@@ -1070,6 +1088,7 @@ chapters:
           - title: Mollat — Les Rythmes du zodiaque, 2003
             url: https://www.mollat.com/livres/729565/francoise-hardy-les-rythmes-du-zodiaque
       - type: song
+        artist: Françoise Hardy
         title: "La Question"
         video_id: j-KstH87k_s
         year: "1971"
@@ -1081,6 +1100,7 @@ chapters:
           - title: MusicBrainz — La Question
             url: https://musicbrainz.org/release/bc80c6e0-f1be-3948-9a1a-55604f98c13a
       - type: song
+        artist: Françoise Hardy
         title: "Message personnel"
         year: "1973"
         credits: {ru: "Слова — Мишель Бергер и Франсуаза Арди, музыка — Бергер", en: "Lyrics by Michel Berger and Françoise Hardy; music by Berger"}
@@ -1093,6 +1113,7 @@ chapters:
           - title: Message personnel (chanson)
             url: https://fr.wikipedia.org/wiki/Message_personnel_%28chanson%29
       - type: song
+        artist: Françoise Hardy
         title: "J'écoute de la musique saoule"
         year: "1978"
         credits: {ru: "Слова — Мишель Жонас, музыка — Габриэль Яред", en: "Lyrics by Michel Jonasz; music by Gabriel Yared"}
@@ -1105,6 +1126,7 @@ chapters:
           - title: Discographie de Françoise Hardy
             url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
       - type: song
+        artist: Françoise Hardy
         title: "Partir quand même"
         year: "1988"
         credits: {ru: "Слова — Арди, музыка — Жак Дютрон", en: "Lyrics by Hardy; music by Jacques Dutronc"}
@@ -1134,6 +1156,7 @@ chapters:
           - title: Ultratop — Puisque vous partez en voyage
             url: https://www.ultratop.be/fr/song/356f1/Francoise-Hardy-%26-Jacques-Dutronc-Puisque-vous-partez-en-voyage
       - type: song
+        artist: Françoise Hardy
         title: "To the End (La Comédie)"
         year: "1995"
         credits: {ru: "Blur и Франсуаза Арди. Слова — Деймон Албарн, музыка — Blur", en: "Blur and Françoise Hardy. Lyrics by Damon Albarn; music by Blur"}
@@ -1146,6 +1169,7 @@ chapters:
           - title: To the End (Blur song)
             url: https://en.wikipedia.org/wiki/To_the_End_%28Blur_song%29
       - type: song
+        artist: Françoise Hardy
         title: "Tant de belles choses"
         video_id: eYR2DV-wN5c
         year: "2004"
@@ -1157,6 +1181,7 @@ chapters:
           - title: Version Femina — Tant de belles choses, écrite pour son fils Thomas Dutronc
             url: https://prod.femina.lejdd.fr/article/mort-de-francoise-hardy-la-touchante-histoire-derriere-sa-chanson-tant-de-belles-choses-ecrite-pour-son-fils-thomas-dutronc
       - type: song
+        artist: Françoise Hardy
         title: "Le Large"
         year: "2018"
         credits: {ru: "Слова и музыка — Ла Гранд Софи; клип — Франсуа Озон", en: "Words and music by La Grande Sophie; video directed by François Ozon"}
@@ -1220,6 +1245,7 @@ chapters:
           en: "A wall of colourful record sleeves, with a tall young woman looking through them"
         size: bleed
       - type: playlist
+        artist: Françoise Hardy
         title:
           ru: Двенадцать песен Франсуазы Арди — по порядку
           en: "Twelve Françoise Hardy Songs, in Order"

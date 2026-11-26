@@ -11,8 +11,8 @@ export type Block = Art | Photo | Collage
  | {type:'gallery';items:(Art|Photo)[];layout:'strip'|'grid'|'scatter'}
  | {type:'clipping';masthead:Copy;date:string;headline:Copy;deck:Copy;body:Copy;cite:{publication:string;date:string;page:string;url:string};style:'broadsheet'|'tabloid'|'magazine'|'french-daily';paper?:string}
  | {type:'video';id:string;title:Bi;poster?:string;start?:number;caption:Bi;credit:Copy}
- | {type:'song';title:string;year:string;credits:Bi;label?:string;text:Bi;video_id?:string;video_note?:Bi;sleeve?:string;sources?:Source[]}
- | {type:'playlist';title:Bi;items:{title:string;year:string;video_id:string;note?:Bi}[]}
+ | {type:'song';title:string;artist?:string;year:string;credits:Bi;label?:string;text:Bi;video_id?:string;video_note?:Bi;sleeve?:string;sources?:Source[]}
+ | {type:'playlist';title:Bi;artist?:string;items:{title:string;artist?:string;year:string;video_id:string;note?:Bi}[]}
  | {type:'structure';video_id:string;sections:{label:Bi;start:number;end:number;note:Bi}[]}
  | {type:'quote';text:Bi;attribution:Copy;source:Source}
  | {type:'timeline';items:{date:string;text:Bi}[]}

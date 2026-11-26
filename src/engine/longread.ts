@@ -86,7 +86,7 @@ export function dock(){
   if(!bar)build();
   const a=queue[index],id=a.dataset.dock!;
   bar!.querySelector('.dock-title')!.textContent=a.dataset.title??'';
-  bar!.querySelector('.dock-meta')!.textContent=[a.dataset.year,'Françoise Hardy'].filter(Boolean).join(' · ');
+  bar!.querySelector('.dock-meta')!.textContent=[a.dataset.artist,a.dataset.year].filter(Boolean).join(' · ');
   bar!.querySelector<HTMLAnchorElement>('.dock-out')!.href=watchUrl(id,0);
   bar!.classList.remove('dock-blocked');mark();setPaused(false);
   player?.destroy?.();player=undefined;

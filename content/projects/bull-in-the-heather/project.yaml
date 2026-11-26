@@ -817,15 +817,15 @@ chapters:
             url: https://www.goldminemag.com/reviews/album-reviews/sponge-1994-is-a-time-warp-of-a-record
           - title: Livefootsteps — Pearl Jam, Daughter song history
             url: https://livefootsteps.org/song/?song_id=68
-      - type: video
-        id: xwccuQSe98w
+      - type: playlist
         title:
-          ru: The Go! Team — Bull in the Heather, 2007
-          en: "The Go! Team — Bull in the Heather, 2007"
-        caption:
-          ru: Официальная запись кавера The Go! Team.
-          en: "The official recording of The Go! Team’s cover."
-        credit: "℗ 2007 Memphis Industries Ltd. Официальный канал The Go! Team на YouTube"
+          ru: Каверы — послушать подряд
+          en: "The covers, one after another"
+        items:
+          - {title: "Bull in the Heather", artist: "Ladies Who Lunch", year: "1995", video_id: 0VlRDPSqZWs, note: {ru: "«Ким, которых мы любим»; любительская загрузка", en: "“Kims We Love”; fan upload"}}
+          - {title: "Bull in the Heather", artist: "The Go! Team", year: "2007", video_id: xwccuQSe98w, note: {ru: "официальная запись", en: "official audio"}}
+          - {title: "Bull in the Heather", artist: "Cavedoll", year: "2008", video_id: EIOxTJhejjE, note: {ru: "загрузка звукорежиссёра записи", en: "uploaded by the recording engineer"}}
+          - {title: "Bull in the Heather", artist: "Sponge", year: "2024", video_id: CTQJG72DC6w, note: {ru: "альбом «1994», официальный канал", en: "from “1994”, official channel"}}
 
   - id: influence
     name:
@@ -838,21 +838,54 @@ chapters:
             Влияние песни трудно измерить, но несколько музыкантов признались в нём прямо.
 
             Стивен Малкмус из Pavement, друзей и учеников Sonic Youth, рассказывал журналу SPIN, что его песня Stereo 1997 года была попыткой сделать что-то вроде Bull in the Heather, «только чуть прилипчивее». Если послушать их подряд, слышно: тот же ленивый голос, та же гитара, которая то звенит, то скрежещет, тот же упругий бас.
-
-            Джулиан Касабланкас из The Strokes, судя по пересказу NME, признавался, что гитарную партию в песне 12:51 2003 года он у Bull in the Heather попросту стащил. Исходного интервью найти не удалось, так что пусть это останется на совести NME, — но если поставить две песни рядом, признание звучит правдоподобно.
-
-            А в 2021 году Аарон Мейн из группы Porches вставил в свою песню Swimming Big тот самый счёт и повторы из Bull in the Heather. Он объяснял, что вспоминал гитарные группы, которые слушал, когда сам начинал, и что эта считалка его успокаивала.
-
-            Sonic Youth сыграли Bull in the Heather на концертах больше трёхсот раз — от 1994 года до самого распада группы в 2011-м. Журнал Rolling Stone поставил клип на шестьдесят восьмое место среди ста лучших клипов в истории, SPIN — песню на тридцать седьмое место среди ста лучших альтернативных песен 1994 года. В 1994-м её показывали даже Бивис и Батт-Хед, хотя что они о ней сказали, история умалчивает.
           en: |
             A song’s influence is hard to measure, but several musicians have acknowledged this one directly.
 
             Stephen Malkmus of Pavement, Sonic Youth’s friends and disciples, told SPIN that his 1997 song Stereo had been an attempt to do something like Bull in the Heather, “but maybe be a little catchier.” Listen to them back to back and you can hear it: the same lazy voice, the same guitar by turns ringing and scraping, the same springy bass.
-
+      - type: video
+        id: Z5j4W2Y7RPQ
+        title:
+          ru: "Pavement — Stereo, 1997"
+          en: "Pavement — Stereo, 1997"
+        caption:
+          ru: "Послушайте сразу после Bull in the Heather."
+          en: "Listen to it straight after Bull in the Heather."
+        credit: "Pavement, «Stereo» (1997). Официальный канал Pavement на YouTube"
+      - type: text
+        text:
+          ru: |
+            Джулиан Касабланкас из The Strokes, судя по пересказу NME, признавался, что гитарную партию в песне 12:51 2003 года он у Bull in the Heather попросту стащил. Исходного интервью найти не удалось, так что пусть это останется на совести NME, — но если поставить две песни рядом, признание звучит правдоподобно.
+          en: |
             Julian Casablancas of the Strokes, according to NME’s account, admitted that he had simply stolen the guitar part for the 2003 song 12:51 from Bull in the Heather. We could not find the original interview, so the claim must remain NME’s responsibility—but put the two songs side by side and the confession sounds plausible.
-
+      - type: video
+        id: LPAVDHo1Elc
+        title:
+          ru: "The Strokes — 12:51, 2003"
+          en: "The Strokes — 12:51, 2003"
+        caption:
+          ru: "Сравните гитарную партию."
+          en: "Compare the guitar part."
+        credit: "The Strokes, «12:51» (2003). Официальный канал The Strokes на YouTube"
+      - type: text
+        text:
+          ru: |
+            А в 2021 году Аарон Мейн из группы Porches вставил в свою песню Swimming Big тот самый счёт и повторы из Bull in the Heather. Он объяснял, что вспоминал гитарные группы, которые слушал, когда сам начинал, и что эта считалка его успокаивала.
+          en: |
             In 2021, Aaron Maine of Porches worked the counting and repetition from Bull in the Heather into his song Swimming Big. He explained that it was about the guitar bands he had listened to when he was starting out, and that he found the counting rhyme soothing.
-
+      - type: video
+        id: 0MibFdu4B8s
+        title:
+          ru: "Porches — Swimming Big, 2021"
+          en: "Porches — Swimming Big, 2021"
+        caption:
+          ru: "Та самая считалка — в новой песне."
+          en: "The same counting chant, in a new song."
+        credit: "Porches, «Swimming Big» (2021). Официальный канал Porches на YouTube"
+      - type: text
+        text:
+          ru: |
+            Sonic Youth сыграли Bull in the Heather на концертах больше трёхсот раз — от 1994 года до самого распада группы в 2011-м. Журнал Rolling Stone поставил клип на шестьдесят восьмое место среди ста лучших клипов в истории, SPIN — песню на тридцать седьмое место среди ста лучших альтернативных песен 1994 года. В 1994-м её показывали даже Бивис и Батт-Хед, хотя что они о ней сказали, история умалчивает.
+          en: |
             Sonic Youth played Bull in the Heather more than three hundred times in concert, from 1994 until the band broke up in 2011. Rolling Stone ranked the video sixty-eighth among the hundred greatest music videos of all time; SPIN placed the song thirty-seventh among the hundred best alternative songs of 1994. Even Beavis and Butt-Head showed it in 1994, though history is silent on what they said about it.
         sources:
           - title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune, SPIN
