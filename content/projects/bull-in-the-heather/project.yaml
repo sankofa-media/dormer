@@ -5,129 +5,1052 @@ title:
   ru: Bull in the Heather
   en: Bull in the Heather
 dek:
-  ru: Песня Sonic Youth, скаковой конь, в честь которого она названа, и его отец
-  en: The Sonic Youth song, the racehorse it was named after, and his father
-date: 2026-11-20
+  ru: Песня Sonic Youth, девушка, которая в ней танцевала, и серый конь, чьим именем её назвали
+  en: "A Sonic Youth song, the girl who danced in it, and the gray horse whose name it bore"
+date: 2026-11-26
 cover:
   kind: art
-  src: cover-full.webp
+  src: cover.webp
   alt:
-    ru: Серый конь на акварельном пейзаже
-    en: A grey horse in a watercolor landscape
+    ru: Серый скаковой конь с жокеем бежит один под проливным дождём
+    en: "A gray racehorse and jockey run alone through pouring rain"
   size: bleed
-paper: paper-1.webp
+paper: paper-bg.webp
 chapters:
-  - id: start
+
+  - id: intro
     name:
-      ru: Старт
-      en: The start
+      ru: Бык в вереске
+      en: "Bull in the Heather"
     blocks:
       - type: text
         text:
-          ru: "20 марта 1993 года, ипподром Галфстрим-парк во Флориде, скачка Florida Derby. Весь день шёл дождь, и дорожка раскисла. Стартуют тринадцать трёхлеток. Среди них — серый жеребец Bull Inthe Heather. Ставят на него двадцать девять к одному: в него почти никто не верит."
-          en:
-            text: "March 20, 1993, Gulfstream Park in Florida: the Florida Derby. It has rained all day, and the track is sloppy. Thirteen three-year-olds are starting. Among them is a grey colt, Bull Inthe Heather. His odds are twenty-nine to one: almost nobody believes in him."
-            draft: true
+          ru: |
+            Весной 1994 года по MTV крутили клип, в котором ничего особенного вроде бы не происходило. Четверо музыкантов играли в комнате с розовыми стенами. Худая блондинка с белой бас-гитарой пела, почти не повышая голоса, будто разговаривала сама с собой. А вокруг них носилась девушка с двумя короткими косичками и в кедах: дёргала гитаристов за рукава, передразнивала их позы, задирала майку, падала на пол и снова вскакивала. Между кадрами то и дело мелькали скаковые лошади.
+
+            Песня называлась «Bull in the Heather» — «Бык в вереске». Её написала группа Sonic Youth, и она стала, пожалуй, самой известной их песней из тех, что крутило радио. Девушку с косичками звали Кэтлин Ханна, она пела в панк-группе Bikini Kill и за год до того перестала разговаривать с журналистами. А название песни принадлежало настоящему коню — серому жеребцу, который весной 1993 года под проливным дождём выиграл во Флориде большую скачку, хотя ставили на него двадцать девять к одному.
+
+            Это история о песне, о девушке и о коне. Песня жива и до сих пор звучит. Конь прожил долгую жизнь и умер на ферме для старых лошадей, которую открыли из-за гибели его отца.
+          en: |
+            In the spring of 1994, MTV was showing a video in which nothing much seemed to happen. Four musicians played in a room with pink walls. A thin blonde woman with a white bass sang, barely raising her voice, as though talking to herself. Around them darted a girl in sneakers with two short pigtails: tugging at the guitarists’ sleeves, mimicking their poses, lifting her shirt, falling to the floor and springing up again. Between shots, racehorses kept flashing past.
+
+            The song was called “Bull in the Heather.” Sonic Youth had written it, and it became perhaps the best known of their songs to get radio play. The girl with the pigtails was Kathleen Hanna, singer in the punk band Bikini Kill, who a year earlier had stopped speaking to journalists. And the song’s title belonged to a real horse—a gray stallion who, in the spring of 1993, had won a major race in Florida in a downpour, at odds of twenty-nine to one.
+
+            This is a story about a song, a girl, and a horse. The song is still alive, still being played. The horse lived a long life and died at a retirement farm founded because of his father’s death.
         sources:
-          - title: "Churchill Downs — Stakes Histories: Florida Derby"
-            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
+          - title: Sonic Youth — Bull In The Heather, official music video
+            url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+          - title: CMJ New Music Report, May 9 1994 — video review
+            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
           - title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
             url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
-          - title: Gulfstream Park — 2025/2026 Media Guide, Section 2
-            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
-            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
-          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - title: "JBIS — Sire line: Ferdinand, best progeny"
-            url: https://www.jbis.jp/horse/0000576487/pedigree/sire/
-          - title: Los Angeles Times — Kentucky Derby Capsules
-            url: https://www.latimes.com/archives/la-xpm-1993-05-01-sp-29774-story.html
-  - id: chapter-1
+      - type: video
+        id: 8JGBNkLM9_8
+        title:
+          ru: Sonic Youth — Bull in the Heather, официальный клип, 1994
+          en: "Sonic Youth — Bull in the Heather, official music video, 1994"
+        poster: hanna-dance.webp
+        caption:
+          ru: Клип сняла Тамра Дэвис. Три минуты, розовая комната, четверо музыкантов и одна девушка, которая не даёт им спокойно играть.
+          en: "Directed by Tamra Davis. Three minutes, a pink room, four musicians, and one girl who will not let them play in peace."
+        credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис. Официальный канал Sonic Youth на YouTube"
+
+  - id: band
+    kicker:
+      ru: Часть первая. Песня
+      en: "Part One. The Song"
     name:
-      ru: Наклейка на бампере
-      en: A bumper sticker
+      ru: Четверо из Нью-Йорка
+      en: "Four from New York"
     blocks:
       - type: text
         text:
-          ru: "Песня Sonic Youth называется почти так же, как этот конь, — только в названии песни слова стоят раздельно. Как кличка попала к группе, сами музыканты, насколько удалось найти, не рассказывали. Есть пересказ: Боб Настанович, барабанщик группы Pavement, прислал Терстону Муру и Ким Гордон наклейку на бампер с именем коня."
-          en:
-            text: The Sonic Youth song has almost the same name as this horse, except that all the words in the song title are separate. As far as we could find, the musicians have not explained how the name reached them. One account says that Bob Nastanovich, the Pavement drummer, sent Thurston Moore and Kim Gordon a bumper sticker bearing the horse’s name.
-            draft: true
+          ru: |
+            К 1993 году Sonic Youth играли вместе уже двенадцать лет. Группа выросла на нью-йоркской сцене начала восьмидесятых, где шумовая музыка, художественные галереи и панк жили в одних и тех же подвалах. Четверых музыкантов узнавали издалека. Ким Гордон, басистка и певица, — тонкая, светловолосая, с холодным спокойным лицом, в полосатой футболке или коротком платье. Терстон Мур, её муж, — почти двухметровый, нескладный, с чёлкой, которая вечно падала на глаза. Ли Ранальдо — кудрявый, старше на вид остальных, тот, кто мог взять барабанную палочку и водить ею по струнам, как смычком. И Стив Шелли за барабанами — короткая стрижка, очки, самый аккуратный человек в самой неаккуратной группе.
+
+            Гитары у них звучали не так, как у всех. Мур и Ранальдо почти никогда не играли в обычном строе: перестраивали струны как вздумается, засовывали под них отвёртки и палочки, били по струнам за подставкой, где гитара не должна звучать вовсе. Из этого получалась музыка, похожая одновременно на колокола, на сирены и на расстроенное пианино в пустом доме.
+
+            С 1990 года Sonic Youth записывались на большом лейбле DGC — на том же, где через год вышел Nevermind группы Nirvana. А когда мир внезапно полюбил гитарный шум, Sonic Youth, которые занимались им десять лет, оказались не в подвале, а в центре событий.
+          en: |
+            By 1993, Sonic Youth had been playing together for twelve years. The band had grown out of the early-eighties New York scene, where noise music, art galleries, and punk shared the same basements. You could recognize the four musicians from a distance. Kim Gordon, bassist and singer: slender, fair-haired, her face cool and composed, in a striped T-shirt or a short dress. Thurston Moore, her husband: nearly two meters tall, gangly, with a fringe that kept falling into his eyes. Lee Ranaldo: curly-haired, older-looking than the others, the one who might pick up a drumstick and draw it across the strings like a bow. And Steve Shelley behind the drums: short hair, glasses, the neatest man in the untidiest band.
+
+            Their guitars sounded like nobody else’s. Moore and Ranaldo almost never used standard tuning: they retuned the strings however they pleased, wedged screwdrivers and sticks beneath them, struck them behind the bridge, where a guitar was not supposed to make a sound at all. The music that came out sounded at once like bells, sirens, and an out-of-tune piano in an empty house.
+
+            Since 1990, Sonic Youth had been recording for the major label DGC—the same label that released Nirvana’s Nevermind a year later. And when the world suddenly fell in love with guitar noise, Sonic Youth, who had been making it for ten years, found themselves out of the basement and at the center of things.
+        sources:
+          - title: Radio & Records — Sonic Youth’s 10th, p. 28
+            url: https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1990s/1994/RR-1994-03-04.pdf
+          - title: Chris Lawrence — Sonic Youth guitar tunings, Experimental Jet Set
+            url: https://www.soniclife.ca/sy/tab/tunings.html#jet
+      - type: photo
+        src: sonic-youth-lollapalooza-1995-currie.jpg
+        alt:
+          ru: Ли Ранальдо и Терстон Мур показывают гитары съёмочной группе за сценой
+          en: "Lee Ranaldo and Thurston Moore show their guitars to a film crew backstage"
+        caption:
+          ru: Ли Ранальдо (в тёмных очках) и Терстон Мур за сценой фестиваля Lollapalooza, Рэндаллс-Айленд, Нью-Йорк, 28 июля 1995 года. Они показывают гитары съёмочной группе MTV.
+          en: "Lee Ranaldo (in sunglasses) and Thurston Moore backstage at Lollapalooza, Randalls Island, New York, July 28, 1995. They are showing their guitars to an MTV crew."
+        credit: "Фото: James Currie / In The Loop Magazine"
+        source_url: https://beintheloopchicago.com/?p=42082
+        size: wide
+        treatment: print
+      - type: art
+        src: band-stage.webp
+        alt:
+          ru: Четверо музыкантов на большой фестивальной сцене в сумерках, внизу море голов
+          en: "Four musicians on a large festival stage at dusk, a sea of heads below"
+        size: bleed
+      - type: gallery
+        layout: scatter
+        items:
+          - type: art
+            src: thurston-jazzmaster.webp
+            alt:
+              ru: Терстон Мур, очень высокий, играет согнувшись, волосы закрывают глаза
+              en: "Thurston Moore, very tall, bends over his guitar as he plays, his hair covering his eyes"
+            caption:
+              ru: Терстон Мур
+              en: "Thurston Moore"
+          - type: art
+            src: kim-bass.webp
+            alt:
+              ru: Ким Гордон поёт с белой бас-гитарой
+              en: "Kim Gordon sings with a white bass guitar"
+            caption:
+              ru: Ким Гордон
+              en: "Kim Gordon"
+          - type: art
+            src: lee-ranaldo.webp
+            alt:
+              ru: Ли Ранальдо в тёмных очках водит барабанной палочкой по струнам
+              en: "Lee Ranaldo, in sunglasses, draws a drumstick across the strings"
+            caption:
+              ru: Ли Ранальдо
+              en: "Lee Ranaldo"
+          - type: art
+            src: steve-drums.webp
+            alt:
+              ru: Стив Шелли в очках за барабанами
+              en: "Steve Shelley, wearing glasses, behind the drums"
+            caption:
+              ru: Стив Шелли
+              en: "Steve Shelley"
+      - type: photo
+        src: sonic-youth-1995-mosenfelder.jpg
+        alt:
+          ru: Sonic Youth на сцене амфитеатра Шорлайн
+          en: "Sonic Youth onstage at Shoreline Amphitheatre"
+        caption:
+          ru: Sonic Youth на сцене амфитеатра Шорлайн в Маунтин-Вью, Калифорния, 16 мая 1995 года.
+          en: "Sonic Youth onstage at Shoreline Amphitheatre in Mountain View, California, May 16, 1995."
+        credit: "Фото: Tim Mosenfelder / Getty Images, по публикации MusicRadar"
+        source_url: https://www.musicradar.com/artists/bands/we-went-to-memphis-ate-a-lot-of-barbecue-went-to-al-greens-church-on-easter-sunday-made-some-hot-jams-sonic-youth-are-teasing-activity-of-some-kind-in-2026-revolving-around-their-washing-machine
+        size: column
+        treatment: print
+
+  - id: sticker
+    name:
+      ru: Наклейка на бампере
+      en: "A Bumper Sticker"
+    blocks:
+      - type: art
+        src: sticker-car.webp
+        alt:
+          ru: Задний бампер старой машины под дождём, на нём белая наклейка
+          en: "The rear bumper of an old car in the rain, with a white sticker on it"
+        size: wide
+      - type: text
+        text:
+          ru: |
+            Откуда у песни такое название, сами музыканты, насколько удалось выяснить, толком не объясняли. Ходит один пересказ, и он очень похож на правду. Боб Настанович, барабанщик группы Pavement, с которой Sonic Youth дружили и ездили в туры, был страстным любителем скачек — из тех, кто знает клички лошадей лучше, чем имена соседей. Говорят, он прислал Терстону и Ким наклейку на бампер с именем коня, который только что выиграл во Флориде.
+
+            Имя было странное и красивое: Bull Inthe Heather, «бык в вереске», причём «in» и «the» срослись в одно слово. Почему так — расскажем во второй части, когда дойдём до коня. А группа слова разлепила обратно, и песня стала называться правильно: Bull in the Heather.
+          en: |
+            As far as we could establish, the musicians themselves never quite explained where the title came from. One story circulates, and it has the ring of truth. Bob Nastanovich, the drummer in Pavement, friends and touring companions of Sonic Youth, was a passionate racing fan—the kind who knows horses’ names better than his neighbors’. He is said to have sent Thurston and Kim a bumper sticker bearing the name of a horse that had just won in Florida.
+
+            It was a strange and beautiful name: Bull Inthe Heather, with “in” and “the” fused into a single word. We will come to the reason in the second part, when we get to the horse. The band separated the words again, and the song became, properly, Bull in the Heather.
         sources:
           - title: "uDiscover Music — The Best Sonic Youth Songs: Alternative Classics"
             url: https://www.udiscovermusic.com/stories/sonic-youth-best-songs-feature/
-  - id: chapter-2
+
+  - id: studio
     name:
-      ru: Чей он сын
-      en: His father’s son
+      ru: Вчетвером, сразу на плёнку
+      en: "All Four, Straight to Tape"
+    blocks:
+      - type: art
+        src: band-1993.webp
+        alt:
+          ru: Четверо музыкантов играют кругом в студии, лицом друг к другу
+          en: "Four musicians play in a circle in a studio, facing one another"
+        size: bleed
+      - type: text
+        text:
+          ru: |
+            Альбом Experimental Jet Set, Trash and No Star записывали осенью 1993 года в Нью-Йорке, на студии Sear Sound. Продюсером вместе с группой был Бутч Виг — тот самый, что за два года до этого записал Nevermind. Можно было ждать, что он сделает и Sonic Youth гладкими и громкими, но вышло наоборот: альбом получился тихим, сухим, местами почти домашним. В журнале Billboard тогда писали, что группа смотрела в сторону лоу-фая — Pavement, Sebadoh, Royal Trux, — молодых групп, которые записывались как придётся и этим гордились.
+
+            Bull in the Heather записали так, как записывали песни в шестидесятые. По словам Вига, основу сыграли живьём: все четверо стояли в одной комнате и играли одновременно, и всё это сразу шло на плёнку. Поверх почти ничего не накладывали. Слова написала Ким Гордон, она же их и спела, а музыку в выходных данных записали на всю четвёрку.
+
+            Обложку сингла нарисовала сама Ким — тонкой линией, лицо. Оформлял пластинку дизайнер Кевин Рейган, он же собрал обложку альбома из четырёх портретов. Сингл вышел весной 1994 года на семидюймовой пластинке, на серебристой десятидюймовой, на компакт-диске и на кассете.
+          en: |
+            Experimental Jet Set, Trash and No Star was recorded in the fall of 1993 at Sear Sound in New York. Co-producing with the band was Butch Vig—the same man who had recorded Nevermind two years earlier. You might have expected him to make Sonic Youth sound sleek and loud, too. The opposite happened: the album was quiet, dry, at times almost homemade. Billboard wrote at the time that the band was looking toward lo-fi—Pavement, Sebadoh, Royal Trux—young bands who recorded any way they could and were proud of it.
+
+            Bull in the Heather was recorded the way songs had been recorded in the sixties. According to Vig, the basic track was cut live: all four stood in one room and played together, everything going straight to tape. Almost nothing was overdubbed. Kim Gordon wrote the words and sang them; the music was credited to all four.
+
+            Kim herself drew the single’s cover: a face in fine lines. The record’s designer was Kevin Reagan, who also assembled the album cover from four portraits. The single came out in the spring of 1994 on seven-inch vinyl, silver ten-inch vinyl, CD, and cassette.
+        sources:
+          - title: Gearspace — Interview with Butch Vig with co-engineer Billy Bush
+            url: https://gearspace.com/threads/interview-with-butch-vig-with-co-engineer-billy-bush.1366015/
+          - title: SonicYouth.com discography — Bull in the Heather (archived)
+            url: https://web.archive.org/web/20150218044901/http://www.sonicyouth.com/mustang/lp/ep35.html
+          - title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
+          - title: Chris Lawrence — Bull in the Heather single, liner notes
+            url: https://www.soniclife.ca/sy/lp/ep35.html
+          - title: Chris Lawrence — Experimental Jet Set, Trash and No Star, liner notes
+            url: https://www.soniclife.ca/sy/lp/lp10.html
+      - type: gallery
+        layout: strip
+        items:
+          - type: photo
+            src: single-cd-sleeve.jpg
+            alt:
+              ru: Обложка CD-сингла Bull in the Heather с нарисованным лицом
+              en: "The Bull in the Heather CD single cover, featuring a drawing of a face"
+            caption:
+              ru: CD-сингл, 1994. Рисунок Ким Гордон, дизайн Кевина Рейгана.
+              en: "CD single, 1994. Drawing by Kim Gordon, design by Kevin Reagan."
+            credit: "Art by Kim Gordon, design by Kevin Reagan / DGC. Скан: soniclife.ca"
+            source_url: https://www.soniclife.ca/sy/lp/ep35.html
+            treatment: print
+          - type: photo
+            src: single-7inch-sleeve.jpg
+            alt:
+              ru: Обложка семидюймового сингла
+              en: "The seven-inch single sleeve"
+            caption:
+              ru: Семидюймовая пластинка, Великобритания, 1994.
+              en: "Seven-inch vinyl, United Kingdom, 1994."
+            credit: "DGC, 1994. Скан: soniclife.ca"
+            source_url: https://www.soniclife.ca/sy/lp/ep35.html
+            treatment: print
+          - type: photo
+            src: experimental-jet-set-cover.jpg
+            alt:
+              ru: Обложка альбома Experimental Jet Set, Trash and No Star — четыре портрета
+              en: "The cover of Experimental Jet Set, Trash and No Star—four portraits"
+            caption:
+              ru: Experimental Jet Set, Trash and No Star, май 1994.
+              en: "Experimental Jet Set, Trash and No Star, May 1994."
+            credit: "Design: Kevin Reagan / DGC. Скан: soniclife.ca"
+            source_url: https://www.soniclife.ca/sy/lp/lp10.html
+            treatment: print
+
+  - id: anatomy
+    name:
+      ru: Как она устроена
+      en: "How It Works"
     blocks:
       - type: text
         text:
-          ru: "Отец Bull Inthe Heather — Фердинанд, конь знаменитый: в 1986 году он выиграл Кентуккийское дерби под Биллом Шумейкером, а через год его признали лошадью года в Америке. Мать — кобыла Heather Road, «Вересковая дорога». Вырастили жеребёнка в Кентукки, на ферме Клейборн, вместе с Джоном Фрэнксом."
-          en:
-            text: "Bull Inthe Heather’s father was Ferdinand, a famous horse: in 1986 he won the Kentucky Derby under Bill Shoemaker, and the next year he was named Horse of the Year in America. His mother was the mare Heather Road. The colt was bred in Kentucky by Claiborne Farm together with John Franks."
-            draft: true
+          ru: |
+            Bull in the Heather длится три минуты и четыре секунды, и в ней нет припева. Это первое, что в ней странно. Обычная рок-песня строится на ожидании: куплет поднимает напряжение, припев его разряжает, все подпевают. Здесь там, где полагается быть припеву, вдруг ничего не поют. Вместо этого гитары рассыпаются на звон, скрежет и гудение, а потом снова собираются в тот же упрямый рисунок. Разрядку даёт не голос, а шум.
+
+            Исследователь Sonic Youth Крис Лоуренс, который много лет расписывает их песни по нотам и по струнам, раскладывает Bull in the Heather на четыре части, которые повторяются дважды, а потом ещё раз начало, как эхо. Ниже — эта схема. Нажмите на любую часть, и клип начнётся с этого места.
+          en: |
+            Bull in the Heather lasts three minutes and four seconds, and it has no chorus. That is the first strange thing about it. An ordinary rock song runs on anticipation: the verse builds tension, the chorus releases it, everyone sings along. Here, where the chorus ought to be, suddenly nobody sings. Instead, the guitars scatter into ringing, scraping, and humming, then gather themselves back into the same stubborn pattern. The release comes from noise, not the voice.
+
+            Chris Lawrence, a Sonic Youth scholar who has spent years taking their songs apart note by note and string by string, divides Bull in the Heather into four sections, repeated twice, followed by one more return to the beginning, like an echo. His outline is below. Click on any section to start the video at that point.
         sources:
-          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - title: netkeiba — Bull Inthe Heather, horse 000a02173d
-            url: https://en.netkeiba.com/db/horse/000a02173d/
-          - title: Equibase — Bull Inthe Heather Euthanized at Old Friends
-            url: https://cms.equibase.com/node/4118
-          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
+          - title: Chris Lawrence — Bull in the Heather, song analysis and tablature
+            url: https://www.soniclife.ca/sy/tab/bullintheroad.html
+      - type: structure
+        video_id: 8JGBNkLM9_8
+        sections:
+          - label: {ru: "Звон", en: "Ringing"}
+            start: 0
+            end: 14
+            note:
+              ru: Терстон берёт флажолеты на девятом ладу на двух струнах, настроенных в ре, и чередует их с парой струн в ре-диез. Звук получается как у треснувшего колокола. Ким и Ли скребут медиатором по обмотке струн.
+              en: "Thurston plays ninth-fret harmonics on two strings tuned to D, alternating them with a pair tuned to D-sharp. The sound is like a cracked bell. Kim and Lee scrape their picks along the string windings."
+          - label: {ru: "Основа", en: "The Foundation"}
+            start: 14
+            end: 29
+            note:
+              ru: Вступает бас на низкой соль — он будет держать всю песню, как якорь. Стив Шелли играет простой цепкий рисунок, а гитара выводит короткую тему.
+              en: "The bass enters on a low G—it will anchor the whole song. Steve Shelley plays a simple, tenacious pattern, and the guitar picks out a short theme."
+          - label: {ru: "Голос", en: "The Voice"}
+            start: 29
+            end: 66
+            note:
+              ru: Ким поёт — вернее, почти говорит, холодно и требовательно, будто отдаёт команды. Под ней перебором ходит гитара.
+              en: "Kim sings—or almost speaks, cool and demanding, as if giving orders. Beneath her, a guitar picks its way through an arpeggio."
+          - label: {ru: "Вместо припева", en: "In Place of a Chorus"}
+            start: 66
+            end: 85
+            note:
+              ru: Здесь в обычной песне был бы припев. Вместо него — флажолеты, шум, гудение баса на натуральных обертонах. Песня как будто выдыхает.
+              en: "An ordinary song would have a chorus here. Instead, there are harmonics, noise, and the hum of the bass playing natural overtones. The song seems to exhale."
+          - label: {ru: "Звон снова", en: "Ringing Again"}
+            start: 85
+            end: 100
+            note:
+              ru: Возвращается колокольный звон начала.
+              en: "The bell-like ringing of the opening returns."
+          - label: {ru: "Основа", en: "The Foundation"}
+            start: 100
+            end: 108
+            note:
+              ru: Короткий заход — на этот раз без раскачки.
+              en: "A brief return—straight into it this time."
+          - label: {ru: "Голос", en: "The Voice"}
+            start: 108
+            end: 145
+            note:
+              ru: Второй куплет. Счёт и повторы в словах делают песню похожей на игру, в которой кого-то проверяют на внимание и верность.
+              en: "The second verse. The counting and repetition in the words make the song feel like a game testing someone’s attention and loyalty."
+          - label: {ru: "Вместо припева", en: "In Place of a Chorus"}
+            start: 145
+            end: 164
+            note:
+              ru: Вторая шумовая пауза.
+              en: "The second interlude of noise."
+          - label: {ru: "Звон и конец", en: "Ringing and the End"}
+            start: 164
+            end: 182
+            note:
+              ru: Последний звон. В самом конце Терстон оттягивает струну за верхним порожком, и нота съезжает вниз, как будто песню выключили из розетки.
+              en: "One last ringing. At the very end, Thurston pulls a string behind the nut and the note slides downward, as though someone had unplugged the song."
+      - type: art
+        src: guitars-tuning.webp
+        alt:
+          ru: Руки перестраивают колки электрогитары, под струнами отвёртка
+          en: "Hands turn the tuning pegs of an electric guitar, a screwdriver wedged beneath the strings"
+        size: right
+      - type: text
+        text:
+          ru: |
+            Строй тоже необычный, у каждого свой. У Терстона струны снизу вверх настроены так: соль, соль, ре, ре, ре-диез, ре-диез. Три пары почти одинаковых нот, причём две соседние пары отстоят друг от друга на полтона — отсюда и тревожный, чуть фальшивый звон, когда они звучат вместе. У Ли — соль, соль, до, соль, до, ре. А Ким играет в самом обычном строе бас-гитары. Две гитары, перестроенные кто во что, держатся за один нормальный бас, как два воздушных змея за одну верёвку.
+
+            Критик Мартин Сей заметил, что приём со струнами, настроенными в одну ноту, — любимый трюк Гленна Бранки, нью-йоркского композитора, в чьём гитарном оркестре когда-то играли и Мур, и Ранальдо. В песне, которую крутило MTV, слышно эхо авангардных симфоний для двенадцати электрогитар.
+
+            И ещё голос. Ким Гордон в Bull in the Heather не поёт в полную силу и не кричит, как кричала во многих песнях Sonic Youth. Она произносит слова ровно, с ленцой, иногда с насмешкой. Рецензент назвал это «отрывистым полуговором-полупением». В 1994 году, когда все вокруг надрывались, такая сдержанность звучала вызовом.
+          en: |
+            The tunings are unusual, too, and each player has a different one. Thurston’s strings, from low to high, are tuned G, G, D, D, D-sharp, D-sharp. Three pairs of almost identical notes, with two neighboring pairs only a semitone apart—which accounts for the uneasy, slightly sour ringing when they sound together. Lee’s are G, G, C, G, C, D. Kim, meanwhile, uses perfectly ordinary bass tuning. Two guitars, each retuned its own way, hold on to one normal bass like two kites on a single string.
+
+            The critic Martin Seay noted that tuning strings to the same note was a favorite device of Glenn Branca, the New York composer whose guitar orchestra had once included both Moore and Ranaldo. In a song played on MTV, you can hear the echo of avant-garde symphonies for twelve electric guitars.
+
+            And then there is the voice. In Bull in the Heather, Kim Gordon neither sings at full strength nor screams, as she had in so many Sonic Youth songs. She delivers the words evenly, lazily, sometimes mockingly. One reviewer called it “clipped half-speaking, half-singing.” In 1994, when everyone around her was straining their lungs, such restraint sounded like defiance.
+        sources:
+          - title: Chris Lawrence — Sonic Youth guitar tunings, Experimental Jet Set
+            url: https://www.soniclife.ca/sy/tab/tunings.html#jet
+          - title: "Martin Seay — Against Kool: Bull in the Heather"
+            url: https://marchxness.com/againstkool
+          - title: SFGate — Sonic Youth ages gracefully, noisily
+            url: https://www.sfgate.com/entertainment/article/sonic-youth-ages-gracefully-noisily-3291685.php
+          - title: CMJ New Music Report — June 13 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-06-13.pdf
+
+  - id: meaning
+    name:
+      ru: Бунт неподвижности
+      en: "The Rebellion of Stillness"
+    blocks:
+      - type: art
+        src: passive.webp
+        alt:
+          ru: Женщина неподвижно лежит в вереске, а над ней проносятся размытые фигуры
+          en: "A woman lies motionless in the heather as blurred figures rush above her"
+        size: bleed
+      - type: text
+        text:
+          ru: |
+            О чём эта песня, Ким Гордон объясняла коротко: о пассивности как способе бунтовать. Не кричать, не ломиться в дверь, не доказывать — а просто отказаться играть по чужим правилам. Лечь в вереск и не встать, сколько бы тебя ни звали.
+
+            Слов в песне немного, они повторяются, в них считают и приказывают, и вся она похожа на игру, в которой один человек испытывает другого: заметишь ли, останешься ли, будешь ли знаменит ради меня. Критик Мартин Сей вытащил из неё одну строчку — Tell me that you're famous for me, «скажи, что ты знаменит ради меня», — и в ней, пожалуй, всё: и усталость от славы, и игра в неё, и насмешка над тем, как в 1994 году газеты и телевидение выбирали себе героев на неделю.
+
+            В названии — скаковой конь, и можно было бы подумать, что песня про ставки и про то, как на человека ставят, словно на лошадь. Но это уже наше прочтение. Сама Гордон ничего такого не говорила, а конь попал в название, скорее всего, просто потому, что имя было красивое.
+
+            Весной 1994 года пассивность как бунт звучала совсем не отвлечённо. Рядом шумело движение riot grrrl — девичьи панк-группы, которые требовали места для женщин в музыке, у сцены и в газетах. Им-то как раз всё время приходилось кричать. И Гордон позвала в свой клип одну из самых громких из них.
+          en: |
+            Kim Gordon’s explanation of the song was brief: it was about passivity as a form of rebellion. No shouting, no battering at doors, no arguing your case—just refusing to play by somebody else’s rules. Lie down in the heather and stay there, however often they call you.
+
+            There are few words in the song. They repeat, they count, they give orders, and the whole thing resembles a game in which one person tests another: will you notice, will you stay, will you be famous for me? The critic Martin Seay singled out one line—Tell me that you're famous for me—and perhaps it holds everything: weariness with fame, the game of pursuing it, and a sneer at the way newspapers and television in 1994 chose their heroes for the week.
+
+            There is a racehorse in the title, and you might suppose the song is about betting, about putting your money on a person as you would on a horse. But that is our reading. Gordon herself said nothing of the kind, and the horse most likely found his way into the title simply because his name was beautiful.
+
+            In the spring of 1994, passivity as rebellion was hardly an abstract idea. Nearby, riot grrrl was making itself heard—girl punk bands demanding room for women in music, in front of the stage, and in the papers. They were the ones who had to shout all the time. And Gordon invited one of the loudest of them into her video.
+        sources:
+          - title: "Martin Seay — Against Kool: Bull in the Heather"
+            url: https://marchxness.com/againstkool
+          - title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
+            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
+
+  - id: hanna
+    name:
+      ru: Девушка с косичками
+      en: "The Girl with the Pigtails"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Кэтлин Ханне в 1994 году было двадцать пять лет. Четырьмя годами раньше она собрала в Олимпии, штат Вашингтон, группу Bikini Kill. В Олимпии тогда была своя маленькая вселенная: колледж, где учились художники и музыканты, крошечные лейблы, ксероксы, на которых печатали самодельные журналы — зины. Ханна писала зины, рисовала, работала где придётся и пела так, будто хотела докричаться до последнего ряда зала, которого у неё никогда не было.
+
+            Bikini Kill стали одной из главных групп riot grrrl. На их концертах Ханна просила парней отойти назад, а девушек — пройти вперёд, к сцене: «girls to the front». Звучит буднично, но в начале девяностых это было почти скандалом. На панк-концертах первые ряды давно принадлежали парням, которые толкались и прыгали, а девушки стояли сзади и смотрели поверх их голов.
+          en: |
+            Kathleen Hanna was twenty-five in 1994. Four years earlier, she had formed Bikini Kill in Olympia, Washington. Olympia then was a small universe of its own: a college where artists and musicians studied, tiny record labels, photocopiers turning out homemade magazines—zines. Hanna wrote zines, made art, took whatever work she could, and sang as though trying to reach the back row of a hall she had never had.
+
+            Bikini Kill became one of riot grrrl’s leading bands. At their shows, Hanna asked the boys to move back and the girls to come forward, toward the stage: “girls to the front.” It sounds unremarkable, but in the early nineties it was almost a scandal. At punk shows, the front rows had long belonged to boys shoving and jumping while the girls stood at the back, looking over their heads.
+        sources:
+          - title: "TIME — Rebel Girl: My Life as a Feminist Punk"
+            url: https://time.com/7172867/rebel-girl-my-life-as-a-feminist-punk/
+          - title: AP — Kathleen Hanna interview, 2024
+            url: https://apnews.com/article/1c05e3f76813bd0d134961f8f081f7b0
+      - type: art
+        src: riot-show.webp
+        alt:
+          ru: Тесный подвал, девушка кричит в микрофон, у сцены стоят девушки
+          en: "A crowded basement, a girl shouting into a microphone, girls standing in front of the stage"
+        size: wide
+        caption:
+          ru: Girls to the front.
+          en: "Girls to the front."
+      - type: photo
+        src: hanna-1991-jonathancharles.jpg
+        alt:
+          ru: Кэтлин Ханна поёт на концерте Bikini Kill
+          en: "Kathleen Hanna sings at a Bikini Kill show"
+        caption:
+          ru: Кэтлин Ханна на концерте Bikini Kill, 1991 год.
+          en: "Kathleen Hanna at a Bikini Kill show, 1991."
+        credit: "Фото: jonathancharles / Flickr, Wikimedia Commons, CC BY-SA 2.0"
+        source_url: https://commons.wikimedia.org/wiki/File:Kathleen_Hanna_live_in_Bikini_Kill_in_1991.jpg
+        size: column
+        treatment: print
+      - type: text
+        text:
+          ru: |
+            С Ханной связана и одна из самых знаменитых строчек девяностых, хотя спела её не она. Однажды вечером она и барабанщица Bikini Kill Тоби Вэйл заглянули в магазин, увидели дезодорант под названием Teen Spirit, и Ханна потом маркером написала на стене у своего приятеля Курта Кобейна: «Kurt smells like Teen Spirit» — «Курт пахнет как Teen Spirit». Кобейн решил, что это что-то революционное про дух юности, и спросил, можно ли взять фразу для песни. Ханна разрешила. Через несколько месяцев Smells Like Teen Spirit гремела из каждого окна. Сама Ханна позже не раз сердилась на расхожее объяснение, будто речь шла о дезодоранте подруги Кобейна: это, по её словам, совершенная неправда.
+          en: |
+            Hanna also had a hand in one of the most famous lines of the nineties, though she was not the one who sang it. One evening, she and Bikini Kill’s drummer, Tobi Vail, went into a store and saw a deodorant called Teen Spirit. Later, Hanna took a marker and wrote on the wall at her friend Kurt Cobain’s place: “Kurt Smells Like Teen Spirit.” Cobain thought it meant something revolutionary about the spirit of youth and asked whether he could use the phrase for a song. Hanna said yes. A few months later, Smells Like Teen Spirit was blasting out of every window. Hanna would later repeatedly object to the familiar explanation that the phrase referred to Cobain’s girlfriend’s deodorant: that, she said, was totally false.
+        sources:
+          - title: Fresh Air — Kathleen Hanna on life as a Rebel Girl
+            url: https://freshairarchive.org/segments/kathleen-hanna-life-rebel-girl-and-joy-expressing-anger-public
+          - title: CREEM — Kathleen Hanna interview, 2022
+            url: https://www.creem.com/fresh-creem/kathleen-hanna-creem-interview
+      - type: art
+        src: zines.webp
+        alt:
+          ru: Разбросанные ксерокопированные журналы, ножницы, клей и булавки на полу
+          en: "Photocopied zines, scissors, glue, and safety pins scattered across the floor"
+        size: left
+      - type: text
+        text:
+          ru: |
+            Чем громче становилось движение, тем охотнее о нём писали газеты — и тем хуже. Журналисты спрашивали девушек из riot grrrl о насилии, которое они пережили, о том, правда ли Ханна когда-то танцевала в стриптизе, стравливали их друг с другом, а потом печатали заметки о злых и мрачных феминистках, которые ненавидят мужчин. К концу 1992 года многие участницы движения перестали давать интервью. Ханна потом объясняла, что берегла собственный рассудок: невозможно раз за разом пересказывать незнакомому человеку самое страшное в своей жизни и видеть потом в журнале карикатуру на себя.
+
+            Вот почему её появление в клипе Sonic Youth значило больше, чем приглашение знакомой потанцевать. Она не сказала в камеру ни слова. Но её впервые за долгое время увидели миллионы людей — и увидели не злой и не мрачной, а смешной, озорной и совершенно свободной.
+          en: |
+            The louder the movement became, the more eagerly the papers covered it—and the worse the coverage grew. Journalists asked riot grrrl musicians about the violence they had endured, about whether Hanna really had worked as a stripper, set them against one another, then published stories about angry, miserable feminists who hated men. By late 1992, many of the women in the movement had stopped giving interviews. Hanna later explained that she was protecting her sanity: you could not keep telling a stranger the worst things that had happened to you, only to open a magazine and find a caricature of yourself.
+
+            That is why her appearance in the Sonic Youth video meant more than asking a friend over to dance. She did not say a word to the camera. But for the first time in a long while, millions of people saw her—and saw someone funny, mischievous, and utterly free, rather than angry and miserable.
+        sources:
+          - title: David Buckingham — Riot Grrrls (historical essay)
+            url: https://davidbuckingham.net/wp-content/uploads/2019/06/riot-grrrls.pdf
+          - title: "Stereogum — We’ve Got A File On You: Kathleen Hanna"
+            url: https://stereogum.com/2283523/weve-got-a-file-on-you-kathleen-hanna/interviews/weve-got-a-file-on-you
+          - title: Martha Williams — Five things we learned at Kim Gordon’s interview at the Music Box
+            url: https://www.timeout.com/chicago/blog/five-things-we-learned-at-kim-gordons-interview-at-the-music-box
+
+  - id: clip
+    name:
+      ru: Пятьсот долларов и тарелка печенья
+      en: "Five Hundred Dollars and a Plate of Cookies"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Клип снимала Тамра Дэвис — подруга группы, которая к тому времени сделала клипы для Beastie Boys, а позже станет снимать кино. Придумывали его вместе с Ким Гордон. По рассказу Криса Лоуренса, сначала Гордон хотела позвать танцевать девушек из группы поддержки баскетбольного клуба «Нью-Йорк Никс» и только потом решила, что нужна Ханна. Ким тогда была беременна — она ждала дочь Коко.
+
+            Ханна прилетела в Лос-Анджелес. Много лет спустя она очень просто объяснила, почему согласилась: ей заплатили пятьсот долларов, а она была на мели. И ей ничего не объясняли — просто сказали: танцуй. Она страшно нервничала, ей впервые в жизни делали причёску и грим профессионалы, и от волнения она съела целую тарелку шоколадного печенья, которое стояло для съёмочной группы. Так что бешеный танец, который потом пересматривали миллионы, — это, по её собственным словам, просто сахар.
+          en: |
+            The video was directed by Tamra Davis, a friend of the band who had already made videos for the Beastie Boys and would later make films. She and Kim Gordon devised it together. According to Chris Lawrence, Gordon first wanted to invite the New York Knicks’ cheerleaders to dance, then decided it had to be Hanna. Kim was pregnant at the time, expecting her daughter Coco.
+
+            Hanna flew to Los Angeles. Many years later, she explained quite simply why she had agreed: they paid her five hundred dollars, and she was broke. They explained nothing—just told her to dance. She was terribly nervous; it was the first time she had ever had professional hair and makeup, and in her anxiety she ate an entire plate of chocolate-chip cookies set out for the crew. So the wild dance that millions would watch again and again was, by her own account, just sugar.
+        sources:
+          - title: Josh Sabini — Kathleen Hanna, Monster Children
+            url: https://www.monsterchildren.com/articles/kathleen-hanna
+          - title: Billboard 106(22), Production Notes p. 34
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
+          - title: Chris Lawrence — Bull in the Heather, song essay
+            url: https://www.soniclife.ca/sy/tab/bullintheroad.html
+          - title: NME, 2014-02-01 — Kathi Wilcox oral history
+            url: https://www.worldradiohistory.com/UK/New-Musical-Express/2014/NME-2014-02-01.pdf
+      - type: quote
+        text:
+          ru: Никто не слишком крут, чтобы сниматься в клипе Sonic Youth.
+          en: "No one’s too cool to be in a Sonic Youth video."
+        attribution: "Кэтлин Ханна, комментарий к DVD Corporate Ghost, 2004"
+        source:
+          title: Billboard, 2004-07-03 — Corporate Ghost review
+          url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/00s/2004/BB-2004-07-03.pdf
+      - type: art
+        src: hanna-dance.webp
+        alt:
+          ru: Девушка с косичками в кедах танцует, передразнивая гитариста; басистка смотрит и улыбается
+          en: "A girl in sneakers with pigtails dances, mimicking a guitarist; the bassist watches and smiles"
+        size: bleed
+      - type: text
+        text:
+          ru: |
+            Если посмотреть клип внимательно, по секундам, видно, что он собран из нескольких разных миров, которые сменяют друг друга без всякого сюжета.
+
+            Первый мир — розовая комната с ковром на полу, где играет группа. На восьмой секунде Терстон в бледно-голубой рубашке играет, а мимо него проходит Ханна. На сороковой Ким снята сверху: белый бас Fender Musicmaster, бледно-голубая кофта с синей вставкой, розовая юбка. На сорок пятой Ким и Ханна стоят рядом; на Ханне тёмная майка без рукавов поверх белой футболки. На минуте пятидесяти Ханна в тёмных колготках и с косичками пляшет прямо перед Терстоном. На двух минутах пяти она задирает тёмную майку и показывает живот — рядом с Ким и Терстоном, которые стараются играть серьёзно. Именно этим она весь клип и занята: сбивает с музыкантов их рок-позы, передразнивает их и не даёт им быть важными. Критик The New Yorker вспоминал, что она целует всех, и первой — Ким.
+
+            Второй мир — спальни. Одна залита зелёным светом, и в ней мелькает Терстон с торчащими во все стороны волосами, как на детских фотографиях. Говорят, эту комнату собрали по снимкам его настоящей детской спальни. Другая спальня — с пышной розовой кроватью, на которой в светлом платье лежит Ким. Лоуренс считает, что это отсылка к фильму «Куколка» 1956 года, где героиня тоже полулежит на кровати, капризная и неподвижная. Неподвижность, напомним, — тема песни.
+
+            Третий мир — скачки. На минуте пятнадцати и минуте двадцати пяти по экрану несутся лошади с номерами на попонах, мелькает ограда дорожки. Какая это скачка, установить не удалось, и выдавать её за ту самую, флоридскую, мы не станем. Но кони в клипе есть, а значит, группа помнила, откуда взялось название.
+
+            Есть ещё один мир: занавес, неоновая вывеска и Ханна в красной кофте. Так что одного костюма у неё в клипе нет — их по крайней мере два.
+          en: |
+            Watch the video closely, second by second, and you can see that it is assembled from several different worlds, which replace one another without any plot.
+
+            The first is the pink room with a carpet on the floor, where the band plays. Eight seconds in, Thurston plays in a pale-blue shirt as Hanna walks past. At forty seconds, Kim is filmed from above: a white Fender Musicmaster bass, a pale-blue top with a blue panel, a pink skirt. At forty-five seconds, Kim and Hanna stand side by side; Hanna wears a dark sleeveless top over a white T-shirt. At one minute fifty, Hanna, in dark tights and pigtails, dances right in front of Thurston. At two minutes five, she lifts her dark top to show her stomach beside Kim and Thurston, who are trying to play with straight faces. This is what she does throughout: knocks the musicians out of their rock poses, mimics them, refuses to let them take themselves too seriously. A New Yorker critic remembered her kissing everyone, starting with Kim.
+
+            The second world is bedrooms. One is washed in green light, with glimpses of Thurston, his hair sticking out in every direction as in childhood photographs. The room was reportedly built from pictures of his actual childhood bedroom. The other has a sumptuous pink bed, on which Kim lies in a light-colored dress. Lawrence reads this as a reference to the 1956 film Baby Doll, whose heroine also reclines on a bed, petulant and motionless. Stillness, remember, is the song’s subject.
+
+            The third world is racing. At one minute fifteen and one minute twenty-five, horses with numbered saddlecloths race across the screen, the track rail flickering past. We could not establish which race it was, and will not pass it off as the one in Florida. But there are horses in the video, which means the band remembered where the title came from.
+
+            There is one more world: a curtain, a neon sign, and Hanna in a red top. So she has more than one outfit in the video—at least two.
+        sources:
+          - title: Sonic Youth — Bull In The Heather, official music video
+            url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+          - title: Sasha Frere-Jones — Hanna and Her Sisters, The New Yorker
+            url: https://www.newyorker.com/magazine/2012/11/26/hanna-and-her-sisters
+          - title: Chris Lawrence — Bull in the Heather, song essay
+            url: https://www.soniclife.ca/sy/tab/bullintheroad.html
+          - title: Chris Lawrence — Fender Musicmaster Bass
+            url: https://www.soniclife.ca/sy/eq/bass14.html
+          - title: LOS40 — Sonic Youth, Bull in the Heather
+            url: https://los40.com/los40/1994/01/01/videoclips/0000384569_384569.html
+      - type: gallery
+        layout: grid
+        items:
+          - type: photo
+            src: video-still-025s.jpg
+            alt:
+              ru: Ким Гордон полулежит на розовой кровати в светлом платье
+              en: "Kim Gordon reclines on a pink bed in a light-colored dress"
+            caption:
+              ru: "0:25. Розовая кровать и светлое платье."
+              en: "0:25. A pink bed and a light-colored dress."
+            credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис"
+            source_url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+            treatment: plain
+          - type: photo
+            src: video-still-040s.jpg
+            alt:
+              ru: Ким Гордон с белой бас-гитарой, снято сверху
+              en: "Kim Gordon with a white bass guitar, filmed from above"
+            caption:
+              ru: "0:40. Белый Fender Musicmaster."
+              en: "0:40. The white Fender Musicmaster."
+            credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис"
+            source_url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+            treatment: plain
+          - type: photo
+            src: video-still-045s.jpg
+            alt:
+              ru: Ким Гордон и Кэтлин Ханна рядом в розовой комнате
+              en: "Kim Gordon and Kathleen Hanna side by side in the pink room"
+            caption:
+              ru: "0:45. Ким и Кэтлин."
+              en: "0:45. Kim and Kathleen."
+            credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис"
+            source_url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+            treatment: plain
+          - type: photo
+            src: video-still-110s.jpg
+            alt:
+              ru: Кадр из клипа
+              en: "A still from the video"
+            caption:
+              ru: "1:50. Танец перед Терстоном."
+              en: "1:50. Dancing in front of Thurston."
+            credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис"
+            source_url: https://www.youtube.com/watch?v=8JGBNkLM9_8
+            treatment: plain
+      - type: art
+        src: clip-room.webp
+        alt:
+          ru: Женщина полулежит на розовой кровати, у её ног подпрыгивает девушка с косичками
+          en: "A woman reclines on a pink bed, a girl with pigtails bouncing at her feet"
+        size: wide
+      - type: clipping
+        style: magazine
+        masthead: CMJ New Music Report
+        date: "9 мая 1994"
+        headline: "Bull in the Heather"
+        deck:
+          ru: Рецензия на клип
+          en: "Video review"
+        body:
+          ru: «…главная звезда здесь — riot grrrl номер один и вокалистка Bikini Kill Кэтлин Ханна, в роли без слов».
+          en: "“…the star of the show is #1 riot grrrl and Bikini Kill vocalist Kathleen Hanna in a non-speaking part.”"
+        cite:
+          publication: CMJ New Music Report
+          date: "1994-05-09"
+          page: "video review"
+          url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
+        paper: paper-1.webp
+      - type: text
+        text:
+          ru: |
+            После съёмок Ханна вернулась в Олимпию. Она пришла в контору лейбла Kill Rock Stars — и там узнала, что Курт Кобейн умер. Его нашли 8 апреля 1994 года; смерть датировали пятым. Клип с ней вышел через несколько недель. Альбом Sonic Youth, записанный ещё осенью, появился в начале мая, и многие слушали его как прощание, хотя группа писала его, когда Кобейн был жив.
+
+            Дальше у Ханны была долгая жизнь. В 1998 году она записала сольный альбом под именем Julie Ruin, через год собрала электронную группу Le Tigre, в которой феминистский панк превратился в танцевальную музыку. Потом надолго исчезла со сцены, и только в 2013 году в документальном фильме «Панк-певица» объяснила почему: у неё болезнь Лайма, и несколько лет она едва могла петь. Она вернулась — сначала с группой The Julie Ruin, а в 2019 году снова с Bikini Kill. В 2024 году вышли её воспоминания «Rebel Girl». Bull in the Heather звучит и в «Панк-певице», и в документальном фильме самой Тамры Дэвис «Лучшее лето», показанном на фестивале «Сандэнс» в 2026 году.
+          en: |
+            After the shoot, Hanna returned to Olympia. She went to the Kill Rock Stars label’s office—and there learned that Kurt Cobain had died. He was found on April 8, 1994; his death was dated to the fifth. The video featuring her came out a few weeks later. Sonic Youth’s album, recorded the previous fall, appeared in early May, and many heard it as a farewell, though the band had written it while Cobain was alive.
+
+            Hanna had a long life ahead of her. In 1998, she recorded a solo album under the name Julie Ruin; a year later, she formed the electronic band Le Tigre, turning feminist punk into dance music. Then she disappeared from the stage for a long time, only explaining why in the 2013 documentary The Punk Singer: she had Lyme disease, and for several years could barely sing. She came back—first with the band The Julie Ruin, then, in 2019, with Bikini Kill again. Her memoir Rebel Girl appeared in 2024. Bull in the Heather can be heard in both The Punk Singer and Tamra Davis’s own documentary The Best Summer, shown at Sundance in 2026.
+        sources:
+          - title: Juno Rylee — Kathleen Hanna and Bikini Kill (memoir-based essay)
+            url: https://junoryleejournalism.com/2024/12/29/girl-music-003-kathleen-hanna-and-bikini-kill-alone-in-the-basement-naked-on-stage/
+          - title: "TIME — Context: the April 5, 1994, death of Kurt Cobain"
+            url: https://time.com/59446/nirvana-covers-hall-of-fame-lorde-st-vincent/
+          - title: SPIN — Kathleen Hanna on The Julie Ruin, Bikini Kill, Le Tigre
+            url: https://www.spinmagazine.com/2016/06/KATHLEEN-HANNA-JULIE-RUIN-BIKINI-KILL-LE-TIGRE-PUNK-SINGER-INTERVIEW/
+          - title: KQED — Kathleen Hanna on Riot Grrrl History, Her Battle with Lyme Disease
+            url: https://www.kqed.org/pop/10272/kathleen-hanna-on-riot-grrrl-history-her-battle-with-lyme-disease-and-the-punk-singer
+          - title: IMDb — The Punk Singer, soundtrack
+            url: https://www.imdb.com/title/tt1785612/soundtrack/
+          - title: Sundance Institute — The Best Summer
+            url: https://www.sundance.org/blogs/2026-sundance-film-festival-best-summer/
+
+  - id: press
+    name:
+      ru: Весна 1994-го в газетах
+      en: "Spring 1994 in the Papers"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Девятнадцатого апреля 1994 года лейбл разослал сингл по студенческим и альтернативным радиостанциям. В Лос-Анджелесе его сразу взяла KROQ — самая влиятельная рок-станция Западного побережья. Седьмого мая песня вошла в британский чарт синглов и поднялась до двадцать четвёртого места. В американском чарте альтернативного рока она к середине июня дошла до тринадцатого и продержалась там восемь недель. С конца июня клип стоял в ротации MTV. Альбом в Британии добрался до десятого места, в Америке — до тридцать четвёртого. Это немного по меркам Nirvana и много по меркам группы, которая начинала с концертов в подвалах.
+          en: |
+            On April 19, 1994, the label sent the single out to college and alternative radio stations. In Los Angeles, KROQ—the West Coast’s most influential rock station—picked it up immediately. On May 7, the song entered the British singles chart, climbing to number twenty-four. By mid-June it had reached number thirteen on the American alternative rock chart, where it spent eight weeks. From late June, the video was in rotation on MTV. The album reached number ten in Britain and number thirty-four in America. Modest by Nirvana’s standards; a great deal for a band that had started out playing basements.
+        sources:
+          - title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard, 2 April 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
+          - title: Official Charts — Bull in the Heather
+            url: https://www.officialcharts.com/songs/sonic-youth-bull-in-the-heather/
+          - title: ChartVault — Bull In The Heather
+            url: https://www.chartvault.fm/song/47970/bull-in-the-heather-sonic-youth
+          - title: The Hard Report — MTV playlist effective June 27, 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/Hard-Report/1994/Hard-Report-1994-06-24.pdf
+          - title: Official Charts — Experimental Jet Set, Trash and No Star
+            url: https://www.officialcharts.com/albums/sonic-youth-experimental-jet-set-trash-and-no-star/
+          - title: Billboard 106(22), album chart, 28 May 1994
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
+      - type: clipping
+        style: broadsheet
+        masthead: Billboard
+        date: "2 апреля 1994"
+        headline: "Sonic Youth Looks Back to the Future"
+        deck:
+          ru: Брэдли Бамбаргер о новом альбоме
+          en: "Bradley Bambarger on the new album"
+        body:
+          ru: Сингл Bull in the Heather уйдёт на альтернативное и студенческое радио 19 апреля, альбом выйдет 10 мая. Группа говорит о простоте и о молодых лоу-фай-группах — Pavement, Sebadoh, Royal Trux.
+          en: "The single Bull in the Heather will go to alternative and college radio on April 19; the album is due on May 10. The band talks about simplicity and the young lo-fi bands—Pavement, Sebadoh, Royal Trux."
+        cite:
+          publication: Billboard 106(14)
+          date: "1994-04-02"
+          page: "pp. 13–14"
+          url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
+        paper: paper-2.webp
+      - type: clipping
+        style: tabloid
+        masthead: CMJ New Music Report
+        date: "13 июня 1994"
+        headline: "Stark, airy"
+        deck:
+          ru: Из обзора
+          en: "From the review"
+        body:
+          ru: «…суровый, воздушный сингл Bull In The Heather».
+          en: "“…the stark, airy single ‘Bull In The Heather’”."
+        cite:
+          publication: CMJ New Music Report
+          date: "1994-06-13"
+          page: "indexed issue"
+          url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-06-13.pdf
+        paper: paper-3.webp
+      - type: clipping
+        style: broadsheet
+        masthead: Los Angeles Times
+        date: "8 мая 1994"
+        headline: "Hanging Out on the Fringe"
+        deck:
+          ru: Воскресный выпуск, раздел «Календарь»
+          en: "Sunday edition, Calendar section"
+        body:
+          ru: Большой материал о Sonic Youth накануне выхода альбома — о группе, которая двенадцать лет остаётся на обочине и при этом оказалась в центре.
+          en: "A major feature on Sonic Youth on the eve of the album’s release—a band that has spent twelve years on the fringe and somehow found itself at the center."
+        cite:
+          publication: Los Angeles Times
+          date: "1994-05-08"
+          page: "Calendar"
+          url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
+        paper: paper-4.webp
+      - type: text
+        text:
+          ru: |
+            Семнадцатого мая Sonic Youth сыграли Bull in the Heather в вечернем шоу Дэвида Леттермана. Ким вышла в баскетбольной майке «Никс» с номером три — майке защитника Джона Старкса. Второй баскетбольный след в истории одной песни: сначала девушки из группы поддержки «Никс», которых чуть не позвали в клип, потом майка на телевидении. Официальной записи того выступления сейчас в сети нет: её заблокировала продюсерская компания Леттермана, и по рукам ходят только любительские копии.
+          en: |
+            On May 17, Sonic Youth played Bull in the Heather on David Letterman’s late-night show. Kim came out in a number-three Knicks basketball jersey—the jersey of guard John Starks. A second basketball connection in the story of one song: first the Knicks cheerleaders who had almost been invited into the video, then the jersey on television. No official recording of that performance is currently available online: Letterman’s production company blocked it, and only fan copies circulate.
+        sources:
+          - title: Sky Sport — Starks e i Sonic Youth
+            url: https://sport.sky.it/nba/2022/10/21/nba-new-york-knick-starks-sonic-youth
+          - title: Album Network, 1994-05-20
+            url: https://www.worldradiohistory.com/Archive-All-Music/Album-Network/Album-Network-1994-05-20.pdf
+          - title: Rivista Studio — Sonic Youth da Letterman
+            url: https://www.rivistastudio.com/video-sonic-youth-letterman/
+      - type: art
+        src: tour-van.webp
+        alt:
+          ru: Четверо музыкантов ночью в старом гастрольном фургоне, басистка спит на плече гитариста
+          en: "Four musicians in an old tour van at night, the bassist asleep on a guitarist’s shoulder"
+        size: wide
+
+  - id: covers
+    name:
+      ru: Кто её перепевал
+      en: "Who Covered It"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            У Bull in the Heather нет громкой кавер-версии, которую знали бы все, как знают каверы на песни Боба Дилана. Зато её перепевали удивительно разные люди, и каждый раз по-своему.
+
+            Первыми были, судя по всему, Madder Rose — нью-йоркская группа, которая, если верить базе концертных программ setlist.fm, сыграла песню в лондонской «Астории» уже 9 апреля 1994 года, когда сингл ещё не дошёл до радио. Записи этого концерта не нашлось.
+
+            Самый трогательный кавер вышел в 1995 году. Жозефина Уиггс из The Breeders и Кейт Шелленбах из Luscious Jackson — когда-то она была барабанщицей самых первых Beastie Boys — назвали себя Ladies Who Lunch, «дамы, которые обедают», и выпустили на лейбле Grand Royal семидюймовую пластинку «Kims We Love» — «Ким, которых мы любим». На одной стороне — Bull in the Heather Ким Гордон, на другой — Gigantic группы Pixies, которую пела Ким Дил. Обе песни они переиграли на электронный, механический лад, и журнал CMJ назвал результат «окрафтверченной версией».
+          en: |
+            Bull in the Heather has no famous cover that everyone knows, the way everyone knows covers of Bob Dylan songs. But a remarkably varied assortment of people have covered it, each in their own way.
+
+            The first, it seems, were Madder Rose—a New York band who, according to the concert database setlist.fm, played the song at London’s Astoria as early as April 9, 1994, before the single had even reached radio. No recording of that show could be found.
+
+            The most touching cover came out in 1995. Josephine Wiggs of the Breeders and Kate Schellenbach of Luscious Jackson—once the drummer in the earliest incarnation of the Beastie Boys—called themselves Ladies Who Lunch and released a seven-inch on Grand Royal titled Kims We Love. On one side was Kim Gordon’s Bull in the Heather; on the other, the Pixies’ Gigantic, sung by Kim Deal. They recast both songs in an electronic, mechanical idiom, and CMJ called the result a “Kraftwerkified version.”
+        sources:
+          - title: setlist.fm — Madder Rose song statistics
+            url: https://www.setlist.fm/stats/songs/madder-rose-1bd7e17c.html?songid=5bd68b14
+          - title: CMJ New Music Monthly, March 1996
+            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/New-Music/CMJ-New-Music-1996-03.pdf
+          - title: JOY, Triple X playlist — Kims We Love
+            url: https://joy.org.au/triplex/2016/02/31-january-2016/
+      - type: art
+        src: covers.webp
+        alt:
+          ru: Молодая группа весело играет; впереди девушка с микрофоном, сзади две ударные установки
+          en: "A young band plays exuberantly; a girl with a microphone out front, two drum kits behind her"
+        size: wide
+      - type: text
+        text:
+          ru: |
+            Самую известную версию записали в 2007 году британцы The Go! Team — шумная, радостная группа Иэна Партона, где девушка по прозвищу Ниндзя читает рэп, а за спиной у неё стучат две ударные установки. Bull in the Heather у них звучит как песня со школьного двора, игривая и бодрая, но узнаваемая с первых тактов. Кавер вышел на виниловом сингле Grip Like a Vice и среди бонусов к альбому Proof of Youth. Почему они выбрали именно эту песню, музыканты, кажется, нигде не рассказывали.
+
+            Дальше — по нарастающей странности. В 2008 году американская группа Cavedoll положила песню на альбом Robot Love. Японская группа ORIGAMI сделала версию, о которой рецензент написал, что с оригиналом её роднит разве что выкрикнутое в конце название. В январе 2018 года на трибьюте Sonic Youth, собранном в Bandcamp, вышли сразу две версии: La Fea склеила свою из обрывков Klaxons, битлов, Уильяма Шетнера и диджея Grandmixer D.ST, а The Bionick Mann соединил Bull in the Heather с Winner's Blues, песней, которой открывается альбом, — в одну шестиминутную сюиту. В 2020 году коннектикутская группа Doom Beach записала её для благотворительного сборника. А в 2024 году группа Sponge, ветераны тех же девяностых, выпустила к тридцатилетию своего первого альбома пластинку «1994» из песен того года, и Bull in the Heather у них, по словам рецензента Goldmine, стала «психоделической и закрученной».
+
+            Pearl Jam целиком её никогда не играли. Но в 1996 и 2000 годах Эдди Веддер на концертах по крайней мере шесть раз вплетал её строчки в конец своей песни Daughter — в Корке, на «Уэмбли», в Стамбуле, Барселоне, Питтсбурге и Сиэтле.
+          en: |
+            The best-known version was recorded in 2007 by Britain’s The Go! Team—Ian Parton’s noisy, joyful band, in which a woman called Ninja raps while two drum kits clatter behind her. Their Bull in the Heather sounds like a playground song, playful and buoyant but recognizable from its first bars. The cover appeared on the vinyl single Grip Like a Vice and among the bonus tracks for Proof of Youth. The musicians seem never to have explained why they chose this particular song.
+
+            After that, things grow steadily stranger. In 2008, the American band Cavedoll put the song on their album Robot Love. The Japanese band ORIGAMI made a version that, one reviewer wrote, had little in common with the original beyond the title shouted near the end. In January 2018, a Sonic Youth tribute assembled on Bandcamp yielded two versions at once: La Fea pieced theirs together from fragments of Klaxons, the Beatles, William Shatner, and the DJ Grandmixer D.ST, while The Bionick Mann joined Bull in the Heather to Winner's Blues, the album’s opening song, in a single six-minute suite. In 2020, the Connecticut band Doom Beach recorded it for a charity compilation. And in 2024, Sponge, fellow veterans of the nineties, marked the thirtieth anniversary of their debut with 1994, an album of songs from that year; their Bull in the Heather became, in the words of a Goldmine reviewer, “swirly psychedelic.”
+
+            Pearl Jam have never played it in full. But in 1996 and 2000, Eddie Vedder wove lines from it into the end of Daughter at least six times in concert—in Cork, at Wembley, in Istanbul, Barcelona, Pittsburgh, and Seattle.
+        sources:
+          - title: KEXP — Sub Pop catalogue SP0756
+            url: https://www.kexp.org/subpop/sp701-sp800/
+          - title: The Go! Team — Bull in the Heather, Bandcamp
+            url: https://thegoteam.bandcamp.com/track/bull-in-the-heather
+          - title: No Pics Reviews — The Go! Team
+            url: https://nopicsreviews.blogspot.com/search/label/The%20Go%20Team
+          - title: "Cavedoll — Robot Love: Scene 1"
+            url: https://cavedoll.bandcamp.com/album/robot-love-scene-1
+          - title: Make Believe Melodies — ORIGAMI cover
+            url: https://makebelievemelodies.com/controlled-karoke-origami-cover-sonic-youths-bull-in-the-heather/
+          - title: "PRF Monthly Tribute Series — December 2017: Sonic Youth"
+            url: https://prfmonthlytributeseries.bandcamp.com/album/december-2017-sonic-youth
+          - title: ctverses benefit compilation vol. 1
+            url: https://ctverses.bandcamp.com/album/ctverses-benefit-compilation-vol-1
+          - title: Goldmine — Sponge ‘1994’ is a time warp of a record
+            url: https://www.goldminemag.com/reviews/album-reviews/sponge-1994-is-a-time-warp-of-a-record
+          - title: Livefootsteps — Pearl Jam, Daughter song history
+            url: https://livefootsteps.org/song/?song_id=68
+      - type: video
+        id: xwccuQSe98w
+        title:
+          ru: The Go! Team — Bull in the Heather, 2007
+          en: "The Go! Team — Bull in the Heather, 2007"
+        poster: covers.webp
+        caption:
+          ru: Официальная запись кавера The Go! Team.
+          en: "The official recording of The Go! Team’s cover."
+        credit: "℗ 2007 Memphis Industries Ltd. Официальный канал The Go! Team на YouTube"
+
+  - id: influence
+    name:
+      ru: Что она оставила после себя
+      en: "What It Left Behind"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Влияние песни трудно измерить, но несколько музыкантов признались в нём прямо.
+
+            Стивен Малкмус из Pavement, друзей и учеников Sonic Youth, рассказывал журналу SPIN, что его песня Stereo 1997 года была попыткой сделать что-то вроде Bull in the Heather, «только чуть прилипчивее». Если послушать их подряд, слышно: тот же ленивый голос, та же гитара, которая то звенит, то скрежещет, тот же упругий бас.
+
+            Джулиан Касабланкас из The Strokes, судя по пересказу NME, признавался, что гитарную партию в песне 12:51 2003 года он у Bull in the Heather попросту стащил. Исходного интервью найти не удалось, так что пусть это останется на совести NME, — но если поставить две песни рядом, признание звучит правдоподобно.
+
+            А в 2021 году Аарон Мейн из группы Porches вставил в свою песню Swimming Big тот самый счёт и повторы из Bull in the Heather. Он объяснял, что это было про гитарные группы, которые он слушал, когда сам начинал, и что эта считалка его успокаивала.
+
+            Sonic Youth сыграли Bull in the Heather на концертах больше трёхсот раз — от 1994 года до самого распада группы в 2011-м. Журнал Rolling Stone поставил клип на шестьдесят восьмое место среди ста лучших клипов в истории, SPIN — песню на тридцать седьмое место среди ста лучших альтернативных песен 1994 года. В 1994-м её показывали даже Бивис и Батт-Хед, хотя что они о ней сказали, история умалчивает.
+          en: |
+            A song’s influence is hard to measure, but several musicians have acknowledged this one directly.
+
+            Stephen Malkmus of Pavement, Sonic Youth’s friends and disciples, told SPIN that his 1997 song Stereo had been an attempt to do something like Bull in the Heather, “but maybe be a little catchier.” Listen to them back to back and you can hear it: the same lazy voice, the same guitar by turns ringing and scraping, the same springy bass.
+
+            Julian Casablancas of the Strokes, according to NME’s account, admitted that he had simply stolen the guitar part for the 2003 song 12:51 from Bull in the Heather. We could not find the original interview, so the claim must remain NME’s responsibility—but put the two songs side by side and the confession sounds plausible.
+
+            In 2021, Aaron Maine of Porches worked the counting and repetition from Bull in the Heather into his song Swimming Big. He explained that it was about the guitar bands he had listened to when he was starting out, and that he found the counting rhyme soothing.
+
+            Sonic Youth played Bull in the Heather more than three hundred times in concert, from 1994 until the band broke up in 2011. Rolling Stone ranked the video sixty-eighth among the hundred greatest music videos of all time; SPIN placed the song thirty-seventh among the hundred best alternative songs of 1994. Even Beavis and Butt-Head showed it in 1994, though history is silent on what they said about it.
+        sources:
+          - title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune, SPIN
+            url: https://www.spinmagazine.com/2009/01/stephen-malkmus-pavements-funky-tune/
+          - title: NME — The Roots of the Strokes
+            url: https://www.nme.com/blogs/nme-blogs/the-roots-of-the-strokes-774852
+          - title: The Pitch — Porches’ Aaron Maine on All Day Gentle Hold !
+            url: https://www.thepitchkc.com/porches-aaron-maine-on-creating-all-day-gentle-hold/
+          - title: Pitchfork — Porches, All Day Gentle Hold !
+            url: https://pitchfork.com/reviews/albums/porches-all-day-gentle-hold/
+          - title: setlist.fm — Bull in the Heather performed by Sonic Youth
+            url: https://www.setlist.fm/stats/songs/sonic-youth-2bd6b812.html?songid=5bd68b14
+          - title: "Rolling Stone — 100 Greatest Music Videos, #68"
+            url: https://au.rollingstone.com/music/music-lists/best-music-videos-28407/sonic-youth-bull-in-the-heather-28441/
+          - title: SPIN — 100 Best Alternative Rock Songs of 1994
+            url: https://www.spinmagazine.com/2014/08/100-BEST-ALTERNATIVE-ROCK-SONGS-1994-ALT/
+          - title: TheTVDB — Beavis and Butt-Head, Mr. Anderson’s Balls
+            url: https://thetvdb.com/series/beavis-and-butt-head/episodes/179018
+      - type: art
+        src: backstage-1995.webp
+        alt:
+          ru: Четверо музыкантов за сценой позируют с гитарами перед камерой
+          en: "Four musicians backstage pose for the camera with their guitars"
+        size: wide
+      - type: photo
+        src: kim-gordon-lollapalooza-1995-rabin.jpg
+        alt:
+          ru: Ким Гордон на сцене
+          en: "Kim Gordon onstage"
+        caption:
+          ru: Ким Гордон на Lollapalooza, 1995 год. Тем летом Sonic Youth возглавляли фестиваль.
+          en: "Kim Gordon at Lollapalooza, 1995. Sonic Youth headlined the festival that summer."
+        credit: "Фото: Dustin Rabin / Morrison Hotel Gallery"
+        source_url: https://morrisonhotelgallery.com/products/kim-gordon-sonic-youth-lollapalooza-1995
+        size: column
+        treatment: print
+      - type: video
+        id: O93OobL8QpI
+        title:
+          ru: Sonic Youth — Bull in the Heather, Баттери-парк, Нью-Йорк, 4 июля 2008
+          en: "Sonic Youth — Bull in the Heather, Battery Park, New York, July 4, 2008"
+        poster: band-stage.webp
+        caption:
+          ru: Четырнадцать лет спустя. Официальная запись концерта.
+          en: "Fourteen years later. The official concert recording."
+        credit: "℗ 2009 Sonic Youth, по эксклюзивной лицензии Matador Records"
+
+  - id: derby
+    kicker:
+      ru: Часть вторая. Конь
+      en: "Part Two. The Horse"
+    name:
+      ru: Двадцать девять к одному
+      en: "Twenty-Nine to One"
+    blocks:
+      - type: art
+        src: rain-track.webp
+        alt:
+          ru: Ипподром во Флориде под дождём, пустая раскисшая дорожка, пальмы вдали
+          en: "A Florida racetrack in the rain, the empty track sodden, palm trees in the distance"
+        size: bleed
+      - type: text
+        text:
+          ru: |
+            А теперь вернёмся на год назад, в Южную Флориду. Двадцатое марта 1993 года, ипподром Галфстрим-парк, скачка Florida Derby — одна из главных весенних проверок для трёхлеток, которые метят в Кентуккийское дерби. Весь день льёт дождь, дорожка раскисла и превратилась в жидкую грязь. Стартуют тринадцать лошадей. Среди них серый жеребец Bull Inthe Heather. Ставки на него — двадцать девять к одному. Это значит, что в него почти никто не верит.
+
+            Девять фурлонгов, чуть меньше двух километров. Он держится где-то восьмым, в середине табуна, где летит грязь из-под копыт идущих впереди. На дальнем повороте жокей находит просвет и проводит его между лошадьми. Фаворит Great Navigator выдыхается. На прямой серый обходит Storm Tower и уходит вперёд.
+          en: |
+            Now let us go back a year, to South Florida. March 20, 1993, Gulfstream Park, the Florida Derby—one of the major spring tests for three-year-olds with their sights on the Kentucky Derby. Rain has been falling all day, turning the track to liquid mud. Thirteen horses go to the start. Among them is a gray stallion, Bull Inthe Heather. His odds are twenty-nine to one. Almost nobody believes in him.
+
+            Nine furlongs, just under two kilometers. He runs somewhere around eighth, in the middle of the field, where mud flies from the hooves ahead. On the far turn, his jockey finds a gap and guides him between horses. The favorite, Great Navigator, fades. In the stretch, the gray passes Storm Tower and pulls away.
+        sources:
+          - title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
+            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
+          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
+          - title: "Churchill Downs — Stakes Histories: Florida Derby"
+            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
+          - title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
+      - type: art
+        src: pack.webp
+        alt:
+          ru: Табун скаковых лошадей на повороте в брызгах грязи
+          en: "A field of racehorses rounds a turn in a spray of mud"
+        size: bleed
+      - type: art
+        src: finish.webp
+        alt:
+          ru: Серый конь пересекает финиш один, остальные — бледные тени позади
+          en: "A gray horse crosses the finish alone, the others pale shadows behind him"
+        size: bleed
+      - type: text
+        text:
+          ru: |
+            Он приходит первым, на два корпуса впереди. Время — минута пятьдесят одна и одна пятая секунды. Тот, кто поставил на него два доллара, получает шестьдесят долларов восемьдесят центов.
+          en: |
+            He finishes first, two lengths clear. The time is one minute fifty-one and one-fifth seconds. Anyone who put two dollars on him collects sixty dollars and eighty cents.
+        sources:
+          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
+          - title: "Churchill Downs — Stakes Histories: Florida Derby"
+            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
+      - type: clipping
+        style: broadsheet
+        masthead: Los Angeles Times
+        date: "21 марта 1993"
+        headline: "Bull Inthe Heather Scores Upset"
+        deck:
+          ru: Билл Кристин, спортивный раздел
+          en: "Bill Christine, Sports section"
+        body:
+          ru: Серый сын Фердинанда, на которого почти не ставили, выиграл Florida Derby на раскисшей дорожке Галфстрим-парка.
+          en: "The gray son of Ferdinand, a long shot, won the Florida Derby on Gulfstream Park’s sodden track."
+        cite:
+          publication: Los Angeles Times
+          date: "1993-03-21"
+          page: "Sports"
+          url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
+        paper: paper-1.webp
+      - type: clipping
+        style: tabloid
+        masthead: UPI
+        date: "20 марта 1993"
+        headline: "Bull Inthe Heather wins Florida Derby"
+        deck:
+          ru: Лес Кьос, Халландейл, Флорида
+          en: "Les Kjos, Hallandale, Florida"
+        body:
+          ru: Сообщение агентства в день скачки.
+          en: "A wire report from the day of the race."
+        cite:
+          publication: United Press International
+          date: "1993-03-20"
+          page: "wire"
+          url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
+        paper: paper-3.webp
+
+  - id: name
+    name:
+      ru: Чей он сын и почему Inthe
+      en: "His Father’s Son, and Why “Inthe”"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Отец Bull Inthe Heather был знаменит. Это Фердинанд, гнедой конь, который в 1986 году выиграл Кентуккийское дерби под пятидесятичетырёхлетним Биллом Шумейкером — старейшим жокеем, когда-либо выигрывавшим дерби, — а через год был признан лучшей лошадью Америки. Мать — кобыла Heather Road, «Вересковая дорога». Жеребёнка вырастили в Кентукки, на ферме Клейборн.
+
+            Откуда имя у отца, рассказывают по-разному. Историк чистокровного коннозаводства Авалин Хантер связывает его с быком Фердинандом из детской книжки Манро Лифа 1936 года — с быком, который не хотел драться на корриде, а любил сидеть под пробковым дубом и нюхать цветы. А сам владелец, нефтяной магнат Говард Кек, вспоминал, что имя пришло от фигурки буйвола, которая была у его жены Элизабет. Так или иначе, у сына в кличке тоже бык — только не под дубом, а в вереске, на материнской дороге. Кто именно выбрал имя Bull Inthe Heather, найти не удалось.
+          en: |
+            Bull Inthe Heather’s father was famous. He was Ferdinand, the bay who won the Kentucky Derby in 1986 under fifty-four-year-old Bill Shoemaker—the oldest jockey ever to win the Derby—and was named America’s Horse of the Year the following year. His mother was the mare Heather Road. The foal was raised in Kentucky, at Claiborne Farm.
+
+            There are different accounts of where his father’s name came from. The Thoroughbred historian Avalyn Hunter links it to Ferdinand the bull in Munro Leaf’s 1936 children’s book—the bull who did not want to fight in the bullring, preferring to sit beneath a cork tree and smell the flowers. His owner, the oil magnate Howard Keck, recalled that the name came from a buffalo figurine belonging to his wife, Elizabeth. Either way, there is a bull in the son’s name, too—only he is in the heather rather than beneath an oak, on his mother’s road. We could not discover who chose the name Bull Inthe Heather.
+        sources:
           - title: Kentucky Derby — Past Winners
             url: https://www.kentuckyderby.com/past-winners/
           - title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
             url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
-          - title: The Jockey Club — Fact Book Racing Chronicle (2022)
-            url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
           - title: Los Angeles Times — Ferdinand Is Horse of the Year
             url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
-      - type: text
-        text:
-          ru: "Обратите внимание, как пишется его кличка: Inthe — слитно. Правила разрешают коню имя не длиннее восемнадцати знаков вместе с пробелами. «Bull In The Heather» с пробелами — девятнадцать. «Bull Inthe Heather» — ровно восемнадцать."
-          en:
-            text: "Notice how his name is written: Inthe is one word. The rules allow a horse’s name to have no more than eighteen characters, including spaces. “Bull In The Heather” with spaces has nineteen. “Bull Inthe Heather” has exactly eighteen."
-            draft: true
-        sources:
-          - title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
-            url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
-          - title: The Washington Post — No Easy Task to Name Names
-            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
-          - title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
-            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-          - title: The Jockey Club — Foal crop 2000, sire contributions
-            url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
-      - type: text
-        text:
-          ru: Откуда взялось имя отца, рассказывают по-разному. Историк чистокровного коннозаводства Авалин Хантер связывает его с быком Фердинандом из детской книжки Манро Лифа — с быком, который не хотел драться на корриде и любил сидеть под пробковым дубом и нюхать цветы. А сам владелец, Говард Кек, вспоминал, что имя пришло от статуэтки буйвола, которая была у его жены Элизабет. Как бы то ни было, у сына в кличке тоже бык — только в вереске.
-          en:
-            text: "There are different accounts of his father’s name. Thoroughbred historian Avalyn Hunter connects it to Ferdinand the bull in Munro Leaf’s children’s book: the bull who did not want to fight in the bullring and liked sitting under a cork tree smelling flowers. But his owner, Howard Keck, recalled that the name came from a buffalo figurine belonging to his wife, Elizabeth. Either way, there is a bull in the son’s name too, only this one is in the heather."
-            draft: true
-        sources:
+          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
+            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
           - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
             url: https://www.americanclassicpedigrees.com/ferdinand.html
           - title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
             url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
-          - title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
+          - title: Los Angeles Times — Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand
             url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
-          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
-            url: https://cms.equibase.com/node/4118
-          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
-            url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-  - id: chapter-3
-    name:
-      ru: Как дают имена скаковым лошадям
-      en: How racehorses get their names
-    blocks:
+      - type: art
+        src: bull-flowers.webp
+        alt:
+          ru: Большой мирный бык сидит под пробковым дубом и нюхает цветы
+          en: "A large, peaceful bull sits beneath a cork oak, smelling flowers"
+        size: wide
+      - type: art
+        src: spires-1986.webp
+        alt:
+          ru: Трибуны Черчилл-Даунс с двумя шпилями, гнедой конь выигрывает
+          en: "The twin-spired grandstand at Churchill Downs, a bay horse winning the race"
+        size: wide
+        caption:
+          ru: Черчилл-Даунс, май 1986 года. Фердинанд выигрывает Кентуккийское дерби.
+          en: "Churchill Downs, May 1986. Ferdinand wins the Kentucky Derby."
       - type: text
         text:
-          ru: "Назвать скаковую лошадь как вздумается нельзя. В Америке клички утверждает Жокей-клуб, в Британии — компания Weatherbys, а над ними действуют международные правила. Не больше восемнадцати знаков. Нельзя назвать лошадь в честь живого человека без его письменного согласия. Нельзя рекламу, нельзя непристойное. И есть список имён, закрытых навсегда: так защищены клички победителей главных скачек мира и самых знаменитых производителей."
-          en:
-            text: You cannot name a racehorse just anything you like. In America, names are approved by The Jockey Club; in Britain, by Weatherbys, with international rules above them. No more than eighteen characters. You cannot name a horse after a living person without their written permission. No advertising, no obscenity. And there is a list of names closed forever, protecting the names of winners of the world’s major races and the most famous breeding horses.
-            draft: true
+          ru: |
+            Теперь о том, почему «Inthe» пишется слитно. Правила американского Жокей-клуба разрешают скаковой лошади имя не длиннее восемнадцати знаков, причём пробелы и знаки препинания тоже считаются. Посчитайте: «Bull In The Heather» с пробелами — девятнадцать знаков. Не проходит. «Bull Inthe Heather» — ровно восемнадцать. Мы не нашли документа, где было бы написано, что владельцы склеили слова именно поэтому. Но арифметика красноречива.
+          en: |
+            Now for the reason “Inthe” is written as one word. The American Jockey Club’s rules allow a racehorse a name of no more than eighteen characters, counting spaces and punctuation. Count them: “Bull In The Heather,” with spaces, is nineteen characters. Too long. “Bull Inthe Heather” is exactly eighteen. We found no document stating that this was why the owners joined the words. But the arithmetic speaks for itself.
+        sources:
+          - title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
+            url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
+          - title: The Washington Post — No Easy Task to Name Names
+            url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
+      - type: aside
+        title:
+          ru: Посчитайте сами
+          en: "Count for Yourself"
+        text:
+          ru: "B-u-l-l, пробел, I-n-t-h-e, пробел, H-e-a-t-h-e-r — восемнадцать. Если разделить In и The, получится девятнадцать, и Жокей-клуб такое имя не зарегистрирует."
+          en: "B-u-l-l, space, I-n-t-h-e, space, H-e-a-t-h-e-r—eighteen. Separate In and The and you get nineteen, and the Jockey Club will not register the name."
+
+  - id: naming
+    name:
+      ru: Как называют скаковых лошадей
+      en: "How Racehorses Get Their Names"
+    blocks:
+      - type: art
+        src: ledger.webp
+        alt:
+          ru: Старая раскрытая книга имён на столе, перьевая ручка и подкова
+          en: "An old book of names lies open on a table beside a fountain pen and a horseshoe"
+        size: right
+      - type: text
+        text:
+          ru: |
+            Назвать скаковую лошадь как вздумается нельзя. В Америке клички утверждает Жокей-клуб, в Британии — компания Weatherbys, а над ними действуют международные правила. Не больше восемнадцати знаков. Нельзя назвать лошадь в честь живого человека без его письменного согласия. Нельзя ничего рекламного и ничего непристойного. И есть список имён, закрытых навсегда: так защищены клички победителей главных скачек мира и самых знаменитых производителей. Второго Сухаря не будет.
+
+            Чаще всего кличку собирают из имён родителей, как шараду. Отца британского чемпиона Kauto Star звали Village Star, мать — Kauto Relka. Отца того самого Сухаря, Seabiscuit, звали Hard Tack, и то и другое значит «морской сухарь», галета, которую брали в долгие плавания. Bull Inthe Heather собран так же: бык от отца, вереск от матери.
+
+            А бывает, что проверку проскакивает то, что не должно было проскочить. В Южной Африке бегал конь Hoof Hearted — прочтите вслух, и станет понятно, что заметили это слишком поздно. Знаменитого жеребца восемнадцатого века звали Potoooooooo. По преданию, конюх, которому велели написать имя Potatoes, «картошка», вывел Pot и восемь букв «о»: по-английски это читается как «пот-эйт-оуз», то есть почти «potatoes».
+          en: |
+            You cannot name a racehorse just anything you please. In America, names are approved by the Jockey Club; in Britain, by Weatherbys, with international rules governing both. No more than eighteen characters. No naming a horse after a living person without their written consent. Nothing commercial, nothing obscene. And there is a list of names permanently closed to newcomers, protecting the names of winners of the world’s great races and its most celebrated sires. There will be no second Seabiscuit.
+
+            Most often, a name is assembled from the parents’ names, like a riddle. The British champion Kauto Star’s father was Village Star; his mother was Kauto Relka. Seabiscuit’s father was Hard Tack: both names mean the ship’s biscuit taken on long sea voyages. Bull Inthe Heather is put together the same way: the bull from his father, the heather from his mother.
+
+            Sometimes, something slips through that should not have. A horse called Hoof Hearted raced in South Africa—read it aloud and you will understand what they noticed too late. A famous eighteenth-century stallion was called Potoooooooo. According to legend, a stablehand told to write down the name Potatoes wrote Pot followed by eight o’s: “pot-eight-o’s,” which sounds almost like “potatoes.”
         sources:
           - title: The Jockey Club — Principal Rules and Requirements of The American Stud Book, Rule 6
             url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
@@ -137,307 +1060,178 @@ chapters:
             url: https://www.ifhaonline.org/default.asp?AREA=2&section=IABRW
           - title: IFHA — International List of Protected Names, Appendix 9
             url: https://www.ifhaonline.org/resources/NP_2024.pdf
-      - type: text
-        text:
-          ru: "Чаще всего кличку собирают из имён родителей. Отца британского чемпиона Kauto Star звали Village Star, мать — Kauto Relka. Отца Сухаря, Seabiscuit, звали Hard Tack — и то и другое значит «морской сухарь». А бывает, что проверку проскакивает то, что не должно было проскочить: в Южной Африке бегал конь по кличке Hoof Hearted — прочтите вслух."
-          en:
-            text: "Names are most often assembled from the parents’ names. The British champion Kauto Star’s sire was Village Star and his dam was Kauto Relka. Seabiscuit’s sire was Hard Tack: both names mean a ship’s biscuit. Sometimes something slips through that should not: a horse in South Africa raced as Hoof Hearted. Read it aloud."
-            draft: true
-        sources:
           - title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
             url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
           - title: ESPN Classic — Heart of a Champion
             url: https://a.espncdn.com/classic/s/add_seabiscuit.html
           - title: Racing Post — The art, rules and rudeness of naming racehorses
             url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
-  - id: chapter-4
-    name:
-      ru: Как записали песню
-      en: Recording the song
-    blocks:
-      - type: text
-        text:
-          ru: Песню записали осенью 1993 года в Нью-Йорке, в студии Sear Sound. Продюсером вместе с группой был Бутч Виг — тот самый, что за два года до этого записал Nevermind с Nirvana. Основу сыграли живьём, все четверо разом, без наложений. Поёт Ким Гордон, она же написала слова; музыку в выходных данных записали на всю четвёрку — Гордон, Мура, Ранальдо и Шелли.
-          en:
-            text: "The song was recorded in autumn 1993 at Sear Sound in New York. The band’s co-producer was Butch Vig, who had recorded Nevermind with Nirvana two years earlier. The basic track was played live, all four together, without overdubs. Kim Gordon sings and wrote the lyrics; the music was credited to all four: Gordon, Moore, Ranaldo and Shelley."
-            draft: true
-        sources:
-          - title: SonicYouth.com discography — Bull in the Heather (archived 2015-02-18)
-            url: https://web.archive.org/web/20150218044901/http://www.sonicyouth.com/mustang/lp/ep35.html
-          - title: Radio & Records — Sonic Youth’s 10th, p. 28
-            url: https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1990s/1994/RR-1994-03-04.pdf
-          - title: Gearspace — Interview with Butch Vig with co-engineer Billy Bush
-            url: https://gearspace.com/threads/interview-with-butch-vig-with-co-engineer-billy-bush.1366015/
-          - title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
-            url: https://www.soniclife.ca/sy/cc/timeline.html
-          - title: Chico News & Review — History in the mix
-            url: https://www.newsreview.com/chico/content/history-in-the-mix/70653/
-          - title: "MusicBrainz — CMJ New Music Monthly, Volume 10: May 1994"
-            url: https://musicbrainz.org/release/d210933c-f7ad-42a5-96d6-9fc50dfeb0ad
-          - title: "Ana Monroy Yglesias / Recording Academy — Nirvana’s Era-Defining Nevermind: For The Record"
-            url: https://www.grammy.com/news/nirvanas-era-defining-nevermind-record/
-  - id: chapter-5
-    name:
-      ru: О чём песня
-      en: What the song is about
-    blocks:
-      - type: text
-        text:
-          ru: В 1994 году это слушалось рядом с движением riot grrrl — девичьими панк-группами, которые требовали места для женщин в музыке, — и Гордон позвала в клип одну из главных его фигур.
-          en:
-            text: In 1994, it was heard alongside riot grrrl, the movement of women’s punk bands demanding space for women in music, and Gordon invited one of its leading figures into the video.
-            draft: true
-        sources:
-          - title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
-            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
-  - id: chapter-6
-    name:
-      ru: Клип
-      en: The video
-    blocks:
-      - type: text
-        text:
-          ru: "Клип сняла Тамра Дэвис. В нём с группой танцует Кэтлин Ханна, певица Bikini Kill, — в кедах и с косичками, и всё время сбивает музыкантов с их рок-поз. Гордон хотела показать её весёлой: тогда о Ханне и о riot grrrl писали как о чём-то злом и мрачном."
-          en:
-            text: "Tamra Davis directed the video. Kathleen Hanna, the Bikini Kill singer, dances with the band in sneakers and pigtails, constantly knocking the musicians out of their rock poses. Gordon wanted to show her having fun: at the time, Hanna and riot grrrl were written about as angry and gloomy."
-            draft: true
-        sources:
-          - title: Billboard 106(22), Production Notes p. 34; charts
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
-          - title: CMJ New Music Report, May 9 1994 — video review and album advertisement
-            url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
-          - title: Alex Frank — On the Eve of Her New Memoir, the Best Videos of Kim Gordon on YouTube
-            url: https://www.vogue.com/article/kim-gordon-girl-in-a-band-youtube-videos
-          - title: Rolling Stone Australia — Sonic Youth, Bull in the Heather (best music videos)
-            url: https://au.rollingstone.com/music/music-lists/best-music-videos-28407/sonic-youth-bull-in-the-heather-28441/
-          - title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
-            url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
-      - type: art
-        src: clip-1-full.webp
-        alt:
-          ru: Sonic Youth играют
-          en: Sonic Youth playing
-        size: wide
-      - type: video
-        id: 8JGBNkLM9_8
-        title:
-          ru: Bull in the Heather — официальный клип
-          en: Bull in the Heather — official video
-        poster: clip-1-full.webp
-        caption:
-          ru: Sonic Youth, 1994. Режиссёр Тамра Дэвис.
-          en: Sonic Youth, 1994. Directed by Tamra Davis.
-        credit: Sonic Youth
-  - id: chapter-7
-    name:
-      ru: Чарты и газеты
-      en: Charts and newspapers
-    blocks:
-      - type: text
-        text:
-          ru: Весной 1994 года песню крутило лос-анджелесское радио KROQ, клип взял в ротацию MTV. В британском чарте синглов она поднялась до двадцать четвёртого места, в американском чарте альтернативного рока — до тринадцатого. Альбом Experimental Jet Set, Trash and No Star вышел в начале мая и в Британии дошёл до десятого места.
-          en:
-            text: In spring 1994, Los Angeles radio station KROQ was playing the song, and MTV put the video in rotation. It reached number twenty-four on the UK singles chart and number thirteen on the US alternative rock chart. The album Experimental Jet Set, Trash and No Star came out in early May and reached number ten in Britain.
-            draft: true
-        sources:
-          - title: Los Angeles Times — Hanging Out on the Fringe
-            url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
-          - title: The Hard Report — MTV playlist effective June 27, 1994
-            url: https://www.worldradiohistory.com/Archive-All-Music/Hard-Report/1994/Hard-Report-1994-06-24.pdf
-          - title: Official Charts — Bull in the Heather
-            url: https://www.officialcharts.com/songs/sonic-youth-bull-in-the-heather/
-          - title: Billboard — Modern Rock Tracks, week ending July 2 1994
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-07-02.pdf
-          - title: ChartVault — Bull In The Heather, Sonic Youth
-            url: https://www.chartvault.fm/song/47970/bull-in-the-heather-sonic-youth
-          - title: Official Charts — Experimental Jet Set, Trash and No Star
-            url: https://www.officialcharts.com/albums/sonic-youth-experimental-jet-set-trash-and-no-star/
-          - title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
-            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
-          - title: AllMusic — Experimental Jet Set, Trash and No Star
-            url: https://www.allmusic.com/album/experimental-jet-set-trash-no-star-mw0000107964
-          - title: "Wyoming Reynolds — Experimental Jet Set, Trash and No Star: A Sonic Youth Masterpiece"
-            url: https://www.udiscovermusic.com/stories/sonic-youth-experimental-jet-set-trash-and-no-star/
-  - id: chapter-8
-    name:
-      ru: Что было с песней дальше
-      en: The song’s later life
-    blocks:
-      - type: text
-        text:
-          ru: Стивен Малкмус из Pavement говорил, что в своей песне Stereo пытался сделать что-то вроде Bull in the Heather, только поприлипчивее. Её перепели The Go! Team. Sonic Youth сыграли её на концертах больше трёхсот раз — например, 4 июля 2008 года в Баттери-парке в Нью-Йорке, — а журнал SPIN включил её в число тринадцати песен, лучше всего показывающих Ким Гордон.
-          en:
-            text: Stephen Malkmus of Pavement said that with his song Stereo he was trying to do something like Bull in the Heather, only catchier. The Go! Team covered it. Sonic Youth played it live more than three hundred times, including on July 4, 2008, in Battery Park, New York, and SPIN included it among thirteen songs that best represent Kim Gordon.
-            draft: true
-        sources:
-          - title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune
-            url: https://www.spinmagazine.com/2009/01/stephen-malkmus-pavements-funky-tune/
-          - title: KEXP — Sub Pop catalogue SP701–SP800, SP0756
-            url: https://www.kexp.org/subpop/sp701-sp800/
-          - title: The Go! Team — Bull In The Heather, official audio
-            url: https://www.youtube.com/watch?v=xwccuQSe98w
-          - title: setlist.fm — Bull in the Heather performed by Sonic Youth
-            url: https://www.setlist.fm/stats/songs/sonic-youth-2bd6b812.html?songid=5bd68b14
-          - title: "Sonic Youth — Bull In The Heather (Battery Park, NYC: July 4th 2008), official audio"
-            url: https://www.youtube.com/watch?v=O93OobL8QpI
-          - title: SPIN — 13 Best Sonic Youth Songs That Showcase Kim Gordon
-            url: https://www.spinmagazine.com/2019/10/kim-gordon-sonic-youth-best-songs/
-  - id: chapter-9
-    name:
-      ru: Финиш
-      en: The finish
-    blocks:
-      - type: text
-        text:
-          ru: Bull Inthe Heather выходит вперёд на прямой и приходит первым, на два корпуса впереди Storm Tower. Время — минута пятьдесят одна и одна пятая секунды. Тот, кто поставил на него два доллара, получает шестьдесят долларов восемьдесят центов.
-          en:
-            text: Bull Inthe Heather takes the lead in the stretch and finishes first, two lengths ahead of Storm Tower. His time is one minute, fifty-one and one-fifth seconds. A two-dollar bet on him returns sixty dollars and eighty cents.
-            draft: true
-        sources:
-          - title: "Churchill Downs — Stakes Histories: Florida Derby"
-            url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
-          - title: Gulfstream Park — 2025/2026 Media Guide, Section 2
-            url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
-            url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
-          - title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
-            url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
+
   - id: kentucky
     name:
-      ru: Полтора месяца спустя
-      en: Six weeks later
+      ru: После победы
+      en: "After the Victory"
     blocks:
       - type: text
         text:
-          ru: Первого мая 1993 года он бежал Кентуккийское дерби, главную скачку Америки, ту самую, что когда-то выиграл его отец. Пришёл одиннадцатым. Потом были другие скачки — вторые места, Belmont Stakes, — но таких побед, как во Флориде, больше не было. Ещё в октябре 1994 года он пришёл в Белмонте девятым, последним.
-          en:
-            text: On May 1, 1993, he ran in the Kentucky Derby, America’s greatest race, the one his father had once won. He finished eleventh. Other races followed — second places, the Belmont Stakes — but there were no more wins like Florida. In October 1994, he finished ninth and last at Belmont.
-            draft: true
+          ru: |
+            Первого мая 1993 года Bull Inthe Heather бежал Кентуккийское дерби — ту самую скачку, которую семью годами раньше выиграл его отец. Пришёл одиннадцатым. Потом были другие старты, вторые места, Белмонт-стейкс, но такой победы, как в флоридский ливень, больше не случилось. В октябре 1994 года, когда песню с его именем уже знали по всему миру, он пришёл в Белмонт-парке девятым — последним.
+
+            Скаковой век короток. Его отправили в производители, и следующие двенадцать лет о нём почти никто не вспоминал.
+          en: |
+            On May 1, 1993, Bull Inthe Heather ran in the Kentucky Derby—the very race his father had won seven years earlier. He finished eleventh. Other starts followed, second places, the Belmont Stakes, but there was never another victory like the one in the Florida downpour. In October 1994, when the song bearing his name was already known around the world, he finished ninth at Belmont Park—last.
+
+            A racing career is short. He was sent to stud, and for the next twelve years almost nobody thought of him.
         sources:
-          - title: Churchill Downs — Kentucky Derby charts 1964–2007, Sea Hero / May 1, 1993
+          - title: Churchill Downs — Kentucky Derby charts 1964–2007
             url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Kentucky-Derby-1964-2007.pdf
+          - title: Thoroughbred Daily News, 5 October 1994, p. 3
+            url: https://www.thoroughbreddailynews.com/pdf/tdn/1994/tdn941005.pdf
           - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
-            url: https://cms.equibase.com/node/4118
-          - title: Thoroughbred Daily News, p. 3
-            url: https://www.thoroughbreddailynews.com/pdf/tdn/1994/tdn941005.pdf
-      - type: art
-        src: kentucky-full.webp
-        alt:
-          ru: Кентукки
-          en: Kentucky
-        size: wide
+
   - id: father
     name:
       ru: Отец
-      en: The father
+      en: "The Father"
     blocks:
+      - type: art
+        src: ship.webp
+        alt:
+          ru: Коня ведут по сходням в туманном порту, фигуры совсем маленькие
+          en: "A horse is led up a gangway in a fogbound port, the figures tiny"
+        size: bleed
       - type: text
         text:
-          ru: А Фердинанда в 1994 году продали в Японию. Шесть лет он стоял там на конном заводе. Потом его следы теряются. В 2003 году журнал Blood-Horse сообщил, что победитель Кентуккийского дерби погиб в Японии в 2002 году — скорее всего, на бойне. Где и когда точно, так и не установили.
-          en:
-            text: Ferdinand was sold to Japan in 1994. He spent six years at a stud farm there. Then his trail goes cold. In 2003, Blood-Horse reported that the Kentucky Derby winner had died in Japan in 2002, most likely in a slaughterhouse. Exactly where and when was never established.
-            draft: true
+          ru: |
+            А Фердинанда в 1994 году продали в Японию. Шесть лет он стоял там на конном заводе, но жеребята от него не удались, и его перепродали. Потом следы теряются. В 2003 году американский журнал Blood-Horse сообщил, что победитель Кентуккийского дерби и лучшая лошадь Америки 1987 года погиб в Японии в 2002 году — скорее всего, на бойне. Где и когда точно, так и не установили.
+
+            Американские конники были потрясены. На нью-йоркских ипподромах ввели добровольный «сбор Фердинанда» — два доллара с владельцев в пользу приютов для старых скаковых лошадей. В договоры о продаже жеребцов за границу стали вписывать право выкупить коня домой, когда он больше не будет нужен.
+          en: |
+            Ferdinand, meanwhile, was sold to Japan in 1994. He stood at stud there for six years, but his offspring proved disappointing, and he was sold on. Then the trail goes cold. In 2003, the American magazine Blood-Horse reported that the Kentucky Derby winner and America’s 1987 Horse of the Year had died in Japan in 2002—most likely in a slaughterhouse. Exactly where and when was never established.
+
+            The American racing world was appalled. New York racetracks introduced a voluntary “Ferdinand Fee”—two dollars from owners to support retirement homes for former racehorses. Contracts for stallions sold abroad began to include the right to buy the horse back and bring him home when he was no longer wanted.
         sources:
           - title: "America's Best Racing — Ferdinand: Whittingham’s Memorable Derby Winner"
             url: https://www.americasbestracing.net/the-sport/2021-ferdinand-whittinghams-memorable-derby-winner
-          - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
-          - title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
+          - title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand"
             url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
           - title: Thoroughbred Daily News — Ferdinand Likely Slaughtered in Japan
             url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
-      - type: text
-        text:
-          ru: Американские конники были потрясены. На нью-йоркских ипподромах ввели добровольный «сбор Фердинанда» — два доллара в пользу приютов для старых скаковых лошадей. В договоры о продаже жеребцов за границу стали вписывать право выкупить коня домой, когда он больше не нужен.
-          en:
-            text: "American horse people were shocked. New York racetracks introduced a voluntary “Ferdinand fee”: two dollars to support homes for retired racehorses. Contracts for stallions sold abroad began to include the right to buy a horse back home when he was no longer needed."
-            draft: true
-        sources:
-          - title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
-            url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
           - title: Manes and Tails Organization — Spring 2007
             url: https://www.manesandtailsorganization.org/spring_2007.html
           - title: Winnipeg Free Press — Saddling up FOR SLAUGHTER
             url: https://www.winnipegfreepress.com/historic/2006/09/17/saddling-up-for-slaughter
-          - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
-            url: https://www.americanclassicpedigrees.com/ferdinand.html
+      - type: clipping
+        style: magazine
+        masthead: Thoroughbred Daily News
+        date: "23 июля 2003"
+        headline: "Ferdinand Likely Slaughtered in Japan"
+        deck:
+          ru: По материалу Рэя Паулика в Blood-Horse
+          en: "Based on Ray Paulick’s report in Blood-Horse"
+        body:
+          ru: Победитель Кентуккийского дерби 1986 года, по всей видимости, погиб на бойне в Японии.
+          en: "The 1986 Kentucky Derby winner appears to have died in a slaughterhouse in Japan."
+        cite:
+          publication: Thoroughbred Daily News
+          date: "2003-07-23"
+          page: "1"
+          url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
+        paper: paper-2.webp
       - type: art
-        src: stall-full.webp
+        src: stall-empty.webp
         alt:
-          ru: Пустое стойло
-          en: An empty stall
+          ru: Пустой денник в сумерках, на крюке висит недоуздок
+          en: "An empty stall at dusk, a halter hanging from a hook"
         size: wide
+
   - id: old-friends
     name:
-      ru: Сын
-      en: The son
+      ru: Старые друзья
+      en: "Old Friends"
     blocks:
       - type: text
         text:
-          ru: В 2003 году Майкл Блоуэн, бывший кинокритик газеты The Boston Globe, основал в Кентукки, под Джорджтауном, ферму Old Friends, где старые скакуны доживают свой век. Идея появилась у него раньше, но после истории с Фердинандом люди начали помогать всерьёз.
-          en:
-            text: In 2003, Michael Blowen, a former film critic for The Boston Globe, founded Old Friends near Georgetown, Kentucky, a farm where retired racehorses spend the rest of their lives. He had thought of it earlier, but after Ferdinand’s story people began to help in earnest.
-            draft: true
+          ru: |
+            В 2003 году Майкл Блоуэн, бывший кинокритик газеты The Boston Globe, открыл в Кентукки, под Джорджтауном, ферму Old Friends — «Старые друзья», где отслужившие своё скакуны могут спокойно дожить до старости. Идея появилась у него раньше, но после истории с Фердинандом люди начали помогать всерьёз.
+
+            В 2006 году туда привезли сына Фердинанда, Bull Inthe Heather. На ферме его звали просто Булли. Он любил угощения, любил, когда ему чешут спину, и затевал с соседями скачки вдоль изгороди паддока — уже не за деньги и не за славу.
+          en: |
+            In 2003, Michael Blowen, a former film critic for The Boston Globe, opened Old Friends, a farm near Georgetown, Kentucky, where retired racehorses could live out their days in peace. He had had the idea earlier, but after Ferdinand’s story, people began to offer serious help.
+
+            In 2006, Ferdinand’s son, Bull Inthe Heather, arrived. At the farm they simply called him Bully. He loved treats, loved having his back scratched, and challenged his neighbors to races along the paddock fence—no longer for money or glory.
         sources:
           - title: Old Friends — Who We Are
             url: https://oldfriendsequine.org/who-we-are/
-          - title: Bruce Schreiner / AP — For ex-Derby winner Silver Charm, it's a life of leisure and Old Friends at Kentucky retirement farm
-            url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
           - title: Michael Blowen — Introduction to The Ride of Their Lives
             url: https://therideoftheirlives.com/introduction
-      - type: text
-        text:
-          ru: В 2006 году туда привезли Bull Inthe Heather. На ферме его звали Булли. Он любил угощения, любил, когда ему чешут спину, и устраивал скачки с соседями через изгородь паддока.
-          en:
-            text: Bull Inthe Heather arrived in 2006. On the farm he was called Bully. He liked treats and having his back scratched, and raced his neighbours across the paddock fence.
-            draft: true
-        sources:
           - title: Old Friends — BULL INTHE HEATHER (1990–2014)
             url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - title: Beth — April 7, 2014, Old Friends Blog (April archive)
-            url: https://oldfriendsblog.wordpress.com/2014/04/
+          - title: Bruce Schreiner / AP — Silver Charm and Old Friends
+            url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
+      - type: art
+        src: old-friends.webp
+        alt:
+          ru: Старый серый конь пасётся один в зелёном паддоке под большим деревом
+          en: "An old gray horse grazes alone in a green paddock beneath a large tree"
+        size: bleed
+
   - id: april
     name:
-      ru: Апрель 2014
-      en: April 2014
+      ru: Апрель
+      en: "April"
     blocks:
       - type: text
         text:
-          ru: В апреле 2014 года Булли было двадцать четыре года.
-          en:
-            text: In April 2014, Bully was twenty-four years old.
-            draft: true
+          ru: |
+            В апреле 2014 года Булли было двадцать четыре года. Его мучили болезни старости, и его усыпили — тихо, на ферме Old Friends, которая появилась из-за гибели его отца.
+
+            Почти ровно двадцать лет прошло с той весны, когда по MTV крутили клип с его именем и девушкой в кедах. Он, конечно, ничего об этом не знал.
+          en: |
+            In April 2014, Bully was twenty-four. He was suffering from the ailments of old age, and he was put to sleep—quietly, at Old Friends, the farm that had come into being because of his father’s death.
+
+            Almost exactly twenty years had passed since the spring when MTV was showing a video with his name and a girl in sneakers. He knew nothing about it, of course.
         sources:
           - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
           - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-  - id: paddock
-    name:
-      ru: Паддок
-      en: The last paddock
-    blocks:
+      - type: art
+        src: paddock-evening.webp
+        alt:
+          ru: Пустой паддок вечером, на столбе изгороди висит недоуздок
+          en: "An empty paddock in the evening, a halter hanging from a fence post"
+        size: bleed
+      - type: timeline
+        items:
+          - date: "1990"
+            text: {ru: "На ферме Клейборн в Кентукки рождается серый жеребёнок от Фердинанда и Heather Road.", en: "A gray foal by Ferdinand out of Heather Road is born at Claiborne Farm in Kentucky."}
+          - date: "20.03.1993"
+            text: {ru: "Bull Inthe Heather выигрывает Florida Derby при ставке 29 к 1.", en: "Bull Inthe Heather wins the Florida Derby at odds of 29 to 1."}
+          - date: "Осень 1993"
+            text: {ru: "Sonic Youth записывают Bull in the Heather в Нью-Йорке.", en: "Sonic Youth record Bull in the Heather in New York."}
+          - date: "Апрель 1994"
+            text: {ru: "Сингл уходит на радио. Кэтлин Ханна танцует в клипе.", en: "The single goes to radio. Kathleen Hanna dances in the video."}
+          - date: "Май 1994"
+            text: {ru: "Выходит альбом Experimental Jet Set, Trash and No Star.", en: "Experimental Jet Set, Trash and No Star is released."}
+          - date: "1994"
+            text: {ru: "Фердинанда продают в Японию.", en: "Ferdinand is sold to Japan."}
+          - date: "2002"
+            text: {ru: "Фердинанд погибает в Японии.", en: "Ferdinand dies in Japan."}
+          - date: "2003"
+            text: {ru: "Майкл Блоуэн открывает ферму Old Friends.", en: "Michael Blowen opens Old Friends."}
+          - date: "2006"
+            text: {ru: "Булли привозят в Old Friends.", en: "Bully arrives at Old Friends."}
+          - date: "Апрель 2014"
+            text: {ru: "Булли усыпляют на ферме в двадцать четыре года.", en: "Bully is put to sleep at the farm, aged twenty-four."}
       - type: text
         text:
-          ru: Bull in the Heather. Sonic Youth, 1994.
-          en:
-            text: Bull in the Heather. Sonic Youth, 1994.
-            draft: true
-        sources:
-          - title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
-            url: https://www.soniclife.ca/sy/cc/timeline.html
-      - type: text
-        text:
-          ru: Bull Inthe Heather. 1990–2014.
-          en:
-            text: Bull Inthe Heather. 1990–2014.
-            draft: true
-        sources:
-          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
-            url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
-            url: https://cms.equibase.com/node/4118
+          ru: |
+            Bull in the Heather. Sonic Youth, 1994.
+
+            Bull Inthe Heather. 1990–2014.
+          en: |
+            Bull in the Heather. Sonic Youth, 1994.
+
+            Bull Inthe Heather. 1990–2014.
