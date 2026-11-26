@@ -84,12 +84,36 @@ chapters:
         source_url: https://www.bobdylan-comewritersandcritics.com/pages/programmes/dylan-paris-24-may-1966.htm
         size: right
         treatment: print
+      - type: photo
+        src: dylan-olympia-1966-programme.jpg
+        alt:
+          ru: "Обложка программки парижского концерта Дилана"
+          en: "Cover of the programme for Dylan’s Paris concert"
+        caption:
+          ru: "Программка того же вечера."
+          en: "The programme for the same evening."
+        credit: "Автор не установлен. Скан: коллекция Come Writers and Critics"
+        source_url: https://www.bobdylan-comewritersandcritics.com/pages/programmes/dylan-paris-24-may-1966.htm
+        size: left
+        treatment: print
       - type: art
         src: dylan-stage.webp
         alt:
           ru: Худой кудрявый певец один на тёмной сцене с акустической гитарой и гармошкой
           en: "A thin, curly-haired singer alone on a dark stage with an acoustic guitar and harmonica"
         size: wide
+      - type: photo
+        src: dylan-1966-arlanda.jpg
+        alt:
+          ru: "Боб Дилан в тёмных очках и рубашке в горошек в аэропорту"
+          en: "Bob Dylan in dark glasses and a polka-dot shirt at an airport"
+        caption:
+          ru: "Боб Дилан прилетает в Стокгольм, 28 апреля 1966 года. До Парижа меньше месяца: то же турне, те же очки, та же рубашка в горошек."
+          en: "Bob Dylan arrives in Stockholm, 28 April 1966. Paris is less than a month away: the same tour, the same glasses, the same polka-dot shirt."
+        credit: "Фото: неизвестный фотограф / Svenska Dagbladet, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Bob-Dylan-arrived-at-Arlanda-surrounded-by-twenty-bodyguards-and-assistants-391770740297.jpg
+        size: wide
+        treatment: halftone
       - type: art
         src: intermission.webp
         alt:
@@ -176,6 +200,18 @@ chapters:
           page: "back cover"
           url: https://www.bobdylan.com/albums/another-side-of-bob-dylan/
         paper: paper-news.webp
+      - type: photo
+        src: dylan-baez-1963-scherman.jpg
+        alt:
+          ru: "Джоан Баэз и Боб Дилан поют на улице, у него гитара и гармошка"
+          en: "Joan Baez and Bob Dylan singing outdoors, he with guitar and harmonica"
+        caption:
+          ru: "Джоан Баэз и Боб Дилан на Марше на Вашингтон, 28 августа 1963 года. Через год выйдет пластинка со стихами для Франсуазы."
+          en: "Joan Baez and Bob Dylan at the March on Washington, 28 August 1963. A year later came the record with the poem for Françoise."
+        credit: "Фото: Rowland Scherman / USIA, National Archives, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Joan_Baez_Bob_Dylan.jpg
+        size: wide
+        treatment: halftone
       - type: photo
         src: dylan-1963-hunstein.jpg
         alt:
@@ -796,6 +832,18 @@ chapters:
             url: https://www.vogue.fr/culture/a-voir/articles/francoise-hardy-grand-prix-image-vintage-film-1966/55125
           - title: Agnès C. Poirier — The New York Times, 9 May 2018 (via WRAL)
             url: https://www.wral.com/archive/17543183/
+      - type: photo
+        src: hardy-1966-royat.jpg
+        alt:
+          ru: "Франсуаза Арди в свитере и джинсах у гоночной трассы, за ней рекламные щиты"
+          en: "Françoise Hardy in a sweater and jeans by a racetrack, advertising hoardings behind her"
+        caption:
+          ru: "На съёмках «Гран-при» Франкенхаймера, трасса у Руая, 1966 год."
+          en: "On the set of Frankenheimer’s Grand Prix, the circuit near Royat, 1966."
+        credit: "Фото: Robert Huhardeaux / Flickr, Wikimedia Commons, CC BY-SA 2.0"
+        source_url: https://commons.wikimedia.org/wiki/File:Fran%C3%A7oise_Hardy,_1966,_Royat,_tournage_du_film_Grand_Prix.jpg
+        size: right
+        treatment: print
       - type: art
         src: masculin-feminin.webp
         alt:
@@ -815,10 +863,98 @@ chapters:
         size: column
         treatment: print
 
-  - id: fashion
+  - id: photographers
     kicker:
       ru: Глава девятая
       en: "Chapter Nine"
+    name:
+      ru: Лицо, которое снимали все
+      en: "The face everyone photographed"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Арди редко выходила на сцену, но не сходила с фотографий. В шестидесятые её снимали так часто, что по снимкам можно проследить её жизнь почти по месяцам — и заодно увидеть, как менялась мода вокруг неё.
+
+            Весной 1963 года шведская газета Svenska Dagbladet сфотографировала её в стокгольмском аэропорту: длинное пальто, сумка и цветы в одной руке, паспорт в другой. Подпись в газете говорила о её улыбке Моны Лизы между «экзистенциалистскими занавесками» волос. Осенью того же года на гала-концерте в курзале голландского Схевенингена она вручала цветы принцессе Маргрит, и её снимал фотограф агентства Anefo. В ноябре Billboard напечатал её портрет в рекламе.
+
+            Летом 1964 года её снимал Роже Каспарян — фотограф, который снимал для Salut les copains всё поколение йе-йе. В феврале 1966-го её фотографировали в итальянском Сан-Ремо. В том же году американский журнал LOOK отправил к ней фотографа Шарлотту Брукс, а Стив Шапиро, снимавший для Life, сфотографировал её в Венеции, в гондоле, в джинсовой куртке и белых брюках.
+          en: |
+            Hardy rarely went on stage, but she was never out of photographs. In the sixties she was photographed so often that you can follow her life almost month by month — and watch fashion change around her.
+
+            In the spring of 1963 the Swedish paper Svenska Dagbladet photographed her at Stockholm’s airport: long coat, bag and flowers in one hand, passport in the other. The caption spoke of her Mona Lisa smile between the “existentialist curtains” of her hair. That autumn, at a gala in the Kurhaus at Scheveningen in Holland, she handed flowers to Princess Margriet, photographed by the Anefo agency. In November Billboard ran her portrait in an advertisement.
+
+            In the summer of 1964 she was photographed by Roger Kasparian, who shot the whole yé-yé generation for Salut les copains. In February 1966 she was photographed in Sanremo, Italy. That same year the American magazine LOOK sent the photographer Charlotte Brooks to her, and Steve Schapiro, who shot for Life, photographed her in Venice, in a gondola, in a denim jacket and white trousers.
+        sources:
+          - title: Wikimedia Commons — Françoise Hardy on her way to the plane, Svenska Dagbladet, 1963
+            url: https://commons.wikimedia.org/wiki/File:Francoise-Hardy-on-her-way-out-to-the-plane-to-Paris-after-the-Swedish-expedition-391850420154.jpg
+          - title: Wikimedia Commons — Françoise Hardy and Princess Margriet, Grand Gala du Disque, 1963 (Eric Koch / Anefo)
+            url: https://commons.wikimedia.org/wiki/File:Francoise-hardy-and-princess-margriet-at-the-grand-gala-du-disque-1963.png
+          - title: Wikimedia Commons — Françoise Hardy, 1964 (Roger Kasparian)
+            url: https://commons.wikimedia.org/wiki/File:Francoise_hardy_1964.jpg
+          - title: Library of Congress / Flickr — LOOK Job 66-3068, Françoise Hardy (Charlotte Brooks)
+            url: https://www.flickr.com/photos/library_of_congress/53414678180/
+          - title: Wikimedia Commons — Françoise Hardy in Venice, September 1966 (Steve Schapiro)
+            url: https://commons.wikimedia.org/wiki/File:Francoise_Hardy_in_Venice.jpg
+      - type: gallery
+        layout: scatter
+        items:
+          - type: photo
+            src: hardy-1963-stockholm.jpg
+            alt: {ru: "Франсуаза Арди в длинном пальто спускается по трапу", en: "Françoise Hardy in a long coat walking down steps"}
+            caption: {ru: "Стокгольм, 27 апреля 1963 года.", en: "Stockholm, 27 April 1963."}
+            credit: "Фото: неизвестный фотограф / Svenska Dagbladet, Wikimedia Commons (public domain)"
+            source_url: https://commons.wikimedia.org/wiki/File:Francoise-Hardy-on-her-way-out-to-the-plane-to-Paris-after-the-Swedish-expedition-391850420154.jpg
+            treatment: print
+          - type: photo
+            src: hardy-1963-grand-gala.png
+            alt: {ru: "Франсуаза Арди вручает цветы принцессе Маргрит", en: "Françoise Hardy hands flowers to Princess Margriet"}
+            caption: {ru: "Схевенинген, 13 октября 1963 года.", en: "Scheveningen, 13 October 1963."}
+            credit: "Фото: Eric Koch / Anefo, Nationaal Archief, CC BY-SA 3.0 NL"
+            source_url: https://commons.wikimedia.org/wiki/File:Francoise-hardy-and-princess-margriet-at-the-grand-gala-du-disque-1963.png
+            treatment: print
+          - type: photo
+            src: hardy-1964-kasparian.jpg
+            alt: {ru: "Портрет Франсуазы Арди с чёлкой, в пальто с кружевным воротником", en: "Portrait of Françoise Hardy with her fringe, in a coat with a lace collar"}
+            caption: {ru: "Снимок Роже Каспаряна, август 1964 года.", en: "Photograph by Roger Kasparian, August 1964."}
+            credit: "Фото: Roger Kasparian, Wikimedia Commons (public domain)"
+            source_url: https://commons.wikimedia.org/wiki/File:Francoise_hardy_1964.jpg
+            treatment: print
+          - type: photo
+            src: hardy-1966-sanremo.jpg
+            alt: {ru: "Франсуаза Арди в бежевом свитере, длинные прямые волосы", en: "Françoise Hardy in a beige sweater, long straight hair"}
+            caption: {ru: "Сан-Ремо, февраль 1966 года.", en: "Sanremo, February 1966."}
+            credit: "Wikimedia Commons (public domain; see file page)"
+            source_url: https://commons.wikimedia.org/wiki/File:Francoise_hardy_february_1966.jpg
+            treatment: print
+      - type: photo
+        src: hardy-1966-venice-schapiro.jpg
+        alt:
+          ru: "Франсуаза Арди в джинсовой куртке и белых брюках сидит в лодке на венецианском канале"
+          en: "Françoise Hardy in a denim jacket and white trousers sits in a boat on a Venice canal"
+        caption:
+          ru: "Венеция, сентябрь 1966 года. Джинсовая куртка, белые брюки, плоские ботинки — уличный стиль, который через полвека назовут «французским шиком»."
+          en: "Venice, September 1966. A denim jacket, white trousers, flat boots — the street style that half a century later would be called “French chic”."
+        credit: "Фото: Steve Schapiro, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Francoise_Hardy_in_Venice.jpg
+        size: wide
+        treatment: print
+      - type: photo
+        src: hardy-1966-look.jpg
+        alt:
+          ru: "Франсуаза Арди в брюках и куртке на заснеженной улице рядом с мужчиной"
+          en: "Françoise Hardy in trousers and a jacket on a snowy street beside a man"
+        caption:
+          ru: "Съёмка для журнала LOOK, 1966 год."
+          en: "A shoot for LOOK magazine, 1966."
+        credit: "Фото: Charlotte Brooks / LOOK, Library of Congress (no known restrictions)"
+        source_url: https://www.flickr.com/photos/library_of_congress/53414678180/
+        size: left
+        treatment: halftone
+  - id: fashion
+    kicker:
+      ru: Глава десятая
+      en: "Chapter Ten"
     name:
       ru: Смокинг, сапоги и девять килограммов золота
       en: "A Dinner Suit, Boots and Nine Kilograms of Gold"
@@ -961,8 +1097,8 @@ chapters:
 
   - id: grown-up
     kicker:
-      ru: Глава десятая
-      en: "Chapter Ten"
+      ru: Глава одиннадцатая
+      en: "Chapter Eleven"
     name:
       ru: Как сказать «прощай»
       en: "How to Say Goodbye"
@@ -982,6 +1118,30 @@ chapters:
             url: https://www.lefigaro.fr/2006/11/27/03004-20061127ARTFIG90021-francoise_hardy_et_ses_douze_partages.php
           - title: Le Monde (EN) — Pop culture icon Françoise Hardy has died, 12.06.2024
             url: https://www.lemonde.fr/en/obituaries/article/2024/06/12/pop-culture-icon-francoise-hardy-has-died_6674549_15.html
+      - type: photo
+        src: hardy-1967-madrid.png
+        alt:
+          ru: "Франсуазу Арди встречают в аэропорту Мадрида"
+          en: "Françoise Hardy being greeted at Madrid airport"
+        caption:
+          ru: "Мадрид, 1967 год. Снимок из Billboard."
+          en: "Madrid, 1967. Photograph from Billboard."
+        credit: "Billboard, 7 октября 1967, с. 45. Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Francoise_Hardy_in_Madrid_1967.png
+        size: wide
+        treatment: halftone
+      - type: photo
+        src: hardy-1968-italy.jpg
+        alt:
+          ru: "Франсуаза Арди у ствола сосны, в оранжевом"
+          en: "Françoise Hardy against a pine trunk, in orange"
+        caption:
+          ru: "Италия, 1968 год."
+          en: "Italy, 1968."
+        credit: "Фото: Reporters Associati & Archivi / Mondadori Portfolio, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Fran%C3%A7oise_Hardy_1968.jpg
+        size: right
+        treatment: print
       - type: song
         artist: Françoise Hardy
         title: "Ma jeunesse fout le camp…"
@@ -1062,8 +1222,8 @@ chapters:
 
   - id: after
     kicker:
-      ru: Глава одиннадцатая
-      en: "Chapter Eleven"
+      ru: Глава двенадцатая
+      en: "Chapter Twelve"
     name:
       ru: После йе-йе
       en: "After Yé-Yé"
@@ -1207,8 +1367,8 @@ chapters:
 
   - id: echo
     kicker:
-      ru: Глава двенадцатая
-      en: "Chapter Twelve"
+      ru: Глава тринадцатая
+      en: "Chapter Thirteen"
     name:
       ru: Эхо
       en: "Echoes"

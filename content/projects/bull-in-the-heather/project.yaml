@@ -610,6 +610,15 @@ chapters:
             credit: "Sonic Youth, «Bull in the Heather» (1994), реж. Тамра Дэвис"
             source_url: https://www.youtube.com/watch?v=8JGBNkLM9_8
             treatment: plain
+      - type: video
+        id: hTZ1k96AD_c
+        title:
+          ru: Bull in the Heather, но только Кэтлин Ханна
+          en: "Bull in the Heather, but it’s just Kathleen Hanna"
+        caption:
+          ru: "Фанатский монтаж: из клипа вырезали всё, кроме Ханны. Лучшее доказательство, что смотрели его ради неё."
+          en: "A fan edit that cuts everything but Hanna. The best proof that people watched it for her."
+        credit: "Фанатский монтаж канала Beastie Boys Fan Edits Archive на YouTube"
       - type: art
         src: clip-room.webp
         alt:
@@ -792,12 +801,16 @@ chapters:
             Дальше — по нарастающей странности. В 2008 году американская группа Cavedoll положила песню на альбом Robot Love. Японская группа ORIGAMI сделала версию, о которой рецензент написал, что с оригиналом её роднит разве что выкрикнутое в конце название. В январе 2018 года на трибьюте Sonic Youth, собранном в Bandcamp, вышли сразу две версии: La Fea склеила свою из обрывков Klaxons, битлов, Уильяма Шетнера и диджея Grandmixer D.ST, а The Bionick Mann соединил Bull in the Heather с Winner's Blues, песней, которой открывается альбом, — в одну шестиминутную сюиту. В 2020 году коннектикутская группа Doom Beach записала её для благотворительного сборника. А в 2024 году группа Sponge, ветераны тех же девяностых, выпустила к тридцатилетию своего первого альбома пластинку «1994» из песен того года, и Bull in the Heather у них, по словам рецензента Goldmine, стала «психоделической и закрученной».
 
             Pearl Jam целиком её никогда не играли. Но в 1996 и 2000 годах Эдди Веддер на концертах по крайней мере шесть раз вплетал её строчки в конец своей песни Daughter — в Корке, на «Уэмбли», в Стамбуле, Барселоне, Питтсбурге и Сиэтле.
+
+            И есть сотни перепевок поменьше, которые никто не выпускал на пластинках: группа Gun Barrel City, Мэнли Смит у себя дома, миннеапольская Rancor в новогоднюю ночь 2022 года, барабанщики, которые выкладывают свои партии поверх оригинала. Песню без припева, на одной упрямой ноте баса, оказалось очень приятно играть.
           en: |
             The best-known version was recorded in 2007 by Britain’s The Go! Team—Ian Parton’s noisy, joyful band, in which a woman called Ninja raps while two drum kits clatter behind her. Their Bull in the Heather sounds like a playground song, playful and buoyant but recognizable from its first bars. The cover appeared on the vinyl single Grip Like a Vice and among the bonus tracks for Proof of Youth. The musicians seem never to have explained why they chose this particular song.
 
             After that, things grow steadily stranger. In 2008, the American band Cavedoll put the song on their album Robot Love. The Japanese band ORIGAMI made a version that, one reviewer wrote, had little in common with the original beyond the title shouted near the end. In January 2018, a Sonic Youth tribute assembled on Bandcamp yielded two versions at once: La Fea pieced theirs together from fragments of Klaxons, the Beatles, William Shatner, and the DJ Grandmixer D.ST, while The Bionick Mann joined Bull in the Heather to Winner's Blues, the album’s opening song, in a single six-minute suite. In 2020, the Connecticut band Doom Beach recorded it for a charity compilation. And in 2024, Sponge, fellow veterans of the nineties, marked the thirtieth anniversary of their debut with 1994, an album of songs from that year; their Bull in the Heather became, in the words of a Goldmine reviewer, “swirly psychedelic.”
 
             Pearl Jam have never played it in full. But in 1996 and 2000, Eddie Vedder wove lines from it into the end of Daughter at least six times in concert—in Cork, at Wembley, in Istanbul, Barcelona, Pittsburgh, and Seattle.
+
+            And there are hundreds of smaller covers that never made it onto records: the band Gun Barrel City, Manley Smith at home, Minneapolis’s Rancor on New Year’s Eve 2022, drummers posting their parts over the original. A song with no chorus, on one stubborn bass note, turned out to be a pleasure to play.
         sources:
           - title: KEXP — Sub Pop catalogue SP0756
             url: https://www.kexp.org/subpop/sp701-sp800/
@@ -826,6 +839,10 @@ chapters:
           - {title: "Bull in the Heather", artist: "The Go! Team", year: "2007", video_id: xwccuQSe98w, note: {ru: "официальная запись", en: "official audio"}}
           - {title: "Bull in the Heather", artist: "Cavedoll", year: "2008", video_id: EIOxTJhejjE, note: {ru: "загрузка звукорежиссёра записи", en: "uploaded by the recording engineer"}}
           - {title: "Bull in the Heather", artist: "Sponge", year: "2024", video_id: CTQJG72DC6w, note: {ru: "альбом «1994», официальный канал", en: "from “1994”, official channel"}}
+          - {title: "Bull in the Heather", artist: "Gun Barrel City", year: "—", video_id: cAGZ-EsWWGI, note: {ru: "кавер группы, её собственный канал", en: "the band’s own channel"}}
+          - {title: "Bull in the Heather", artist: "Manley Smith", year: "—", video_id: FS0-zxTWkg8, note: {ru: "домашний кавер", en: "a home cover"}}
+          - {title: "Bull in the Heather", artist: "Girly Girl & The Horrible Noise", year: "—", video_id: ZmBuQXBicr0, note: {ru: "живьём в клубе", en: "live in a club"}}
+          - {title: "Bull in the Heather", artist: "Rancor", year: "2022", video_id: wCyQl8hUTbA, note: {ru: "живьём, Миннеаполис, 31 декабря 2022", en: "live, Minneapolis, 31 December 2022"}}
 
   - id: influence
     name:
@@ -904,6 +921,15 @@ chapters:
             url: https://www.spinmagazine.com/2014/08/100-BEST-ALTERNATIVE-ROCK-SONGS-1994-ALT/
           - title: TheTVDB — Beavis and Butt-Head, Mr. Anderson’s Balls
             url: https://thetvdb.com/series/beavis-and-butt-head/episodes/179018
+      - type: video
+        id: s6KbgnIZKHk
+        title:
+          ru: Бивис и Батт-Хед смотрят Bull in the Heather, 1994
+          en: "Beavis and Butt-Head watch Bull in the Heather, 1994"
+        caption:
+          ru: Фрагмент эпизода MTV, любительская загрузка.
+          en: "A clip from the MTV episode, fan upload."
+        credit: "MTV, «Beavis and Butt-Head», 1994. Загрузка пользователя YouTube"
       - type: art
         src: backstage-1995.webp
         alt:
