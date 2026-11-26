@@ -23,15 +23,6 @@ projects:
       - fashion
     tile:
       type: collage
-  - id: transparent
-    title:
-      ru: Прозрачная
-      en: Transparent
-    tags:
-      - music
-    upcoming: true
-    tile:
-      type: empty
   - id: girl-on-a-ball
     title:
       ru: Кто держит равновесие
