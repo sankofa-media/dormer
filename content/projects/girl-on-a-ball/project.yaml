@@ -1,0 +1,783 @@
+{
+ "id": "girl-on-a-ball",
+ "layout": "longread",
+ "theme": "rose",
+ "title": {
+  "ru": "Кто держит равновесие",
+  "en": "Who Keeps the Balance"
+ },
+ "dek": {
+  "ru": "«Девочка на шаре» Пикассо: о лёгкости и тяжести, о любви, где неизвестно, кто кого держит, и о портрете, спрятанном на обороте холста",
+  "en": "Picasso’s Young Acrobat on a Ball: on lightness and weight, on a love where it is unclear who holds whom, and on the portrait hidden on the back of the canvas"
+ },
+ "date": "2026-11-26",
+ "cover": {
+  "kind": "art",
+  "src": "painting.jpg",
+  "alt": {
+   "ru": "Пабло Пикассо, «Девочка на шаре», 1905",
+   "en": "Pablo Picasso, Young Acrobat on a Ball, 1905"
+  },
+  "size": "column"
+ },
+ "chapters": [
+  {
+   "id": "look",
+   "name": {
+    "ru": "Он и она",
+    "en": "He and she"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Это одна из самых известных картин в России. Её видели на марках, монетах, в учебниках и на плакатах, о ней написан рассказ Драгунского и снят фильм, под неё катались фигуристки. Пикассо написал её в Париже в 1905 году, когда ему было двадцать три года, и с 1913 года она живёт в Москве, сейчас в Пушкинском музее.\n\nНа картине двое. Тонкая девочка-акробатка балансирует на шаре, вся вытянутая вверх, лёгкая, почти бесплотная. А рядом, спиной к нам, сидит на тяжёлом кубе огромный атлет. Он сильнее всех на этой картине и, наверное, во всей бродячей труппе. Но сидит он так, будто эта сила ему давно ни к чему: плечи опущены, лицо в тени, рука лежит на колене.\n\nМы будем смотреть на эту картину как на историю о любви. О той, где один лёгкий и воздушный, а другой тяжёлый, усталый и сломленный при всей своей силе, и где неизвестно, кто кого держит. Сразу оговоримся: так её читаем мы. Пушкинский музей видит атлета иначе, как царственного защитника, и мы ещё дойдём до этого спора. Но сначала просто посмотрим на картину, деталь за деталью. Листайте вниз, и картина будет приближаться к тому, о чём идёт речь.",
+      "en": "It is one of the best-known paintings in Russia. People have seen it on stamps, coins, in textbooks and on posters; a story and a film are named after it, and figure skaters have skated to it. Picasso painted it in Paris in 1905, aged twenty-three, and since 1913 it has lived in Moscow, now in the Pushkin Museum.\n\nThere are two people in it. A slender girl acrobat balances on a ball, stretched upwards, light, almost bodiless. And beside her, with his back to us, a huge athlete sits on a heavy cube. He is the strongest figure in the picture and probably in the whole travelling troupe. Yet he sits as if that strength had long been of no use to him: shoulders lowered, face in shadow, hand on his knee.\n\nWe will look at this painting as a story about love — the kind where one is light and airy and the other heavy, tired and broken for all his strength, and where it is unclear who holds whom. A caveat up front: this is our reading. The Pushkin Museum sees the athlete differently, as a regal protector, and we will come to that argument. But first, let us simply look at the painting, detail by detail. Scroll down and the picture will move closer to whatever is being discussed."
+     },
+     "sources": [
+      {
+       "title": "ГМИИ им. А. С. Пушкина — «Девочка на шаре», Ж-3399",
+       "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
+      }
+     ]
+    },
+    {
+     "type": "tour",
+     "src": "painting.jpg",
+     "alt": {
+      "ru": "Пабло Пикассо, «Девочка на шаре»",
+      "en": "Pablo Picasso, Young Acrobat on a Ball"
+     },
+     "credit": "Пабло Пикассо, «Девочка на шаре», 1905. ГМИИ им. А. С. Пушкина. Цитируется в информационных целях",
+     "source_url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php",
+     "stops": [
+      {
+       "x": 8,
+       "y": 0,
+       "w": 32,
+       "h": 80,
+       "title": {
+        "ru": "Она",
+        "en": "Her"
+       },
+       "text": {
+        "ru": "Девочка стоит на шаре на самых носках, ступни почти сомкнуты, обе руки подняты над головой. Фигура вытянута сильнее, чем бывает у живых людей, и от этого кажется, что она весит не больше, чем воздух вокруг неё. Трико голубое, как небо в просветах, — из тех же красок, что и всё небесное на картине.",
+        "en": "The girl stands on the ball on the very tips of her toes, feet almost together, both arms raised above her head. The figure is stretched further than living bodies are, so she seems to weigh no more than the air around her. Her leotard is blue, like the sky between the clouds, painted with the same colours as everything heavenly in the picture."
+       }
+      },
+      {
+       "x": 17,
+       "y": 9,
+       "w": 16,
+       "h": 13,
+       "title": {
+        "ru": "Цветок и взгляд вниз",
+        "en": "A flower and a downward glance"
+       },
+       "text": {
+        "ru": "В волосах у неё красный цветок, одна из двух самых ярких точек на всём холсте. Голова наклонена, взгляд опущен: она смотрит не на зрителя и не на него, а под ноги, туда, где решается, упадёт она или нет. Её лёгкость — это сосредоточенность.",
+        "en": "In her hair is a red flower, one of the two brightest spots on the whole canvas. Her head is bent, her eyes lowered: she looks neither at us nor at him, but at her feet, where it is being decided whether she will fall. Her lightness is concentration."
+       }
+      },
+      {
+       "x": 8,
+       "y": 0,
+       "w": 34,
+       "h": 11,
+       "title": {
+        "ru": "Руки",
+        "en": "The hands"
+       },
+       "text": {
+        "ru": "Пальцы раскрыты, левая рука выше правой. Посмотрите на небо вокруг рук: краска здесь лежит так тонко, что сквозь неё проступает плетение холста, а контур кисти обведён тёмной линией прямо поверх живописи. Пикассо рисует кистью, как карандашом.",
+        "en": "The fingers are spread, the left hand higher than the right. Look at the sky around the hands: the paint is so thin here that the weave of the canvas shows through, and the outline of the hand is drawn in a dark line right over the painting. Picasso draws with the brush as with a pencil."
+       }
+      },
+      {
+       "x": 10,
+       "y": 56,
+       "w": 24,
+       "h": 24,
+       "title": {
+        "ru": "Шар",
+        "en": "The ball"
+       },
+       "text": {
+        "ru": "Шар тёмный, тяжёлый, нижняя половина почти сливается с землёй. Ступни касаются его в одной точке. Такую позу невозможно держать дольше нескольких секунд, поэтому её почти наверняка писали не с натуры: биограф Пикассо Джон Ричардсон искал её источник в берлинской бронзовой статуэтке «Мальчик, балансирующий на шаре».",
+        "en": "The ball is dark and heavy, its lower half almost merging with the ground. The feet touch it at a single point. No one can hold such a pose for more than a few seconds, so it was almost certainly not painted from life: Picasso’s biographer John Richardson looked for its source in a Berlin bronze, Boy Balancing on a Ball."
+       }
+      },
+      {
+       "x": 54,
+       "y": 14,
+       "w": 26,
+       "h": 18,
+       "title": {
+        "ru": "Его лицо",
+        "en": "His face"
+       },
+       "text": {
+        "ru": "Атлет сидит к нам спиной, голова повёрнута в профиль, к ней. Лицо почти целиком в тени: тёмный глаз, сжатые губы, маленькая для такого тела голова. Он смотрит на девочку, но в этом взгляде нет ни восхищения, ни строгости, только усталое внимание.",
+        "en": "The athlete sits with his back to us, head turned in profile towards her. His face is almost entirely in shadow: a dark eye, pressed lips, a head small for such a body. He watches the girl, but there is neither admiration nor sternness in his gaze, only weary attention."
+       }
+      },
+      {
+       "x": 50,
+       "y": 26,
+       "w": 48,
+       "h": 34,
+       "title": {
+        "ru": "Спина",
+        "en": "The back"
+       },
+       "text": {
+        "ru": "Спина занимает почти половину первого плана. Она розово-охристая, как выжженная земля за ним, и вылеплена широкими протёртыми мазками с тёмными пятнами в тенях. Пикассо нарочно увеличил его: сидящий атлет головой почти достаёт до груди стоящей на шаре девочки. Это не тело, а скала.",
+        "en": "The back takes up almost half of the foreground. It is pinkish ochre, like the scorched earth behind him, modelled with broad, rubbed strokes and dark patches in the shadows. Picasso enlarged him on purpose: seated, the athlete’s head almost reaches the chest of the girl standing on her ball. This is not a body but a rock."
+       }
+      },
+      {
+       "x": 42,
+       "y": 46,
+       "w": 18,
+       "h": 14,
+       "title": {
+        "ru": "Рука на колене",
+        "en": "A hand on the knee"
+       },
+       "text": {
+        "ru": "Его рука просто лежит на колене. Вся сила, которая есть в этом теле, сейчас ни на что не направлена. Он не готовится поймать её, если она упадёт, и не помогает ей стоять. Он сидит.",
+        "en": "His hand simply rests on his knee. All the strength in that body is directed at nothing right now. He is not preparing to catch her if she falls, nor helping her stand. He sits."
+       }
+      },
+      {
+       "x": 42,
+       "y": 60,
+       "w": 58,
+       "h": 39,
+       "title": {
+        "ru": "Куб",
+        "en": "The cube"
+       },
+       "text": {
+        "ru": "Под ним тяжёлый серо-бурый куб, правый край которого срезан рамой. Голубая ткань свисает с куба и рифмуется с трико девочки: это единственное, что их связывает по цвету. Шар неустойчив, куб неподвижен. На одном нельзя устоять, с другого невозможно сдвинуться.",
+        "en": "Beneath him is a heavy grey-brown cube, its right edge cut off by the frame. The blue cloth hanging from it rhymes with the girl’s leotard: the only colour that connects them. The ball is unstable; the cube is immovable. On one you cannot stand still; from the other you cannot move."
+       }
+      },
+      {
+       "x": 39,
+       "y": 21,
+       "w": 17,
+       "h": 9,
+       "title": {
+        "ru": "Белая лошадь",
+        "en": "The white horse"
+       },
+       "text": {
+        "ru": "В середине пустого выжженного пейзажа пасётся белая лошадь, опустив голову. Белые лошади были в цирке Медрано, куда Пикассо ходил по нескольку вечеров в неделю, и Аполлинер в 1905 году писал о белых лошадях среди акробатов. Лошадь на них не смотрит.",
+        "en": "In the middle of the empty scorched landscape a white horse grazes, head lowered. There were white horses at the Médrano circus, where Picasso went several evenings a week, and in 1905 Apollinaire wrote of white horses among the acrobats. The horse does not look at them."
+       }
+      },
+      {
+       "x": 4,
+       "y": 22,
+       "w": 18,
+       "h": 20,
+       "title": {
+        "ru": "Женщина, дети и собака",
+        "en": "A woman, children and a dog"
+       },
+       "text": {
+        "ru": "Слева, далеко, женщина в длинном платье держит младенца, рядом ребёнок в красном, ниже тёмная собака. Это, наверное, та же бродячая труппа. И никто из них, как и лошадь, не смотрит на трюк. Самое трудное, что есть на картине, происходит для одного-единственного зрителя.",
+        "en": "On the left, far off, a woman in a long dress holds a baby, a child in red beside her and a dark dog below. Probably the same travelling troupe. And none of them, like the horse, watches the trick. The hardest thing in the picture happens for a single spectator."
+       }
+      },
+      {
+       "x": 82,
+       "y": 93,
+       "w": 13,
+       "h": 6,
+       "title": {
+        "ru": "Подпись",
+        "en": "The signature"
+       },
+       "text": {
+        "ru": "В правом нижнем углу тёмной краской: Picasso. Без даты. Ему двадцать три или двадцать четыре года, он беден и ещё не знает, что эту картину будут печатать на марках и чеканить на монетах в стране, где она окажется через восемь лет.",
+        "en": "In the lower right corner, in dark paint: Picasso. No date. He is twenty-three or twenty-four, poor, and does not yet know that this picture will be printed on stamps and struck on coins in the country where it will end up eight years later."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "montmartre",
+   "kicker": {
+    "ru": "1904–1905",
+    "en": "1904–1905"
+   },
+   "name": {
+    "ru": "Монмартр, чердак и цирк",
+    "en": "Montmartre, an attic and a circus"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "В 1904 году Пикассо окончательно перебрался из Барселоны в Париж и поселился на Монмартре, в доме, который прозвали Бато-Лавуар, «плавучая прачечная». Пушкинский музей описывает его как причудливый дом, состоящий только из чердаков и подвалов. Там же, в 1904-м, он познакомился с Фернандой Оливье, которая стала его возлюбленной на следующие годы.\n\nТолько что закончился его голубой период: нищие, слепые, больные, всё написано холодным синим цветом. Его друг Хайме Сабартес вспоминал, что Пикассо тогда верил, будто искусство рождается из печали и боли. А теперь в картинах появились розовые и охристые тона, и вместо нищих — бродячие акробаты, арлекины и циркачи.\n\nЦирк был совсем рядом, у подножия Монмартра: цирк Медрано. Пикассо потом вспоминал, что был по-настоящему околдован цирком и иногда приходил туда по три-четыре вечера в неделю. Гертруда Стайн писала, что вся их компания встречалась в Медрано по крайней мере раз в неделю и водила знакомство с клоунами, жонглёрами и наездниками. Фернанда Оливье добавляла, что Пикассо клоунами восхищался и по-настоящему им сочувствовал. Американский исследователь Э. А. Кармин даже предполагал, что «розовый» период назван так в честь розового шатра Медрано, но это только гипотеза.",
+      "en": "In 1904 Picasso moved from Barcelona to Paris for good and settled in Montmartre, in a building nicknamed the Bateau-Lavoir, the ‘laundry boat’. The Pushkin Museum describes it as a whimsical house made only of attics and cellars. There, in 1904, he met Fernande Olivier, who became his lover for the years that followed.\n\nHis Blue Period had just ended: beggars, the blind, the sick, all painted in cold blue. His friend Jaime Sabartés recalled that Picasso then believed art was born of sadness and pain. Now pink and ochre tones appeared, and instead of beggars came travelling acrobats, harlequins and circus people.\n\nThe circus was close by, at the foot of Montmartre: the Médrano. Picasso later recalled that he was really under the spell of the circus and sometimes came three or four nights a week. Gertrude Stein wrote that their whole crowd met at the Médrano at least once a week and befriended the clowns, jugglers and riders. Fernande Olivier added that Picasso admired the clowns and had real sympathy for them. The American scholar E. A. Carmean even suggested the Rose Period might owe its name to the pink tent of the Médrano, though that is only a hypothesis."
+     },
+     "sources": [
+      {
+       "title": "E. A. Carmean Jr. — Picasso: The Saltimbanques, NGA, 1980",
+       "url": "https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/picasso-the-saltimbanques.pdf"
+      },
+      {
+       "title": "ГМИИ — «Девочка на шаре»",
+       "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "picasso_1904_photo_canals.jpg",
+     "alt": {
+      "ru": "Молодой Пикассо в шляпе",
+      "en": "Young Picasso in a hat"
+     },
+     "caption": {
+      "ru": "Пабло Пикассо в Париже, 1904 год.",
+      "en": "Pablo Picasso in Paris, 1904."
+     },
+     "credit": "Фото: Ricard Canals i Llambí, Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1904,_Paris,_photograph_by_Ricard_Canals_i_Llambí.jpg",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
+     "type": "photo",
+     "src": "cirque_medrano_paris.jpg",
+     "alt": {
+      "ru": "Здание цирка Медрано в Париже",
+      "en": "The Médrano circus building in Paris"
+     },
+     "caption": {
+      "ru": "Цирк Медрано у подножия Монмартра.",
+      "en": "The Médrano circus at the foot of Montmartre."
+     },
+     "credit": "Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Cirque_Medrano_(Paris).jpg",
+     "size": "wide",
+     "treatment": "print"
+    },
+    {
+     "type": "gallery",
+     "layout": "strip",
+     "items": [
+      {
+       "type": "photo",
+       "src": "medrano_boum_boum_c1900.jpg",
+       "alt": {
+        "ru": "Клоун Медрано по прозвищу Бум-Бум",
+        "en": "The Médrano clown known as Boum-Boum"
+       },
+       "caption": {
+        "ru": "Клоун Бум-Бум, давший имя цирку Медрано, около 1900 года.",
+        "en": "The clown Boum-Boum, who gave the Médrano its name, around 1900."
+       },
+       "credit": "Wikimedia Commons (public domain)",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Medrano_Boum-Boum_(c1900).jpg",
+       "size": "column",
+       "treatment": "print"
+      },
+      {
+       "type": "photo",
+       "src": "toulouse_lautrec_cirque_fernando_1887.jpg",
+       "alt": {
+        "ru": "Картина Тулуз-Лотрека с наездницей в цирке",
+        "en": "Toulouse-Lautrec painting of a circus rider"
+       },
+       "caption": {
+        "ru": "Тулуз-Лотрек, «В цирке Фернандо», 1887–1888. Этот цирк потом и стал Медрано.",
+        "en": "Toulouse-Lautrec, At the Cirque Fernando, 1887–88. This circus later became the Médrano."
+       },
+       "credit": "Wikimedia Commons (public domain)",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Toulouse-Lautrec_1887-8Cirque.jpg",
+       "size": "column",
+       "treatment": "print"
+      },
+      {
+       "type": "photo",
+       "src": "fernande_olivier.jpg",
+       "alt": {
+        "ru": "Портрет Фернанды Оливье",
+        "en": "Portrait of Fernande Olivier"
+       },
+       "caption": {
+        "ru": "Фернанда Оливье.",
+        "en": "Fernande Olivier."
+       },
+       "credit": "Wikimedia Commons",
+       "source_url": "https://en.wikipedia.org/wiki/File:Fernande_Olivier.jpg",
+       "size": "column",
+       "treatment": "print"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "inside-another",
+   "name": {
+    "ru": "Картина в картине",
+    "en": "A picture inside a picture"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Девочка на шаре родилась внутри другой картины. Весной 1905 года Пикассо работал над огромным полотном с бродячей труппой, которое теперь называется «Семейство комедиантов» и висит в Национальной галерее в Вашингтоне. Рентгенограммы и подготовительная акварель показывают, что в первом варианте там был ребёнок, балансирующий на шаре, а Арлекин стоял рядом, подбоченясь, и смотрел на него. Фернанда Оливье запомнила ту первую большую картину так: ребёнок пытается удержать равновесие на большом шаре, а холст переписывался несколько раз.\n\nПотом Пикассо этот эпизод записал, и в вашингтонской картине девочки на шаре больше нет. Под слоем краски там, кстати, есть и белая лошадь, а поверх шара видна нога другого ребёнка. Девочку он вынес на отдельный холст, а вместо Арлекина посадил рядом с ней атлета. Сохранились и перовые наброски: девочка, балансирующая на кубике, и этюд к самой картине.",
+      "en": "The girl on the ball was born inside another painting. In spring 1905 Picasso was working on a huge canvas of a travelling troupe, now called Family of Saltimbanques, in the National Gallery in Washington. X-rays and a preparatory watercolour show that the first version had a child balancing on a ball, with Harlequin beside it, hands on hips, studying it. Fernande Olivier remembered that first large picture this way: a child is trying to balance on a large ball, and the canvas was repainted several times.\n\nThen Picasso painted the episode out, and the girl on the ball is gone from the Washington picture. Beneath its paint, incidentally, there is also a white horse, and a second child’s leg shows over the ball. He moved the girl to a canvas of her own and seated an athlete beside her instead of Harlequin. Pen sketches survive too: a girl balancing on a block, and a study for the painting itself."
+     },
+     "sources": [
+      {
+       "title": "E. A. Carmean Jr. — Picasso: The Saltimbanques, NGA, 1980",
+       "url": "https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/picasso-the-saltimbanques.pdf"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "family_of_saltimbanques_nga.jpg",
+     "alt": {
+      "ru": "Большая картина Пикассо с группой бродячих акробатов в пустом пейзаже",
+      "en": "Picasso’s large painting of a group of saltimbanques in an empty landscape"
+     },
+     "caption": {
+      "ru": "Пабло Пикассо, «Семейство комедиантов», 1905. Национальная галерея искусства, Вашингтон. В первом варианте здесь была девочка на шаре.",
+      "en": "Pablo Picasso, Family of Saltimbanques, 1905. National Gallery of Art, Washington. The first version included the girl on the ball."
+     },
+     "credit": "National Gallery of Art, Washington. Wikimedia Commons",
+     "source_url": "https://www.nga.gov/artworks/46665-family-saltimbanques",
+     "size": "wide",
+     "treatment": "print"
+    },
+    {
+     "type": "text",
+     "text": {
+      "ru": "Откуда поза? Ричардсон связывал её с бронзовой статуэткой берлинского скульптора Йоханнеса Гётца «Мальчик, балансирующий на шаре», модель 1888 года, — её отливка есть в той же Национальной галерее в Вашингтоне. Стоять так, как стоит девочка, можно лишь несколько секунд, поэтому писать её с живой модели было бы почти невозможно. Кто позировал для девочки и для атлета, неизвестно; Ричардсон полагал, что атлетом мог быть кто-то из знакомых по Медрано.",
+      "en": "Where does the pose come from? Richardson linked it to a bronze by the Berlin sculptor Johannes Götz, Boy Balancing on a Ball, modelled in 1888, a cast of which is in the same National Gallery in Washington. One can stand as the girl stands for only a few seconds, so painting her from a live model would have been nearly impossible. Who posed for the girl and the athlete is unknown; Richardson thought the athlete might have been a Médrano acquaintance."
+     },
+     "sources": [
+      {
+       "title": "National Gallery of Art — Johannes Götz, Boy Balancing on a Ball",
+       "url": "https://www.nga.gov/artworks/55701-boy-balancing-ball"
+      },
+      {
+       "title": "Вокруг света — «А был ли мальчик»",
+       "url": "https://www.vokrugsveta.ru/articles/a-byl-li-malchik-istoriya-sozdaniya-i-9-primechatelnykh-detalei-kartiny-pablo-pikasso-devochka-na-share-id603066/"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "gotz_boy_balancing_on_ball_nga.jpg",
+     "alt": {
+      "ru": "Бронзовая статуэтка мальчика, балансирующего на шаре",
+      "en": "A bronze statuette of a boy balancing on a ball"
+     },
+     "caption": {
+      "ru": "Йоханнес Гётц, «Мальчик, балансирующий на шаре», модель 1888, отливка около 1905. Национальная галерея искусства, Вашингтон.",
+      "en": "Johannes Götz, Boy Balancing on a Ball, model 1888, cast c. 1905. National Gallery of Art, Washington."
+     },
+     "credit": "National Gallery of Art, Wikimedia Commons, CC0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Götz,_Boy_Balancing_on_a_Ball,_model_1888,_cast_probably_c._1905,_NGA_55701.jpg",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
+     "type": "gallery",
+     "layout": "grid",
+     "items": [
+      {
+       "type": "photo",
+       "src": "acrobats_family_with_monkey_goteborg.jpg",
+       "alt": {
+        "ru": "Семья акробатов с обезьяной",
+        "en": "Acrobats’ family with a monkey"
+       },
+       "caption": {
+        "ru": "«Семья акробатов с обезьяной», 1905. Музей искусств Гётеборга. Её осенью 1905 года купил Лео Стайн.",
+        "en": "Acrobat’s Family with a Monkey, 1905. Gothenburg Museum of Art. Leo Stein bought it in autumn 1905."
+       },
+       "credit": "Göteborgs konstmuseum, Wikimedia Commons",
+       "source_url": "https://en.wikipedia.org/wiki/File:Pablo_Picasso,_1905,_Acrobat%27s_Family_with_a_Monkey_(Famille_au_Singe),_collage,_gouache,_watercolor,_pastel_and_india_ink_on_carboard,_104_x_75_cm,_G%C3%B6teborgs_Konstmuseum,_Goteburg.jpg",
+       "size": "column",
+       "treatment": "print"
+      },
+      {
+       "type": "photo",
+       "src": "acrobat_and_young_harlequin_barnes.jpg",
+       "alt": {
+        "ru": "Акробат и юный Арлекин",
+        "en": "Acrobat and young Harlequin"
+       },
+       "caption": {
+        "ru": "«Акробат и юный Арлекин», 1905. Фонд Барнса, Филадельфия.",
+        "en": "Acrobat and Young Harlequin, 1905. Barnes Foundation, Philadelphia."
+       },
+       "credit": "The Barnes Foundation, Wikimedia Commons",
+       "source_url": "https://en.wikipedia.org/wiki/File:Pablo_Picasso,_1905,_Acrobate_et_jeune_Arlequin_(Acrobat_and_Young_Harlequin),_oil_on_canvas,_191.1_x_108.6_cm,_The_Barnes_Foundation,_Philadelphia.jpg",
+       "size": "column",
+       "treatment": "print"
+      },
+      {
+       "type": "photo",
+       "src": "les_baladins_stuttgart.jpg",
+       "alt": {
+        "ru": "Мать с ребёнком и акробаты",
+        "en": "Mother and child with acrobats"
+       },
+       "caption": {
+        "ru": "«Бродячие артисты», 1904–1905. Государственная галерея, Штутгарт.",
+        "en": "Les Baladins, 1904–05. Staatsgalerie, Stuttgart."
+       },
+       "credit": "Staatsgalerie Stuttgart, Wikimedia Commons",
+       "source_url": "https://en.wikipedia.org/wiki/File:Pablo_Picasso,_1904-05,_Les_Baladins_(Mother_and_Child,_Acrobats),_gouache_on_canvas,_90_x_71_cm_Staatsgalerie,_Stuttgart.jpg",
+       "size": "column",
+       "treatment": "print"
+      },
+      {
+       "type": "photo",
+       "src": "boy_leading_a_horse_moma.jpg",
+       "alt": {
+        "ru": "Обнажённый мальчик ведёт белую лошадь",
+        "en": "A naked boy leading a white horse"
+       },
+       "caption": {
+        "ru": "«Мальчик, ведущий лошадь», 1905–1906. Музей современного искусства, Нью-Йорк. У Стайнов он висел рядом с «Девочкой на шаре».",
+        "en": "Boy Leading a Horse, 1905–06. MoMA, New York. At the Steins’ it hung beside the girl on the ball."
+       },
+       "credit": "MoMA, Wikimedia Commons",
+       "source_url": "https://en.wikipedia.org/wiki/File:Boy_Leading_a_Horse.jpg",
+       "size": "column",
+       "treatment": "print"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reverse",
+   "name": {
+    "ru": "Оборотная сторона",
+    "en": "The other side"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Самая неожиданная история этой картины спрятана с другой стороны холста. Реставраторы Пушкинского музея называют холст «перелицованным»: на его обороте есть другое, незаконченное изображение. Искусствовед Анатолий Бабин рассказывает подробнее. Холст сначала служил для мужского портрета, написанного раньше, а потом Пикассо перевернул его и написал «Девочку на шаре» на оборотной стороне. Биограф Ричардсон объяснял это просто: художник был беден и экономил.\n\nСорок лет спорили, кто на этом портрете. В 1979 году хранитель Пикассо в Пушкинском музее Марина Бессонова передала Бабину рентгенограммы. Бабин был уверен, что это баскский художник Франсиско Итуррино, с которым Пикассо летом 1901 года выставлялся у знаменитого торговца Воллара. Бессонова и ленинградский искусствовед Анатолий Подоксик считали, что это отец художника, Хосе Руис Бласко. Решающим доводом оказалась фотография 1901 года из книги Ричардсона, на которой Пикассо сидит в мастерской на фоне того самого портрета Итуррино. По словам Бабина, в каталоге музея 2001 года Бессонова согласилась с этой версией.\n\nЕсть у оборота и практическое следствие. Красочный слой у картины хрупкий, он боится влажности и вибрации. Перед выставкой в Париже в 2018 году в музее всерьёз сомневались, можно ли вообще её выпускать, и реставраторы сделали для перевозки специальную систему крепления.",
+      "en": "The most unexpected story of this painting is hidden on the other side of the canvas. The Pushkin Museum’s conservators call the canvas ‘turned’: on its reverse is another, unfinished image. The art historian Anatoly Babin tells more. The canvas first served for an earlier portrait of a man; then Picasso turned it over and painted the girl on the ball on the back. Richardson explained it simply: the artist was poor and saved money.\n\nFor forty years people argued about who was in the portrait. In 1979 the Pushkin’s Picasso curator Marina Bessonova gave Babin the X-rays. Babin was sure it was the Basque painter Francisco Iturrino, with whom Picasso had exhibited at the dealer Vollard’s in summer 1901. Bessonova and the Leningrad art historian Anatoly Podoksik believed it was the artist’s father, José Ruiz Blasco. The decisive evidence was a 1901 photograph in Richardson’s book showing Picasso in his studio in front of that very portrait of Iturrino. According to Babin, Bessonova accepted this version in the museum’s 2001 catalogue.\n\nThe reverse has a practical consequence too. The paint layer is fragile and sensitive to humidity and vibration. Before the Paris exhibition of 2018 the museum seriously doubted whether it could be lent at all, and the conservators built a special mounting system for the journey."
+     },
+     "sources": [
+      {
+       "title": "ГМИИ, отдел реставрации — «Путешествие „Девочки на шаре“», 2018",
+       "url": "https://conservation.pushkinmuseum.art/news/archive/2018/devochka_na_share/"
+      },
+      {
+       "title": "А. А. Бабин // «Пикассо сегодня». Коллективная монография. М.: Прогресс-Традиция, 2015",
+       "url": "https://www.pushkinmuseum.art"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "technique",
+   "name": {
+    "ru": "Матовость фрески",
+    "en": "The mattness of a fresco"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "В 1905 году поэт Гийом Аполлинер, только что подружившийся с Пикассо, написал о его новых картинах, что у этого цвета матовость фресок, а линии твёрдые. Пушкинский музей относит эти слова прямо к «Девочке на шаре», и, если подойти к холсту близко, понятно почему. Краска лежит тонким, матовым, почти сухим слоем, и в небе вокруг поднятых рук девочки сквозь неё проступает плетение холста. Нигде нет блеска и густых мазков.\n\nВторое, что видно вблизи, — рисунок. Контуры рук, кистей и лица девочки обведены тёмной линией прямо поверх живописи, как карандашом. А спина атлета, наоборот, вылеплена широкими протёртыми мазками с тёмными заливками в тенях. Её Пикассо не рисует, а лепит.\n\nИ третье — цвет. На всю картину у Пикассо по сути две пары красок: тёплая розово-охристая, из которой сделаны земля и тело атлета, и холодная голубая, из которой сделаны трико девочки, ткань на кубе и небо. Пушкинский музей замечает, что пейзаж написан почти теми же пепельными розовато-голубоватыми оттенками, что и фигуры, и от этого стирается разница между людьми и землёй. Ярких точек всего две: красный цветок в волосах девочки и красная одежда ребёнка вдалеке.",
+      "en": "In 1905 the poet Guillaume Apollinaire, newly befriended by Picasso, wrote of his new paintings that the colour has the mattness of frescoes and the lines are firm. The Pushkin Museum applies these words directly to the girl on the ball, and up close you see why. The paint lies in a thin, matt, almost dry layer, and in the sky around the girl’s raised arms the canvas weave shows through. There is no gloss and no thick impasto anywhere.\n\nThe second thing visible up close is drawing. The outlines of the girl’s arms, hands and face are traced with a dark line over the paint, as if with a pencil. The athlete’s back, by contrast, is modelled with broad, rubbed strokes and dark washes in the shadows. Picasso does not draw it; he sculpts it.\n\nAnd the third is colour. For the whole painting Picasso has essentially two pairs of colours: a warm pinkish ochre for the earth and the athlete’s body, and a cool blue for the girl’s leotard, the cloth on the cube and the sky. The Pushkin Museum notes that the landscape is painted in almost the same ashen pinkish-bluish tones as the figures, blurring the difference between people and land. There are only two bright spots: the red flower in the girl’s hair and the red clothes of the child far away."
+     },
+     "sources": [
+      {
+       "title": "G. Apollinaire — Les Peintres cubistes, 1913 (reprint of La Plume, 15.05.1905)",
+       "url": "https://archive.org/details/lespeintrescubis00apol"
+      },
+      {
+       "title": "ГМИИ — «Девочка на шаре»",
+       "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "text": {
+      "ru": "Цвет его картин обладает матовостью фресок, линии твёрдые.",
+      "en": "The colour has the mattness of frescoes; the lines are firm."
+     },
+     "attribution": "Гийом Аполлинер, 1905",
+     "source": {
+      "title": "G. Apollinaire, Les Peintres cubistes, 1913",
+      "url": "https://archive.org/details/lespeintrescubis00apol"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ball-and-cube",
+   "name": {
+    "ru": "Шар и куб",
+    "en": "The ball and the cube"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "На картине всего две геометрические фигуры, и обе несут смысл. Шар — то, на чём невозможно устоять: он всё время катится, и равновесие на нём длится секунды. Куб — то, с чего невозможно сдвинуться: он тяжёл, устойчив и срезан краем холста, будто уходит за раму и врос в землю.\n\nАнатолий Бабин увидел здесь старую эмблему: в эпоху Возрождения говорили, что престол Фортуны круглый, а престол Доблести квадратный. Фортуна, удача, стоит на шаре, потому что удача непостоянна; Доблесть сидит на кубе, потому что она надёжна. Американский искусствовед Мейер Шапиро прочитал картину иначе: равновесие акробата для него — образ работы самого художника, который всё время выверяет линии и массы. А автор каталога вашингтонской выставки 1980 года Э. А. Кармин сформулировал главное противопоставление этой пары тремя парами слов: изящество и сила, лёгкое и тяжёлое, исполнитель и наблюдатель.",
+      "en": "There are only two geometric shapes in the painting, and both carry meaning. The ball is something you cannot stand still on: it keeps rolling, and balance on it lasts seconds. The cube is something you cannot move from: heavy, stable, cut by the edge of the canvas as if it went beyond the frame and grew into the earth.\n\nAnatoly Babin saw an old emblem here: in the Renaissance it was said that the seat of Fortune is round and the seat of Virtue square. Fortune, luck, stands on a ball because luck is fickle; Virtue sits on a cube because it is reliable. The American art historian Meyer Schapiro read it differently: the acrobat’s balance is for him an image of the artist’s own work, constantly adjusting lines and masses. And the author of the 1980 Washington exhibition catalogue, E. A. Carmean, framed the pair’s central opposition in three pairs of words: grace and strength, light and heavy, actor and observer."
+     },
+     "sources": [
+      {
+       "title": "E. A. Carmean Jr. — Picasso: The Saltimbanques, NGA, 1980",
+       "url": "https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/picasso-the-saltimbanques.pdf"
+      },
+      {
+       "title": "Девочка на шаре — ru.wikipedia",
+       "url": "https://ru.wikipedia.org/wiki/Девочка_на_шаре"
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "text": {
+      "ru": "Изящество и сила, лёгкое и тяжёлое, исполнитель и наблюдатель.",
+      "en": "Grace and strength, light and heavy, actor and observer."
+     },
+     "attribution": "Э. А. Кармин, 1980",
+     "source": {
+      "title": "E. A. Carmean Jr., Picasso: The Saltimbanques, 1980",
+      "url": "https://www.nga.gov/content/dam/ngaweb/research/publications/pdfs/picasso-the-saltimbanques.pdf"
+     }
+    }
+   ]
+  },
+  {
+   "id": "him",
+   "name": {
+    "ru": "Он",
+    "en": "Him"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Официальное прочтение Пушкинского музея такое. Атлет подобен египетскому фараону, царственно восседающему на кубе. Хрупкость девочки подчёркивает его силу, а его сила как бы защищает её от жестокости действительности. Бродячие акробаты — изгои, и они нужны друг другу: это мир людей, которые нуждаются друг в друге. Искусствовед Нина Дмитриева называла такую труппу идеальной моделью семьи.\n\nМы прочитаем его иначе, и это наше прочтение, а не музейное. Посмотрите ещё раз на его позу. Фараон сидел бы прямо, а этот человек сидит, подавшись вперёд, плечи опущены, голова мала для такой спины и утоплена в тени. Рука не держит, не готова подхватить, просто лежит на колене. Вся огромная сила, которую Пикассо так подчеркнул, сейчас ни на что не направлена. Это сила человека, который устал её носить.\n\nИ тогда картина становится историей о любви — той, где он смотрит на неё снизу, тяжёлый, неподвижный, придавленный собственным весом, а она стоит над ним на шаре, невесомая, вся в усилии не упасть, и даже не смотрит на него. Она держит равновесие сама. Он только смотрит. Может быть, это он и держится за неё — за то, что в мире ещё бывает такая лёгкость. Музей видит защитника. Нам видится человек, которого держит на земле только то, что она есть.",
+      "en": "The Pushkin Museum’s official reading is this. The athlete is like an Egyptian pharaoh sitting regally on the cube. The girl’s fragility underlines his strength, and his strength seems to shield her from the cruelty of reality. Travelling acrobats are outcasts and need one another: a world of people who need each other. The art historian Nina Dmitrieva called such a troupe an ideal model of a family.\n\nWe will read him differently, and this is our reading, not the museum’s. Look at his posture again. A pharaoh would sit upright; this man sits leaning forward, shoulders lowered, his head small for such a back and sunk in shadow. His hand does not hold, is not ready to catch — it just lies on his knee. All the enormous strength Picasso so stressed is directed at nothing. It is the strength of a man tired of carrying it.\n\nAnd then the painting becomes a story about love — where he looks up at her, heavy, still, pressed down by his own weight, while she stands above him on the ball, weightless, all effort not to fall, and does not even look at him. She keeps her balance herself. He only watches. Perhaps it is he who holds on to her — to the fact that such lightness still exists in the world. The museum sees a protector. We see a man held on earth only by the fact that she exists."
+     },
+     "sources": [
+      {
+       "title": "ГМИИ — «Девочка на шаре»",
+       "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
+      },
+      {
+       "title": "Вокруг света — «А был ли мальчик»",
+       "url": "https://www.vokrugsveta.ru/articles/a-byl-li-malchik-istoriya-sozdaniya-i-9-primechatelnykh-detalei-kartiny-pablo-pikasso-devochka-na-share-id603066/"
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "text": {
+      "ru": "Мощь атлета как бы защищает её от жестокости действительности.",
+      "en": "The athlete’s might seems to shield her from the cruelty of reality."
+     },
+     "attribution": "Пушкинский музей",
+     "source": {
+      "title": "ГМИИ — «Девочка на шаре»",
+      "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
+     }
+    }
+   ]
+  },
+  {
+   "id": "background",
+   "name": {
+    "ru": "Фон, который не смотрит",
+    "en": "A background that does not look"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "За двумя героями лежит пустой выжженный пейзаж розово-охристых холмов, а над ним зеленовато-серое небо. Подоксик видел в этих холмах гористую Испанию и бродячие труппы, которые Пикассо помнил с детства. В середине пасётся белая лошадь, слева далеко женщина с младенцем, ребёнок в красном и собака.\n\nАполлинер в 1905 году писал о бродячих акробатах Пикассо почти этими словами: среди привычных обезьян, белых лошадей и собак; звери учат их религиозной тайне; они совершают немые обряды с трудной ловкостью. А о девочках на шарах написал, что те повелевают этими сферами, как сияющим движением миров. Говорил ли он именно об этой картине, по тексту установить нельзя, но лучше о ней никто не сказал.\n\nОбратите внимание: никто на фоне не смотрит на трюк. Ни лошадь, ни мать, ни ребёнок, ни собака. Онлайн-журнал «Культура Москвы» прочитал это как невостребованность искусства. Для нас это знак того, что вся картина происходит между двумя людьми: самое трудное на свете она делает для одного-единственного зрителя.",
+      "en": "Behind the two figures lies an empty scorched landscape of pinkish-ochre hills under a greenish-grey sky. Podoksik saw mountainous Spain in these hills and the travelling troupes Picasso remembered from childhood. In the middle a white horse grazes; far to the left a woman with a baby, a child in red and a dog.\n\nIn 1905 Apollinaire wrote of Picasso’s acrobats almost in these words: among familiar monkeys, white horses and dogs; the animals teach them religious mystery; they celebrate mute rites with difficult agility. Of the girls on the balls he wrote that they command these spheres with the radiant movement of worlds. Whether he meant this very painting cannot be established from the text, but no one has put it better.\n\nNotice that no one in the background watches the trick. Not the horse, not the mother, not the child, not the dog. The online magazine Kultura Moskvy read this as art going unwanted. For us it is a sign that the whole picture happens between two people: she does the hardest thing in the world for a single spectator."
+     },
+     "sources": [
+      {
+       "title": "G. Apollinaire — Les Peintres cubistes, 1913",
+       "url": "https://archive.org/details/lespeintrescubis00apol"
+      },
+      {
+       "title": "Культура Москвы — Все секреты «Девочки на шаре»",
+       "url": "https://vk.ru/@culture.moscow-vse-sekrety-devochki-na-share"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "journey",
+   "name": {
+    "ru": "Из Парижа в Москву",
+    "en": "From Paris to Moscow"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Первыми владельцами картины стали американцы Лео и Гертруда Стайн, брат и сестра, которые одними из первых начали покупать Пикассо. Когда именно и у кого они её купили, неизвестно, но на фотографии их парижской квартиры на улице Флёрюс, сделанной около 1907 года, «Девочка на шаре» уже висит на стене рядом с «Мальчиком, ведущим лошадь».\n\nВ 1913 году брат и сестра поссорились и делили коллекцию. Торговец Даниэль-Анри Канвейлер оценил «Девочку на шаре» в десять тысяч франков. 17 октября 1913 года Гертруда отдала её Канвейлеру вместе с двумя другими ранними работами в обмен на новую кубистическую картину Пикассо «Человек с гитарой». Похоже, новый Пикассо интересовал её уже больше прежнего.\n\nКанвейлер сразу перепродал «Девочку» московскому промышленнику Ивану Морозову. Сколько тот заплатил, источники расходятся: тринадцать или шестнадцать тысяч франков. Для сравнения, «Странствующих гимнастов» Пикассо Морозов купил у Воллара всего за триста. За всю жизнь у Морозова было только три картины Пикассо, а у его соперника Сергея Щукина около пятидесяти.",
+      "en": "The first owners were the Americans Leo and Gertrude Stein, brother and sister, among the first to buy Picasso. When and from whom they bought it is unknown, but in a photograph of their Paris flat on the rue de Fleurus taken around 1907 the girl on the ball already hangs on the wall beside Boy Leading a Horse.\n\nIn 1913 the siblings fell out and divided the collection. The dealer Daniel-Henry Kahnweiler valued the girl on the ball at ten thousand francs. On 17 October 1913 Gertrude gave it to Kahnweiler with two other early works in exchange for Picasso’s new Cubist Man with a Guitar. The new Picasso, it seems, now interested her more than the old.\n\nKahnweiler immediately resold the girl to the Moscow industrialist Ivan Morozov. Sources disagree on what he paid: thirteen or sixteen thousand francs. For comparison, Morozov had bought Picasso’s Two Acrobats from Vollard for just three hundred. In all, Morozov owned only three Picassos; his rival Sergei Shchukin had about fifty."
+     },
+     "sources": [
+      {
+       "title": "Enrique Mallen — Reaching for Success: Picasso’s Rise in the Market, Arts, 2017",
+       "url": "https://www.mdpi.com/2076-0752/6/2/4/htm"
+      },
+      {
+       "title": "MoMA — Four Americans in Paris, 1970",
+       "url": "https://www.moma.org/documents/moma_catalogue_1960_300062402.pdf"
+      },
+      {
+       "title": "The Met — Ivan Morozov, Modern Art Index Project",
+       "url": "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/morozov"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "ivan_morozov_serov_1910.jpg",
+     "alt": {
+      "ru": "Портрет Ивана Морозова на фоне натюрморта",
+      "en": "Portrait of Ivan Morozov before a still life"
+     },
+     "caption": {
+      "ru": "Валентин Серов, «Портрет Ивана Морозова», 1910.",
+      "en": "Valentin Serov, Portrait of Ivan Morozov, 1910."
+     },
+     "credit": "Wikimedia Commons, CC BY 2.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Ivan_Abramovich_Morozov._Valentin_Serov._1910_-_51807585113.jpg",
+     "size": "right",
+     "treatment": "print"
+    }
+   ]
+  },
+  {
+   "id": "storage",
+   "name": {
+    "ru": "Запасники и очередь",
+    "en": "Storerooms and a queue"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "Через пять лет после покупки собрание Морозова национализировали. В 1919 году оно стало музеем, а самого Морозова назначили заместителем хранителя собственной коллекции, и весной того же года он навсегда уехал из России. Потом собрания Морозова и Щукина объединили в Государственный музей нового западного искусства.\n\nВ 1948 году этот музей закрыли как рассадник формализма, а его картины разделили между Пушкинским музеем и Эрмитажем. Так «Девочка на шаре» попала в Пушкинский музей, но не в залы, а в запасники: Пикассо в те годы не показывали.\n\nВ октябре 1956 года, в оттепель, Илья Эренбург добился выставки Пикассо к его семидесятипятилетию. «Девочку на шаре» повесили в самом центре как самую бесспорную картину: ранний, человечный Пикассо был понятен и приемлем даже для чиновников. По пересказу Леонида Парфёнова, Эренбург успокаивал толпу у дверей: ждали этой выставки двадцать пять лет, подождите теперь спокойно ещё двадцать пять минут. А в 1971 году картина вышла на советской почтовой марке и на афише выставки «Пикассо в советских музеях» в Париже, впервые вернувшись в город, где была написана.",
+      "en": "Five years after the purchase Morozov’s collection was nationalised. In 1919 it became a museum, Morozov himself was appointed deputy curator of his own collection, and that spring he left Russia for good. Later the Morozov and Shchukin collections were merged into the State Museum of New Western Art.\n\nIn 1948 that museum was closed as a breeding ground of formalism and its paintings divided between the Pushkin Museum and the Hermitage. So the girl on the ball reached the Pushkin — not its galleries but its storerooms: Picasso was not shown in those years.\n\nIn October 1956, during the Thaw, Ilya Ehrenburg secured a Picasso exhibition for the artist’s seventy-fifth birthday. The girl on the ball hung right in the centre as the least controversial work: the early, humane Picasso was understandable and acceptable even to officials. As Leonid Parfyonov retells it, Ehrenburg calmed the crowd at the door: you waited twenty-five years for this exhibition, now wait calmly another twenty-five minutes. And in 1971 the painting appeared on a Soviet postage stamp and on the poster of the exhibition Picasso in Soviet Museums in Paris, returning for the first time to the city where it was painted."
+     },
+     "sources": [
+      {
+       "title": "Tretyakov Gallery Magazine #4 2015",
+       "url": "https://www.tretyakovgallerymagazine.com/node/4535"
+      },
+      {
+       "title": "Намедни. Наша эра. 1956 — выставка Пикассо",
+       "url": "https://namednibook.ru/vystavka-pikasso.html"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "ussr_stamp_1971_cpa4024.jpg",
+     "alt": {
+      "ru": "Советская почтовая марка с «Девочкой на шаре»",
+      "en": "A Soviet postage stamp with the girl on the ball"
+     },
+     "caption": {
+      "ru": "Почтовая марка СССР, 1971 год, 20 копеек.",
+      "en": "Soviet postage stamp, 1971, 20 kopecks."
+     },
+     "credit": "Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1971_CPA_4024_stamp_(Child_on_Ball_(Pablo_Picasso)).jpg",
+     "size": "right",
+     "treatment": "print"
+    }
+   ]
+  },
+  {
+   "id": "earth-ball",
+   "name": {
+    "ru": "Девочка на шарике земном",
+    "en": "A girl on the earthly ball"
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "text": {
+      "ru": "В России у этой картины давно своя жизнь. Есть рассказ Виктора Драгунского «Девочка на шаре» из «Денискиных рассказов» и фильм 1966 года, хотя прямой связи рассказа с Пикассо мы не нашли. Евгений Евтушенко в 1967 году написал строчку «как девочка на шарике земном». В 2012 году Банк России отчеканил картину на серебряной монете к столетию Пушкинского музея, а Камила Валиева два сезона подряд выходила на лёд с короткой программой по мотивам «Девочки на шаре».\n\nСама картина за это время тоже поездила. В 2011 году её показали в мадридском Прадо, в 2018-м в парижском музее Орсе, а в 2021–2022 годах в Фонде Louis Vuitton на выставке коллекции Морозова, которую посмотрели больше миллиона двухсот тысяч человек. Весной 2022 года самолёты в Россию уже не летали, и картины везли домой на грузовиках пятнадцатью рейсами, через Бельгию, Германию и паромом через Финляндию. К маю все работы вернулись в музеи.",
+      "en": "In Russia this painting has long had a life of its own. There is Viktor Dragunsky’s story The Girl on the Ball from the Deniska Stories and a 1966 film, though we found no direct link between the story and Picasso. In 1967 Yevgeny Yevtushenko wrote the line ‘like a girl on the earthly ball’. In 2012 the Bank of Russia struck the painting on a silver coin for the Pushkin Museum’s centenary, and Kamila Valieva skated two seasons running with a short programme inspired by the painting.\n\nThe painting itself has travelled too. In 2011 it was shown at the Prado in Madrid, in 2018 at the Musée d’Orsay in Paris, and in 2021–22 at the Fondation Louis Vuitton in the Morozov collection exhibition, seen by more than 1.2 million people. By spring 2022 planes no longer flew to Russia, and the paintings went home by truck in fifteen convoys, through Belgium, Germany and by ferry via Finland. By May every work was back in its museum."
+     },
+     "sources": [
+      {
+       "title": "The Art Newspaper — Morozov collection returns, 25.05.2022",
+       "url": "https://www.theartnewspaper.com/2022/05/25/masterpieces-from-morozov-collection-return-to-russia-from-francebut-three-works-have-been-retained"
+      },
+      {
+       "title": "Известия — Картины сошлись, 05.05.2022",
+       "url": "https://iz.ru/1330657/sergei-uvarov/kartiny-soshlis-kollektciiu-morozovykh-vernuli-v-sokhrannosti"
+      },
+      {
+       "title": "Девочка на шаре — ru.wikipedia",
+       "url": "https://ru.wikipedia.org/wiki/Девочка_на_шаре"
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "src": "bank_of_russia_coin_2012_pushkin_museum.jpg",
+     "alt": {
+      "ru": "Серебряная монета с «Девочкой на шаре»",
+      "en": "A silver coin with the girl on the ball"
+     },
+     "caption": {
+      "ru": "Монета Банка России, 2012 год, к столетию Пушкинского музея.",
+      "en": "Bank of Russia coin, 2012, for the Pushkin Museum’s centenary."
+     },
+     "credit": "Банк России, Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:RR5111-0234R.jpg",
+     "size": "left",
+     "treatment": "print"
+    },
+    {
+     "type": "text",
+     "text": {
+      "ru": "Сам Пикассо об этой картине, насколько удалось найти, ничего не говорил. Он вообще не любил объяснять свои работы и однажды сказал, что перемена не означает развития: если художник меняет манеру, значит, изменился его способ мыслить. Через пару лет после «Девочки на шаре» он напишет «Авиньонских девиц» и больше никогда не вернётся к этим тихим розовым акробатам.\n\nА они остались на холсте, двое на пустой земле: он на кубе, она на шаре. Сто двадцать лет она держит равновесие, и сто двадцать лет он на неё смотрит.",
+      "en": "Picasso himself, as far as we could find, said nothing about this painting. He disliked explaining his work and once said that variation does not mean evolution: if an artist changes his manner, it means his way of thinking has changed. A couple of years after the girl on the ball he would paint Les Demoiselles d’Avignon and never return to these quiet pink acrobats.\n\nAnd they remained on the canvas, two people on empty ground: he on the cube, she on the ball. For a hundred and twenty years she has kept her balance, and for a hundred and twenty years he has watched her."
+     },
+     "sources": [
+      {
+       "title": "Picasso Speaks, The Arts, May 1923 (en.wikiquote)",
+       "url": "https://en.wikiquote.org/wiki/Pablo_Picasso"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

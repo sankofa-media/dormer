@@ -34,13 +34,15 @@ projects:
       type: empty
   - id: girl-on-a-ball
     title:
-      ru: Девочка на шаре
-      en: Girl on a Ball
+      ru: Кто держит равновесие
+      en: Who Keeps the Balance
+    dek:
+      ru: «Девочка на шаре» Пикассо — о лёгкости, тяжести и любви
+      en: Picasso's Young Acrobat on a Ball, on lightness, weight and love
     tags:
       - art
-    upcoming: true
     tile:
-      type: type
+      type: art
   - id: perfume
     title:
       ru: Горче горького
