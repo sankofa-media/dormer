@@ -20,7 +20,8 @@ export type Block = Art | Photo | Collage
  | {type:'aside';title?:Bi;text:Bi;sources?:Source[]}
  | {type:'tour';src:string;alt:Bi;credit:Copy;source_url:string;stops:{x:number;y:number;w:number;h:number;title:Bi;text:Bi}[]}
  | {type:'ladder';title:Bi;left:Bi;right:Bi;items:{step:number;anchor:string;name:string;brand:string;year:string;image?:string;popsa:number;zhest:number;teaser:Bi}[]}
- | {type:'scorecard';popsa:number;zhest:number;facts:{label:Bi;value:Bi}[]};
+ | {type:'scorecard';popsa:number;zhest:number;facts:{label:Bi;value:Bi}[]}
+ | {type:'scentmap';title:Bi;lede:Bi;x:Bi;y:Bi;families:{id:string;label:Bi;color:string}[];items:{id:string;name:string;brand:string;year:string;family:string;step:number;anchor?:string;image?:string;popsa:number;zhest:number;px:number;py:number;flip?:boolean;who?:Bi;notes:Bi;text:Bi;teaser:Bi;invented?:boolean}[]};
 export type Cover = (Omit<Art,'type'> & {kind:'art'}) | (Omit<Collage,'type'> & {kind:'collage'});
 export interface Chapter {id:string;name:Bi;kicker?:Bi;heat?:number;blocks:Block[]}
 export interface Project {id:string;layout:'longread';theme:'watercolor'|'yeye';title:Bi;dek:Bi;date:string;cover:Cover;paper?:string;chapters:Chapter[]}
@@ -74,6 +75,7 @@ export function validateBlock(b:any):asserts b is Block {
   for(const p of b.pieces){asset(p.src);finite(p.x,p.y,p.w,p.rotate,p.z,p.depth);if(p.x<0||p.x>100||p.y<0||p.y>100||p.w<=0||p.w>100)fail('Invalid collage coordinates')}
   for(const balloon of b.balloons){copy(balloon.text);if(!str(balloon.who)||! /^[a-z]{2,3}(-[A-Za-z]+)?$/.test(balloon.lang))fail('Invalid balloon');finite(balloon.x,balloon.y);if(balloon.x<0||balloon.x>100||balloon.y<0||balloon.y>100)fail('Invalid balloon coordinates');choice(balloon.tail,['left','right','down'])}break;
  case 'tour':asset(b.src,'photos');bi(b.alt);copy(b.credit);if(!http(b.source_url))fail('Tour source_url required');list(b.stops);for(const st of b.stops){finite(st.x,st.y,st.w,st.h);if(st.x<0||st.y<0||st.w<=0||st.h<=0||st.x+st.w>100.01||st.y+st.h>100.01)fail('Invalid tour stop');bi(st.title);bi(st.text)}break;
+ case 'scentmap':bi(b.title);bi(b.lede);bi(b.x);bi(b.y);list(b.families);list(b.items);{const fam=new Set(b.families.map((f:{id:string;label:Bi;color:string})=>{if(!/^[a-z0-9-]+$/.test(f.id)||!/^#[0-9a-f]{6}$/i.test(f.color))fail('Invalid scentmap family');bi(f.label);return f.id}));const ids=new Set<string>();for(const it of b.items){finite(it.step,it.popsa,it.zhest,it.px,it.py);if(!/^[a-z0-9-]+$/.test(it.id)||ids.has(it.id)||!str(it.name)||!str(it.brand)||!fam.has(it.family)||(it.anchor&&!/^[a-z0-9-]+$/.test(it.anchor)))fail(`Invalid scentmap item ${it.id}`);ids.add(it.id);if(it.image)asset(it.image,'photos');if(it.who)bi(it.who);bi(it.notes);bi(it.text);bi(it.teaser)}}break;
  case 'ladder':bi(b.title);bi(b.left);bi(b.right);list(b.items);for(const it of b.items){finite(it.step,it.popsa,it.zhest);if(!str(it.name)||!str(it.brand)||!str(it.year)||!/^[a-z0-9-]+$/.test(it.anchor))fail('Invalid ladder item');if(it.image)asset(it.image,'photos');bi(it.teaser)}break;
  case 'scorecard':finite(b.popsa,b.zhest);list(b.facts);for(const f of b.facts){bi(f.label);bi(f.value)}break;
  default:fail(`Unknown block type: ${b.type}`);
@@ -96,7 +98,7 @@ export function projectAssets(p:Project):string[] {
  case 'song':if(b.sleeve)add(b.sleeve);break;
  case 'poster':if(b.photo)visit(b.photo);break;
  case 'tour':add(b.src,'photos');break;
- case 'ladder':for(const it of b.items)if(it.image)add(it.image,'photos');break;
+ case 'ladder':case 'scentmap':for(const it of b.items)if(it.image)add(it.image,'photos');break;
  case 'collage':typeof b.background==='string'?add(b.background):visit(b.background);b.pieces.forEach(p=>add(p.src));break;
  }};
  visit({...p.cover,type:p.cover.kind} as Block);if(p.paper)add(p.paper);p.chapters.forEach(c=>c.blocks.forEach(visit));return [...files];

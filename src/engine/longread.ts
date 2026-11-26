@@ -141,3 +141,20 @@ export function heat(){
   const [r,g,b]=color(Math.max(0,Math.min(1,t)));page.style.setProperty('--bg',`rgb(${r},${g},${b})`);page.style.setProperty('--fg',t>.7?'#efe6d6':'#2a1f1a');page.dataset.dark=String(t>.7)};
  addEventListener('scroll',()=>{if(!frame)frame=requestAnimationFrame(update)},{passive:true});update();
 }
+
+export function scentmaps(){
+  for(const map of document.querySelectorAll<HTMLElement>('.smap')){
+    const card=map.querySelector<HTMLElement>('.smap-card')!;
+    const close=document.createElement('button');close.type='button';close.className='smap-close';close.setAttribute('aria-label','×');close.textContent='×';card.prepend(close);
+    close.addEventListener('click',()=>card.classList.remove('open'));
+    const dots=[...map.querySelectorAll<HTMLButtonElement>('.smap-dot')];
+    const show=(i:string)=>{for(const d of dots)d.classList.toggle('active',d.dataset.i===i);for(const a of card.querySelectorAll<HTMLElement>('.smap-item'))a.hidden=a.dataset.i!==i;card.scrollTop=0;card.classList.add('open')};
+    for(const d of dots)d.addEventListener('click',()=>show(d.dataset.i!));
+    let fam='',q='';
+    const apply=()=>{map.classList.toggle('filtering',!!(fam||q));for(const d of dots)d.classList.toggle('match',(!fam||d.dataset.fam===fam)&&(!q||d.dataset.q!.includes(q)))};
+    for(const b of map.querySelectorAll<HTMLButtonElement>('.smap-legend button'))b.addEventListener('click',()=>{fam=b.dataset.fam!;for(const o of map.querySelectorAll('.smap-legend button'))o.classList.toggle('on',o===b);apply()});
+    const find=map.querySelector<HTMLInputElement>('.smap-find')!;
+    find.addEventListener('input',()=>{q=find.value.trim().toLowerCase();apply()});
+    find.addEventListener('keydown',e=>{if(e.key!=='Enter')return;const hit=dots.find(d=>d.classList.contains('match'));if(hit){hit.scrollIntoView({block:'center',inline:'center',behavior:'smooth'});show(hit.dataset.i!)}});
+  }
+}

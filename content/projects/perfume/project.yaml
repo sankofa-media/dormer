@@ -39,990 +39,2265 @@
     {
      "type": "text",
      "text": {
-      "ru": "С этого вопроса началась наша прогулка. Мы ответили на него, а потом спросили себя: хорошо, но ведь есть что-то ещё более необычное, совсем нишевое, может, даже неприятное? И задавали этот вопрос снова и снова, двадцать раз подряд. Каждый ответ стал ступенью, и на каждой ступени стоят несколько настоящих ароматов, которые можно купить, или работ художников, которые можно увидеть в музее.\n\nЛестница начинается в универмаге, с горьких и солёных мужских ароматов, которые продаются в любом дьюти-фри, проходит через ладан, дым, кожу, асфальт и офисную технику, спускается к звериным выделениям, поту, крови и смерти и заканчивается там, где запах становится искусством о насилии. На последней, двадцать первой ступени мы придумали несколько ароматов сами.\n\nКарта ниже показывает всю дорогу сразу: слева сладкое и безопасное, справа то, что лучше не нюхать. Под каждым ароматом две оценки от нуля до десяти: насколько он попсовый и насколько он жёсткий. Нажмите на любой флакон, чтобы перейти к его ступени, или просто листайте вниз, и вы заметите, как вместе со ступенями меняется цвет страницы.",
-      "en": "Our walk began with this question. We answered it, then asked ourselves: fine, but isn’t there something even more unusual, truly niche, maybe even unpleasant? And we asked it again and again, twenty times in a row. Each answer became a step, and on each step stand several real fragrances you can buy, or artists’ works you can see in a museum.\n\nThe ladder starts in the department store, with bitter and salty men’s fragrances sold in any duty-free, passes through incense, smoke, leather, asphalt and office machines, descends to animal secretions, sweat, blood and death, and ends where smell becomes art about violence. On the last, twenty-first step we invented a few fragrances of our own.\n\nThe map below shows the whole road at once: on the left, the sweet and safe; on the right, what you had better not smell. Each fragrance has two scores from zero to ten: how mainstream it is and how extreme. Click any bottle to jump to its step, or just scroll down and watch the page change colour as you descend."
+      "ru": "С этого вопроса началась наша прогулка. Мы ответили на него, а потом спросили себя: хорошо, но ведь есть что-то ещё более необычное, совсем нишевое, может, даже неприятное? И задавали этот вопрос снова и снова, двадцать раз подряд. Каждый ответ стал ступенью, и на каждой ступени стоят несколько настоящих ароматов, которые можно купить, или работ художников, которые можно увидеть в музее.\n\nЛестница начинается в универмаге, с горьких и солёных мужских ароматов, которые продаются в любом дьюти-фри, проходит через ладан, дым, кожу, асфальт и офисную технику, спускается к звериным выделениям, поту, крови и смерти и заканчивается там, где запах становится искусством о насилии. На последней, двадцать первой ступени мы придумали несколько ароматов сами.\n\nКарта ниже показывает всю дорогу сразу. Каждая точка на ней — аромат, и стоит он там, где сошлись две наши оценки от нуля до десяти. Чем правее точка, тем аромат жёстче: слева то, что понравится почти любому, справа то, что лучше не нюхать. Чем выше, тем он попсовее: наверху продаётся в каждом дьюти-фри, внизу почти никто не нюхал. Фон темнеет слева направо вместе с жёсткостью, а цвет точки говорит, из какого семейства аромат: дерево, дым, кожа, звери и так далее. Нажмите на точку, и рядом откроется рассказ об аромате, на кнопку семейства, чтобы оставить только его, или найдите аромат по названию. Вместе со ступенями меняется и цвет самой страницы.",
+      "en": "Our walk began with this question. We answered it, then asked ourselves: fine, but isn’t there something even more unusual, truly niche, maybe even unpleasant? And we asked it again and again, twenty times in a row. Each answer became a step, and on each step stand several real fragrances you can buy, or artists’ works you can see in a museum.\n\nThe ladder starts in the department store, with bitter and salty men’s fragrances sold in any duty-free, passes through incense, smoke, leather, asphalt and office machines, descends to animal secretions, sweat, blood and death, and ends where smell becomes art about violence. On the last, twenty-first step we invented a few fragrances of our own.\n\nThe map below shows the whole road at once. Each dot is a fragrance, placed where our two scores from zero to ten meet. The further right, the more extreme: on the left what almost anyone would like, on the right what you had better not smell. The higher, the more mainstream: at the top it is sold in every duty-free, at the bottom almost nobody has smelled it. The background darkens from left to right with extremity, and the colour of a dot tells its family: wood, smoke, leather, animals and so on. Click a dot and its story opens beside the map, click a family to keep only it, or find a fragrance by name. The page itself changes colour as you descend."
      }
     },
     {
-     "type": "ladder",
+     "type": "scentmap",
      "title": {
       "ru": "Карта: от попсы к жести",
       "en": "The map: from mainstream to extreme"
      },
-     "left": {
-      "ru": "попса",
-      "en": "mainstream"
+     "lede": {
+      "ru": "69 несладких ароматов на одной плоскости. Правее — жёстче, выше — попсовее, цвет точки — семейство.",
+      "en": "69 non-sweet fragrances on one plane. Further right is more extreme, higher is more mainstream, the colour of a dot is its family."
      },
-     "right": {
-      "ru": "жесть",
-      "en": "extreme"
+     "x": {
+      "ru": "приятно  →  жёстко",
+      "en": "pleasant  →  extreme"
      },
+     "y": {
+      "ru": "почти никто не нюхал  →  в каждом дьюти-фри",
+      "en": "almost nobody has smelled it  →  in every duty-free"
+     },
+     "families": [
+      {
+       "id": "fresh",
+       "label": {
+        "ru": "Горькое, цитрус, зелень",
+        "en": "Bitter, citrus, green"
+       },
+       "color": "#6f9e3a"
+      },
+      {
+       "id": "iris",
+       "label": {
+        "ru": "Ирис и ветивер",
+        "en": "Iris and vetiver"
+       },
+       "color": "#7d6bb8"
+      },
+      {
+       "id": "molecule",
+       "label": {
+        "ru": "Одна молекула",
+        "en": "A single molecule"
+       },
+       "color": "#8f9aa6"
+      },
+      {
+       "id": "salt",
+       "label": {
+        "ru": "Соль и море",
+        "en": "Salt and sea"
+       },
+       "color": "#2b86b8"
+      },
+      {
+       "id": "mineral",
+       "label": {
+        "ru": "Металл, озон, космос",
+        "en": "Metal, ozone, space"
+       },
+       "color": "#4f6d7a"
+      },
+      {
+       "id": "earth",
+       "label": {
+        "ru": "Земля, мох, грибы",
+        "en": "Earth, moss, mushrooms"
+       },
+       "color": "#5d6b2a"
+      },
+      {
+       "id": "incense",
+       "label": {
+        "ru": "Ладан и церковь",
+        "en": "Incense and church"
+       },
+       "color": "#c79a1e"
+      },
+      {
+       "id": "smoke",
+       "label": {
+        "ru": "Дым и огонь",
+        "en": "Smoke and fire"
+       },
+       "color": "#e0601a"
+      },
+      {
+       "id": "leather",
+       "label": {
+        "ru": "Кожа",
+        "en": "Leather"
+       },
+       "color": "#7a3e1c"
+      },
+      {
+       "id": "industrial",
+       "label": {
+        "ru": "Асфальт, бензин, вещи",
+        "en": "Asphalt, petrol, things"
+       },
+       "color": "#3a3f44"
+      },
+      {
+       "id": "animal",
+       "label": {
+        "ru": "Звери",
+        "en": "Animals"
+       },
+       "color": "#9b3fa8"
+      },
+      {
+       "id": "body",
+       "label": {
+        "ru": "Тело и пот",
+        "en": "Body and sweat"
+       },
+       "color": "#d6336c"
+      },
+      {
+       "id": "death",
+       "label": {
+        "ru": "Кровь и смерть",
+        "en": "Blood and death"
+       },
+       "color": "#8a0d12"
+      },
+      {
+       "id": "art",
+       "label": {
+        "ru": "Искусство",
+        "en": "Art"
+       },
+       "color": "#111111"
+      },
+      {
+       "id": "invented",
+       "label": {
+        "ru": "Придумано нами",
+        "en": "Invented by us"
+       },
+       "color": "#ff2d95"
+      }
+     ],
      "items": [
       {
-       "step": 1,
-       "anchor": "step-01",
+       "id": "terre-d-hermes",
        "name": "Terre d'Hermès",
        "brand": "Hermès",
        "year": "2006",
+       "family": "fresh",
+       "step": 1,
+       "anchor": "step-01",
        "popsa": 9,
        "zhest": 1,
+       "who": {
+        "ru": "Жан-Клод Эллена",
+        "en": "Jean-Claude Ellena"
+       },
+       "notes": {
+        "ru": "горький апельсин, грейпфрут, перец, кремень, ветивер, кедр",
+        "en": "bitter orange, grapefruit, pepper, flint, vetiver, cedar"
+       },
+       "text": {
+        "ru": "Жан-Клод Эллена, тогда штатный парфюмер Hermès, сложил этот аромат из горьких цитрусов без капли сахара, перца, ветивера и кедра, а в середину поставил минеральный аккорд, похожий на нагретый солнцем кремень. Hermès рассказывает о нём как об истории отношений человека с землёй.",
+        "en": "Jean-Claude Ellena, then Hermès's in-house perfumer, built it from sugar-free bitter citrus, pepper, vetiver and cedar, with a mineral accord in the middle that recalls flint warmed by the sun. Hermès tells it as a story of man and earth. The result is dry and bitter yet so calm and respectable that Terre became one of the best-selling men's fragrances of its class and won a FiFi award in 2007."
+       },
        "teaser": {
         "ru": "горький апельсин и нагретый камень",
         "en": "bitter orange and sun-warmed stone"
        },
-       "image": "01-a-terre-d-hermes.jpg"
+       "image": "01-a-terre-d-hermes.jpg",
+       "px": 13.06,
+       "py": 15.44,
+       "flip": false
       },
       {
-       "step": 1,
-       "anchor": "step-01",
+       "id": "declaration",
        "name": "Déclaration",
        "brand": "Cartier",
        "year": "1998",
+       "family": "fresh",
+       "step": 1,
+       "anchor": "step-01",
        "popsa": 7,
        "zhest": 2,
+       "who": {
+        "ru": "Жан-Клод Эллена",
+        "en": "Jean-Claude Ellena"
+       },
+       "notes": {
+        "ru": "горький апельсин, полынь, берёза, кардамон, кумин",
+        "en": "bitter orange, wormwood, birch, cardamom, cumin"
+       },
+       "text": {
+        "ru": "За восемь лет до Terre тот же Эллена сделал для Cartier аромат на горечи полыни и апельсиновой корки с сухими специями. Многих в нём смущает кумин: эта пряность даёт телесную, слегка потную ноту, будто от белой рубашки в конце длинного дня (правда, в одних официальных списках нот кумин есть, а в других нет). Блог Ça Fleure Bon включил Déclaration в серию современных шедевров.",
+        "en": "Eight years before Terre, the same Ellena made Cartier a fragrance of bitter wormwood and orange peel with dry spices. What unsettles many is the cumin, a spice that gives a bodily, slightly sweaty note, like a white shirt at the end of a long day (though cumin appears in some official note lists and not in others). The blog Ça Fleure Bon counts Déclaration among its modern masterpieces."
+       },
        "teaser": {
         "ru": "полынь, апельсиновая корка и чуть-чуть пота",
         "en": "wormwood, orange peel and a hint of sweat"
        },
-       "image": "01-b-cartier-declaration.jpg"
+       "image": "01-b-cartier-declaration.jpg",
+       "px": 20.94,
+       "py": 30.08,
+       "flip": false
       },
       {
-       "step": 1,
-       "anchor": "step-01",
+       "id": "aqva",
        "name": "Aqva Pour Homme",
        "brand": "Bvlgari",
        "year": "2005",
+       "family": "salt",
+       "step": 1,
+       "anchor": "step-01",
        "popsa": 8,
        "zhest": 1,
+       "who": {
+        "ru": "Жак Кавалье",
+        "en": "Jacques Cavallier Belletrud"
+       },
+       "notes": {
+        "ru": "мандарин, петитгрейн, сантолина, посидония, минеральные ноты",
+        "en": "mandarin, petitgrain, santolina, posidonia, mineral notes"
+       },
+       "text": {
+        "ru": "Это море без сахара и без «свежести» из девяностых. Жак Кавалье построил аромат вокруг посидонии, средиземноморской морской травы, которая пахнет йодом и солью, и добавил к ней сухую сантолину и цитрусы. Аромат массовый и безопасный, но солёный по-настоящему.",
+        "en": "The sea without sugar and without the ‘freshness’ of the nineties. Jacques Cavallier built it around posidonia, the Mediterranean sea grass that smells of iodine and salt, and added dry santolina and citrus. It is mass-market and safe, but genuinely salty."
+       },
        "teaser": {
         "ru": "морская трава вместо морского бриза",
         "en": "sea grass instead of sea breeze"
        },
-       "image": "01-c-bvlgari-aqva.jpg"
+       "image": "01-c-bvlgari-aqva.jpg",
+       "px": 14.13,
+       "py": 23.35,
+       "flip": false
       },
       {
-       "step": 1,
-       "anchor": "step-01",
+       "id": "wood-sage",
        "name": "Wood Sage & Sea Salt",
        "brand": "Jo Malone London",
        "year": "2014",
+       "family": "salt",
+       "step": 1,
+       "anchor": "step-01",
        "popsa": 9,
        "zhest": 1,
+       "who": {
+        "ru": "Кристин Нажель",
+        "en": "Christine Nagel"
+       },
+       "notes": {
+        "ru": "амбретта, морская соль, шалфей, водоросли",
+        "en": "ambrette, sea salt, sage, seaweed"
+       },
+       "text": {
+        "ru": "Самый безопасный солёный аромат в мире и один из бестселлеров Jo Malone. Кристин Нажель, как пишут блогеры, вдохновлялась прогулкой по английскому побережью: сухой шалфей, морская соль, минеральные ноты и амбретта, растительный мускус из семян. Это последний аромат, который она сделала для бренда, прежде чем уйти в Hermès.",
+        "en": "The world's safest salty fragrance and one of Jo Malone's bestsellers. Christine Nagel, bloggers say, was inspired by a walk on the English coast: dry sage, sea salt, mineral notes and ambrette, a plant musk from seeds. It was her last fragrance for the brand before she moved to Hermès."
+       },
        "teaser": {
         "ru": "солёный ветер на английском берегу",
         "en": "a salty wind on an English shore"
        },
-       "image": "01-d-jo-malone-wood-sage.jpg"
+       "image": "01-d-jo-malone-wood-sage.jpg",
+       "px": 12.24,
+       "py": 13.13,
+       "flip": false
       },
       {
-       "step": 1,
-       "anchor": "step-01",
+       "id": "encre-noire",
        "name": "Encre Noire",
        "brand": "Lalique",
        "year": "2006",
+       "family": "iris",
+       "step": 1,
+       "anchor": "step-01",
        "popsa": 7,
        "zhest": 2,
+       "who": {
+        "ru": "Натали Лорсон",
+        "en": "Nathalie Lorson"
+       },
+       "notes": {
+        "ru": "кипарис, два ветивера, кашемировое дерево, мускус",
+        "en": "cypress, two vetivers, cashmere wood, musk"
+       },
+       "text": {
+        "ru": "Чёрный флакон и запах чернил, мокрого камня и сырой земли. Натали Лорсон взяла сразу два ветивера, бурбонский и гаитянский, и почти ничего не дала им в утешение: ни ванили, ни сладкой базы. Lalique называет это самой утончённой мужской нотой, а любители нишевой парфюмерии — лучшим ветивером за небольшие деньги.",
+        "en": "A black bottle and the smell of ink, wet stone and damp earth. Nathalie Lorson used two vetivers at once, Bourbon and Haitian, and gave them almost no comfort: no vanilla, no sweet base. Lalique calls it the most sophisticated masculine note; niche enthusiasts call it the best cheap vetiver there is."
+       },
        "teaser": {
         "ru": "чернила, мокрый камень, сырая земля",
         "en": "ink, wet stone, damp earth"
        },
-       "image": "01-e-lalique-encre-noire.jpg"
+       "image": "01-e-lalique-encre-noire.jpg",
+       "px": 21.94,
+       "py": 33.25,
+       "flip": false
       },
       {
-       "step": 2,
-       "anchor": "step-02",
+       "id": "molecule-01",
        "name": "Molecule 01",
        "brand": "Escentric Molecules",
        "year": "2006",
+       "family": "molecule",
+       "step": 2,
+       "anchor": "step-02",
        "popsa": 7,
        "zhest": 1,
+       "who": {
+        "ru": "Геза Шён",
+        "en": "Geza Schoen"
+       },
+       "notes": {
+        "ru": "Iso E Super",
+        "en": "Iso E Super"
+       },
+       "text": {
+        "ru": "Геза Шён налил во флакон чистый Iso E Super и продал его как духи. Многие признаются, что сами себя почти не чувствуют, а окружающие спрашивают, чем от них так приятно пахнет. По словам Шёна, это аромат для человека, которому немного наскучили ароматы. Сам бренд пишет о ста процентах молекулы, некоторые продавцы — о шестидесяти пяти.",
+        "en": "Geza Schoen poured pure Iso E Super into a bottle and sold it as perfume. Many wearers admit they can barely smell themselves while others ask what smells so good. In Schoen's words, it is for the individual who might be a bit bored with fragrance. The brand claims one hundred per cent molecule; some retailers say sixty-five."
+       },
        "teaser": {
         "ru": "одна молекула, которая то есть, то нет",
         "en": "one molecule that is there and then isn't"
        },
-       "image": "02-a-escentric-molecule-01.jpg"
+       "image": "02-a-escentric-molecule-01.jpg",
+       "px": 13.2,
+       "py": 32.84,
+       "flip": false
       },
       {
-       "step": 2,
-       "anchor": "step-02",
+       "id": "not-a-perfume",
        "name": "Not a Perfume",
        "brand": "Juliette Has a Gun",
        "year": "2010",
+       "family": "molecule",
+       "step": 2,
+       "anchor": "step-02",
        "popsa": 7,
        "zhest": 1,
+       "who": {
+        "ru": "Романо Риччи",
+        "en": "Romano Ricci"
+       },
+       "notes": {
+        "ru": "Cetalox (амброксид)",
+        "en": "Cetalox (an ambroxide)"
+       },
+       "text": {
+        "ru": "Романо Риччи, потомок Нины Риччи, сделал то же самое с другой молекулой, Cetalox, синтетической заменой серой амбры. Получилась тёплая чистая кожа, чуть древесная. Бренд говорит о единственном ингредиенте и продаёт аромат как подходящий даже аллергикам, и на Sephora он давно хит.",
+        "en": "Romano Ricci, a descendant of Nina Ricci, did the same with another molecule, Cetalox, a synthetic substitute for ambergris. The result is warm clean skin, a little woody. The brand speaks of a single ingredient and sells it as suitable even for allergy sufferers; at Sephora it has long been a hit."
+       },
        "teaser": {
         "ru": "тёплая чистая кожа из одного вещества",
         "en": "warm clean skin from one ingredient"
        },
-       "image": "02-b-juliette-has-a-gun-not-a-perfume.jpg"
+       "image": "02-b-juliette-has-a-gun-not-a-perfume.jpg",
+       "px": 11.93,
+       "py": 30.67,
+       "flip": false
       },
       {
-       "step": 2,
-       "anchor": "step-02",
+       "id": "odeur-10",
        "name": "Odeur 10",
        "brand": "Comme des Garçons",
        "year": "2024",
+       "family": "molecule",
+       "step": 2,
+       "anchor": "step-02",
        "popsa": 3,
        "zhest": 3,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "альдегиды, белая мята, Calypsone, амбретта, мускусы",
+        "en": "aldehydes, white mint, Calypsone, ambrette, musks"
+       },
+       "text": {
+        "ru": "К тридцатилетию своей парфюмерной линии Comme des Garçons выпустили химическую композицию чистоты, как они сами её называют. Альдегиды, мятные ноты и мускусы складываются в запах перекиси водорода и стерильного бинта. Это первая ступенька, на которой аромат перестаёт хотеть нравиться.",
+        "en": "For the thirtieth anniversary of its perfume line, Comme des Garçons released what it calls a chemical composition of clean. Aldehydes, minty notes and musks add up to the smell of hydrogen peroxide and sterile gauze. This is the first rung where a fragrance stops trying to be liked."
+       },
        "teaser": {
         "ru": "перекись водорода как духи",
         "en": "hydrogen peroxide as a perfume"
        },
-       "image": "02-c-cdg-odeur-10.jpg"
+       "image": "02-c-cdg-odeur-10.jpg",
+       "px": 30.02,
+       "py": 67.82,
+       "flip": false
       },
       {
-       "step": 3,
-       "anchor": "step-03",
+       "id": "sel-marin",
        "name": "Sel Marin",
        "brand": "Heeley",
        "year": "2008",
+       "family": "salt",
+       "step": 3,
+       "anchor": "step-03",
        "popsa": 4,
        "zhest": 2,
+       "who": {
+        "ru": "Джеймс Хили",
+        "en": "James Heeley"
+       },
+       "notes": {
+        "ru": "лимон, бергамот, солёные водные ноты, мох, водоросли, ветивер",
+        "en": "lemon, bergamot, salty aquatic notes, moss, seaweed, vetiver"
+       },
+       "text": {
+        "ru": "Джеймс Хили, основатель собственного бренда, сделал лимон, солёные водные ноты, мох, водоросли и ветивер без всякой сладкой подложки. Сам он описывает это так: солнце, горячий песок и лёгкий морской бриз. Одни источники датируют аромат 2007 годом, другие 2008-м, а один рецензент пишет, что в переизданиях соли стало меньше.",
+        "en": "James Heeley, founder of his own brand, combined lemon, salty aquatic notes, moss, seaweed and vetiver with no sweet base underneath. He describes it as sun, hot sand and a gentle sea breeze. Some sources date it to 2007, others to 2008, and one reviewer says later batches were made less salty."
+       },
        "teaser": {
         "ru": "сушёное дерево на песке",
         "en": "driftwood on the sand"
        },
-       "image": "03-a-heeley-sel-marin.jpg"
+       "image": "03-a-heeley-sel-marin.jpg",
+       "px": 20.3,
+       "py": 58.88,
+       "flip": false
       },
       {
-       "step": 3,
-       "anchor": "step-03",
+       "id": "megamare",
        "name": "Megamare",
        "brand": "Orto Parisi",
        "year": "2019",
+       "family": "salt",
+       "step": 3,
+       "anchor": "step-03",
        "popsa": 3,
        "zhest": 5,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "водоросли, морская соль, амбра",
+        "en": "seaweed, sea salt, amber"
+       },
+       "text": {
+        "ru": "Алессандро Гуальтьери, автор марок Nasomatto и Orto Parisi, известен тем, что не боится передозировок. Megamare — это огромная волна морских синтетических нот и амбровых молекул в концентрации духов. Одним она кажется морем, другим гниющими на берегу водорослями, и спорить об этом можно бесконечно. Сам Гуальтьери пишет, что цельность моря не нуждается в объяснениях.",
+        "en": "Alessandro Gualtieri, the man behind Nasomatto and Orto Parisi, is known for his fearless overdoses. Megamare is a huge wave of marine synthetics and amber molecules at extrait strength. To some it is the sea, to others rotting seaweed on a beach, and the argument can go on forever. Gualtieri himself writes that the wholeness of the sea needs no explanation."
+       },
        "teaser": {
         "ru": "море, которое сбивает с ног",
         "en": "a sea that knocks you over"
        },
-       "image": "03-b-orto-parisi-megamare.jpg"
+       "image": "03-b-orto-parisi-megamare.jpg",
+       "px": 46.15,
+       "py": 57.92,
+       "flip": false
       },
       {
-       "step": 3,
-       "anchor": "step-03",
+       "id": "squid",
        "name": "Squid",
        "brand": "Zoologist",
        "year": "2019",
+       "family": "salt",
+       "step": 3,
+       "anchor": "step-03",
        "popsa": 2,
        "zhest": 3,
+       "who": {
+        "ru": "Селин Барель",
+        "en": "Céline Barel"
+       },
+       "notes": {
+        "ru": "солевой аккорд, ладан, аккорд чернил, опопонакс, амбра",
+        "en": "brine accord, incense, ink accord, opoponax, amber"
+       },
+       "text": {
+        "ru": "Канадская марка Zoologist делает ароматы о животных, и для кальмара Селин Барель придумала рассол, ладан и облако чёрных чернил. Звучит странно, но в 2020 году Squid получил премию американского Fragrance Foundation как необычный аромат года. Бренд называет его песней моря.",
+        "en": "The Canadian brand Zoologist makes fragrances about animals, and for the squid Céline Barel devised brine, incense and a cloud of black ink. It sounds odd, yet in 2020 Squid won the American Fragrance Foundation's award for extraordinary perfume of the year. The brand calls it a song of the sea."
+       },
        "teaser": {
         "ru": "рассол, ладан и чернила каракатицы",
         "en": "brine, incense and cuttlefish ink"
        },
-       "image": "03-c-zoologist-squid.jpg"
+       "image": "03-c-zoologist-squid.jpg",
+       "px": 28.59,
+       "py": 75.99,
+       "flip": false
       },
       {
-       "step": 4,
-       "anchor": "step-04",
+       "id": "avignon",
        "name": "Series 3 Incense: Avignon",
        "brand": "Comme des Garçons",
        "year": "2002",
+       "family": "incense",
+       "step": 4,
+       "anchor": "step-04",
        "popsa": 5,
        "zhest": 3,
+       "who": {
+        "ru": "Бертран Дюшофур",
+        "en": "Bertrand Duchaufour"
+       },
+       "notes": {
+        "ru": "ладан, римская ромашка, ладанник, элеми, палисандр",
+        "en": "incense, Roman chamomile, cistus, elemi, rosewood"
+       },
+       "text": {
+        "ru": "Бертран Дюшофур поставил в центр олибанум и смолу элеми, добавил ромашку и ладанник и подал всё это холодно, с альдегидами, почти без сладости. Получилась католическая месса в старой каменной церкви. Для любителей ладана это обязательный пункт, с которого всё начинается.",
+        "en": "Bertrand Duchaufour centred it on frankincense and elemi resin, added chamomile and cistus, and served it cold, with aldehydes and almost no sweetness. The result is a Catholic mass in an old stone church. For incense lovers it is the obligatory starting point."
+       },
        "teaser": {
         "ru": "католическая месса в камне",
         "en": "a Catholic mass in stone"
        },
-       "image": "04-abc-cdg-incense-series-3.jpg"
+       "image": "04-abc-cdg-incense-series-3.jpg",
+       "px": 28.66,
+       "py": 47.23,
+       "flip": false
       },
       {
-       "step": 4,
-       "anchor": "step-04",
+       "id": "kyoto",
        "name": "Series 3 Incense: Kyoto",
        "brand": "Comme des Garçons",
        "year": "2002",
+       "family": "incense",
+       "step": 4,
+       "anchor": "step-04",
        "popsa": 4,
        "zhest": 3,
+       "who": {
+        "ru": "Бертран Дюшофур",
+        "en": "Bertrand Duchaufour"
+       },
+       "notes": {
+        "ru": "ладан, кипарис, кофе, тик, ветивер",
+        "en": "incense, cypress, coffee, teak, vetiver"
+       },
+       "text": {
+        "ru": "Второе паломничество серии ведёт в японский храм. Тот же Дюшофур взял сухой ладан, кипарис, тик, ветивер и неожиданно немного кофе. Здесь нет цветов и нет тепла, только дерево, дым и тишина.",
+        "en": "The series' second pilgrimage leads to a Japanese temple. The same Duchaufour used dry incense, cypress, teak, vetiver and, unexpectedly, a little coffee. There are no flowers and no warmth here, only wood, smoke and silence."
+       },
        "teaser": {
         "ru": "дзен-храм и чашка кофе",
         "en": "a Zen temple and a cup of coffee"
        },
-       "image": "04-abc-cdg-incense-series-3.jpg"
+       "image": "04-abc-cdg-incense-series-3.jpg",
+       "px": 29.75,
+       "py": 55.82,
+       "flip": false
       },
       {
-       "step": 4,
-       "anchor": "step-04",
+       "id": "zagorsk",
        "name": "Series 3 Incense: Zagorsk",
        "brand": "Comme des Garçons",
        "year": "2002",
+       "family": "incense",
+       "step": 4,
+       "anchor": "step-04",
        "popsa": 3,
        "zhest": 3,
+       "who": {
+        "ru": "Эвелин Буланже",
+        "en": "Evelyne Boulanger"
+       },
+       "notes": {
+        "ru": "белый ладан, сосна, перец пимента, фиалка, кедр, ирис",
+        "en": "white incense, pine, pimento, violet, cedar, iris"
+       },
+       "text": {
+        "ru": "Русскому читателю этот аромат ближе остальных: Загорском при советской власти назывался Сергиев Посад с его лаврой. Эвелин Буланже, а не Дюшофур, как часто пишут, соединила белый ладан с сосной, берёзой, фиалкой и ирисом. Дым здесь почти холодный, как в храме зимой, когда за дверью мороз.",
+        "en": "This one speaks to Russian readers most: under Soviet rule Sergiyev Posad, with its great monastery, was called Zagorsk. Evelyne Boulanger, not Duchaufour as is often written, combined white incense with pine, birch, violet and iris. The smoke here is almost cold, like a church in winter with frost outside the door."
+       },
        "teaser": {
         "ru": "ладан и сосны Сергиева Посада",
         "en": "incense and the pines of Sergiyev Posad"
        },
-       "image": "04-abc-cdg-incense-series-3.jpg"
+       "image": "04-abc-cdg-incense-series-3.jpg",
+       "px": 31.07,
+       "py": 64.22,
+       "flip": false
       },
       {
-       "step": 4,
-       "anchor": "step-04",
+       "id": "cardinal",
        "name": "Cardinal",
        "brand": "Heeley",
        "year": "2006",
+       "family": "incense",
+       "step": 4,
+       "anchor": "step-04",
        "popsa": 3,
        "zhest": 2,
+       "who": {
+        "ru": "Джеймс Хили",
+        "en": "James Heeley"
+       },
+       "notes": {
+        "ru": "ладан, ладанник, амбра, пачули, ветивер, свежий лён",
+        "en": "incense, cistus, amber, patchouli, vetiver, fresh linen"
+       },
+       "text": {
+        "ru": "Джеймс Хили описывает свой ладанный аромат так: юный безупречный священник. Олибанум и ладанник здесь соединены с чистым бельевым аккордом, и получается не церковный дым, а свежевыглаженная сутана. Это ладан для тех, кому мрачные церкви кажутся слишком театральными.",
+        "en": "James Heeley describes his incense fragrance as an immaculate young priest. Frankincense and cistus are joined to a clean laundry accord, so the result is not church smoke but a freshly ironed cassock. Incense for those who find dark churches too theatrical."
+       },
        "teaser": {
         "ru": "накрахмаленная сутана молодого священника",
         "en": "a young priest's starched cassock"
        },
-       "image": "04-d-heeley-cardinal.jpg"
+       "image": "04-d-heeley-cardinal.jpg",
+       "px": 20.59,
+       "py": 67.88,
+       "flip": false
       },
       {
-       "step": 5,
-       "anchor": "step-05",
+       "id": "burning-leaves",
        "name": "Burning Leaves",
        "brand": "CB I Hate Perfume",
        "year": "2005",
+       "family": "smoke",
+       "step": 5,
+       "anchor": "step-05",
        "popsa": 1,
        "zhest": 4,
+       "who": {
+        "ru": "Кристофер Брозиус",
+        "en": "Christopher Brosius"
+       },
+       "notes": {
+        "ru": "костёр, тлеющие угли, листва",
+        "en": "bonfire, embers, leaves"
+       },
+       "text": {
+        "ru": "Кристофер Брозиус сначала основал Demeter, а потом ушёл и назвал свою бруклинскую марку манифестом: «Я ненавижу парфюмерию». Его интересуют не духи, а запахи памяти, и он собирает их, изучая, из чего состоит запах настоящих вещей. Burning Leaves — это осенний двор, где жгут кленовые листья: треск костра, тлеющие угли, сырая листва.",
+        "en": "Christopher Brosius first co-founded Demeter, then left and named his Brooklyn brand as a manifesto: I Hate Perfume. He cares not about perfumes but about smells of memory, which he builds by studying what real things smell of. Burning Leaves is an autumn yard where maple leaves are burning: the crackle of fire, smouldering embers, damp foliage."
+       },
        "teaser": {
         "ru": "горящие кленовые листья во дворе",
         "en": "maple leaves burning in a yard"
        },
-       "image": "05-a-cb-i-hate-perfume-burning-leaves.jpg"
+       "image": "05-a-cb-i-hate-perfume-burning-leaves.jpg",
+       "px": 37.28,
+       "py": 87.64,
+       "flip": false
       },
       {
-       "step": 5,
-       "anchor": "step-05",
+       "id": "city-on-fire",
        "name": "A City on Fire",
        "brand": "Imaginary Authors",
        "year": "2014",
+       "family": "smoke",
+       "step": 5,
+       "anchor": "step-05",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Джош Мейер",
+        "en": "Josh Meyer"
+       },
+       "notes": {
+        "ru": "горелые спички, дым, обугленное дерево",
+        "en": "burnt matches, smoke, charred wood"
+       },
+       "text": {
+        "ru": "Марка из Портленда придумывает к каждому аромату несуществующую книгу. Этот будто бы пахнет мрачным графическим романом о двух мастерах спичечного дела, ставших свидетелями убийства. В нём горелые спички, дым и обугленное дерево, а утешительной ванили, которой обычно смягчают дымные ароматы, нет совсем.",
+        "en": "The Portland brand invents a non-existent book for each fragrance. This one supposedly smells of a dark graphic novel about two match makers who witness a murder. It has burnt matches, smoke and charred wood, and none of the consoling vanilla usually used to soften smoky scents."
+       },
        "teaser": {
         "ru": "горелые спички и пожар без ванили",
         "en": "burnt matches and a fire with no vanilla"
        },
-       "image": "05-b-imaginary-authors-a-city-on-fire.jpg"
+       "image": "05-b-imaginary-authors-a-city-on-fire.jpg",
+       "px": 46.78,
+       "py": 70.82,
+       "flip": false
       },
       {
-       "step": 5,
-       "anchor": "step-05",
+       "id": "burning-barbershop",
        "name": "Burning Barbershop",
        "brand": "D.S. & Durga",
        "year": "—",
+       "family": "smoke",
+       "step": 5,
+       "anchor": "step-05",
        "popsa": 3,
        "zhest": 4,
+       "who": {
+        "ru": "Дэвид Сет Мольц",
+        "en": "David Seth Moltz"
+       },
+       "notes": {
+        "ru": "мята, лайм, лаванда, горелое масло, сено",
+        "en": "mint, lime, lavender, burnt oil, hay"
+       },
+       "text": {
+        "ru": "D.S. & Durga рассказывают историю о пожаре 1891 года в барбершопе, где сгорели все тоники после бритья и нашли одну обугленную бутылку. Аромат — классический мужской фужер с лавандой и мятой, который будто закоптили горелым маслом. Из всех пожаров этот самый носибельный. Год выпуска источники называют разный.",
+        "en": "D.S. & Durga tell of an 1891 fire in a barbershop where every shaving tonic burned and one charred bottle was found. The fragrance is a classic men's fougère of lavender and mint, smoked as if with burnt oil. Of all the fires, this is the most wearable one. Sources disagree on its release year."
+       },
        "teaser": {
         "ru": "барбершоп после пожара 1891 года",
         "en": "a barbershop after the fire of 1891"
        },
-       "image": "05-c-ds-durga-burning-barbershop.jpg"
+       "image": "05-c-ds-durga-burning-barbershop.jpg",
+       "px": 39.65,
+       "py": 60.22,
+       "flip": false
       },
       {
-       "step": 6,
-       "anchor": "step-06",
+       "id": "black-afgano",
        "name": "Black Afgano",
        "brand": "Nasomatto",
        "year": "2009",
+       "family": "smoke",
+       "step": 6,
+       "anchor": "step-06",
        "popsa": 5,
        "zhest": 4,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "конопляный аккорд, смолы, ладан, уд, кофе, табак",
+        "en": "cannabis accord, resins, incense, oud, coffee, tobacco"
+       },
+       "text": {
+        "ru": "Гуальтьери шесть лет добивался этого аромата и написал о нём прямо: он должен напоминать гашиш самого лучшего качества. Тёмный густой дым смол, ладана, уда, кофе и табака в концентрации духов держится на коже до следующего дня. Это культовая вещь и одна из самых известных в нишевом мире.",
+        "en": "Gualtieri spent six years on this fragrance and wrote of it plainly: it aims to evoke the best quality of hashish. A dark, dense smoke of resins, incense, oud, coffee and tobacco at extrait strength lasts on skin until the next day. It is a cult object and one of the best-known scents in the niche world."
+       },
        "teaser": {
         "ru": "лучший гашиш, как обещает бренд",
         "en": "the best hashish, as the brand promises"
        },
-       "image": "06-a-nasomatto-black-afgano.jpg"
+       "image": "06-a-nasomatto-black-afgano.jpg",
+       "px": 38.43,
+       "py": 51.53,
+       "flip": false
       },
       {
-       "step": 6,
-       "anchor": "step-06",
+       "id": "ganja",
        "name": "Ganja",
        "brand": "Comme des Garçons",
        "year": "2021",
+       "family": "smoke",
+       "step": 6,
+       "anchor": "step-06",
        "popsa": 3,
        "zhest": 3,
+       "who": {
+        "ru": "Каролин Дюмюр",
+        "en": "Caroline Dumur"
+       },
+       "notes": {
+        "ru": "чёрный перец, кумин, конопля, мате, гваяк, олибанум",
+        "en": "black pepper, cumin, cannabis, maté, guaiac, frankincense"
+       },
+       "text": {
+        "ru": "Каролин Дюмюр собрала для Comme des Garçons конопляный аккорд с чёрным перцем, кумином, мате и смолами. Марка обещает побег и встряску для чувств, а носят его в основном поклонники стритвира, которые покупают одежду в Dover Street Market.",
+        "en": "Caroline Dumur built a cannabis accord for Comme des Garçons with black pepper, cumin, maté and resins. The brand promises an escape and sensorial stimulation; it is worn mostly by streetwear fans who buy their clothes at Dover Street Market."
+       },
        "teaser": {
         "ru": "конопля с перцем и кумином",
         "en": "cannabis with pepper and cumin"
        },
-       "image": "06-b-cdg-ganja.jpg"
+       "image": "06-b-cdg-ganja.jpg",
+       "px": 29.66,
+       "py": 62.05,
+       "flip": false
       },
       {
-       "step": 6,
-       "anchor": "step-06",
+       "id": "terroni",
        "name": "Terroni",
        "brand": "Orto Parisi",
        "year": "2017",
+       "family": "smoke",
+       "step": 6,
+       "anchor": "step-06",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "земля, корни, ветивер, дым",
+        "en": "earth, roots, vetiver, smoke"
+       },
+       "text": {
+        "ru": "Снова Гуальтьери, на этот раз о земле. Terroni пахнет горелой почвой, корнями и дымом, рецензенты сравнивают его с тлеющим торфом. Бренд пишет о корнях, которые выжжены в самом человеке, и о том, как приятно запустить руки в землю.",
+        "en": "Gualtieri again, this time about the soil. Terroni smells of scorched earth, roots and smoke; reviewers compare it with smouldering peat. The brand writes about roots burned into one's being and the satisfaction of putting your hands in the soil."
+       },
        "teaser": {
         "ru": "тлеющий торф и обожжённые корни",
         "en": "smouldering peat and burnt roots"
        },
-       "image": "06-c-orto-parisi-terroni.jpg"
+       "image": "06-c-orto-parisi-terroni.jpg",
+       "px": 47.76,
+       "py": 74.72,
+       "flip": false
       },
       {
-       "step": 7,
-       "anchor": "step-07",
+       "id": "rien",
        "name": "Rien",
        "brand": "Etat Libre d'Orange",
        "year": "2006",
+       "family": "leather",
+       "step": 7,
+       "anchor": "step-07",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Антуан Ли",
+        "en": "Antoine Lie"
+       },
+       "notes": {
+        "ru": "альдегиды, кожа, ладан, кумин, ладанник, пачули",
+        "en": "aldehydes, leather, incense, cumin, cistus, patchouli"
+       },
+       "text": {
+        "ru": "Название значит «ничего», а пахнет оно грубой кожей, альдегидами, ладаном, кумином и ладанником. Etat Libre d'Orange пишет «ничто — это всё» и называет аромат второй кожей. Блог Kafkaesque озаглавил рецензию на него «Бондажная кожа». Сейчас на официальной странице висят те же ноты, что у его более поздней версии Rien Intense Incense, так что сайт, похоже, ошибся.",
+        "en": "The name means ‘nothing’, yet it smells of rough leather, aldehydes, incense, cumin and cistus. Etat Libre d'Orange writes ‘Nothing is Everything’ and calls it a second-skin perfume. The blog Kafkaesque titled its review ‘Bondage Leather’. The official page currently lists the notes of its later sibling Rien Intense Incense, which looks like a website mistake."
+       },
        "teaser": {
         "ru": "«ничего», которое пахнет бондажем",
         "en": "‘nothing’ that smells of bondage"
        },
-       "image": "07-a-etat-libre-dorange-rien.jpg"
+       "image": "07-a-etat-libre-dorange-rien.jpg",
+       "px": 44.88,
+       "py": 85.43,
+       "flip": false
       },
       {
-       "step": 7,
-       "anchor": "step-07",
+       "id": "cuoium",
        "name": "Cuoium",
        "brand": "Orto Parisi",
        "year": "—",
+       "family": "leather",
+       "step": 7,
+       "anchor": "step-07",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "сырая кожа, берёзовый дёготь, звериные ноты",
+        "en": "raw leather, birch tar, animalic notes"
+       },
+       "text": {
+        "ru": "Cuoium по-итальянски почти «кожа», и Гуальтьери делает её сырой, только что выделанной, звериной. Бренд говорит о висцеральной связи с прошлым и современном язычестве. Год выпуска точно установить не удалось.",
+        "en": "Cuoium is almost the Italian for leather, and Gualtieri makes it raw, freshly tanned and animal. The brand speaks of a visceral connection and contemporary paganism. We could not establish the release year with certainty."
+       },
        "teaser": {
         "ru": "языческая сырая кожа",
         "en": "pagan raw hide"
        },
-       "image": "07-b-orto-parisi-cuoium.jpg"
+       "image": "07-b-orto-parisi-cuoium.jpg",
+       "px": 48.05,
+       "py": 78.97,
+       "flip": false
       },
       {
-       "step": 7,
-       "anchor": "step-07",
+       "id": "duro",
        "name": "Duro",
        "brand": "Nasomatto",
        "year": "2007",
+       "family": "leather",
+       "step": 7,
+       "anchor": "step-07",
        "popsa": 3,
        "zhest": 4,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "кожа, дерево, смолы, табак",
+        "en": "leather, wood, resins, tobacco"
+       },
+       "text": {
+        "ru": "Duro, «твёрдый», задуман, по словам бренда, чтобы усилить все проявления мужской силы. Кожа, дерево, смолы и табак, и всё это в концентрации духов, которых хватает на целый день. Звучит как пародия на мужской аромат, но сделано всерьёз.",
+        "en": "Duro, ‘hard’, was designed, the brand says, to enhance all the manifestations of male strength. Leather, wood, resins and tobacco, all at extrait strength that lasts the whole day. It sounds like a parody of a men's fragrance, but it is made in earnest."
+       },
        "teaser": {
         "ru": "кожа, смола и мужская сила",
         "en": "leather, resin and male strength"
        },
-       "image": "07-c-nasomatto-duro.jpg"
+       "image": "07-c-nasomatto-duro.jpg",
+       "px": 37.49,
+       "py": 67.84,
+       "flip": false
       },
       {
-       "step": 8,
-       "anchor": "step-08",
+       "id": "tar",
        "name": "Series 6 Synthetic: Tar",
        "brand": "Comme des Garçons",
        "year": "2004",
+       "family": "industrial",
+       "step": 8,
+       "anchor": "step-08",
        "popsa": 2,
        "zhest": 6,
+       "who": {
+        "ru": "Натали Фейстауэр",
+        "en": "Nathalie Feisthauer"
+       },
+       "notes": {
+        "ru": "пиролитические ноты, стиракс, опопонакс, альдегиды, бергамот",
+        "en": "pyrolytic notes, styrax, opoponax, aldehydes, bergamot"
+       },
+       "text": {
+        "ru": "Это буквально запах дорожных работ: горячий асфальт, пары битума, бытовой газ, а для разнообразия ещё и «жареные сигареты», как пишет сам бренд. Натали Фейстауэр добавила к этому бергамот, и дёготь вдруг кажется свежим. В 2017 году аромат вернули в продажу в коллекции старых работ марки.",
+        "en": "Literally the smell of roadworks: hot tar, bitumen fumes, town gas and, for variety, ‘grilled cigarettes’, as the brand itself says. Nathalie Feisthauer added bergamot, and the tar suddenly feels fresh. In 2017 it was reissued in the brand's library of old works."
+       },
        "teaser": {
         "ru": "горячий асфальт и бытовой газ",
         "en": "hot tar and town gas"
        },
-       "image": "08-a-cdg-series-6-tar.jpg"
+       "image": "08-a-cdg-series-6-tar.jpg",
+       "px": 53.54,
+       "py": 72.95,
+       "flip": false
       },
       {
-       "step": 8,
-       "anchor": "step-08",
+       "id": "garage",
        "name": "Series 6 Synthetic: Garage",
        "brand": "Comme des Garçons",
        "year": "2004",
+       "family": "industrial",
+       "step": 8,
+       "anchor": "step-08",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Мари-Од Кутюр",
+        "en": "Marie-Aude Couture"
+       },
+       "notes": {
+        "ru": "керосиновые ноты, ветивер, кедр",
+        "en": "kerosene notes, vetiver, cedar"
+       },
+       "text": {
+        "ru": "Следы керосина, ветивер и кедр — так официально описан этот гараж. Мари-Од Кутюр сделала запах места, где кто-то по выходным возится со старой машиной или мастерит полку. Бренд называет всю серию новаторской антипарфюмерией, которая выходит за пределы привычных ароматов.",
+        "en": "Traces of kerosene, vetiver and cedar — that is the official description of this garage. Marie-Aude Couture made the smell of a place where someone spends weekends tinkering with an old car or building a shelf. The brand calls the whole series groundbreaking anti-perfumes that go beyond traditional fragrance."
+       },
        "teaser": {
         "ru": "верстак, керосин и опилки",
         "en": "a workbench, kerosene and sawdust"
        },
-       "image": "08-b-cdg-series-6-garage.jpg"
+       "image": "08-b-cdg-series-6-garage.jpg",
+       "px": 45.11,
+       "py": 68.68,
+       "flip": false
       },
       {
-       "step": 8,
-       "anchor": "step-08",
+       "id": "odeur-71",
        "name": "Odeur 71",
        "brand": "Comme des Garçons",
        "year": "2000",
+       "family": "industrial",
+       "step": 8,
+       "anchor": "step-08",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "пыль на лампочке, тонер, горячий металл, карандаш, чернила",
+        "en": "dust on a bulb, toner, hot metal, pencil, ink"
+       },
+       "text": {
+        "ru": "«Второй антипарфюм» Comme des Garçons состоит из запахов, которые никто раньше не считал запахами для духов: пыль на горячей лампочке, тёплый тонер ксерокса, горячий металл, тостер, стружка карандаша, чернила перьевой ручки и почему-то сок салата. Чтобы снять запахи с неживых предметов, марка использовала специальную технологию анализа воздуха вокруг них.",
+        "en": "Comme des Garçons' ‘second anti-perfume’ is made of smells nobody had thought of as perfume: dust on a hot light bulb, warm photocopier toner, hot metal, a toaster, pencil shavings, fountain-pen ink and, for some reason, lettuce juice. To capture the smells of inanimate objects the brand used a special technique for analysing the air around them."
+       },
        "teaser": {
         "ru": "пыль на горячей лампочке и тонер",
         "en": "dust on a hot bulb and toner"
        },
-       "image": "08-c-cdg-odeur-71.jpg"
+       "image": "08-c-cdg-odeur-71.jpg",
+       "px": 45.74,
+       "py": 76.82,
+       "flip": false
       },
       {
-       "step": 9,
-       "anchor": "step-09",
+       "id": "odeur-53",
        "name": "Odeur 53",
        "brand": "Comme des Garçons",
        "year": "1998",
+       "family": "mineral",
+       "step": 9,
+       "anchor": "step-09",
        "popsa": 3,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "кислород, горящий камень, бельё, металл, лак для ногтей",
+        "en": "oxygen, burning rock, laundry, metal, nail polish"
+       },
+       "text": {
+        "ru": "С него всё началось: первый «абстрактный антипарфюм» большого модного дома. Пятьдесят три синтетические ноты изображают то, у чего нет названия: свежесть кислорода, горящий камень, бельё на ветру, вспышку металла и даже лак для ногтей. Бренд объясняет, что использовал запахи, которые раньше никогда не применялись.",
+        "en": "It all started here: the first ‘abstract anti-perfume’ from a major fashion house. Fifty-three synthetic notes depict things that have no name: the freshness of oxygen, burning rock, laundry in the wind, a flash of metal and even nail polish. The brand explains it used smells never before used, with no precise name, only abstract ideas."
+       },
        "teaser": {
         "ru": "кислород, горящий камень и лак для ногтей",
         "en": "oxygen, burning rock and nail polish"
        },
-       "image": "09-a-cdg-odeur-53.jpg"
+       "image": "09-a-cdg-odeur-53.jpg",
+       "px": 47.25,
+       "py": 62.34,
+       "flip": false
       },
       {
-       "step": 9,
-       "anchor": "step-09",
+       "id": "eau-de-space",
        "name": "Eau de Space",
        "brand": "Eau de Space",
        "year": "2020",
+       "family": "mineral",
+       "step": 9,
+       "anchor": "step-09",
        "popsa": 3,
        "zhest": 6,
+       "who": {
+        "ru": "химик Стив Пирс",
+        "en": "chemist Steve Pearce"
+       },
+       "notes": {
+        "ru": "горячий металл, жареный стейк, сварочные пары, порох",
+        "en": "hot metal, seared steak, welding fumes, gunpowder"
+       },
+       "text": {
+        "ru": "Астронавты, вернувшись со станции, рассказывали, что их скафандры пахнут горячим металлом, жареным стейком, сварочными парами и порохом. По словам создателей, химик Стив Пирс воссоздал этот запах ещё в 2008 году для подготовки астронавтов, а в 2020-м его выпустили для всех через Kickstarter. Связь с NASA известна только со слов самих создателей и прессы.",
+        "en": "Astronauts back from the station said their suits smelled of hot metal, seared steak, welding fumes and gunpowder. According to the creators, chemist Steve Pearce recreated that smell in 2008 for astronaut training, and in 2020 it was released to everyone via Kickstarter. The NASA connection is known only from the creators themselves and the press."
+       },
        "teaser": {
         "ru": "стейк, сварка и порох — запах космоса",
         "en": "steak, welding and gunpowder: the smell of space"
        },
-       "image": "09-b-eau-de-space.jpg"
+       "image": "09-b-eau-de-space.jpg",
+       "px": 53.65,
+       "py": 62.16,
+       "flip": false
       },
       {
-       "step": 9,
-       "anchor": "step-09",
+       "id": "la-fin-du-monde",
        "name": "La Fin du Monde",
        "brand": "Etat Libre d'Orange",
        "year": "2015",
+       "family": "mineral",
+       "step": 9,
+       "anchor": "step-09",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "по данным баз — Кантен Биш",
+        "en": "reportedly Quentin Bisch"
+       },
+       "notes": {
+        "ru": "попкорн, чёрный перец, кунжут, кумин, ирис, порох",
+        "en": "popcorn, black pepper, sesame, cumin, iris, gunpowder"
+       },
+       "text": {
+        "ru": "Etat Libre d'Orange рассуждает так: конец света мы уже много раз пережили в кино, но остался один вопрос — как он будет пахнуть? Ответ: попкорном, чёрным перцем, жареным кунжутом, кумином и аккордом пороха. Похоже на кинозал, в котором что-то взорвалось.",
+        "en": "Etat Libre d'Orange reasons that we have survived the apocalypse many times at the cinema, but one question remains: how will it smell? The answer: popcorn, black pepper, toasted sesame, cumin and a gunpowder accord. Like a movie theatre in which something exploded."
+       },
        "teaser": {
         "ru": "попкорн и порох в конце света",
         "en": "popcorn and gunpowder at the end of the world"
        },
-       "image": "09-c-etat-libre-dorange-la-fin-du-monde.jpg"
+       "image": "09-c-etat-libre-dorange-la-fin-du-monde.jpg",
+       "px": 46.63,
+       "py": 81.18,
+       "flip": false
       },
       {
-       "step": 10,
-       "anchor": "step-10",
+       "id": "turpentine",
        "name": "Turpentine",
        "brand": "Demeter Fragrance Library",
        "year": "—",
+       "family": "industrial",
+       "step": 10,
+       "anchor": "step-10",
        "popsa": 4,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "скипидар",
+        "en": "turpentine"
+       },
+       "text": {
+        "ru": "Это скипидар, растворитель из мастерской художника, и ничего больше. Demeter описывает его как пахучую мазь для плохих картин и добавляет: «Эй, людям нравится!» Продаётся он дёшево, в маленьком спрее, и его покупают художники и любители розыгрышей.",
+        "en": "It is turpentine, the solvent of an artist's studio, and nothing else. Demeter calls it ‘that odorous ointment for bad paintings’ and adds: ‘Hey, people like it!’ It is sold cheaply in a small spray and bought by artists and pranksters."
+       },
        "teaser": {
         "ru": "скипидар из мастерской художника",
         "en": "turpentine from an artist's studio"
        },
-       "image": "10-a-demeter-turpentine.jpg"
+       "image": "10-a-demeter-turpentine.jpg",
+       "px": 46.82,
+       "py": 53.67,
+       "flip": false
       },
       {
-       "step": 10,
-       "anchor": "step-10",
+       "id": "not-a-pipe",
        "name": "This Is Not A Pipe",
        "brand": "Demeter Fragrance Library",
        "year": "—",
+       "family": "industrial",
+       "step": 10,
+       "anchor": "step-10",
        "popsa": 4,
        "zhest": 3,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "трубочный табак, дерево",
+        "en": "pipe tobacco, wood"
+       },
+       "text": {
+        "ru": "Название отсылает к картине Магритта, на которой нарисована трубка и написано, что это не трубка. Demeter шутит в том же духе: это не трубка, просто пахнет трубкой. Трубочный табак и тёплое дерево — самый мирный аромат на этой ступени.",
+        "en": "The name refers to Magritte's painting of a pipe captioned ‘this is not a pipe’. Demeter jokes in the same spirit: it is not a pipe, it just smells like one. Pipe tobacco and warm wood — the most peaceful fragrance on this step."
+       },
        "teaser": {
         "ru": "Магритт, трубка и табак",
         "en": "Magritte, a pipe and tobacco"
        },
-       "image": "10-b-demeter-this-is-not-a-pipe.jpg"
+       "image": "10-b-demeter-this-is-not-a-pipe.jpg",
+       "px": 29.58,
+       "py": 57.93,
+       "flip": false
       },
       {
-       "step": 10,
-       "anchor": "step-10",
+       "id": "i-am-trash",
        "name": "Les Fleurs du Déchet — I Am Trash",
        "brand": "Etat Libre d'Orange",
        "year": "2018",
+       "family": "industrial",
+       "step": 10,
+       "anchor": "step-10",
        "popsa": 3,
        "zhest": 2,
+       "who": {
+        "ru": "парфюмер не подтверждён",
+        "en": "perfumer unconfirmed"
+       },
+       "notes": {
+        "ru": "клубника, яблоко, цветы, дерево",
+        "en": "strawberry, apple, flowers, wood"
+       },
+       "text": {
+        "ru": "Название переиначивает «Цветы зла» Бодлера в «Цветы мусора». Аромат сделан из дистиллятов, которые получают из отходов парфюмерного производства, то есть из того, что обычно выбрасывают после экстракции. Марка обещает самый желанный запах из ненужного, и он неожиданно приятный: клубника, яблоко, цветы и дерево. Это контрапункт на нашей лестнице: концепция мусорная, а запах нет.",
+        "en": "The name twists Baudelaire's Flowers of Evil into Flowers of Waste. It is made from distillates of perfume-industry waste — what is usually thrown away after extraction. The brand promises the most wanted scent made from the unwanted, and it is unexpectedly pleasant: strawberry, apple, flowers and wood. A counterpoint on our ladder: the concept is trash, the smell is not."
+       },
        "teaser": {
         "ru": "духи из отходов, которые пахнут клубникой",
         "en": "a perfume from waste that smells of strawberries"
        },
-       "image": "10-c-etat-libre-dorange-i-am-trash.jpg"
+       "image": "10-c-etat-libre-dorange-i-am-trash.jpg",
+       "px": 21.97,
+       "py": 70.18,
+       "flip": false
       },
       {
-       "step": 11,
-       "anchor": "step-11",
+       "id": "bat",
        "name": "Bat",
        "brand": "Zoologist",
        "year": "2016/2020",
+       "family": "earth",
+       "step": 11,
+       "anchor": "step-11",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Эллен Кови, затем Прин Ломрос",
+        "en": "Ellen Covey, then Prin Lomros"
+       },
+       "notes": {
+        "ru": "гуава, маракуйя, известняк, влажная земля, мускус",
+        "en": "guava, passion fruit, limestone, damp earth, musk"
+       },
+       "text": {
+        "ru": "Первую версию сделала Эллен Кови, нейробиолог и профессор Вашингтонского университета, которая всю жизнь изучала летучих мышей. Она хотела передать прохладную сырую известняковую пещеру, где они живут. Аромат начинается с гуавы и маракуйи, которыми мыши питаются, а потом уходит в мокрый камень, корни и мускус шерсти.",
+        "en": "The first version was made by Ellen Covey, a neurobiologist and professor at the University of Washington who studied bats all her life. She wanted to capture the cool, damp limestone cave where they live. It opens with guava and passion fruit, the bats' food, then sinks into wet stone, roots and the musk of fur. The original won an Art and Olfaction Award in 2016; the current 2020 version is by Prin Lomros."
+       },
        "teaser": {
         "ru": "сырая известняковая пещера с летучими мышами",
         "en": "a damp limestone cave full of bats"
        },
-       "image": "11-a-zoologist-bat.jpg"
+       "image": "11-a-zoologist-bat.jpg",
+       "px": 44.42,
+       "py": 78.97,
+       "flip": false
       },
       {
-       "step": 11,
-       "anchor": "step-11",
+       "id": "micodelirio",
        "name": "Micodelirio",
        "brand": "Nasomatto",
        "year": "2026",
+       "family": "earth",
+       "step": 11,
+       "anchor": "step-11",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "грибы, лесная подстилка (по описанию)",
+        "en": "mushrooms, forest floor (as described)"
+       },
+       "text": {
+        "ru": "Новинка весны 2026 года. Название складывается из «мико-», то есть грибов, и «делирио», бреда. Гуальтьери пишет о естественном жизненном бреде и процветающей экосистеме органического непослушания. Состав не раскрыт, и о грибах мы судим по названию и промо-снимкам, но лесная подстилка здесь явно главная.",
+        "en": "A spring 2026 release. The name joins ‘myco-’, mushroom, and ‘delirio’, delirium. Gualtieri writes of a natural vital delirium and a flourishing ecosystem of organic disobedience. The formula is undisclosed and we judge the mushrooms by the name and promo photos, but the forest floor is clearly the point."
+       },
        "teaser": {
         "ru": "грибной бред, свежая новинка",
         "en": "mushroom delirium, a fresh release"
        },
-       "image": "11-b-nasomatto-micodelirio.jpg"
+       "image": "11-b-nasomatto-micodelirio.jpg",
+       "px": 44.92,
+       "py": 83.26,
+       "flip": false
       },
       {
-       "step": 11,
-       "anchor": "step-11",
+       "id": "dirt",
        "name": "Dirt",
        "brand": "Demeter Fragrance Library",
        "year": "1996",
+       "family": "earth",
+       "step": 11,
+       "anchor": "step-11",
        "popsa": 5,
        "zhest": 4,
+       "who": {
+        "ru": "эпоха Кристофера Брозиуса",
+        "en": "from Christopher Brosius's era"
+       },
+       "notes": {
+        "ru": "вспаханная земля",
+        "en": "turned earth"
+       },
+       "text": {
+        "ru": "Один из трёх первых ароматов Demeter, вместе с «Травой» и «Помидором», которые в 1996 году начали продавать в нью-йоркском универмаге Henri Bendel. Его сделали, чтобы он пах точь-в-точь как земля на полях вокруг семейной фермы в Пенсильвании: вспаханная почва и прошлогодние кукурузные стебли. Пожалуй, самый известный странный аромат Америки.",
+        "en": "One of Demeter's first three fragrances, with Grass and Tomato, which went on sale at New York's Henri Bendel department store in 1996. It was made to smell exactly like the dirt of the fields around a family farm in Pennsylvania: turned soil and last year's cornstalks. Probably America's best-known strange fragrance."
+       },
        "teaser": {
         "ru": "вспаханная земля с кукурузными стеблями",
         "en": "ploughed earth with last year's cornstalks"
        },
-       "image": "11-c-demeter-dirt.jpg"
+       "image": "11-c-demeter-dirt.jpg",
+       "px": 37.22,
+       "py": 49.38,
+       "flip": false
       },
       {
-       "step": 12,
-       "anchor": "step-12",
+       "id": "kouros",
        "name": "Kouros",
        "brand": "Yves Saint Laurent",
        "year": "1981",
+       "family": "animal",
+       "step": 12,
+       "anchor": "step-12",
        "popsa": 7,
        "zhest": 5,
+       "who": {
+        "ru": "Пьер Бурдон",
+        "en": "Pierre Bourdon"
+       },
+       "notes": {
+        "ru": "альдегиды, полынь, кориандр, мёд, кожа, цивет, мускус",
+        "en": "aldehydes, wormwood, coriander, honey, leather, civet, musk"
+       },
+       "text": {
+        "ru": "Yves Saint Laurent продавал его под слоганом «аромат богов», и в восьмидесятые его носили миллионы мужчин. Пьер Бурдон соединил мыльные альдегиды и полынь с мёдом, кожей и циветом, поэтому Kouros одновременно пахнет чистотой и чем-то очень грязным. Блог Now Smell This назвал рецензию на него «Грязный мальчик».",
+        "en": "Yves Saint Laurent sold it as ‘the scent of the gods’, and in the eighties millions of men wore it. Pierre Bourdon combined soapy aldehydes and wormwood with honey, leather and civet, so Kouros smells at once of cleanliness and of something very dirty. Now Smell This titled its review ‘Dirty Boy’."
+       },
        "teaser": {
         "ru": "мыло и зверь — мейнстрим восьмидесятых",
         "en": "soap and beast: eighties mainstream"
        },
-       "image": "12-a-ysl-kouros.jpg"
+       "image": "12-a-ysl-kouros.jpg",
+       "px": 46.95,
+       "py": 30.77,
+       "flip": false
       },
       {
-       "step": 12,
-       "anchor": "step-12",
+       "id": "koublai-khan",
        "name": "Muscs Koublaï Khän",
        "brand": "Serge Lutens",
        "year": "1998",
+       "family": "animal",
+       "step": 12,
+       "anchor": "step-12",
        "popsa": 3,
        "zhest": 6,
+       "who": {
+        "ru": "Кристофер Шелдрейк",
+        "en": "Christopher Sheldrake"
+       },
+       "notes": {
+        "ru": "мускус, цивет, кастореум, ладанник, роза, кумин, костус",
+        "en": "musk, civet, castoreum, cistus, rose, cumin, costus"
+       },
+       "text": {
+        "ru": "Серж Лютанс рассказывает, что для китайского императора расстилали драгоценные меха, и он ступал по ним прямо в грязных сапогах. Кристофер Шелдрейк передал эту картину мускусом, циветом, кастореумом, кумином и костусом, корнем, который пахнет немытыми волосами. Блог Kafkaesque назвал рецензию «Животный магнетизм». Продаётся он только в самых престижных магазинах марки.",
+        "en": "Serge Lutens tells how precious furs were spread for the Emperor of China to tread on, muddy boots and all. Christopher Sheldrake rendered that picture with musk, civet, castoreum, cumin and costus, a root that smells of unwashed hair. Kafkaesque titled its review ‘Animal Magnetism’. It is sold only in the brand's most prestigious outlets."
+       },
        "teaser": {
         "ru": "меха под грязными сапогами императора",
         "en": "furs under the emperor's muddy boots"
        },
-       "image": "12-b-serge-lutens-muscs-koublai-khan.jpg"
+       "image": "12-b-serge-lutens-muscs-koublai-khan.jpg",
+       "px": 54.31,
+       "py": 60.06,
+       "flip": false
       },
       {
-       "step": 12,
-       "anchor": "step-12",
+       "id": "civet",
        "name": "Civet",
        "brand": "Zoologist",
        "year": "2016",
+       "family": "animal",
+       "step": 12,
+       "anchor": "step-12",
        "popsa": 2,
        "zhest": 5,
+       "who": {
+        "ru": "Шелли Уоддингтон",
+        "en": "Shelley Waddington"
+       },
+       "notes": {
+        "ru": "пряности, кофе, кожа, мох, ваниль, цивет",
+        "en": "spices, coffee, leather, moss, vanilla, civet"
+       },
+       "text": {
+        "ru": "Zoologist посвятил этот аромат старинному ингредиенту и духам прошлого, которые не боялись сырых звериных мускусов. Шелли Уоддингтон построила его как винтажный шипр: пряное начало, кофе, кожа, мох и синтетический цивет. Блог Perfume Posse описал замысел так: меховая шуба на голое тело.",
+        "en": "Zoologist dedicated this fragrance to an age-old ingredient and to the perfumes of the past that were not intimidated by raw animal musks. Shelley Waddington built it as a vintage chypre: a spicy opening, coffee, leather, moss and synthetic civet. Perfume Posse summed up the idea as a fur coat over naked skin."
+       },
        "teaser": {
         "ru": "меховая шуба на голое тело",
         "en": "a fur coat over naked skin"
        },
-       "image": "13-c-zoologist-civet.jpg"
+       "image": "13-c-zoologist-civet.jpg",
+       "px": 45.76,
+       "py": 66.57,
+       "flip": false
       },
       {
-       "step": 13,
-       "anchor": "step-13",
+       "id": "salome",
        "name": "Salome",
        "brand": "Papillon Artisan Perfumes",
        "year": "2015",
+       "family": "body",
+       "step": 13,
+       "anchor": "step-13",
        "popsa": 2,
        "zhest": 7,
+       "who": {
+        "ru": "Лиз Мурс",
+        "en": "Liz Moores"
+       },
+       "notes": {
+        "ru": "жасмин, роза, гвоздика, гиракс, цивет, кастореум, кумин",
+        "en": "jasmine, rose, carnation, hyraceum, civet, castoreum, cumin"
+       },
+       "text": {
+        "ru": "Британка Лиз Мурс сделала анималистический шипр о библейской Саломее: жасмин, турецкая роза, гвоздика, а под ними окаменевшие выделения даманов, цивет, кастореум и кумин. Марка пишет о дьявольских звериных гранях, которые соблазнительно танцуют. Блог Kafkaesque назвал свою рецензию «Соблазн, секс и кожа» и добавил пометку «не для работы».",
+        "en": "The British perfumer Liz Moores made an animalic chypre about the biblical Salome: jasmine, Turkish rose, carnation, and beneath them fossilised hyrax secretions, civet, castoreum and cumin. The brand writes of bedevilled animalic facets dancing seductively. Kafkaesque titled its review ‘Seduction, Sex & Skin’ and marked it NSFW."
+       },
        "teaser": {
         "ru": "кожа танцовщицы после танца семи покрывал",
         "en": "a dancer's skin after the dance of the seven veils"
        },
-       "image": "13-a-papillon-salome.jpg"
+       "image": "13-a-papillon-salome.jpg",
+       "px": 63.01,
+       "py": 70.58,
+       "flip": false
       },
       {
-       "step": 13,
-       "anchor": "step-13",
+       "id": "absolue-soir",
        "name": "Absolue Pour le Soir",
        "brand": "Maison Francis Kurkdjian",
        "year": "2010/2011",
+       "family": "body",
+       "step": 13,
+       "anchor": "step-13",
        "popsa": 4,
        "zhest": 6,
+       "who": {
+        "ru": "Франсис Куркджян",
+        "en": "Francis Kurkdjian"
+       },
+       "notes": {
+        "ru": "мёд, кумин, бензоин, сандал, звериные ноты",
+        "en": "honey, cumin, benzoin, sandalwood, animalic notes"
+       },
+       "text": {
+        "ru": "Франсис Куркджян — один из самых модных парфюмеров мира, автор Baccarat Rouge 540, и тем удивительнее этот его аромат. Мёд, кумин, бензоин и сандал складываются в запах, который рецензенты описывают как пот, секс и воск. Блог The Candy Perfume Boy назвал рецензию «Зверь внутри». Источники расходятся, 2010 это год или 2011-й, а в 2024 году вышла новая версия.",
+        "en": "Francis Kurkdjian is one of the world's most fashionable perfumers, the author of Baccarat Rouge 540, which makes this fragrance all the more surprising. Honey, cumin, benzoin and sandalwood add up to what reviewers describe as sweat, sex and wax. The Candy Perfume Boy called its review ‘The Beast Within’. Sources disagree on 2010 or 2011, and a new version came out in 2024."
+       },
        "teaser": {
         "ru": "мёд, кумин и воск — люксовый зверь",
         "en": "honey, cumin and wax: a luxury beast"
        },
-       "image": "13-b-mfk-absolue-pour-le-soir.jpg"
+       "image": "13-b-mfk-absolue-pour-le-soir.jpg",
+       "px": 54.49,
+       "py": 57.92,
+       "flip": false
       },
       {
-       "step": 13,
-       "anchor": "step-13",
+       "id": "maai",
        "name": "MAAI",
        "brand": "Bogue Profumo",
        "year": "2014",
+       "family": "body",
+       "step": 13,
+       "anchor": "step-13",
        "popsa": 1,
        "zhest": 7,
+       "who": {
+        "ru": "Антонио Гардони",
+        "en": "Antonio Gardoni"
+       },
+       "notes": {
+        "ru": "белые цветы, индол, скатол, цивет, кастореум",
+        "en": "white flowers, indole, skatole, civet, castoreum"
+       },
+       "text": {
+        "ru": "Антонио Гардони — архитектор и парфюмер-самоучка из Италии, который реконструирует старую звериную парфюмерию. В MAAI он не стал смягчать индол, скатол, цивет и кастореум, как делали в старину, и белые цветы здесь отчётливо пахнут фекалиями. Рецензент блога Le Mouchoir Parfumé прямо пишет, что эта грань нарушает баланс. Найти аромат сегодня трудно, сайт марки не открывается.",
+        "en": "Antonio Gardoni is an Italian architect and self-taught perfumer who reconstructs old animalic perfumery. In MAAI he did not soften the indole, skatole, civet and castoreum as old perfumers did, so the white flowers distinctly smell of faeces. The reviewer of Le Mouchoir Parfumé says outright that this facet upsets the balance. It is hard to find today; the brand's website does not open."
+       },
        "teaser": {
         "ru": "одичавший шипр с фекальной гранью",
         "en": "a feral chypre with a faecal edge"
        },
-       "image": "13-c-bogue-maai.jpg"
+       "image": "13-c-bogue-maai.jpg",
+       "px": 62.07,
+       "py": 81.56,
+       "flip": false
       },
       {
-       "step": 14,
-       "anchor": "step-14",
+       "id": "hyrax",
        "name": "Hyrax",
        "brand": "Zoologist",
        "year": "2018",
+       "family": "animal",
+       "step": 14,
+       "anchor": "step-14",
        "popsa": 1,
        "zhest": 7,
+       "who": {
+        "ru": "Свен Притцколайт",
+        "en": "Sven Pritzkoleit"
+       },
+       "notes": {
+        "ru": "шафран, розовый перец, виски, роза, гиракс",
+        "en": "saffron, pink pepper, whisky, rose, hyraceum"
+       },
+       "text": {
+        "ru": "Немецкий фармацевт и парфюмер-самоучка Свен Притцколайт поставил в сердце аромата натуральный гиракс, а вокруг расположил шафран, розовый перец, виски и розу. Zoologist честно называет главный ингредиент смелым и редко используемым. Аромат время от времени раскупают полностью.",
+        "en": "The German pharmacist and self-taught perfumer Sven Pritzkoleit put natural hyraceum at the heart of the fragrance and surrounded it with saffron, pink pepper, whisky and rose. Zoologist honestly calls the key ingredient daring and seldom used. It periodically sells out."
+       },
        "teaser": {
         "ru": "африканский камень из окаменевшей мочи",
         "en": "African stone made of fossilised urine"
        },
-       "image": "14-a-zoologist-hyrax.jpg"
+       "image": "14-a-zoologist-hyrax.jpg",
+       "px": 63.69,
+       "py": 79.27,
+       "flip": false
       },
       {
-       "step": 14,
-       "anchor": "step-14",
+       "id": "stercus",
        "name": "Stercus",
        "brand": "Orto Parisi",
        "year": "2014",
+       "family": "animal",
+       "step": 14,
+       "anchor": "step-14",
        "popsa": 2,
        "zhest": 7,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "миндаль, гелиотроп, пряное дерево, смолы, звериная база",
+        "en": "almond, heliotrope, spicy wood, resins, animal base"
+       },
+       "text": {
+        "ru": "Stercus по-латыни — навоз, и это самое смелое название на всей лестнице. Пахнет он, впрочем, мягче, чем звучит: миндаль и гелиотроп, а под ними пряное дерево, смолы, земля и звериная база. Гуальтьери пишет, что стеркус никогда не лжёт: в нём есть тайная сладость, которая притягивает, и звериная сторона, которая оскорбляет.",
+        "en": "Stercus is Latin for dung, the boldest name on the whole ladder. It smells gentler than it sounds: almond and heliotrope, with spicy wood, resins, earth and an animal base beneath. Gualtieri writes that Stercus never lies: there is a secret sweetness that attracts and an animalic side that offends."
+       },
        "teaser": {
         "ru": "латинское слово «навоз» на флаконе",
         "en": "the Latin word for dung on the bottle"
        },
-       "image": "14-b-orto-parisi-stercus.jpg"
+       "image": "14-b-orto-parisi-stercus.jpg",
+       "px": 63.38,
+       "py": 75.07,
+       "flip": false
       },
       {
-       "step": 14,
-       "anchor": "step-14",
+       "id": "sacred-scarab",
        "name": "Sacred Scarab",
        "brand": "Zoologist",
        "year": "—",
+       "family": "animal",
+       "step": 14,
+       "anchor": "step-14",
        "popsa": 1,
        "zhest": 3,
+       "who": {
+        "ru": "парфюмер не установлен",
+        "en": "perfumer not established"
+       },
+       "notes": {
+        "ru": "голубой лотос, изюм, слива, олибанум, мирра, можжевельник",
+        "en": "blue lotus, raisin, plum, frankincense, myrrh, juniper"
+       },
+       "text": {
+        "ru": "Это ловушка для любителей жести. Аромат посвящён скарабею, который катит шар навоза в нору, и для древних египтян это был символ возрождения. Но во флаконе никакого навоза: Zoologist воссоздал египетское храмовое благовоние кифи с голубым лотосом, изюмом, сливой, ладаном, миррой и можжевельником.",
+        "en": "A trap for lovers of extremes. The fragrance is dedicated to the scarab that rolls a ball of dung into its burrow, a symbol of rebirth for the ancient Egyptians. But there is no dung in the bottle: Zoologist recreated the Egyptian temple incense kyphi with blue lotus, raisin, plum, frankincense, myrrh and juniper."
+       },
        "teaser": {
         "ru": "скарабей катит навоз, а пахнет храмом",
         "en": "a scarab rolls dung, yet it smells of a temple"
        },
-       "image": "14-c-zoologist-sacred-scarab.jpg"
+       "image": "14-c-zoologist-sacred-scarab.jpg",
+       "px": 29.16,
+       "py": 89.75,
+       "flip": false
       },
       {
-       "step": 15,
-       "anchor": "step-15",
+       "id": "seminalis",
        "name": "Seminalis",
        "brand": "Orto Parisi",
        "year": "2016",
+       "family": "body",
+       "step": 15,
+       "anchor": "step-15",
        "popsa": 2,
        "zhest": 6,
+       "who": {
+        "ru": "Алессандро Гуальтьери",
+        "en": "Alessandro Gualtieri"
+       },
+       "notes": {
+        "ru": "альдегид, крахмальные и цветочные ноты",
+        "en": "an aldehyde, starchy and floral notes"
+       },
+       "text": {
+        "ru": "Гуальтьери снова идёт дальше других: Seminalis задуман как запах семени. Бренд объясняет, что в составе есть ароматический альдегид, который помогает сперматозоиду найти яйцеклетку, и называет это «жизнью, начатой запахом». Какое это вещество, марка не говорит; наш исследователь предполагает, что речь о бургеонале, но это только догадка. На коже аромат крахмально-цветочный и слегка аммиачный.",
+        "en": "Gualtieri goes further than anyone again: Seminalis is meant to smell of semen. The brand explains that it contains an aromatic aldehyde which helps sperm locate the ovum, and calls it ‘life initiated by smell’. The brand does not name the substance; our researcher suspects bourgeonal, but that is only a guess. On skin it is starchy, floral and faintly ammoniac."
+       },
        "teaser": {
         "ru": "молекула, по которой сперматозоид ищет яйцеклетку",
         "en": "the molecule sperm uses to find the egg"
        },
-       "image": "15-a-orto-parisi-seminalis.jpg"
+       "image": "15-a-orto-parisi-seminalis.jpg",
+       "px": 54.79,
+       "py": 75.07,
+       "flip": false
       },
       {
-       "step": 15,
-       "anchor": "step-15",
+       "id": "secretions",
        "name": "Sécrétions Magnifiques",
        "brand": "Etat Libre d'Orange",
        "year": "2006",
+       "family": "body",
+       "step": 15,
+       "anchor": "step-15",
        "popsa": 3,
        "zhest": 8,
+       "who": {
+        "ru": "Антуан Ли",
+        "en": "Antoine Lie"
+       },
+       "notes": {
+        "ru": "йодистый и солевой аккорды, кровь, молоко, адреналин, сандал, ирис",
+        "en": "iodine and salt accords, blood, milk, adrenaline, sandalwood, iris"
+       },
+       "text": {
+        "ru": "Главный шок-парфюм нишевой индустрии и вечный мем на форумах. Антуан Ли по замыслу основателя марки Этьена де Сварта собрал аккорды крови (металлические ноты), молока, адреналина и йодистого моря и обещал запах крови, пота, спермы и слюны. Марка формулирует правило так: притяжение и отвращение, любовь или ненависть с первого вдоха. Сайт Ça Fleure Bon при этом причисляет его к современным шедеврам.",
+        "en": "The niche industry's great shock perfume and an eternal forum meme. Antoine Lie, working to a brief from the brand's founder Etienne de Swardt, assembled accords of blood (metallic notes), milk, adrenaline and iodine sea, and promised the smell of blood, sweat, semen and saliva. The brand's rule is attraction and repulsion — love or hate at first sight. Ça Fleure Bon nevertheless counts it among modern masterpieces."
+       },
        "teaser": {
         "ru": "кровь, пот, сперма, слюна — главный шок-парфюм",
         "en": "blood, sweat, semen, saliva: the great shock perfume"
        },
-       "image": "15-b-etat-libre-dorange-secretions-magnifiques.jpg"
+       "image": "15-b-etat-libre-dorange-secretions-magnifiques.jpg",
+       "px": 70.99,
+       "py": 65.7,
+       "flip": false
       },
       {
-       "step": 15,
-       "anchor": "step-15",
+       "id": "vierges-toreros",
        "name": "Vierges et Toreros",
        "brand": "Etat Libre d'Orange",
        "year": "2007",
+       "family": "body",
+       "step": 15,
+       "anchor": "step-15",
        "popsa": 1,
        "zhest": 6,
+       "who": {
+        "ru": "Антуан Ли и Антуан Мезондьё",
+        "en": "Antoine Lie and Antoine Maisondieu"
+       },
+       "notes": {
+        "ru": "бергамот, перец, тубероза, иланг, кожа, звериные ноты, костус",
+        "en": "bergamot, pepper, tuberose, ylang, leather, animalic notes, costus"
+       },
+       "text": {
+        "ru": "«Девственницы и тореадоры» — коррида во флаконе: под туберозой и иланг-илангом лежат кожа, звериные ноты и костус, тот самый корень с запахом немытых волос. Аромат сделали два парфюмера, Антуан Ли и Антуан Мезондьё. Сейчас его на сайте марки нет, и найти его можно только на вторичном рынке.",
+        "en": "‘Virgins and Toreros’ is a bullfight in a bottle: under tuberose and ylang-ylang lie leather, animalic notes and costus, the root that smells of unwashed hair. It was made by two perfumers, Antoine Lie and Antoine Maisondieu. It is no longer on the brand's website and survives only on the secondary market."
+       },
        "teaser": {
         "ru": "тореадор в поту на арене",
         "en": "a sweating toreador in the ring"
        },
-       "image": "15-c-elo-vierges-et-toreros.jpg"
+       "image": "15-c-elo-vierges-et-toreros.jpg",
+       "px": 55.77,
+       "py": 89.27,
+       "flip": false
       },
       {
-       "step": 16,
-       "anchor": "step-16",
+       "id": "blood-o",
        "name": "O",
        "brand": "Blood Concept",
        "year": "2011",
+       "family": "death",
+       "step": 16,
+       "anchor": "step-16",
        "popsa": 1,
        "zhest": 6,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "кожа, тимьян, малина, шиповник, берёза, металл",
+        "en": "leather, thyme, raspberry, rosehip, birch, metal"
+       },
+       "text": {
+        "ru": "Первая группа, по замыслу марки, глубока, как первобытная Африка. Кожа, тимьян, малина, шиповник, берёза и кедр лежат поверх металлической базы крови, и это самый тёмный из четырёх ароматов.",
+        "en": "Type O, in the brand's words, is deep as primeval Africa. Leather, thyme, raspberry, rosehip, birch and cedar lie over the metallic blood base; it is the darkest of the four."
+       },
        "teaser": {
         "ru": "кожа, дёготь и металл первобытной Африки",
         "en": "leather, tar and the metal of primeval Africa"
        },
-       "image": "16-blood-concept-o.jpg"
+       "image": "16-blood-concept-o.jpg",
+       "px": 55.3,
+       "py": 86.39,
+       "flip": false
       },
       {
-       "step": 16,
-       "anchor": "step-16",
+       "id": "blood-a",
        "name": "A",
        "brand": "Blood Concept",
        "year": "2011",
+       "family": "death",
+       "step": 16,
+       "anchor": "step-16",
        "popsa": 1,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "листья томата, базилик, бадьян, металл",
+        "en": "tomato leaf, basil, star anise, metal"
+       },
+       "text": {
+        "ru": "Вторая группа ароматна, как запах родной земли: зелёный сад, листья томата, базилик и бадьян, а под ними та же кровь. Из четырёх это самый садовый и самый мирный.",
+        "en": "Type A is aromatic as the scent of familiar land: a green garden, tomato leaves, basil and star anise, with the same blood beneath. Of the four it is the most garden-like and peaceful."
+       },
        "teaser": {
         "ru": "листья томата и металл",
         "en": "tomato leaf and metal"
        },
-       "image": "16-blood-concept-a.jpg"
+       "image": "16-blood-concept-a.jpg",
+       "px": 45.66,
+       "py": 89.87,
+       "flip": false
       },
       {
-       "step": 16,
-       "anchor": "step-16",
+       "id": "blood-b",
        "name": "B",
        "brand": "Blood Concept",
        "year": "2011",
+       "family": "death",
+       "step": 16,
+       "anchor": "step-16",
        "popsa": 1,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "яблоко, вишня, полынь, гранат, чай, металл",
+        "en": "apple, cherry, wormwood, pomegranate, tea, metal"
+       },
+       "text": {
+        "ru": "Третья группа смела, как непредсказуемые маршруты: яблоко, чёрная вишня, полынь, перец, гранат, чёрный чай, пачули и тик. Фрукты здесь тёмные, и металл крови проступает сквозь них.",
+        "en": "Type B is bold as unpredictable itineraries: apple, black cherry, wormwood, pepper, pomegranate, black tea, patchouli and teak. The fruit here is dark, and the metal of blood shows through it."
+       },
        "teaser": {
         "ru": "вишня, полынь и чай поверх крови",
         "en": "cherry, wormwood and tea over blood"
        },
-       "image": "16-blood-concept-b.jpg"
+       "image": "16-blood-concept-b.jpg",
+       "px": 47.95,
+       "py": 87.57,
+       "flip": false
       },
       {
-       "step": 16,
-       "anchor": "step-16",
+       "id": "blood-ab",
        "name": "AB",
        "brand": "Blood Concept",
        "year": "2011",
+       "family": "death",
+       "step": 16,
+       "anchor": "step-16",
        "popsa": 1,
        "zhest": 6,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "альдегиды, алюминий, сланец, галька, вода, кедр, металл",
+        "en": "aldehydes, aluminium, slate, pebbles, water, cedar, metal"
+       },
+       "text": {
+        "ru": "Четвёртая группа, по словам марки, резкая и ледяная, как силуэт мегаполиса. Альдегиды, алюминий, сланец, галька, вода и кедр делают её самым индустриальным ароматом из четырёх — вот он, индастриал, о котором вы спрашивали в начале, только теперь с кровью.",
+        "en": "Type AB, the brand says, is sharp and freezing as a metropolitan skyline. Aldehydes, aluminium, slate, pebbles, water and cedar make it the most industrial of the four — here is the industrial you asked about at the start, only now with blood."
+       },
        "teaser": {
         "ru": "алюминий, сланец и галька — кровь мегаполиса",
         "en": "aluminium, slate and pebbles: the blood of a metropolis"
        },
-       "image": "16-blood-concept-ab.jpg"
+       "image": "16-blood-concept-ab.jpg",
+       "px": 53.3,
+       "py": 84.26,
+       "flip": false
       },
       {
-       "step": 17,
-       "anchor": "step-17",
+       "id": "funeral-home",
        "name": "Funeral Home",
        "brand": "Demeter Fragrance Library",
        "year": "—",
+       "family": "death",
+       "step": 17,
+       "anchor": "step-17",
        "popsa": 4,
        "zhest": 5,
+       "who": {
+        "ru": "основатель-парфюмер Demeter",
+        "en": "Demeter's founding perfumer"
+       },
+       "notes": {
+        "ru": "лилии, гвоздики, гладиолусы, хризантемы, красное дерево",
+        "en": "lilies, carnations, gladioli, chrysanthemums, mahogany"
+       },
+       "text": {
+        "ru": "Сначала аромат задумывали как «Цветочную выставку»: лилии, гвоздики, гладиолусы и хризантемы со стеблями, немного красного дерева и восточного ковра. Но основатель Demeter Кристофер Гейбл понюхал его и воскликнул, что так пахли похороны его деда, и аромат назвали «Похоронным бюро». Пахнет он вполне прилично, вся жесть в ассоциации.",
+        "en": "It was first conceived as ‘Flower Show’: lilies, carnations, gladioli and chrysanthemums with their stems, a touch of mahogany and an oriental rug. But Demeter's founder Christopher Gable smelled it and exclaimed that it smelled like his grandfather's funeral, and it was named Funeral Home. It smells perfectly decent; all the horror is in the association."
+       },
        "teaser": {
         "ru": "лилии, гвоздики и полироль похоронного бюро",
         "en": "lilies, carnations and funeral-parlour polish"
        },
-       "image": "17-a-demeter-funeral-home.jpg"
+       "image": "17-a-demeter-funeral-home.jpg",
+       "px": 45.99,
+       "py": 55.79,
+       "flip": false
       },
       {
-       "step": 17,
-       "anchor": "step-17",
+       "id": "zombie",
        "name": "Zombie for Him",
        "brand": "Demeter Fragrance Library",
        "year": "2013",
+       "family": "death",
+       "step": 17,
+       "anchor": "step-17",
        "popsa": 3,
        "zhest": 5,
+       "who": {
+        "ru": "парфюмер не назван",
+        "en": "perfumer not named"
+       },
+       "notes": {
+        "ru": "сухие листья, грибы, плесень, мох, земля",
+        "en": "dried leaves, mushrooms, mildew, moss, earth"
+       },
+       "text": {
+        "ru": "Весной 2013 года Demeter выпустил пару «зомби» — для него и для неё. Мужская версия пахнет лесной подстилкой: сухие листья, грибы, плесень, мох и земля. Марка обещает ароматы, с которыми мертвецы будут проходить мимо, не обижаясь. Покупают его к Хэллоуину и любители фильмов ужасов.",
+        "en": "In spring 2013 Demeter released a pair of ‘zombies’, for him and for her. The men's version smells of forest floor: dried leaves, mushrooms, mildew, moss and earth. The brand promises fragrances that let the dead simply pass by without offence. It is bought for Halloween and by horror fans."
+       },
        "teaser": {
         "ru": "разрытая могила: листья, грибы и плесень",
         "en": "a dug-up grave: leaves, mushrooms and mildew"
        },
-       "image": "17-b-demeter-zombie-for-him.jpg"
+       "image": "17-b-demeter-zombie-for-him.jpg",
+       "px": 47.21,
+       "py": 64.46,
+       "flip": false
       },
       {
-       "step": 17,
-       "anchor": "step-17",
+       "id": "exit-the-king",
        "name": "Exit the King",
        "brand": "Etat Libre d'Orange",
        "year": "2019",
+       "family": "death",
+       "step": 17,
+       "anchor": "step-17",
        "popsa": 3,
        "zhest": 1,
+       "who": {
+        "ru": "парфюмер не установлен",
+        "en": "perfumer not established"
+       },
+       "notes": {
+        "ru": "мыльная пена, жасмин, роза, ландыш, пачули, мох",
+        "en": "soap suds, jasmine, rose, lily of the valley, patchouli, moss"
+       },
+       "text": {
+        "ru": "Название отсылает к пьесе Ионеско «Король умирает», а марка называет его духами, чтобы мечтать об энтропии. Но во флаконе нет никакой смерти: мыльная пена, жасмин, роза, ландыш, пачули и мох складываются в старомодный цветочный шипр. Мы поставили его сюда нарочно, как предупреждение: смерть в названии ещё не значит смерть во флаконе.",
+        "en": "The name refers to Ionesco's play Exit the King, and the brand calls it a perfume to dream about entropy. But there is no death in the bottle: soap suds, jasmine, rose, lily of the valley, patchouli and moss make an old-fashioned floral chypre. We placed it here on purpose as a warning: death in the name does not mean death in the bottle."
+       },
        "teaser": {
         "ru": "король умирает, а пахнет мылом",
         "en": "the king dies, and it smells of soap"
        },
-       "image": "17-c-etat-libre-dorange-exit-the-king.jpg"
+       "image": "17-c-etat-libre-dorange-exit-the-king.jpg",
+       "px": 12.5,
+       "py": 65.71,
+       "flip": false
       },
       {
-       "step": 18,
-       "anchor": "step-18",
+       "id": "fear-of-smell",
        "name": "The FEAR of Smell — the Smell of FEAR",
        "brand": "Sissel Tolaas",
        "year": "2005/2006",
+       "family": "art",
+       "step": 18,
+       "anchor": "step-18",
        "popsa": 1,
        "zhest": 8,
+       "who": {
+        "ru": "Сиссель Толас",
+        "en": "Sissel Tolaas"
+       },
+       "notes": {
+        "ru": "пот страха, микрокапсулы",
+        "en": "fear sweat, microcapsules"
+       },
+       "text": {
+        "ru": "Норвежская художница Сиссель Толас живёт в Берлине и собрала архив из семи тысяч запахов в герметичных банках. Для этой работы мужчины с острыми фобиями прикладывали ватные тампоны к подмышкам в момент страха. Молекулы их пота синтезировали заново, заключили в микрокапсулы и нанесли на стены, и запах высвобождался, когда зритель касался стены.",
+        "en": "The Norwegian artist Sissel Tolaas lives in Berlin and has built an archive of seven thousand smells in sealed jars. For this work, men with acute phobias pressed cotton pads to their armpits at the moment of fear. The molecules of their sweat were resynthesised, microencapsulated and applied to the walls, releasing the smell when a visitor touched them."
+       },
        "teaser": {
         "ru": "пот страха на стенах галереи",
         "en": "the sweat of fear on gallery walls"
        },
-       "image": "ill-x-fear.png"
+       "image": "ill-x-fear.png",
+       "px": 71.39,
+       "py": 75.01,
+       "flip": false
       },
       {
-       "step": 18,
-       "anchor": "step-18",
+       "id": "life-is-cheap",
        "name": "Immigrant Caucus",
        "brand": "Anicka Yi",
        "year": "2017",
+       "family": "art",
+       "step": 18,
+       "anchor": "step-18",
        "popsa": 1,
        "zhest": 7,
+       "who": {
+        "ru": "Аника Йи с парфюмерами MANE",
+        "en": "Anicka Yi with MANE perfumers"
+       },
+       "notes": {
+        "ru": "муравьи, человеческая кожа",
+        "en": "ants, human skin"
+       },
+       "text": {
+        "ru": "В 2017 году в нью-йоркском Музее Гуггенхайма Аника Йи показала выставку «Жизнь дешева». Вместе с парфюмерами компании MANE она создала гибрид запаха муравьёв и запаха американок азиатского происхождения и распыляла его из баллонов, похожих на те, которыми травят насекомых. Рядом жила колония из десяти тысяч муравьёв. Так художница ответила на ксенофобский образ азиатского сообщества как вторгающейся силы.",
+        "en": "In 2017 at New York's Guggenheim, Anicka Yi showed the exhibition Life Is Cheap. With perfumers from MANE she created a hybrid of the smell of ants and the smell of Asian-American women, sprayed from canisters like those used by exterminators. Next to it lived a colony of ten thousand ants. It was the artist's answer to the xenophobic image of the Asian community as an invading force."
+       },
        "teaser": {
         "ru": "запах, которым художница ответила ксенофобии",
         "en": "a scent the artist made as an answer to xenophobia"
        },
-       "image": "ill-x-ants.png"
+       "image": "ill-x-ants.png",
+       "px": 60.59,
+       "py": 77.14,
+       "flip": false
       },
       {
-       "step": 18,
-       "anchor": "step-18",
+       "id": "smell-of-a-stranger",
        "name": "The Smell of a Stranger",
        "brand": "Peter de Cupere",
        "year": "2015",
+       "family": "art",
+       "step": 18,
+       "anchor": "step-18",
        "popsa": 0,
        "zhest": 9,
+       "who": {
+        "ru": "Петер де Купер",
+        "en": "Peter de Cupere"
+       },
+       "notes": {
+        "ru": "сперма, пот, кровь, трупы, порох",
+        "en": "sperm, sweat, blood, corpses, gunpowder"
+       },
+       "text": {
+        "ru": "Бельгиец Петер де Купер — один из самых деятельных художников, работающих с запахом. Для Гаванской биеннале 2015 года он показал растения, которые будто бы «перепрограммировали» пахнуть спермой, потом, кровью, трупами, деньгами, порохом и загрязнённым воздухом. Его вопрос: что будет, когда генная инженерия запаха станет обыденностью и цветок у вас на подоконнике начнёт пахнуть мертвецом.",
+        "en": "The Belgian Peter de Cupere is one of the most active artists working with smell. For the 2015 Havana Biennial he showed plants supposedly ‘reprogrammed’ to smell of sperm, sweat, blood, dead bodies, money, gunpowder and polluted air. His question: what happens when the genetic engineering of smell becomes ordinary and the flower on your windowsill starts to smell of a corpse."
+       },
        "teaser": {
         "ru": "растения, которые пахнут трупами",
         "en": "plants that smell of corpses"
        },
-       "image": "ill-x-plant.png"
+       "image": "ill-x-plant.png",
+       "px": 79.65,
+       "py": 81.58,
+       "flip": true
       },
       {
-       "step": 19,
-       "anchor": "step-19",
+       "id": "pseudo-corpse-1",
        "name": "Pseudo Corpse Scent, Formulation I",
        "brand": "Sigma-Aldrich",
        "year": "—",
+       "family": "death",
+       "step": 19,
+       "anchor": "step-19",
        "popsa": 0,
        "zhest": 9,
+       "who": {
+        "ru": "химическая компания",
+        "en": "a chemical company"
+       },
+       "notes": {
+        "ru": "закрытая смесь",
+        "en": "a proprietary blend"
+       },
+       "text": {
+        "ru": "Первая формула изображает ранние стадии разложения. Производитель честно пишет, что веществ, в честь которых назван продукт, в нём нет: смесь должна вызывать у собаки ту же реакцию, что и настоящий запах. Качество проверяют на обученных собаках, а хранить пузырёк нужно в холодильнике.",
+        "en": "The first formula imitates the early stages of decomposition. The maker states honestly that the substances the product is named after are not in it: the mixture must trigger the same response in a dog as the real smell. Quality is tested on trained dogs, and the vial must be kept refrigerated."
+       },
        "teaser": {
         "ru": "запах свежего трупа для собак-поисковиков",
         "en": "the smell of a fresh corpse for search dogs"
        },
-       "image": "ill-x-vial.png"
+       "image": "ill-x-vial.png",
+       "px": 79.96,
+       "py": 94.26,
+       "flip": true
       },
       {
-       "step": 19,
-       "anchor": "step-19",
+       "id": "pseudo-corpse-2",
        "name": "Pseudo Corpse Scent, Formulation II",
        "brand": "Sigma-Aldrich",
        "year": "—",
+       "family": "death",
+       "step": 19,
+       "anchor": "step-19",
        "popsa": 0,
        "zhest": 9,
+       "who": {
+        "ru": "химическая компания",
+        "en": "a chemical company"
+       },
+       "notes": {
+        "ru": "закрытая смесь",
+        "en": "a proprietary blend"
+       },
+       "text": {
+        "ru": "Вторая формула — запах тела уже после гниения. В 2012 году химики проанализировали такие коммерческие имитации и выяснили, что в них всего несколько основных веществ, а семь из найденных вообще не встречаются среди известных продуктов разложения. По их мнению, настоящий трупный запах эти смеси передают плохо, и, наверное, это единственная хорошая новость на нашей лестнице.",
+        "en": "The second formula is the smell of a body after putrefaction. In 2012 chemists analysed such commercial imitations and found only a few main substances, seven of which do not occur among known decomposition products at all. In their view the mixtures render real corpse smell poorly — perhaps the only good news on our ladder."
+       },
        "teaser": {
         "ru": "запах трупа после гниения",
         "en": "the smell of a corpse after putrefaction"
        },
-       "image": "ill-x-vial.png"
+       "image": "ill-x-vial.png",
+       "px": 79.33,
+       "py": 96.36,
+       "flip": true
       },
       {
-       "step": 19,
-       "anchor": "step-19",
+       "id": "cadaverine",
        "name": "Кадаверин и путресцин",
        "brand": "laboratory reagents",
        "year": "—",
+       "family": "death",
+       "step": 19,
+       "anchor": "step-19",
        "popsa": 0,
        "zhest": 10,
+       "who": {
+        "ru": "природа",
+        "en": "nature"
+       },
+       "notes": {
+        "ru": "кадаверин, путресцин",
+        "en": "cadaverine, putrescine"
+       },
+       "text": {
+        "ru": "Это точка ноль всей лестницы: сами молекулы, из которых складывается трупный и гнилостный запах. Их продают химические дистрибьюторы как аналитические стандарты для лабораторий. Ни один парфюмер в здравом уме не добавит их в духи.",
+        "en": "This is the zero point of the whole ladder: the very molecules that make up the smell of corpses and rot. Chemical distributors sell them as analytical standards for laboratories. No perfumer in their right mind would put them in a perfume."
+       },
        "teaser": {
         "ru": "молекулы, из которых состоит трупный запах",
         "en": "the molecules corpse smell is made of"
        },
-       "image": "ill-x-molecule.png"
+       "image": "ill-x-molecule.png",
+       "px": 88.5,
+       "py": 90.06,
+       "flip": true
       },
       {
-       "step": 20,
-       "anchor": "step-20",
+       "id": "vaporizacion",
        "name": "Vaporización",
        "brand": "Teresa Margolles",
        "year": "2001",
+       "family": "art",
+       "step": 20,
+       "anchor": "step-20",
        "popsa": 0,
        "zhest": 10,
+       "who": {
+        "ru": "Тереза Марголес",
+        "en": "Teresa Margolles"
+       },
+       "notes": {
+        "ru": "почти без запаха",
+        "en": "almost odourless"
+       },
+       "text": {
+        "ru": "Зритель входит в зал, наполненный туманом. Сначала ему не говорят, чем он дышит, и только надпись на стене объясняет: туман сделан из воды, которой в центральном морге Мехико обмывали тела погибших, предварительно обеззараженной. Запаха почти нет, и в этом весь ужас: жесть не в носу, а в знании, что эта вода оседает на вашей коже и попадает в лёгкие.",
+        "en": "The visitor enters a room filled with mist. At first they are not told what they are breathing; only a text on the wall explains that the mist is made from water used to wash the bodies of the dead in Mexico City's central morgue, disinfected beforehand. There is almost no smell, and that is the horror: the extremity is not in the nose but in knowing that this water settles on your skin and enters your lungs."
+       },
        "teaser": {
         "ru": "туман из воды, которой обмывали тела в морге",
         "en": "mist made from water used to wash bodies in a morgue"
        },
-       "image": "ill-x-mist.png"
+       "image": "ill-x-mist.png",
+       "px": 87.08,
+       "py": 83.71,
+       "flip": true
       },
       {
-       "step": 20,
-       "anchor": "step-20",
+       "id": "en-el-aire",
        "name": "En el aire",
        "brand": "Teresa Margolles",
        "year": "2003",
+       "family": "art",
+       "step": 20,
+       "anchor": "step-20",
        "popsa": 0,
        "zhest": 10,
+       "who": {
+        "ru": "Тереза Марголес",
+        "en": "Teresa Margolles"
+       },
+       "notes": {
+        "ru": "почти без запаха",
+        "en": "almost odourless"
+       },
+       "text": {
+        "ru": "В другой её работе машина выдувает в коридор мыльные пузыри. Их делают из той же воды, которой обмывали тела перед вскрытием. Пузыри медленно плывут и лопаются о лица зрителей. Работу 2003 года показывали в 2004-м во Франкфурте на выставке «Смерть без конца».",
+        "en": "In another of her works a machine blows soap bubbles into a corridor. They are made from the same water used to wash bodies before autopsy. The bubbles drift slowly and burst against visitors' faces. The 2003 work was shown in 2004 in Frankfurt in the exhibition Muerte sin fin."
+       },
        "teaser": {
         "ru": "мыльные пузыри, которые лопаются о лицо",
         "en": "soap bubbles bursting against your face"
        },
-       "image": "ill-x-bubbles.png"
+       "image": "ill-x-bubbles.png",
+       "px": 87.91,
+       "py": 94.41,
+       "flip": true
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-63",
        "name": "Серверная. Пятница, 23:40",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 0,
        "zhest": 8,
+       "notes": {
+        "ru": "озон, фреон, горелая изоляция, плавленый пластик, холодный кофе, пот",
+        "en": "ozone, freon, burnt insulation, melted plastic, cold coffee, sweat"
+       },
+       "text": {
+        "ru": "Индастриал, о котором вы спрашивали в начале, доведённый до конца. В верхних нотах озон и фреон из кондиционера, который как раз сломался. В сердце горелая изоляция кабеля, расплавленный пластик блока питания и запах перегретой платы. В базе холодный кофе из бумажного стаканчика, лапша быстрого приготовления и пот человека, который решил выкатить обновление в пятницу вечером.",
+        "en": "The industrial you asked about at the start, taken to its end. Top notes of ozone and freon from an air conditioner that has just died. A heart of burnt cable insulation, melted power-supply plastic and an overheated circuit board. A base of cold coffee in a paper cup, instant noodles and the sweat of someone who decided to deploy on a Friday night."
+       },
        "teaser": {
         "ru": "горелая изоляция и холодный кофе",
         "en": "burnt insulation and cold coffee"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 71.22,
+       "py": 87.95,
+       "flip": false
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-64",
        "name": "Кольцевая. Август. Час пик",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 1,
        "zhest": 8,
+       "notes": {
+        "ru": "тормозные колодки, резина, пот, мокрая собака, чебурек",
+        "en": "brake pads, rubber, sweat, wet dog, chebureki"
+       },
+       "text": {
+        "ru": "Вагон кольцевой линии московского метро в августе, когда кондиционер не работает. Горячие тормозные колодки, резина поручней, чужие подмышки на уровне вашего лица, мокрая собака, которую везут на дачу, и чебурек, съеденный кем-то на «Комсомольской». Единственный аромат на этой странице, который миллионы людей нюхают каждый день бесплатно.",
+        "en": "A carriage on the Moscow metro's Circle Line in August with the air conditioning broken. Hot brake pads, rubber handrails, strangers' armpits at the level of your face, a wet dog on its way to the dacha and a meat pastry someone ate at Komsomolskaya. The only fragrance on this page that millions of people smell every day for free."
+       },
        "teaser": {
         "ru": "вагон метро в жару",
         "en": "a metro carriage in a heatwave"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 71.28,
+       "py": 79.32,
+       "flip": false
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-65",
        "name": "Холодильник после отпуска",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 0,
        "zhest": 9,
+       "notes": {
+        "ru": "скисшее молоко, тухлая рыба, плесень",
+        "en": "sour milk, rotten fish, mould"
+       },
+       "text": {
+        "ru": "Вы уехали на три недели, а электричество отключили на второй день. Открывающая нота — скисшее молоко, которое уже не жидкость. Сердце — рыба, купленная к вашему возвращению. База — что-то в дальнем контейнере, которое когда-то было салатом. Флакон продаётся в комплекте с противогазом.",
+        "en": "You left for three weeks and the power went off on day two. The opening note is sour milk that is no longer a liquid. The heart is the fish bought for your return. The base is something in a far-back container that was once a salad. The bottle comes bundled with a gas mask."
+       },
        "teaser": {
         "ru": "электричество отключили на второй день",
         "en": "the power went off on day two"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 78.53,
+       "py": 83.66,
+       "flip": true
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-66",
        "name": "Стоматология № 3, 1987 год",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 1,
        "zhest": 8,
+       "notes": {
+        "ru": "эвгенол, жжёная кость, хлорка, страх",
+        "en": "eugenol, burnt bone, bleach, fear"
+       },
+       "text": {
+        "ru": "Районная стоматология позднего Советского Союза. Эвгенол, запах гвоздичного масла, которым пахнут все зубные кабинеты мира, жжёная кость под бормашиной без охлаждения, хлорка в коридоре и запах страха, который Сиссель Толас могла бы снять с вашей детской рубашки.",
+        "en": "A local dental clinic in the late Soviet Union. Eugenol, the clove-oil smell of every dentist's office in the world, bone burning under an uncooled drill, bleach in the corridor and the smell of fear that Sissel Tolaas could have collected from your childhood shirt."
+       },
        "teaser": {
         "ru": "бормашина, жжёная кость и страх",
         "en": "the drill, burnt bone and fear"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 72.02,
+       "py": 77.17,
+       "flip": false
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-67",
        "name": "Бабушкин сундук после потопа",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 1,
        "zhest": 7,
+       "notes": {
+        "ru": "нафталин, мокрая шерсть, бумага, плесень, гнилое дерево",
+        "en": "mothballs, wet wool, paper, mould, rotting wood"
+       },
+       "text": {
+        "ru": "Сундук, в котором полвека лежали пальто, письма и пуховые платки, а потом соседи сверху устроили потоп. Нафталин, мокрая шерсть, раскисшая бумага, плесень и сладкий запах гниющего дерева. Пожалуй, самый грустный аромат в нашей выдуманной коллекции.",
+        "en": "A trunk where coats, letters and down shawls lay for half a century until the upstairs neighbours flooded the flat. Mothballs, wet wool, sodden paper, mould and the sweet smell of rotting wood. Perhaps the saddest fragrance in our invented collection."
+       },
        "teaser": {
         "ru": "нафталин, мокрая шерсть и плесень",
         "en": "mothballs, wet wool and mould"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 64.18,
+       "py": 92.16,
+       "flip": false
       },
       {
-       "step": 21,
-       "anchor": "step-21",
+       "id": "inv-68",
        "name": "Все двадцать ступеней",
        "brand": "Dormer",
-       "year": "никогда",
+       "year": "—",
+       "family": "invented",
+       "step": 21,
+       "anchor": "step-21",
        "popsa": 0,
        "zhest": 10,
+       "notes": {
+        "ru": "всё сразу",
+        "en": "everything at once"
+       },
+       "text": {
+        "ru": "Последний аромат — это вся наша лестница в одном флаконе: асфальт Tar, окаменевшая моча Hyrax, секреции Sécrétions Magnifiques, кровь Blood Concept, похоронные лилии и запах страха, а сверху для приличия капля Terre d'Hermès. Парфюмеры называют такие вещи передозировкой. Мы называем это честным ответом на вопрос, с которого всё началось.",
+        "en": "The last fragrance is our whole ladder in one bottle: Tar's asphalt, Hyrax's fossilised urine, the secretions of Sécrétions Magnifiques, Blood Concept's blood, funeral lilies and the smell of fear, topped for decency with a drop of Terre d'Hermès. Perfumers call such things an overdose. We call it an honest answer to the question we started with."
+       },
        "teaser": {
         "ru": "смесь всего, что было выше",
         "en": "a blend of everything above"
        },
-       "image": "ill-x-inv.png"
+       "invented": true,
+       "px": 87.19,
+       "py": 85.82,
+       "flip": true
       }
      ]
     }
