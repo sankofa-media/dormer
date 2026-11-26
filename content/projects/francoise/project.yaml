@@ -1,0 +1,1227 @@
+id: francoise
+layout: longread
+theme: yeye
+title:
+  ru: Франсуаза
+  en: Françoise
+dek:
+  ru: Девушка, ради которой Боб Дилан не хотел возвращаться на сцену. Франсуаза Арди, йе-йе, её песни, её платья и одна ночь в Париже в мае 1966 года
+  en: "The girl for whom Bob Dylan refused to go back onstage. Françoise Hardy, yé-yé, her songs, her dresses, and one night in Paris in May 1966"
+date: 2026-11-26
+cover:
+  kind: collage
+  background: bg-collage.webp
+  pieces:
+    - {src: obj-teppaz.webp, x: 0, y: 70, w: 24, rotate: -8, z: 6, depth: 6}
+    - {src: obj-45.webp, x: 40, y: 30, w: 20, rotate: 12, z: 1, depth: 10}
+    - {src: cut-dylan-1965.webp, x: 5, y: 22, w: 34, rotate: -3, z: 3, depth: 16}
+    - {src: cut-hardy-1969.webp, x: 60, y: 22, w: 28, rotate: 2, z: 4, depth: 22}
+    - {src: obj-sunglasses.webp, x: 14, y: 17, w: 15, rotate: -14, z: 5, depth: 28}
+    - {src: obj-harmonica.webp, x: 36, y: 70, w: 16, rotate: 9, z: 5, depth: 12}
+    - {src: obj-cigarettes.webp, x: 84, y: 66, w: 12, rotate: 18, z: 5, depth: 14}
+    - {src: obj-rose.webp, x: 60, y: 76, w: 16, rotate: -20, z: 6, depth: 20}
+    - {src: obj-ticket.webp, x: 44, y: 46, w: 12, rotate: -6, z: 6, depth: 24}
+    - {src: obj-eiffel.webp, x: 90, y: 30, w: 8, rotate: 4, z: 2, depth: 8}
+  balloons:
+    - {who: dylan, lang: en, text: "I'm not going back out there till Françoise Hardy comes to see me.", x: 3, y: 2, tail: down}
+    - {who: hardy, lang: fr, text: "Moi ? Mais… je parle à peine anglais.", x: 64, y: 4, tail: down}
+    - {who: dylan, lang: en, text: "Just listen. It's called “Just Like a Woman”.", x: 20, y: 62, tail: left}
+    - {who: hardy, lang: fr, text: "C'est très beau… je crois.", x: 58, y: 70, tail: left}
+chapters:
+
+  - id: intermission
+    kicker:
+      ru: Глава первая
+      en: "Chapter One"
+    name:
+      ru: Антракт, который не кончался
+      en: "The Intermission That Would Not End"
+    blocks:
+      - type: poster
+        paper: "#f4ead6"
+        lines:
+          - {text: "OLYMPIA", size: xl, font: display, color: "#d7262e"}
+          - {text: "Bruno Coquatrix présente", size: s, font: grotesk, color: "#1d2a5b"}
+          - {text: "BOB DYLAN", size: xl, font: grotesk, color: "#1d2a5b"}
+          - {text: "mardi 24 mai 1966", size: m, font: script, color: "#d7262e"}
+          - {text: "1re partie : seul à la guitare · 2e partie : avec ses musiciens", size: s, font: grotesk, color: "#1d2a5b"}
+      - type: text
+        text:
+          ru: |
+            Двадцать четвёртого мая 1966 года Бобу Дилану исполнилось двадцать пять лет. Вечер своего дня рождения он проводил на сцене парижского мюзик-холла «Олимпия», на бульваре Капуцинок, — там, где пела Эдит Пиаф. Это было одно из самых тяжёлых турне в его жизни. Первое отделение он играл один, с акустической гитарой и губной гармошкой, как играл раньше. Во втором выходил с электрической группой, и по всей Европе зал в этот момент начинал свистеть, топать и кричать «предатель». Парижане исключением не были.
+
+            В антракте за кулисами что-то пошло не так. Антракт затягивался. Публика ждала. А потом к одной из зрительниц подошли и передали: Дилан не вернётся на сцену, пока она не придёт к нему.
+
+            Зрительнице было двадцать два года. Её звали Франсуаза Арди, и во Франции её знал каждый.
+          en: |
+            On 24 May 1966, Bob Dylan turned twenty-five. He spent the evening of his birthday onstage at the Olympia music hall on the Boulevard des Capucines in Paris, where Édith Piaf had sung. It was one of the hardest tours of his life. For the first half he played alone, with an acoustic guitar and a harmonica, as he always had. For the second, he came out with an electric band, and all over Europe this was the moment when audiences began to whistle, stamp their feet and shout “traitor”. Paris was no exception.
+
+            During the interval, something went wrong backstage. The intermission dragged on. The audience waited. Then someone approached a young woman in the crowd with a message: Dylan would not return to the stage until she came to see him.
+
+            She was twenty-two. Her name was Françoise Hardy, and everyone in France knew who she was.
+        sources:
+          - title: Bob Dylan — Olympia Theatre, Paris, May 24, 1966 (official concert archive)
+            url: https://www.bobdylan.com/date/1966-05-24-olympia-theatre/
+          - title: Agnès C. Poirier — Françoise Hardy interview, The New York Times (via WRAL)
+            url: https://www.wral.com/archive/17543183/
+          - title: Le Monde — Le Swinging London sous le charme de la Française, 17.11.2004
+            url: https://www.lemonde.fr/archives/article/2004/11/17/le-swinging-london-sous-le-charme-de-la-francaise_387422_1819218.html
+      - type: art
+        src: olympia-night.webp
+        alt:
+          ru: Фасад парижского мюзик-холла ночью, красный неон, очередь молодых людей в пальто, у тротуара машина
+          en: "The façade of a Paris music hall at night, red neon, young people in coats queuing, a car at the kerb"
+        size: bleed
+      - type: photo
+        src: dylan-olympia-1966-poster.jpg
+        alt:
+          ru: Афиша концерта Боба Дилана в «Олимпии», 1966
+          en: "Poster for Bob Dylan’s concert at the Olympia, 1966"
+        caption:
+          ru: Афиша парижского концерта 24 мая 1966 года.
+          en: "Poster for the Paris concert on 24 May 1966."
+        credit: "Автор афиши не установлен. Скан: коллекция Come Writers and Critics"
+        source_url: https://www.bobdylan-comewritersandcritics.com/pages/programmes/dylan-paris-24-may-1966.htm
+        size: right
+        treatment: print
+      - type: art
+        src: dylan-stage.webp
+        alt:
+          ru: Худой кудрявый певец один на тёмной сцене с акустической гитарой и гармошкой
+          en: "A thin, curly-haired singer alone on a dark stage with an acoustic guitar and harmonica"
+        size: wide
+      - type: art
+        src: intermission.webp
+        alt:
+          ru: Певец в тёмных очках сидит на кофре за кулисами, скрестив руки, вокруг встревоженные люди
+          en: "A singer in dark glasses sits backstage on a flight case, arms folded, surrounded by anxious people"
+        size: bleed
+      - type: quote
+        text:
+          ru: Боб Дилан отказывался вернуться на сцену, пока я немедленно не приду к нему.
+          en: "Bob Dylan refused to go back onstage unless I came to see him immediately"
+        attribution: "Франсуаза Арди, интервью The New York Times, 2018"
+        source:
+          title: Agnès C. Poirier — The New York Times, 9 May 2018 (via WRAL)
+          url: https://www.wral.com/archive/17543183/
+      - type: text
+        text:
+          ru: |
+            Так эту историю рассказывала сама Арди — и в 2008 году в мемуарах «Отчаяние обезьян и прочие пустяки», и в интервью полвека спустя. Похожий рассказ напечатан ещё в 2004 году в книге о Дилане, на которую ссылалась Le Monde. Слышала ли она этот ультиматум из уст самого Дилана, неизвестно: ей его передали. Но она пошла.
+
+            Высокая, тонкая, с длинными прямыми волосами и тяжёлой чёлкой, она прошла по коридору за сценой, глядя в пол. Она была очень застенчива — так застенчива, что через два года бросит выступать на сцене совсем. Дилан её увидел. И вернулся к публике.
+          en: |
+            That is how Hardy herself told the story, both in her 2008 memoir, Le Désespoir des singes… et autres bagatelles, and in interviews half a century after the event. A similar account had appeared as early as 2004 in a book about Dylan cited by Le Monde. Whether she heard the ultimatum from Dylan himself is unknown: someone relayed it to her. But she went.
+
+            Tall and slender, with long, straight hair and a heavy fringe, she walked down the backstage corridor with her eyes on the floor. She was painfully shy—so shy that two years later she would give up live performance altogether. Dylan saw her. And went back to his audience.
+        sources:
+          - title: Le Désespoir des singes… et autres bagatelles, Robert Laffont, 2008, pp. 73–74 (via bibliographic citation)
+            url: https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Hardy_Sings_in_English
+          - title: Le Monde — Le Swinging London sous le charme de la Française, 17.11.2004
+            url: https://www.lemonde.fr/archives/article/2004/11/17/le-swinging-london-sous-le-charme-de-la-francaise_387422_1819218.html
+          - title: Le Figaro — Françoise Hardy et ses douze partages, 27.11.2006
+            url: https://www.lefigaro.fr/2006/11/27/03004-20061127ARTFIG90021-francoise_hardy_et_ses_douze_partages.php
+      - type: art
+        src: she-arrives.webp
+        alt:
+          ru: Высокая девушка с чёлкой в плаще быстро идёт по коридору за кулисами, опустив глаза
+          en: "A tall young woman with a fringe, wearing a raincoat, hurries down a backstage corridor with her eyes lowered"
+        size: column
+
+  - id: seine
+    kicker:
+      ru: Глава вторая
+      en: "Chapter Two"
+    name:
+      ru: «У берега Сены»
+      en: "“At the Seine’s Edge”"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Чтобы понять, почему Дилан так её ждал, нужно вернуться на два года назад. В августе 1964 года вышел его четвёртый альбом, Another Side of Bob Dylan. На обороте конверта, мелким шрифтом, были напечатаны его стихи — длинный цикл свободных строк без заглавных букв. И одно стихотворение начиналось так: «for françoise hardy / at the seine's edge» — «для франсуазы арди / у берега сены». Дальше — Париж, каким его видит человек, ни разу там не бывавший: Нотр-Дам, студенты, велосипеды, влюблённые, река.
+
+            Лично они знакомы не были. Арди потом объясняла это так: Дилан, по её словам, был романтически очарован её фотографией. В 1964 году её лицо уже смотрело с обложек пластинок и журналов по всей Европе, и с одной из этих фотографий, видимо, всё и началось.
+          en: |
+            To understand why Dylan was so determined to see her, we have to go back two years. In August 1964, he released his fourth album, Another Side of Bob Dylan. On the back of the sleeve, in small print, were his poems: a long sequence of free verse without capital letters. One began “for françoise hardy / at the seine's edge”. What followed was Paris as imagined by someone who had never been there: Notre-Dame, students, bicycles, lovers, the river.
+
+            They had never met. Hardy later explained that Dylan had developed, in her words, a “romantic fixation on a photo of me”. By 1964, her face was on record sleeves and magazine covers across Europe, and one of those photographs seems to have been where it all began.
+        sources:
+          - title: Bob Dylan — Another Side of Bob Dylan, liner notes (official site)
+            url: https://www.bobdylan.com/albums/another-side-of-bob-dylan/
+          - title: Pitchfork — French Icon Françoise Hardy on the Music of Her Life, 10.05.2018
+            url: https://pitchfork.com/features/5-10-15-20/french-icon-francoise-hardy-on-the-music-of-her-life/
+          - title: MusicBrainz — Another Side of Bob Dylan, editions
+            url: https://musicbrainz.org/release-group/b18ef710-0e47-3c10-ab0b-6631533549ee
+      - type: art
+        src: seine.webp
+        alt:
+          ru: Высокая девушка одна облокотилась на парапет набережной Сены, зелёные ящики букинистов
+          en: "A tall young woman leans alone against the parapet beside the Seine, with the green boxes of the booksellers nearby"
+        size: bleed
+      - type: clipping
+        style: magazine
+        masthead: "Another Side of Bob Dylan"
+        date: "1964"
+        headline: "for françoise hardy"
+        deck:
+          ru: Стихи на обороте конверта, Columbia CS 8993
+          en: "Poems on the back cover, Columbia CS 8993"
+        body:
+          ru: "for françoise hardy / at the seine's edge…"
+          en: "for françoise hardy / at the seine's edge…"
+        cite:
+          publication: Bob Dylan, Another Side of Bob Dylan, liner notes
+          date: "1964-08-08"
+          page: "back cover"
+          url: https://www.bobdylan.com/albums/another-side-of-bob-dylan/
+        paper: paper-news.webp
+      - type: photo
+        src: dylan-1963-hunstein.jpg
+        alt:
+          ru: Молодой Боб Дилан у микрофона в студии
+          en: "A young Bob Dylan at a studio microphone"
+        caption:
+          ru: Боб Дилан в студии, 1963 год, рекламный снимок к альбому The Times They Are a-Changin'. Через год он напишет стихи для Франсуазы.
+          en: "Bob Dylan in the studio, 1963, in a publicity photograph for The Times They Are a-Changin'. A year later, he would write poems for Françoise."
+        credit: "Фото: Don Hunstein / Columbia Records, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Bob_Dylan_1963_promo_photo_by_Don_Hunstein.jpg
+        size: left
+        treatment: halftone
+      - type: text
+        text:
+          ru: |
+            Долго держалась легенда, будто они встречались раньше, в Лондоне в 1964 или 1965 году, где оба записывались и выступали. Подтверждения этому нет, а сама Арди в 2018 году прямо называла Париж местом их первой встречи. Лондонская встреча — из тех историй, которые хочется рассказать, но рассказывать не стоит.
+          en: |
+            For years, a story persisted that they had met earlier, in London in 1964 or 1965, where both were recording and performing. There is no evidence for it, and in 2018 Hardy explicitly named Paris as the place of their first meeting. The London encounter is one of those stories that is tempting to tell, but better left untold.
+        sources:
+          - title: Agnès C. Poirier — The New York Times, 9 May 2018 (via WRAL)
+            url: https://www.wral.com/archive/17543183/
+
+  - id: george-v
+    kicker:
+      ru: Глава третья
+      en: "Chapter Three"
+    name:
+      ru: Ночь в «Георге V»
+      en: "A Night at the George V"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            После концерта Арди оказалась в отеле «Георг V», в двух шагах от Елисейских Полей, где жил Дилан. Накануне там же он давал пресс-конференцию. Теперь в его номере толпились гости. И тут Дилан попросил её прийти — одну, — чтобы дать послушать две новые песни. Альбом Blonde on Blonde ещё не вышел. Песни назывались Just Like a Woman и I Want You.
+
+            Сыграл ли он их на гитаре или поставил свежие студийные записи — рассказы расходятся. Газета The Independent писала про гитару, испанская El País — что он дал ей их послушать. Мы скажем осторожно: в ту ночь Франсуаза Арди одной из первых в мире услышала две песни, которые потом знал наизусть весь мир.
+
+            И почти ничего не поняла. Английский у неё был школьный, смысл она улавливала урывками. А разговора не получилось вовсе.
+          en: |
+            After the concert, Hardy found herself at the Hôtel George V, a short walk from the Champs-Élysées, where Dylan was staying. He had held a press conference there the day before. Now his room was crowded with guests. Then Dylan asked her to come over—alone—to hear two new songs. Blonde on Blonde had not yet been released. The songs were Just Like a Woman and I Want You.
+
+            Whether he played them on his guitar or put on the new studio recordings depends on whose account you read. The Independent wrote of a guitar; Spain’s El País said he let her hear them. We can put it cautiously: that night, Françoise Hardy was among the first people in the world to hear two songs the whole world would later know by heart.
+
+            And she understood almost nothing. Her English was what she had learnt at school; she caught the meaning in fragments. As for conversation, there was none.
+        sources:
+          - title: Billboard, 11 June 1966 — press conference in the George V Hotel
+            url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/60s/1966/Billboard%201966-06-11.pdf
+          - title: ELLE — Quand Bob Dylan était obsédé par Françoise Hardy, 2026
+            url: https://www.elle.fr/Loisirs/Musique/News/Lettres-d-amour-poemes-Quand-Bob-Dylan-etait-obsede-par-Francoise-Hardy-4305662
+          - title: "The Independent — Françoise Hardy: Belle star, 2005"
+            url: https://www.independent.co.uk/news/people/profiles/frana-oise-hardy-belle-star-13471.html
+          - title: EL PAÍS — Cuando Bob Dylan conoció a Françoise Hardy, 12.06.2024
+            url: https://elpais.com/cultura/2024-06-12/cuando-bob-dylan-conocio-a-francoise-hardy.html
+      - type: art
+        src: hotel-room.webp
+        alt:
+          ru: Роскошный гостиничный номер ночью, кудрявый певец играет, девушка вежливо слушает на диване, дым, подносы, пластинки
+          en: "A luxurious hotel room at night: a curly-haired singer plays while a young woman listens politely on a sofa, amid smoke, trays and records"
+        size: bleed
+      - type: quote
+        text:
+          ru: Он казался очень застенчивым, и я тоже была очень застенчива.
+          en: "he seemed very shy, and I was very shy too"
+        attribution: "Франсуаза Арди, Pitchfork, 2018"
+        source:
+          title: Pitchfork — French Icon Françoise Hardy on the Music of Her Life
+          url: https://pitchfork.com/features/5-10-15-20/french-icon-francoise-hardy-on-the-music-of-her-life/
+      - type: text
+        text:
+          ru: |
+            Вот и вся сцена: двое самых застенчивых людей в шумной комнате, один не говорит по-французски, другая еле говорит по-английски, между ними — две песни. Остальное додумали журналисты. Сама Арди впечатлением делилась невесёлым. В 2001 году она вспоминала, что Дилан был «в очень плохом состоянии»: страшно худой, издёрганный, на пределе — это было турне, после которого он разобьётся на мотоцикле и на годы исчезнет из виду. Что именно с ним было, она не говорила, и гадать мы не будем.
+
+            Романа не было. В 2005 году она сказала британской газете — во всяком случае, так передал её слова испанский перевод, — что Дилан интересовал её как артист, а не как мужчина. И больше они, кажется, не виделись. В одном интервью она говорила, что встречалась с ним только однажды — в Париже, в 1966-м.
+          en: |
+            That was the whole scene: two desperately shy people in a noisy room, one speaking no French, the other barely any English, and two songs between them. Journalists imagined the rest. Hardy’s own recollection was far from happy. In 2001, she recalled that “il était en très mauvais état”—he was in a very bad way: terribly thin, strung out, at the end of his tether. This was the tour after which he would crash his motorcycle and disappear from public view for years. She did not say exactly what was wrong with him, and we will not speculate.
+
+            There was no affair. In 2005, she told a British newspaper—or so a Spanish translation reported her words—that Dylan interested her as an artist, not as a man. And it seems they never met again. In one interview she said she had met him only once, in Paris in 1966.
+        sources:
+          - title: ELLE — Quand Bob Dylan était obsédé par Françoise Hardy (Catherine Ceylac interview, 2001)
+            url: https://www.elle.fr/Loisirs/Musique/News/Lettres-d-amour-poemes-Quand-Bob-Dylan-etait-obsede-par-Francoise-Hardy-4305662
+          - title: EFE / EL PAÍS — 14.01.2005
+            url: https://elpais.com/diario/2005/01/14/agenda/1105657206_850215.html
+          - title: APA/dpa — Bob Dylans Briefe an Hardy, 02.05.2018
+            url: https://www.tt.com/artikel/14312904/bob-dylans-briefe-an-hardy-muss-sehr-in-mich-verliebt-gewesen-sein
+      - type: aside
+        title:
+          ru: Фотографии той ночи
+          en: "Photographs of That Night"
+        text:
+          ru: "В тот вечер их снимали вместе по крайней мере два фотографа — Жан-Пьер Лелуар (кадр хранится в архиве Лелуара, его продаёт парижская галерея Polka) и Джанкарло Ботти из агентства Gamma-Rapho, чей снимок есть в Getty Images. Найти их можно по ссылкам ниже."
+          en: "At least two photographers took pictures of them together that evening: Jean-Pierre Leloir, whose photograph is held in the Leloir archive and sold by the Paris gallery Polka, and Giancarlo Botti of Gamma-Rapho, whose image is available through Getty Images. You can find them at the links below."
+        sources:
+          - title: Polka — Bob Dylan et Françoise Hardy à l’Olympia (Jean-Pierre Leloir)
+            url: https://www.polka.paris/factory/bob-dylan-et-francoise-hardy-a-l-olympia.htm
+          - title: Getty Images 1272435131 — Françoise Hardy à l’Olympia avec Bob Dylan (Giancarlo Botti / Gamma-Rapho)
+            url: https://www.gettyimages.co.uk/detail/news-photo/fran%C3%A7oise-hardy-%C3%A0-lolympia-avec-bob-dylan-qui-vient-dy-news-photo/1272435131
+      - type: text
+        text:
+          ru: |
+            У этой истории есть странный эпилог. В 2018 году Арди рассказала немецкому журналу Zeit, что ей недавно достались два черновика писем Дилана — любовных, так никогда и не отправленных. «Должно быть, он был сильно в меня влюблён», — сказала она. Откуда взялись эти листки и что в них, проверить не удалось. Взаимной переписки, во всяком случае, не было.
+
+            А вот чего не было точно — это песен Дилана в её исполнении. Она перепевала Леонарда Коэна, Фила Окса, Нила Янга, Брассанса на стихи Арагона. Дилана — ни разу, по крайней мере ни на одной изданной пластинке. Он написал для неё стихи. Она пришла к нему в антракте. На этом их история и кончается.
+          en: |
+            The story has a curious epilogue. In 2018, Hardy told the German magazine Zeit that she had recently received two drafts of letters from Dylan—love letters that had never been sent. “He must have been very much in love with me,” she said. Where those pages came from, and what was in them, could not be verified. In any case, there was no correspondence between them.
+
+            One thing there certainly was not: Hardy singing Dylan’s songs. She covered Leonard Cohen, Phil Ochs, Neil Young, and Brassens’s settings of Aragon’s poetry. Dylan, never—at least on any released record. He wrote poems for her. She came to see him during an intermission. That is where their story ends.
+        sources:
+          - title: "APA/dpa — Bob Dylans Briefe an Hardy: „Muss sehr in mich verliebt gewesen sein“, 02.05.2018"
+            url: https://www.tt.com/artikel/14312904/bob-dylans-briefe-an-hardy-muss-sehr-in-mich-verliebt-gewesen-sein
+          - title: Discographie de Françoise Hardy
+            url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
+      - type: photo
+        src: dylan-1965-kramer.jpg
+        alt:
+          ru: Боб Дилан в тёмном пиджаке, портрет 1965 года
+          en: "Bob Dylan in a dark jacket, a portrait from 1965"
+        caption:
+          ru: Боб Дилан, рекламный портрет 1965 года.
+          en: "Bob Dylan, publicity portrait, 1965."
+        credit: "Фото: Daniel Kramer / Albert Grossman Management, Wikimedia Commons (public domain)"
+        source_url: https://commons.wikimedia.org/wiki/File:Bob_Dylan_(1965).jpg
+        size: column
+        treatment: halftone
+
+  - id: yeye
+    kicker:
+      ru: Глава четвёртая
+      en: "Chapter Four"
+    name:
+      ru: «Салют, приятели!»
+      en: "“Salut les copains!”"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Почему двадцатидвухлетнюю девушку в 1966 году знал каждый француз? Чтобы ответить, нужно рассказать про йе-йе.
+
+            Девятнадцатого октября 1959 года радиостанция Europe 1 запустила передачу Salut les copains — «Салют, приятели». Придумали её двое любителей джаза, Даниэль Филипаки и Франк Тено. Каждый день после школы французские подростки бросали портфели, включали транзисторы и слушали рок-н-ролл, твист и новые песни своих ровесников. Летом 1962 года у передачи появился одноимённый ежемесячный журнал — на обложке первого номера был Джонни Холлидей, — и журнал стал расходиться так, как не расходилось ни одно издание для молодёжи. Ещё раньше, в 1961-м, вышел первый номер журнала Disco Revue, а по телевизору шла программа Альбера Рэснера «Нежный возраст и деревянная голова» — с музыкальным автоматом и флиппером прямо в студии.
+          en: |
+            Why did everyone in France know a twenty-two-year-old woman in 1966? To answer that, we need to talk about yé-yé.
+
+            On 19 October 1959, the radio station Europe 1 launched Salut les copains—“Hello, friends”. It was devised by two jazz enthusiasts, Daniel Filipacchi and Frank Ténot. Every day after school, French teenagers dropped their satchels, switched on their transistor radios and listened to rock ’n’ roll, the twist and new songs by people their own age. In the summer of 1962, the programme acquired a monthly magazine of the same name, with Johnny Hallyday on the first cover. It sold as no youth magazine had sold before. Disco Revue had appeared earlier, in 1961, while television had Albert Raisner’s Âge tendre et tête de bois, with a jukebox and a pinball machine right there in the studio.
+        sources:
+          - title: Europe 1 — 19 octobre 1959, Europe 1 lance Salut les copains
+            url: https://www.europe1.fr/emissions/Zoom-arriere/19-octobre-1959-Europe-1-lance-Salut-les-copains-930438
+          - title: BnF — Salut les copains (périodique), 1962–1976
+            url: https://catalogue.bnf.fr/ark%3A/12148/cb343492469
+          - title: Musée Sacem — La presse jeunesse yéyé
+            url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=3921
+          - title: Disco Revue n°1, 28.09.1961 (catalogue)
+            url: https://ctlgs.org/c/books/edition/385110/disco-revue-series-1-n-01/
+          - title: INA — Âge tendre et tête de bois, 30 mai 1961
+            url: https://catalogue.ina.fr/doc/TV-RADIO/DA_CPF86600631/age-tendre-et-tete-de-bois-emission-du-30-mai-1961
+      - type: art
+        src: salut-copains.webp
+        alt:
+          ru: Французские подростки в комнате 1962 года слушают транзистор и переносной проигрыватель
+          en: "French teenagers in a room in 1962, listening to a transistor radio and a portable record player"
+        size: bleed
+      - type: photo
+        src: salut-les-copains-01-1962.jpg
+        alt:
+          ru: Обложка первого номера журнала Salut les copains с Джонни Холлидеем
+          en: "The cover of the first issue of Salut les copains, featuring Johnny Hallyday"
+        caption:
+          ru: Первый номер Salut les copains, июль–август 1962 года. На обложке — Джонни Холлидей.
+          en: "The first issue of Salut les copains, July–August 1962. Johnny Hallyday on the cover."
+        credit: "Salut les copains, 1962. Фотограф обложки не установлен. Скан: jhallyday.com"
+        source_url: https://www.jhallyday.com/presse/slc/slc1-07-62.html
+        size: right
+        treatment: print
+      - type: text
+        text:
+          ru: |
+            Двадцать второго июня 1963 года журнал отмечал первый день рождения бесплатным концертом на площади Насьон в Париже. Ждали несколько тысяч человек. Пришло, по самым распространённым оценкам, около ста пятидесяти тысяч — подростки сидели на фонарях, на деревьях, на памятнике. Франция вдруг увидела своих детей разом, целым поколением, и испугалась.
+
+            Через две недели социолог Эдгар Морен напечатал в Le Monde две статьи под названием Salut les copains. Первая называлась «Новый возрастной класс». Морен описывал этих подростков как отдельный народ со своей музыкой, своей одеждой, своими пластинками и транзисторами — и закрепил за ними имя «йе-йе». Слово это — просто французское эхо английского «yeah, yeah», которое без конца звучало в песнях.
+          en: |
+            On 22 June 1963, the magazine celebrated its first birthday with a free concert at the Place de la Nation in Paris. A few thousand people were expected. According to the most widely cited estimates, about a hundred and fifty thousand came. Teenagers perched on lampposts, in trees, on the monument. France suddenly saw its children all at once, an entire generation, and took fright.
+
+            Two weeks later, the sociologist Edgar Morin published two articles in Le Monde under the heading Salut les copains. The first was called “Une nouvelle classe d’âge”—a new age group. Morin described these teenagers as a people apart, with their own music, clothes, records and transistor radios, and gave them a lasting name: yé-yé. The word was simply a French echo of the English “yeah, yeah” that rang endlessly through the songs.
+        sources:
+          - title: Cambridge — The Salut les copains generation, Popular Music, 2021
+            url: https://www.cambridge.org/core/journals/popular-music/article/abs/salut-les-copains-generation/E210D4045FA1BB467BBEC6644FC85479
+          - title: Le Monde — Edgar Morin, Salut les copains. I. Une nouvelle classe d’âge, 06.07.1963
+            url: https://www.lemonde.fr/archives/article/1963/07/06/i-une-nouvelle-classe-d-age_2207794_1819218.html
+          - title: Le Monde — Antoine crie « O yeah », 06.08.1998
+            url: https://www.lemonde.fr/archives/article/1998/08/06/antoine-crie-o-yeah_3665651_1819218.html
+          - title: Jean Segura — Nation 1963, documentary description
+            url: https://www.youtube.com/watch?v=9X10z9nVTr8
+      - type: art
+        src: nation-1963.webp
+        alt:
+          ru: Огромная толпа подростков на площади, ребята сидят на фонарях и памятнике, далеко маленькая сцена
+          en: "An enormous crowd of teenagers in a square, youngsters perched on lampposts and a monument, a small stage in the distance"
+        size: bleed
+      - type: clipping
+        style: french-daily
+        masthead: "Le Monde"
+        date: "6 juillet 1963"
+        headline: "Salut les copains"
+        deck:
+          ru: "I. Une nouvelle classe d'âge — Эдгар Морен"
+          en: "I. Une nouvelle classe d'âge — Edgar Morin"
+        body:
+          ru: Первая из двух статей социолога о подростках, собравшихся на площади Насьон. Здесь поколению дано имя «йе-йе».
+          en: "The first of the sociologist’s two articles about the teenagers gathered at the Place de la Nation. Here, the generation was given the name “yé-yé”."
+        cite:
+          publication: Le Monde
+          date: "1963-07-06"
+          page: "1"
+          url: https://www.lemonde.fr/archives/article/1963/07/06/i-une-nouvelle-classe-d-age_2207794_1819218.html
+        paper: paper-news.webp
+      - type: text
+        text:
+          ru: |
+            У йе-йе было своё созвездие: Сильви Вартан, Франс Галль, Шейла, Джонни Холлидей, Клод Франсуа, Шанталь Гойя, а с 1966 года — Жак Дютрон. И Франсуаза Арди. Двенадцатого апреля 1966 года фотограф Жан-Мари Перье собрал сорок шесть певцов и певиц на одну постановочную фотографию; в июне её напечатали плакатом к четырёхлетию журнала, и её до сих пор называют «фотографией века».
+
+            У этого поколения были и свои вещи. Переносной проигрыватель Teppaz, похожий на чемоданчик, который можно унести на пляж или в гости. Маленькие пластинки — «сорокапятки», а во Франции чаще всего «супер-45»: четыре песни на одном диске в картонном конверте с фотографией. Транзисторный приёмник в кожаном чехле. Велосипед с моторчиком «Велосолекс». Всё это — йе-йе не меньше, чем песни.
+          en: |
+            Yé-yé had its own constellation of stars: Sylvie Vartan, France Gall, Sheila, Johnny Hallyday, Claude François, Chantal Goya and, from 1966, Jacques Dutronc. And Françoise Hardy. On 12 April 1966, the photographer Jean-Marie Périer assembled forty-six singers for a single staged photograph. Published in June as a poster to mark the magazine’s fourth anniversary, it is still known as the “photo of the century”.
+
+            The generation had its objects, too. The portable Teppaz record player, like a little suitcase you could take to the beach or a friend’s house. Small records—45s, or, most often in France, “super 45s”: four songs on one disc in a cardboard picture sleeve. A transistor radio in a leather case. A VéloSolex motorised bicycle. All of it was as much yé-yé as the songs.
+        sources:
+          - title: Polka — Jean-Marie Périer, « photo du siècle », 12 avril 1966
+            url: https://www.polkagalerie.com/docs/artistes/Jean-Marie-Perier/Presse/Polka1Perier.pdf
+          - title: Photo du siècle (participants, SLC n°47)
+            url: https://fr.wikipedia.org/wiki/Photo_du_si%C3%A8cle
+          - title: MuPop — Teppaz Oscar, vers 1960
+            url: https://www.mupop.fr/wp-content/uploads/2022/07/LivretEnseignant-Oralite-ok.pdf
+      - type: gallery
+        layout: scatter
+        items:
+          - type: photo
+            src: teppaz-player.jpg
+            alt: {ru: "Переносной проигрыватель Teppaz", en: "A portable Teppaz record player"}
+            caption: {ru: "Teppaz — проигрыватель-чемоданчик.", en: "Teppaz—the suitcase record player."}
+            credit: "Фото: Tangopaso, Wikimedia Commons (public domain)"
+            source_url: https://commons.wikimedia.org/wiki/File:Teppaz_player.jpg
+            treatment: cutout
+          - type: photo
+            src: solex-1960-object.jpg
+            alt: {ru: "Велосипед с моторчиком Solex 1960 года", en: "A Solex motorised bicycle from 1960"}
+            caption: {ru: "«Велосолекс», модель 1960 года.", en: "VéloSolex, 1960 model."}
+            credit: "Фото: Rifat Kulenović, Wikimedia Commons, CC BY-SA 3.0"
+            source_url: https://commons.wikimedia.org/wiki/File:Bicycle_with_auxiliary_engine_Solex,_1960.jpg
+            treatment: cutout
+          - type: photo
+            src: gitanes-1950-1960-object.jpg
+            alt: {ru: "Синяя пачка сигарет Gitanes", en: "A blue packet of Gitanes cigarettes"}
+            caption: {ru: "Пачка Gitanes, 1950–1960-е.", en: "A packet of Gitanes, 1950s–1960s."}
+            credit: "Museum Rotterdam, Wikimedia Commons, CC BY-SA 3.0"
+            source_url: https://commons.wikimedia.org/wiki/File:Pakje_sigaretten_%E2%80%9CGitanes_20_cigarettes%E2%80%9D,_blauw_met_in_witte_rookwalm_silhouet_van_vrouw,_objectnr_74837.JPG
+            treatment: cutout
+          - type: photo
+            src: citroen-ds21-object.jpg
+            alt: {ru: "Автомобиль Citroën DS", en: "A Citroën DS"}
+            caption: {ru: "Citroën DS — машина, на которой ездила Франция де Голля.", en: "Citroën DS—the car of de Gaulle’s France."}
+            credit: "Фото: Slaunger, Wikimedia Commons, CC BY-SA 3.0"
+            source_url: https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS_21_27_Quai_Anatole_France_license_plate_blanked_2012-06-02_cropped.jpg
+            treatment: cutout
+
+  - id: debut
+    kicker:
+      ru: Глава пятая
+      en: "Chapter Five"
+    name:
+      ru: Гитара за аттестат
+      en: "A Guitar for Passing Her Exams"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Франсуаза Арди родилась 17 января 1944 года в Париже, в девятом округе, ещё при немецкой оккупации. Её растила мать, Мадлен, помощница бухгалтера; отец жил с другой семьёй и появлялся редко. Франсуаза и младшая сестра учились в католической школе у монахинь на улице Лабрюйер. Девочка была замкнутой, неуверенной в себе, много читала и слушала по радио английскую и американскую поп-музыку, которую любила всю жизнь.
+
+            Когда она сдала экзамены на аттестат зрелости, ей подарили гитару. В каком году — то ли в 1960-м, то ли в 1961-м, — источники спорят. Аккордов она знала несколько, но этого хватило: она начала сочинять. Мелодия и слова приходили одновременно, прямо под пальцами. Позже она привыкнет к другому способу — сначала музыка, потом слова, «я всегда кладу слова на музыку», — но первые песни родились именно так.
+
+            Дальше были прослушивания. На Pathé-Marconi её не взяли. На Philips прослушивание стоило денег, а денег не было. Тогда она пошла в «Маленькую консерваторию песни» — школу певицы Мирей, которую показывали по телевизору. Шестого февраля 1962 года восемнадцатилетняя Франсуаза впервые появилась на экране: Мирей с ней разговаривает, а потом она поёт.
+          en: |
+            Françoise Hardy was born on 17 January 1944 in the ninth arrondissement of Paris, still under German occupation. She was brought up by her mother, Madeleine, an accounts assistant; her father lived with another family and rarely appeared. Françoise and her younger sister attended a Catholic school run by nuns on the Rue La Bruyère. She was a withdrawn, insecure child who read a great deal and listened on the radio to the British and American pop music she would love all her life.
+
+            When she passed her baccalauréat, she was given a guitar. Sources disagree about the year: it may have been 1960 or 1961. She knew only a few chords, but they were enough. She began to write. The tune and the words came together, straight from her fingers. Later, she would adopt a different method—music first, words afterwards: “I always put the words on the music.” But this was how the first songs were born.
+
+            Then came the auditions. Pathé-Marconi turned her down. An audition at Philips cost money, and she had none. So she went to Le Petit Conservatoire de la chanson, the singer Mireille’s school, which featured on television. On 6 February 1962, eighteen-year-old Françoise made her first appearance on screen: Mireille talks to her, and then she sings.
+        sources:
+          - title: Musée Sacem — Françoise Hardy, 11.06.2024
+            url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/SimpleExhibitions?id=4821
+          - title: Marie Claire — Françoise Hardy, biographie
+            url: https://www.marieclaire.fr/francoise-hardy%2C1336089.asp
+          - title: Le Temps — Françoise Hardy interview
+            url: https://www.letemps.ch/culture/francoise-hardy-vis-virtuel-cest-reve
+          - title: AP — Françoise Hardy obituary, 12.06.2024
+            url: https://apnews.com/article/b097b2a2dcc26b4181f3487b8ab2f8e2
+          - title: "Télérama — Françoise Hardy : Johnny avait une volonté insensée, 2017"
+            url: https://www.telerama.fr/musique/francoise-hardy-johnny-avait-une-volonte-insensee%2Cn5391339.php
+      - type: video
+        id: SByMAUM1nd0
+        title:
+          ru: 1962. Первое появление Франсуазы Арди на телевидении
+          en: "1962. Françoise Hardy’s First Television Appearance"
+        poster: studio-vogue.webp
+        caption:
+          ru: RTF, 6 февраля 1962 года. «Маленькая консерватория» Мирей.
+          en: "RTF, 6 February 1962. Mireille’s Le Petit Conservatoire de la chanson."
+        credit: "Archive INA / INA Culte"
+      - type: text
+        text:
+          ru: |
+            Четырнадцатого ноября 1961 года она подписала контракт с фирмой Disques Vogue — звукозаписывающей, не путать с модным журналом. Её открыл художественный руководитель Жак Вольфсон. Двадцать пятого апреля 1962 года записали первую пластинку: четыре песни, «супер-45» Vogue EPL 7967. Три из четырёх она написала сама. Фирма поначалу сделала ставку на бодрую Oh oh chéri, и на конверте крупно стояло её название.
+
+            Но всё решил не конверт, а политика. Двадцать восьмого октября 1962 года во Франции проходил референдум о том, чтобы президента выбирали всенародным голосованием. Вечером вся страна сидела у телевизоров и ждала результатов. Между выпусками с цифрами шли музыкальные паузы. В одной из них тихая девушка с гитарой спела Tous les garçons et les filles — «Все мальчики и девочки». Наутро её знала вся Франция. За тот год продали, по данным L'Express, пятьсот тысяч пластинок. Конверт пришлось переделать: теперь на нём крупно стояли Tous les garçons et les filles и J'suis d'accord.
+          en: |
+            On 14 November 1961, she signed with Disques Vogue—the record company, distinct from the fashion magazine. Its artistic director, Jacques Wolfsohn, had discovered her. On 25 April 1962, she recorded her first disc: four songs on a “super 45”, Vogue EPL 7967. Three of the four were her own. The label initially backed the jaunty Oh oh chéri, printing its title large on the sleeve.
+
+            But politics, rather than the sleeve, decided everything. On 28 October 1962, France held a referendum on electing the president by popular vote. That evening, the whole country sat in front of its television sets, waiting for the results. Musical interludes filled the gaps between the figures. In one of them, a quiet girl with a guitar sang Tous les garçons et les filles—“All the boys and girls”. By morning, all France knew her. According to L’Express, five hundred thousand records were sold that year. The sleeve had to be redesigned: now Tous les garçons et les filles and J’suis d’accord took pride of place.
+        sources:
+          - title: Marie Claire — Premier contrat signé le 14 novembre 1961
+            url: https://www.marieclaire.fr/francoise-hardy%2C1336089.asp
+          - title: Encyclopédisque — Vogue EPL 7967
+            url: https://www.encyclopedisque.fr/disque/19790.html
+          - title: Le Monde — Françoise Hardy, icône de la culture pop, est morte, 11.06.2024
+            url: https://www.lemonde.fr/disparitions/article/2024/06/11/francoise-hardy-icone-de-la-culture-pop-est-morte_6238944_3382.html
+          - title: L’Express — Françoise Hardy, icône française de la chanson, 05.03.2015
+            url: https://www.lexpress.fr/culture/musique/francoise-hardy-icone-francaise-de-la-chanson_1658165.html
+      - type: art
+        src: tv-1962.webp
+        alt:
+          ru: Французская семья вечером смотрит маленький телевизор, на экране девушка с гитарой, на столе газеты
+          en: "A French family watches a small television in the evening; a girl with a guitar is on screen, newspapers lie on the table"
+        size: bleed
+      - type: gallery
+        layout: strip
+        items:
+          - type: photo
+            src: hardy-1962-vogue-ep-front.jpg
+            alt: {ru: "Конверт первой пластинки Франсуазы Арди, Vogue, 1962", en: "The sleeve of Françoise Hardy’s first record, Vogue, 1962"}
+            caption: {ru: "Первый «супер-45», Vogue EPL 7967, 1962. Фото на конверте — Андре Низак.", en: "The first “super 45”, Vogue EPL 7967, 1962. Sleeve photograph by André Nisak."}
+            credit: "Disques Vogue, 1962. Скан: Encyclopédisque"
+            source_url: https://www.encyclopedisque.fr/disque/19790.html
+            treatment: print
+          - type: photo
+            src: hardy-1962-vogue-lp-front.jpg
+            alt: {ru: "Конверт первого долгоиграющего альбома, 1962", en: "The sleeve of her first long-playing album, 1962"}
+            caption: {ru: "Первый альбом, ноябрь 1962 года. Фото Жан-Мари Перье.", en: "The first album, November 1962. Photograph by Jean-Marie Périer."}
+            credit: "Disques Vogue, 1962. Скан: Encyclopédisque"
+            source_url: https://www.encyclopedisque.fr/disque/59585.html
+            treatment: print
+          - type: photo
+            src: hardy-1962-vogue-lp-back.jpg
+            alt: {ru: "Оборот конверта первого альбома", en: "The back cover of the first album"}
+            caption: {ru: "Оборот: десять песен из двенадцати — её собственные.", en: "The back cover: ten of the twelve songs are her own."}
+            credit: "Disques Vogue, 1962. Скан: Encyclopédisque"
+            source_url: https://www.encyclopedisque.fr/disque/59585.html
+            treatment: print
+
+  - id: hits-1962
+    kicker:
+      ru: Глава шестая
+      en: "Chapter Six"
+    name:
+      ru: Песни одинокой девочки
+      en: "Songs of a Lonely Girl"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Почему именно эта песня? В начале шестидесятых французские подростки пели в основном переделки американских хитов: брали чужую мелодию и сочиняли к ней бойкие французские слова. Песни были весёлые, громкие, про танцы и про то, что всё будет хорошо.
+
+            Арди спела другое. В Tous les garçons et les filles девушка идёт по улице, а вокруг парочки — мальчики и девочки её возраста, которые держатся за руки и смотрят друг другу в глаза. А она одна. И не знает, когда наконец кто-нибудь возьмёт за руку и её. Никакого танца, никакого твиста. Простая мелодия, как будто подобранная на гитаре, и голос, который не старается понравиться. Миллионы подростков узнали в этой девушке себя. Одиночество, оказалось, тоже может быть хитом.
+
+            Это и есть главное, что Арди сделала с французской эстрадой: внутри весёлого йе-йе она запела о том, о чём пели французские шансонье, — о тоске, неуверенности, печали, — но голосом девочки, а не взрослой дивы. Сама она объясняла это просто: её всю жизнь тянуло к меланхолическим мелодиям. «Это красота», — отвечала она, когда её спрашивали про грусть.
+          en: |
+            Why this song? In the early sixties, French teenagers mostly sang reworkings of American hits: someone else’s melody fitted with lively French words. The songs were cheerful and loud, about dancing and the promise that everything would be all right.
+
+            Hardy sang something else. In Tous les garçons et les filles, a girl walks down the street surrounded by couples—boys and girls her age, holding hands and looking into each other’s eyes. She is alone. And she does not know when someone will finally take her hand, too. No dancing, no twist. A simple melody, as though picked out on a guitar, and a voice that makes no effort to please. Millions of teenagers recognised themselves in this girl. Loneliness, it turned out, could be a hit as well.
+
+            This was Hardy’s great contribution to French pop: within the bright world of yé-yé, she began to sing about the things the French chanson tradition had always sung about—longing, uncertainty, sorrow—but in a girl’s voice, rather than a grown-up diva’s. Her own explanation was simple: melancholy melodies had drawn her all her life. “C’est la beauté,” she would answer when asked about sadness. It is beauty.
+        sources:
+          - title: Pitchfork — Françoise Hardy, La Question (review)
+            url: https://pitchfork.com/reviews/albums/francoise-hardy-la-question/
+          - title: "Rock&Folk — Françoise Hardy : « Les guitares électriques planantes… », 20.05.2018"
+            url: https://www.rocknfolk.com/interview/francoise-hardy-les-guitares-electriques-planantes-cest-ce-dont-jai-reve-toute-ma-vie/4087
+      - type: song
+        title: "Tous les garçons et les filles"
+        year: "1962"
+        credits: {ru: "Слова — Франсуаза Арди, музыка — Арди и Роже Самин", en: "Lyrics by Françoise Hardy; music by Hardy and Roger Samyn"}
+        label: "Vogue EPL 7967"
+        text:
+          ru: Девушка одна среди влюблённых пар. Самая простая мелодия на свете, и в этом сила. Во Франции песня прогремела после вечера референдума 28 октября 1962 года, в 1964-м добралась до тридцать шестого места в британском чарте. Скопитон к ней снял будущий автор «Мужчины и женщины» Клод Лелуш.
+          en: "A girl alone among couples in love. The simplest melody in the world, and that is its strength. The song took France by storm after the referendum evening of 28 October 1962; in 1964, it reached number thirty-six in the British chart. Its Scopitone film was directed by Claude Lelouch, the future director of Un homme et une femme."
+        video_id: m94_C8Z7wLk
+        video_note: {ru: "Официальный скопитон, реж. Клод Лелуш", en: "Official Scopitone film, directed by Claude Lelouch"}
+        sources:
+          - title: Encyclopédisque — Vogue EPL 7967
+            url: https://www.encyclopedisque.fr/disque/19790.html
+          - title: Official Charts — Françoise Hardy
+            url: https://www.officialcharts.com/artist/11186/francoise-hardy/
+      - type: aside
+        title:
+          ru: Что такое скопитон
+          en: "What Is a Scopitone?"
+        text:
+          ru: "Музыкальный автомат с экраном, который в шестидесятые стоял во французских кафе. Бросаешь монету, выбираешь песню — и смотришь короткий цветной фильм на шестнадцатимиллиметровой плёнке, минуты на три. Певцы снимались под готовую фонограмму. Это прадедушка музыкального клипа."
+          en: "A jukebox with a screen, a fixture of French cafés in the sixties. Drop in a coin, choose a song, and watch a short colour film on sixteen-millimetre stock, about three minutes long. Singers performed to a prerecorded soundtrack. The great-grandfather of the music video."
+        sources:
+          - title: Musée Sacem — La télévision yéyé
+            url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=3881
+      - type: song
+        title: "Le Temps de l'amour"
+        year: "1962"
+        credits: {ru: "Слова — Люсьен Мориз и Андре Сальве, музыка — Жак Дютрон", en: "Lyrics by Lucien Morisse and André Salvet; music by Jacques Dutronc"}
+        text:
+          ru: Любовь, друзья, приключения и чувство, что юность проходит быстрее, чем хотелось бы. Упругая гитара. Мелодию сочинил Жак Дютрон — задолго до того, как стал её мужем. Через пятьдесят лет Уэс Андерсон поставил эту песню в «Королевство полной луны», и под неё танцуют на пляже двое двенадцатилетних беглецов.
+          en: "Love, friends, adventures, and the feeling that youth is slipping away faster than you would like. A springy guitar line. Jacques Dutronc wrote the melody long before he became her husband. Fifty years later, Wes Anderson put the song in Moonrise Kingdom, where two twelve-year-old runaways dance to it on a beach."
+        sources:
+          - title: Musée Sacem — Françoise Hardy
+            url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/SimpleExhibitions?id=4821
+          - title: ABKCO — Moonrise Kingdom soundtrack
+            url: https://www.abkco.com/film/moonrise-kingdom-2/
+      - type: song
+        title: "J'suis d'accord"
+        year: "1962"
+        credits: {ru: "Слова — Арди, музыка — Арди и Роже Самин", en: "Lyrics by Hardy; music by Hardy and Roger Samyn"}
+        text:
+          ru: Бойкая сторона ранней Арди. Девушка соглашается на ухаживание — но у её согласия есть свои условия. Песня стояла на первой пластинке рядом с главным хитом.
+          en: "The spirited side of early Hardy. A girl agrees to be courted—but her agreement comes with conditions. The song appeared on her first record alongside the big hit."
+        sources:
+          - title: Encyclopédisque — Vogue EPL 7967
+            url: https://www.encyclopedisque.fr/disque/19790.html
+      - type: song
+        title: "Le Premier Bonheur du jour"
+        year: "1963"
+        credits: {ru: "Слова — Франк Жеральд, музыка — Жан Ренар", en: "Lyrics by Frank Gérald; music by Jean Renard"}
+        text:
+          ru: Первое счастье дня — это маленькие вещи, из которых складывается любовь. Камерная, почти домашняя песня, по которой назвали её второй альбом. На видео — новогодний выпуск телешоу Саша Дистеля 30 декабря 1963 года.
+          en: "The first happiness of the day lies in the little things that make up love. An intimate, almost domestic song that gave her second album its title. The video comes from the New Year edition of Sacha Distel’s television show, broadcast on 30 December 1963."
+        video_id: 7jh40FpjdQ0
+        video_note: {ru: "Sacha Show, эфир 30.12.1963", en: "Sacha Show, broadcast 30.12.1963"}
+        sources:
+          - title: BnF — Le Premier Bonheur du jour, partition
+            url: https://catalogue.bnf.fr/ark%3A/12148/cb44261036v
+      - type: song
+        title: "L'amour s'en va"
+        year: "1963"
+        credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
+        text:
+          ru: Любовь уходит — и всё равно её ищешь снова. С этой песней девятнадцатилетняя парижанка поехала на «Евровидение» в Лондон 23 марта 1963 года, но представляла не Францию, а Монако, и разделила пятое место. На конверте потом гордо написали «лауреат Евровидения». Не победа — но вся Европа её увидела.
+          en: "Love goes away—and still you look for it again. With this song, the nineteen-year-old Parisienne travelled to the Eurovision Song Contest in London on 23 March 1963. She represented Monaco rather than France and tied for fifth place. The sleeve would later proudly proclaim her a “Eurovision laureate”. She had not won, but all Europe had seen her."
+        video_id: SFf1lNB4Uas
+        video_note: {ru: "«Евровидение-1963», Лондон", en: "Eurovision 1963, London"}
+        sources:
+          - title: Eurovision — London 1963, final
+            url: https://www.eurovision.com/eurovision-song-contest/london-1963/london-1963-final/
+          - title: Encyclopédisque — L’amour s’en va
+            url: https://www.encyclopedisque.fr/disque/7694.html
+      - type: art
+        src: eurovision.webp
+        alt:
+          ru: Телестудия 1963 года, высокая девушка поёт перед оркестром, камеры на кранах
+          en: "A television studio in 1963: a tall young woman sings in front of an orchestra, with cameras on cranes"
+        size: wide
+      - type: song
+        title: "J'aurais voulu"
+        year: "1963"
+        credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
+        text:
+          ru: «Я хотела бы» — ещё одна песня о несбывшемся. В 1964 году она записала её по-английски, как I Wish It Were Me. На видео — архивное телевыступление из INA.
+          en: "“I would have liked”—another song about what never came to be. In 1964, she recorded it in English as I Wish It Were Me. The video is an archival television performance from INA."
+        video_id: bb9kVPZZoSo
+        video_note: {ru: "Архив INA, 1963", en: "INA archive, 1963"}
+        sources:
+          - title: Françoise Hardy Sings in English, tracklist
+            url: https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Hardy_Sings_in_English
+
+  - id: london
+    kicker:
+      ru: Глава седьмая
+      en: "Chapter Seven"
+    name:
+      ru: Лондон звучит иначе
+      en: "London Sounds Different"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Скоро Арди поняла, что её не устраивает, как звучат её пластинки. Она слушала английский и американский поп, а парижские студийные музыканты играли его по-своему, тяжеловато и старомодно. Эстрадный певец Ришар Антони посоветовал ей ехать в Англию. С 1964 года она записывается в Лондоне, в студии Pye, с британскими аранжировщиками — прежде всего с Чарльзом Блэкуэллом, а ещё с Тони Хэтчем, Бобом Липером, Микки Бейкером, Джонни Харрисом.
+
+            Лондон середины шестидесятых её обожал. Мик Джаггер, по распространённой цитате, называл её своей идеальной женщиной. Она бывала в кругу Брайана Джонса и Аниты Палленберг. Дэвид Боуи много лет спустя признавался, что был в неё страстно влюблён. Около 1970 года она встретилась с Ником Дрейком и хотела записать его песни; продюсер Джо Бойд пытался их свести, но из этого ничего не вышло.
+          en: |
+            Hardy soon realised she was unhappy with the sound of her records. She listened to British and American pop, but Parisian session musicians played it in their own rather heavy, old-fashioned style. The pop singer Richard Anthony advised her to go to England. From 1964, she recorded at Pye Studios in London with British arrangers—above all Charles Blackwell, but also Tony Hatch, Bob Leaper, Mickey Baker and Johnny Harris.
+
+            London in the mid-sixties adored her. Mick Jagger, in a much-repeated quotation, called her his ideal woman. She spent time in Brian Jones and Anita Pallenberg’s circle. Many years later, David Bowie admitted to having been passionately in love with her. Around 1970, she met Nick Drake and wanted to record his songs; the producer Joe Boyd tried to bring them together, but nothing came of it.
+        sources:
+          - title: Rock&Folk — interview, 20.05.2018
+            url: https://www.rocknfolk.com/interview/francoise-hardy-les-guitares-electriques-planantes-cest-ce-dont-jai-reve-toute-ma-vie/4087
+          - title: Mon amie la rose (album), studio Pye
+            url: https://fr.wikipedia.org/wiki/Mon_amie_la_rose
+          - title: Vogue — Françoise Hardy, French girl style, 16.01.2015
+            url: https://www.vogue.com/article/francoise-hardy-french-girl-style
+          - title: Le Monde — Le Swinging London sous le charme de la Française, 17.11.2004
+            url: https://www.lemonde.fr/archives/article/2004/11/17/le-swinging-london-sous-le-charme-de-la-francaise_387422_1819218.html
+          - title: AP — Françoise Hardy obituary, 12.06.2024
+            url: https://apnews.com/article/b097b2a2dcc26b4181f3487b8ab2f8e2
+          - title: The Guardian — Françoise Hardy, France’s yé-yé groundbreaking artist, 12.06.2024
+            url: https://www.theguardian.com/music/article/2024/jun/12/francoise-hardy-frances-ye-ye-groundbreaking-musical-artist
+      - type: art
+        src: london-studio.webp
+        alt:
+          ru: Высокая девушка выходит из лондонской студии в сумерках с гитарным кофром, красный автобус, дождь
+          en: "A tall young woman leaves a London studio at dusk carrying a guitar case; a red bus, rain"
+        size: bleed
+      - type: song
+        title: "Mon amie la rose"
+        year: "1964"
+        credits: {ru: "Слова — Сесиль Колье, музыка — Колье и Жак Лаком", en: "Lyrics by Cécile Caulier; music by Caulier and Jacques Lacome"}
+        label: "Лондон, студия Pye, аранжировка Чарльза Блэкуэлла"
+        text:
+          ru: Роза, которая утром расцвела, а к вечеру увяла, — и девушка, которая понимает, что и с ней будет так же. Двадцатилетняя певица впервые поёт о смерти — тихо и нежно, отчего ещё страшнее. Не её собственная песня, но одна из самых её.
+          en: "A rose that blooms in the morning and withers by evening—and a girl who understands that the same will happen to her. At twenty, the singer sings about death for the first time, softly and tenderly, which makes it all the more frightening. She did not write the song, but few songs are more completely hers."
+        video_id: Oc702n95FC0
+        video_note: {ru: "Архив INA, 26.04.1965", en: "INA archive, 26.04.1965"}
+        sources:
+          - title: BnF — Mon amie la rose
+            url: https://catalogue.bnf.fr/rechercher.do?index=AUT3&numNotice=14835202
+      - type: song
+        title: "Et même"
+        year: "1964"
+        credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
+        text:
+          ru: «И даже если ты скажешь, что любишь, — после измены всё уже не будет как прежде». Настойчивый ритм, решительная девушка. В Британии песня поднялась до тридцать первого места.
+          en: "“And even if you say you love me, after betrayal nothing will be as it was.” An insistent rhythm, a girl who has made up her mind. In Britain, the song reached number thirty-one."
+        sources:
+          - title: Official Charts — Françoise Hardy
+            url: https://www.officialcharts.com/artist/11186/francoise-hardy/
+      - type: song
+        title: "All Over the World"
+        year: "1965"
+        credits: {ru: "Музыка — Арди (Dans le monde entier), английский текст — Джулиан Мор, аранжировка — Чарльз Блэкуэлл", en: "Music by Hardy (Dans le monde entier); English lyrics by Julian More; arrangement by Charles Blackwell"}
+        text:
+          ru: Её главный английский хит — шестнадцатое место в британском чарте и пятнадцать недель в нём. Любовь и одиночество, которые понятны «по всему миру». Француженка, поющая по-английски с акцентом, оказалась в Лондоне своей.
+          en: "Her biggest English-language hit: number sixteen in the British chart, where it stayed for fifteen weeks. Love and loneliness understood “all over the world”. A Frenchwoman singing English with an accent had found a home in London."
+        sources:
+          - title: Official Charts — All Over the World
+            url: https://www.officialcharts.com/songs/francoise-hardy-all-over-the-world/
+      - type: song
+        title: "L'Amitié"
+        year: "1965"
+        credits: {ru: "Слова — Жан-Макс Ривьер, музыка — Жерар Буржуа", en: "Lyrics by Jean-Max Rivière; music by Gérard Bourgeois"}
+        text:
+          ru: Не всё у Арди про несчастную любовь. Эта песня — про дружбу как убежище, про друзей, которые приходят и уходят, но оставляют в тебе часть себя. Тёплая, гостеприимная, одна из самых любимых во Франции.
+          en: "Not every Hardy song is about unhappy love. This one is about friendship as a refuge, about friends who come and go but leave something of themselves with you. Warm and welcoming, it remains one of her best-loved songs in France."
+        sources:
+          - title: Discographie de Françoise Hardy
+            url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
+      - type: song
+        title: "Ce petit cœur"
+        year: "1965"
+        credits: {ru: "Слова и музыка — Франсуаза Арди, оркестр Чарльза Блэкуэлла", en: "Words and music by Françoise Hardy; Charles Blackwell’s orchestra"}
+        text:
+          ru: Маленькое сердце, которое никакими обещаниями не привяжешь. Короткий упругий поп лондонского звучания. По-английски — This Little Heart.
+          en: "A little heart that no promise can tie down. A short, buoyant piece of pop with a London sound. In English, This Little Heart."
+        sources:
+          - title: MusicBrainz — Comment te dire adieu, recording credits
+            url: https://musicbrainz.org/release/cb9f9cb6-900c-4b93-b682-641c1b9b16c4
+      - type: song
+        title: "Le Temps des souvenirs"
+        year: "1965"
+        credits: {ru: "Французский текст — Жак Датен и Морис Видален, музыка — Чарльз Блэкуэлл", en: "French lyrics by Jacques Datin and Maurice Vidalin; music by Charles Blackwell"}
+        text:
+          ru: "Здесь Блэкуэлл не только аранжировщик, но и автор: это французская версия его песни Just Call and I'll Be There. Память о любви и готовность откликнуться на зов."
+          en: "Here Blackwell is the composer as well as the arranger: this is the French version of his song Just Call and I'll Be There. The memory of love, and the willingness to answer its call."
+        sources:
+          - title: Discographie de Françoise Hardy
+            url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
+
+  - id: cinema
+    kicker:
+      ru: Глава восьмая
+      en: "Chapter Eight"
+    name:
+      ru: Лицо для кино
+      en: "A Face for the Cinema"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Лицо Арди было создано для камеры, и кино это быстро заметило. В 1963 году Роже Вадим снял её в «Замке в Швеции» в роли Офелии. В 1966-м — в тот самый год, когда к ней приставал Дилан, — она мелькнула у Жан-Люка Годара в «Мужском — женском»: проходит по кадру спутницей военного, всего несколько секунд. Главную певицу там играла другая звезда йе-йе, Шанталь Гойя. В том же году Джон Франкенхаймер снял её в «Гран-при», голливудском фильме об автогонках, в роли Лизы.
+
+            Но настоящим её кино были фотографии. Жан-Мари Перье, главный фотограф Salut les copains, был её возлюбленным и автором её образа. Это он снимал её для обложек — длинную, тонкую, серьёзную, с прямыми волосами и чёлкой, на фоне парижских крыш и лондонских улиц.
+          en: |
+            Hardy’s face was made for the camera, and cinema soon noticed. In 1963, Roger Vadim cast her as Ophélie in Château en Suède. In 1966—the very year Dylan was pursuing her—she appeared fleetingly in Jean-Luc Godard’s Masculin féminin: just a few seconds, crossing the frame beside a soldier. The principal singer in that film was played by another yé-yé star, Chantal Goya. That same year, John Frankenheimer cast Hardy as Lisa in Grand Prix, his Hollywood film about motor racing.
+
+            But her real cinema was photography. Jean-Marie Périer, the principal photographer at Salut les copains, was her lover and the creator of her image. He photographed her for the covers: tall, slender, serious, with straight hair and a fringe, against Parisian rooftops and London streets.
+        sources:
+          - title: L’Officiel des spectacles — Château en Suède
+            url: https://www.offi.fr/cinema/evenement/chateau-en-suede-5398.html
+          - title: Cinémathèque française — Masculin féminin
+            url: https://www.cinematheque.fr/film/48812.html
+          - title: Vogue France — Françoise Hardy, Grand Prix, 1966
+            url: https://www.vogue.fr/culture/a-voir/articles/francoise-hardy-grand-prix-image-vintage-film-1966/55125
+          - title: Agnès C. Poirier — The New York Times, 9 May 2018 (via WRAL)
+            url: https://www.wral.com/archive/17543183/
+      - type: art
+        src: masculin-feminin.webp
+        alt:
+          ru: Парижское кафе 1966 года, молодая пара за столиком, мимо проходит высокая девушка с военным
+          en: "A Paris café in 1966: a young couple at a table, a tall young woman passing by with a soldier"
+        size: bleed
+      - type: photo
+        src: hardy-1965-perier.jpg
+        alt:
+          ru: Франсуаза Арди в чёрном свитере держит в руке смятую бумагу
+          en: "Françoise Hardy in a black jumper, holding a crumpled piece of paper"
+        caption:
+          ru: Франсуаза Арди, январь 1965 года. Снимок Жан-Мари Перье.
+          en: "Françoise Hardy, January 1965. Photograph by Jean-Marie Périer."
+        credit: "Фото: Jean-Marie Périer / Photo12"
+        source_url: https://www.photo12.com/fr/image/jmp06276_024
+        size: column
+        treatment: print
+
+  - id: fashion
+    kicker:
+      ru: Глава девятая
+      en: "Chapter Nine"
+    name:
+      ru: Смокинг, сапоги и девять килограммов золота
+      en: "A Dinner Suit, Boots and Nine Kilograms of Gold"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Говорят, Арди не интересовалась модой. Это неправда — или правда только наполовину. Она не любила наряжаться, как наряжались эстрадные певицы, но одежду подбирала сознательно и точно знала, что ей идёт. А шло ей то, что никому из певиц до неё не приходило в голову надеть.
+
+            Очень высокая для своего времени, с узкими плечами, длинными ногами и почти мальчишеской фигурой. Пышные юбки и кружева пятидесятых на ней выглядели бы чужими. Зато мужская рубашка, прямые джинсы, плащ-тренч, брюки, короткое прямое платье и плоские сапоги сидели на ней так, будто их придумали для неё. Длинные прямые волосы, тяжёлая чёлка до бровей, почти никакой косметики и строгое, немного печальное лицо. Через несколько лет так захочет выглядеть половина европейских девушек.
+          en: |
+            People say Hardy was not interested in fashion. It is untrue, or only half true. She disliked dressing up the way other pop singers did, but she chose her clothes deliberately and knew exactly what suited her. What suited her, as it happened, were things no female singer before her had thought to wear.
+
+            She was unusually tall for her time, with narrow shoulders, long legs and an almost boyish figure. The full skirts and lace of the fifties would have looked alien on her. But a man’s shirt, straight-leg jeans, a trench coat, trousers, a short shift dress and flat boots looked as though they had been invented for her. Long, straight hair, a heavy fringe down to her eyebrows, almost no make-up and a solemn, faintly sad face. Within a few years, half the young women in Europe would want to look like that.
+        sources:
+          - title: L’Express — Françoise Hardy, icône française de la chanson, 05.03.2015
+            url: https://www.lexpress.fr/culture/musique/francoise-hardy-icone-francaise-de-la-chanson_1658165.html
+          - title: Vogue — Françoise Hardy, French girl style, 16.01.2015
+            url: https://www.vogue.com/article/francoise-hardy-french-girl-style
+      - type: gallery
+        layout: grid
+        items:
+          - type: art
+            src: fashion-courreges.webp
+            alt: {ru: "Высокая девушка в белом коротком платье и белых плоских сапогах", en: "A tall young woman in a short white dress and flat white boots"}
+            caption: {ru: "Курреж, 1965", en: "Courrèges, 1965"}
+          - type: art
+            src: fashion-smoking.webp
+            alt: {ru: "Высокая девушка в чёрном смокинге с брюками, руки в карманах", en: "A tall young woman in a black dinner jacket and trousers, hands in her pockets"}
+            caption: {ru: "Ив Сен-Лоран, 1967", en: "Yves Saint Laurent, 1967"}
+          - type: art
+            src: fashion-metal.webp
+            alt: {ru: "Высокая девушка в платье из металлических пластин", en: "A tall young woman in a dress made of metal plates"}
+            caption: {ru: "Пако Рабан, 1968", en: "Paco Rabanne, 1968"}
+          - type: art
+            src: fashion-street.webp
+            alt: {ru: "Высокая девушка в плаще, джинсах и мужской рубашке с гитарным кофром", en: "A tall young woman in a trench coat, jeans and a man’s shirt, carrying a guitar case"}
+            caption: {ru: "Сама по себе", en: "On Her Own Terms"}
+      - type: text
+        text:
+          ru: |
+            **Курреж.** В середине шестидесятых модельер Андре Курреж придумал «космическую» моду: белые геометрические платья-трапеции выше колена, белые плоские сапоги, очки-щели. Арди стала одним из лиц этой моды на сцене. Она сама вспоминала белую тунику от Куррежа, в которой выступала.
+
+            **Мини.** В её гардеробе была и мини-юбка лондонской портнихи Мэри Куант. Первой в мире в мини Арди не была, как иногда пишут, — но одной из первых, кто носил её во Франции так естественно, будто иначе и быть не могло.
+          en: |
+            **Courrèges.** In the mid-sixties, the designer André Courrèges invented “space-age” fashion: white geometric A-line dresses above the knee, flat white boots, slit sunglasses. Hardy became one of its faces onstage. She herself remembered performing in a white Courrèges tunic.
+
+            **The mini.** Her wardrobe also included a miniskirt by the London designer Mary Quant. Hardy was not the first woman in the world to wear a mini, as is sometimes claimed. But she was among the first to wear one in France so naturally that it seemed she could hardly have worn anything else.
+        sources:
+          - title: Agnès C. Poirier — The New York Times, 9 May 2018 (via WRAL)
+            url: https://www.wral.com/archive/17543183/
+          - title: "The Museum at FIT — Paris, Refashioned: fashion and celebrity"
+            url: https://exhibitions.fitnyc.edu/paris-refashioned/fashion-and-celebrity/
+          - title: RTL — Mort de Françoise Hardy, 11.06.2024
+            url: https://www.rtl.fr/culture/musique/mort-de-francoise-hardy-une-legende-de-la-culture-pop-sublime-et-moderne-7900045873
+      - type: photo
+        src: hardy-1967-ysl-crudo.jpg
+        alt:
+          ru: Франсуаза Арди в смокинге на сцене «Олимпии», над сценой эмблема Interparade 67
+          en: "Françoise Hardy in a dinner suit onstage at the Olympia, with the Interparade 67 emblem above the stage"
+        caption:
+          ru: Interparade, «Олимпия», 25 января 1967 года. Арди в смокинге Ив Сен-Лорана.
+          en: "Interparade, Olympia, 25 January 1967. Hardy in an Yves Saint Laurent dinner suit."
+        credit: "Фото: André Crudo / Photo12"
+        source_url: https://www.photo12.com/fr/image/acd23a00_027
+        size: wide
+        treatment: print
+      - type: text
+        text:
+          ru: |
+            **Смокинг.** Осенью 1966 года Ив Сен-Лоран показал Le Smoking — женский смокинг с брюками. Тогда женщину в брюках могли не пустить в ресторан. Двадцать пятого января 1967 года Арди вышла в таком смокинге на сцену «Олимпии» на гала-концерте Interparade — и фотограф Андре Крюдо это снял. Существует и рассказ, будто в смокинге её освистала публика в Парижской опере; когда это было и на каком снимке, установить не удалось.
+          en: |
+            **Le Smoking.** In the autumn of 1966, Yves Saint Laurent unveiled Le Smoking, a dinner jacket and trousers for women. At the time, a woman in trousers could still be refused entry to a restaurant. On 25 January 1967, Hardy wore one onstage at the Olympia for the Interparade gala, and the photographer André Crudo captured it. There is also a story that an audience at the Paris Opéra booed her for wearing a dinner suit; when this happened, and which photograph records it, could not be established.
+        sources:
+          - title: Musée YSL — dossier pédagogique, Le Smoking, automne-hiver 1966
+            url: https://s3-eu-west-1.amazonaws.com/musee-ysl-paris/press-releases/Dossier-p%C3%A9dagogique-GOLD-Les-ors-dYves-Saint-Laurent-14.10.22-14.05.2023.pdf
+          - title: Photo12 — André Crudo, Interparade, Olympia, 25 janvier 1967
+            url: https://www.photo12.com/fr/image/acd23a00_027
+          - title: Le Monde — Le tailleur pour dames indémodable, 08.05.2025
+            url: https://www.lemonde.fr/m-styles/article/2025/05/08/le-tailleur-pour-dames-indemodable_6603989_4497319.html
+      - type: photo
+        src: hardy-1968-rabanne-perier.jpg
+        alt:
+          ru: Франсуаза Арди в комбинезоне из блестящих металлических пластин, руки на бёдрах
+          en: "Françoise Hardy in a jumpsuit made of gleaming metal plates, hands on her hips"
+        caption:
+          ru: В металле Пако Рабана, май 1968 года. Снимок Жан-Мари Перье.
+          en: "In Paco Rabanne’s metal, May 1968. Photograph by Jean-Marie Périer."
+        credit: "Фото: Jean-Marie Périer / Photo12"
+        source_url: https://www.photo12.com/fr/image/jmp01316_009
+        size: right
+        treatment: print
+      - type: text
+        text:
+          ru: |
+            **Золото.** Модельер Пако Рабан шил платья не из ткани, а из металлических пластин, соединённых колечками, — плоскогубцами, а не иглой. В мае 1968 года, пока Париж строил баррикады, он сделал для Арди платье из золотых пластинок. Дом Rabanne пишет о девяти килограммах чистого золота; Vogue — о тысяче пластин и тремстах каратах бриллиантов. Рабан объяснял, что видит в ней сочетание дистанции, современности, твёрдости и романтизма. Лучше и не скажешь.
+
+            **После.** Её стиль пережил её моду. Тренч, прямые джинсы, мужская рубашка, чёлка — на это и сегодня ссылаются, когда говорят о «французском шике». Алекса Чанг называла Арди своей иконой стиля. Критики видели отсылки к ней в коллекциях Эди Слимана для Celine. Сама Арди, когда её называли иконой, отвечала, что это кажется ей нелепым.
+          en: |
+            **Gold.** Paco Rabanne made dresses from metal plates joined by little rings, working with pliers rather than a needle. In May 1968, while Paris was building barricades, he made Hardy a dress of gold plates. The house of Rabanne describes nine kilograms of pure gold; Vogue mentions a thousand plates and three hundred carats of diamonds. Rabanne explained that he saw in her a combination of distance, modernity, strength and romanticism. It is hard to put it better.
+
+            **Afterwards.** Her style outlasted the fashions she wore. The trench coat, the straight-leg jeans, the man’s shirt, the fringe: these are still reference points whenever anyone speaks of “French chic”. Alexa Chung named Hardy as her style icon. Critics saw echoes of her in Hedi Slimane’s collections for Celine. Hardy herself said she found it ridiculous to be called an icon.
+        sources:
+          - title: Rabanne — Monsieur Paco Rabanne, histoire de la maison
+            url: https://fashion.rabanne.com/fr/pages/monsieur-paco-rabanne
+          - title: Vogue — Paco Rabanne obituary, 03.02.2023
+            url: https://www.vogue.com/article/paco-rabanne-obituary
+          - title: Le Monde — Métal conquérant, 08.05.2024
+            url: https://www.lemonde.fr/m-styles/article/2024/05/08/metal-conquerant_6232153_4497319.html
+          - title: Harper’s Bazaar UK — Best French style heroes, 2019
+            url: https://www.harpersbazaar.com/uk/fashion/g26945676/best-french-style-heroes/
+          - title: DireDonna — Celine autunno inverno 2020-2021
+            url: https://www.diredonna.it/celine-autunno-inverno-2020-2021-3322949.html
+          - title: AFP via La Gazette France — Françoise Hardy, icône pop malgré elle, 2024
+            url: https://www.lagazettefrance.fr/article/francoise-hardy-icone-pop-malgre-elle
+      - type: gallery
+        layout: strip
+        items:
+          - type: photo
+            src: hardy-1969-amsterdam-0817.jpg
+            alt: {ru: "Франсуаза Арди в меховой шубе, Амстердам", en: "Françoise Hardy in a fur coat, Amsterdam"}
+            caption: {ru: "Амстердам, 16 декабря 1969 года.", en: "Amsterdam, 16 December 1969."}
+            credit: "Фото: Joost Evers / Anefo, Nationaal Archief, CC0"
+            source_url: https://commons.wikimedia.org/wiki/File:Franse_zangeres-actrice_Francoise_Hardy_in_Amsterdam,_Bestanddeelnr_923-0819.jpg
+            treatment: print
+          - type: photo
+            src: hardy-1969-amsterdam-0819.jpg
+            alt: {ru: "Франсуаза Арди в меховой шубе смотрит в камеру", en: "Françoise Hardy in a fur coat, looking at the camera"}
+            caption: {ru: "Там же.", en: "The same occasion."}
+            credit: "Фото: Joost Evers / Anefo, Nationaal Archief, CC0"
+            source_url: https://commons.wikimedia.org/wiki/File:Franse_zangeres-actrice_Francoise_Hardy_in_Amsterdam,_Bestanddeelnr_923-0819.jpg
+            treatment: print
+          - type: photo
+            src: hardy-1969-amsterdam-0820.jpg
+            alt: {ru: "Франсуаза Арди, портрет", en: "Françoise Hardy, portrait"}
+            caption: {ru: "Там же.", en: "The same occasion."}
+            credit: "Фото: Joost Evers / Anefo, Nationaal Archief, CC0"
+            source_url: https://commons.wikimedia.org/wiki/File:Franse_zangeres-actrice_Francoise_Hardy_in_Amsterdam,_Bestanddeelnr_923-0819.jpg
+            treatment: print
+
+  - id: grown-up
+    kicker:
+      ru: Глава десятая
+      en: "Chapter Ten"
+    name:
+      ru: Как сказать «прощай»
+      en: "How to Say Goodbye"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            К 1967 году йе-йе кончалось. Подростки Насьона выросли, а через год вышли на баррикады. Арди тоже повзрослела — и песни её стали взрослее. В 1967-м вышел её альбом, названный по песне «Моя юность уходит». В 1968 году она перестала выступать с концертами: страх сцены оказался сильнее. Это был не уход из музыки — только со сцены. Петь она продолжала в студии и на телевидении.
+
+            В том же 1967 году она сошлась с Жаком Дютроном — тем самым, что когда-то написал музыку к Le Temps de l'amour. Сына Тома они родили в 1973-м, поженились в 1981-м.
+          en: |
+            By 1967, yé-yé was coming to an end. The teenagers of the Place de la Nation had grown up; a year later, they would take to the barricades. Hardy had grown up, too, and so had her songs. In 1967, she released an album named after the song Ma jeunesse fout le camp—“My youth is slipping away”. In 1968, she stopped giving concerts: stage fright had won. She was leaving the stage, not music. She continued to sing in the studio and on television.
+
+            In that same year, 1967, she began a relationship with Jacques Dutronc—the very man who had once written the music for Le Temps de l’amour. Their son Thomas was born in 1973; they married in 1981.
+        sources:
+          - title: Le Figaro — « J’ai arrêté en 1968 », 27.11.2006
+            url: https://www.lefigaro.fr/2006/11/27/03004-20061127ARTFIG90021-francoise_hardy_et_ses_douze_partages.php
+          - title: Le Monde (EN) — Pop culture icon Françoise Hardy has died, 12.06.2024
+            url: https://www.lemonde.fr/en/obituaries/article/2024/06/12/pop-culture-icon-francoise-hardy-has-died_6674549_15.html
+      - type: song
+        title: "Ma jeunesse fout le camp…"
+        year: "1967"
+        credits: {ru: "Слова и музыка — Ги Бонтемпелли", en: "Words and music by Guy Bontempelli"}
+        text:
+          ru: В двадцать три года — песня о том, что молодость уходит. Подростковая тоска превращается в тему времени. С этой песни начинается взрослая Арди.
+          en: "At twenty-three, a song about youth slipping away. Teenage melancholy becomes a meditation on time. The grown-up Hardy begins here."
+        sources:
+          - title: Ultratop — Ma jeunesse fout l’camp
+            url: https://www.ultratop.be/fr/song/604b5/Francoise-Hardy-Ma-jeunesse-fout-l%27camp
+      - type: song
+        title: "La Maison où j'ai grandi"
+        year: "1966"
+        credits: {ru: "Французский текст — Эдди Марне, музыка — Адриано Челентано", en: "French lyrics by Eddy Marnay; music by Adriano Celentano"}
+        text:
+          ru: Французская версия Il ragazzo della via Gluck Челентано — о доме детства, который снесли, и о городе, который съел луг. Ностальгия по миру, которого больше нет. Это не про её собственный дом, но поёт она так, будто про свой.
+          en: "The French version of Celentano’s Il ragazzo della via Gluck, about a childhood home demolished and a city that swallowed a meadow. Nostalgia for a world that no longer exists. It is not about her own home, but she sings as though it were."
+        sources:
+          - title: Musée Sacem — Françoise Hardy
+            url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/SimpleExhibitions?id=4821
+      - type: song
+        title: "Des ronds dans l'eau"
+        year: "1967"
+        credits: {ru: "Слова — Пьер Бару, музыка — Раймон Ле Сенешаль", en: "Lyrics by Pierre Barouh; music by Raymond Le Sénéchal"}
+        text:
+          ru: Круги на воде — то, что остаётся от брошенного камня, и от детства, и от любви. Песня из мира Клода Лелуша и его фильма «Жить, чтобы жить». По-английски — Now You Want to Be Loved.
+          en: "Ripples on water: what remains of a thrown stone, of childhood, of love. A song from the world of Claude Lelouch and his film Vivre pour vivre. In English, Now You Want to Be Loved."
+        sources:
+          - title: BnF — Des ronds dans l’eau
+            url: https://catalogue.bnf.fr/ark%3A/12148/cb39650648b
+      - type: song
+        title: "Comment te dire adieu"
+        year: "1968"
+        credits: {ru: "Французский текст — Серж Генсбур; оригинал It Hurts to Say Goodbye — Арнольд Голанд и Джек Голд", en: "French lyrics by Serge Gainsbourg; original song, It Hurts to Say Goodbye, by Arnold Goland and Jack Gold"}
+        text:
+          ru: Американскую песню Генсбур переписал по-французски так, что в каждой строке звенит одна и та же сухая рифма на «экс» — будто слова сами спотыкаются, не решаясь сказать «прощай». Лёгкий быстрый поп, под который удобно расставаться. Одна из главных её песен; на видео — телевизионное исполнение 28 февраля 1969 года.
+          en: "Gainsbourg rewrote the American song in French so that the same dry “ex” rhyme rings through every line, as though the words themselves were stumbling, unable to bring themselves to say goodbye. Light, brisk pop to break up to. One of her defining songs; the video shows a television performance from 28 February 1969."
+        video_id: dqZDRWdZRd4
+        video_note: {ru: "Архив INA, 28.02.1969", en: "INA archive, 28.02.1969"}
+        sources:
+          - title: Académie de la Chanson — Comment te dire adieu
+            url: https://academiedelachanson.fr/francoise-hardy-comment-te-dire-adieu/
+          - title: Comment te dire adieu (chanson)
+            url: https://fr.wikipedia.org/wiki/Comment_te_dire_adieu_%28chanson%29
+      - type: song
+        title: "Il n'y a pas d'amour heureux"
+        year: "1968"
+        credits: {ru: "Стихи — Луи Арагон, музыка — Жорж Брассенс", en: "Poem by Louis Aragon; music by Georges Brassens"}
+        text:
+          ru: «Нет счастливой любви» — стихи Арагона, написанные во время войны, в песне Брассенса. Поп-певица выходит к большой французской поэзии и поёт её без пафоса, тем же ровным голосом, что и про мальчиков и девочек.
+          en: "Il n’y a pas d’amour heureux—“There is no happy love”: Aragon’s wartime poem, set to music by Brassens. A pop singer steps into the world of great French poetry and sings it without grand gestures, in the same even voice she used for the boys and girls."
+        video_id: cKVka46k_sY
+        video_note: {ru: "Архив INA, 24.09.1968", en: "INA archive, 24.09.1968"}
+        sources:
+          - title: MusicBrainz — recording credits
+            url: https://musicbrainz.org/release/cb9f9cb6-900c-4b93-b682-641c1b9b16c4
+      - type: song
+        title: "Suzanne"
+        year: "1968"
+        credits: {ru: "Леонард Коэн, французский текст — Грэм Олрайт", en: "Leonard Cohen; French lyrics by Graeme Allwright"}
+        text:
+          ru: Вот кого из североамериканских бардов она пела, — не Дилана, а Коэна. Сюзанна, чай с апельсинами, река.
+          en: "Here was the North American bard she sang: Cohen, rather than Dylan. Suzanne, tea with oranges, the river."
+        video_id: c7zhA2O7GRk
+        video_note: {ru: "Архив INA, 31.12.1968", en: "INA archive, 31.12.1968"}
+        sources:
+          - title: Parlophone — One-Nine-Seven-Zero, Suzanne credits
+            url: https://www.youtube.com/watch?v=ewrWAZpbtpE
+
+  - id: after
+    kicker:
+      ru: Глава одиннадцатая
+      en: "Chapter Eleven"
+    name:
+      ru: После йе-йе
+      en: "After Yé-Yé"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Семидесятые Арди начала с пластинки, которую многие считают её лучшей. Альбом La Question 1971 года она записала с бразильской певицей и гитаристкой Тукой, которая написала почти всю музыку. Голос, акустическая гитара, контрабас Ги Педерсена и струнные — больше ничего. Тихий, чувственный, тревожный альбом, на тридцать лет опередивший моду на такую музыку. Певица Стереолаба Летиция Садье говорила, что именно La Question значил для неё очень много.
+
+            Потом пришёл Мишель Бергер, и в 1973 году — Message personnel: песня, которая начинается с того, что Арди не поёт, а говорит, как будто записывает сообщение на автоответчик человеку, которому не решается признаться. В конце семидесятых — неожиданный диско-фанк J'écoute de la musique saoule с композитором Габриэлем Яредом. Параллельно она стала всерьёз заниматься астрологией и написала о ней несколько книг.
+          en: |
+            Hardy began the seventies with the record many consider her finest. She made La Question in 1971 with the Brazilian singer and guitarist Tuca, who wrote almost all the music. A voice, an acoustic guitar, Guy Pedersen’s double bass and strings—nothing more. Quiet, sensual and uneasy, the album anticipated the vogue for such music by thirty years. Stereolab’s singer Lætitia Sadier said that La Question, in particular, had meant a great deal to her.
+
+            Then came Michel Berger, and in 1973, Message personnel: a song that begins with Hardy speaking rather than singing, as though leaving an answering-machine message for someone she cannot bring herself to tell how she feels. In the late seventies came the unexpected disco-funk of J’écoute de la musique saoule, with the composer Gabriel Yared. Alongside her music, she began to study astrology seriously and wrote several books about it.
+        sources:
+          - title: Magic RPM — entrevue Françoise Hardy, 08.04.2010
+            url: https://www.magicrpm.com/entrevue-08-04-10/
+          - title: OndaRock — Laetitia Sadier interview, 2024
+            url: https://ondarock.com/interviews/laetitiasadier/
+          - title: Message personnel (chanson)
+            url: https://fr.wikipedia.org/wiki/Message_personnel_%28chanson%29
+          - title: Mollat — Les Rythmes du zodiaque, 2003
+            url: https://www.mollat.com/livres/729565/francoise-hardy-les-rythmes-du-zodiaque
+      - type: song
+        title: "La Question"
+        year: "1971"
+        credits: {ru: "Слова — Арди, музыка — Тука", en: "Lyrics by Hardy; music by Tuca"}
+        text:
+          ru: Вопрос, на который любимый так и не отвечает. Голос почти шёпотом, гитара Туки, ощущение очень близкого разговора в полутёмной комнате.
+          en: "A question the beloved never answers. A voice almost whispering, Tuca’s guitar, the feeling of an intimate conversation in a dimly lit room."
+        sources:
+          - title: MusicBrainz — La Question
+            url: https://musicbrainz.org/release/bc80c6e0-f1be-3948-9a1a-55604f98c13a
+      - type: song
+        title: "Message personnel"
+        year: "1973"
+        credits: {ru: "Слова — Мишель Бергер и Франсуаза Арди, музыка — Бергер", en: "Lyrics by Michel Berger and Françoise Hardy; music by Berger"}
+        text:
+          ru: Сначала она говорит, потом начинает петь — и расстояние между двумя людьми становится почти физическим. Знаменитое разговорное вступление написала она сама. Одна из самых любимых французских песен семидесятых.
+          en: "First she speaks, then she begins to sing, and the distance between two people becomes almost physical. She wrote the famous spoken introduction herself. One of the best-loved French songs of the seventies."
+        video_id: ANchsQz11po
+        video_note: {ru: "Архив INA, 11.11.1973", en: "INA archive, 11.11.1973"}
+        sources:
+          - title: Message personnel (chanson)
+            url: https://fr.wikipedia.org/wiki/Message_personnel_%28chanson%29
+      - type: song
+        title: "J'écoute de la musique saoule"
+        year: "1978"
+        credits: {ru: "Слова — Мишель Жонас, музыка — Габриэль Яред", en: "Lyrics by Michel Jonasz; music by Gabriel Yared"}
+        text:
+          ru: «Пьяная музыка» — и игра слов saoule и soul. Арди танцует. Неожиданная, весёлая, с отдельным диско-миксом.
+          en: "“Drunken music”—and a play on saoule and soul. Hardy dances. Unexpected, cheerful, and with a separate disco mix."
+        video_id: 9U13DDZTxDg
+        video_note: {ru: "Архив INA, 03.01.1979", en: "INA archive, 03.01.1979"}
+        sources:
+          - title: Discographie de Françoise Hardy
+            url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
+      - type: song
+        title: "Partir quand même"
+        year: "1988"
+        credits: {ru: "Слова — Арди, музыка — Жак Дютрон", en: "Lyrics by Hardy; music by Jacques Dutronc"}
+        text:
+          ru: Уйти, всё равно уйти — хотя любишь. Взрослая баллада, тридцать третье место во французском чарте. Вскоре она объявит, что заканчивает карьеру. И не закончит.
+          en: "To leave, to leave anyway, even though you love. A grown-up ballad that reached number thirty-three in the French chart. Soon she would announce that her career was over. It was not."
+        video_id: NiEx6yPjoww
+        video_note: {ru: "Архив INA, 13.05.1988", en: "INA archive, 13.05.1988"}
+        sources:
+          - title: Lescharts — Partir quand même
+            url: https://lescharts.com/showitem.asp?cat=s&interpret=Fran%EF%BF%BDoise+Hardy&titel=Enregistrement
+      - type: text
+        text:
+          ru: |
+            В девяностые она вернулась — и оказалось, что её ждали люди, которые родились, когда йе-йе уже кончилось. В марте 1995 года Blur записали с ней на Abbey Road французскую версию своей песни To the End. В 1996 году она выпустила жёсткий, электрический альбом Le Danger. В 1997-м спела с Игги Попом старый стандарт I'll Be Seeing You. Для группы Air написала слова песни Jeanne. В 2000 году вместе с Дютроном спела Puisque vous partez en voyage — песню своей учительницы Мирей.
+          en: |
+            She returned in the nineties and found that people born after yé-yé had ended were waiting for her. In March 1995, Blur recorded a French version of their song To the End with her at Abbey Road. In 1996, she released the hard-edged, electric album Le Danger. In 1997, she sang the old standard I’ll Be Seeing You with Iggy Pop. She wrote the lyrics to Jeanne for Air. In 2000, she and Dutronc sang Puisque vous partez en voyage, a song by her teacher Mireille.
+        sources:
+          - title: To the End (Blur song)
+            url: https://en.wikipedia.org/wiki/To_the_End_%28Blur_song%29
+          - title: Le Monde — Françoise Hardy chante le pessimisme du temps sur un rythme rock, 16.04.1996
+            url: https://www.lemonde.fr/archives/article/1996/04/16/francoise-hardy-chante-le-pessimisme-du-temps-rythme-rock_3730673_1819218.html
+          - title: EL PAÍS — Françoise Hardy con Iggy Pop, 20.11.1997
+            url: https://elpais.com/diario/1997/11/20/cultura/879980410_850215.html
+          - title: Apple Music — Air & Françoise Hardy, Jeanne
+            url: https://music.apple.com/us/song/699604882
+          - title: Ultratop — Puisque vous partez en voyage
+            url: https://www.ultratop.be/fr/song/356f1/Francoise-Hardy-%26-Jacques-Dutronc-Puisque-vous-partez-en-voyage
+      - type: song
+        title: "To the End (La Comédie)"
+        year: "1995"
+        credits: {ru: "Blur и Франсуаза Арди. Слова — Деймон Албарн, музыка — Blur", en: "Blur and Françoise Hardy. Lyrics by Damon Albarn; music by Blur"}
+        text:
+          ru: Брит-поп встречает шансон. Деймон Албарн поёт по-английски, она отвечает по-французски — почти тот же разговор на двух языках, что и в ту ночь в «Георге V», только на этот раз все всё понимают.
+          en: "Britpop meets chanson. Damon Albarn sings in English, she answers in French—almost the same conversation in two languages as on that night at the George V, except that this time everyone understands."
+        video_id: WtpvikPvewk
+        video_note: {ru: "Видео дуэта, 1995", en: "Duet video, 1995"}
+        sources:
+          - title: To the End (Blur song)
+            url: https://en.wikipedia.org/wiki/To_the_End_%28Blur_song%29
+      - type: song
+        title: "Tant de belles choses"
+        year: "2004"
+        credits: {ru: "Слова — Арди, музыка — Паскаль Даниэль и Ален Любрано", en: "Lyrics by Hardy; music by Pascale Daniel and Alain Lubrano"}
+        text:
+          ru: "Она писала её, думая о сыне Тома, когда уже была больна. Мать утешает сына: если меня не станет, любовь останется, и вокруг будет столько прекрасного. Голос сдержанный, без единой слезы, — поэтому плачет слушатель."
+          en: "She wrote it thinking of her son Thomas, when she was already ill. A mother comforts her son: if I am gone, love will remain, and there will still be so much beauty around you. Her voice is restrained, without a single tear—which is why the listener cries."
+        sources:
+          - title: Version Femina — Tant de belles choses, écrite pour son fils Thomas Dutronc
+            url: https://prod.femina.lejdd.fr/article/mort-de-francoise-hardy-la-touchante-histoire-derriere-sa-chanson-tant-de-belles-choses-ecrite-pour-son-fils-thomas-dutronc
+      - type: song
+        title: "Le Large"
+        year: "2018"
+        credits: {ru: "Слова и музыка — Ла Гранд Софи; клип — Франсуа Озон", en: "Words and music by La Grande Sophie; video directed by François Ozon"}
+        text:
+          ru: Последняя её большая песня. Уйти в открытое море — спокойно, без жалоб. Клип снял Франсуа Озон. Альбом Personne d'autre вышел 6 апреля 2018 года и стал последним.
+          en: "Her last great song. To set out for the open sea, calmly, without complaint. François Ozon directed the video. Personne d’autre was released on 6 April 2018 and would be her final album."
+        video_id: opJZildiOlo
+        video_note: {ru: "Официальный клип, реж. Франсуа Озон", en: "Official video, directed by François Ozon"}
+        sources:
+          - title: Françoise Hardy — Le Large (official video)
+            url: https://www.youtube.com/watch?v=opJZildiOlo
+      - type: text
+        text:
+          ru: |
+            Последние двадцать лет она тяжело болела: лимфома, потом рак гортани. Лечение отнимало голос. Франсуаза Арди умерла 11 июня 2024 года, ей было восемьдесят лет. Об этом сообщил её сын Тома.
+          en: |
+            For her last twenty years, she was seriously ill: lymphoma, then cancer of the larynx. Treatment took away her voice. Françoise Hardy died on 11 June 2024, aged eighty. Her son Thomas announced her death.
+        sources:
+          - title: Le Monde — Françoise Hardy, icône de la culture pop, est morte, 11.06.2024
+            url: https://www.lemonde.fr/disparitions/article/2024/06/11/francoise-hardy-icone-de-la-culture-pop-est-morte_6238944_3382.html
+          - title: Ministère de la Culture — Hommage à Françoise Hardy, 12.06.2024
+            url: https://www.culture.gouv.fr/presse/communiques-de-presse/hommage-de-mme-rachida-dati-ministre-de-la-culture-a-mme-francoise-hardy
+
+  - id: echo
+    kicker:
+      ru: Глава двенадцатая
+      en: "Chapter Twelve"
+    name:
+      ru: Эхо
+      en: "Echoes"
+    blocks:
+      - type: text
+        text:
+          ru: |
+            Что она изменила в музыке? Она доказала, что девушка внутри большой поп-индустрии может петь собственные песни — о своей застенчивости, неуверенности, одиночестве, — и что миллионам это нужно. Первой женщиной во Франции, писавшей песни, она не была. Но она была первой звездой йе-йе, которая пела не чужое, а своё, и пела тихо, когда все кричали.
+
+            Её эхо слышно у тех, кто прямо её признавал: у Летиции Садье и Stereolab, у Air, с которыми она работала, у Боба Стэнли из Saint Etienne, у Этьена Даона, для которого она была, по словам министерства культуры Франции, «образцом и кумиром». В день её смерти Belle and Sebastian играли в Ниме и спели в её память Comment te dire adieu.
+
+            Когда её спрашивали о грусти, о которой она пела всю жизнь, она отвечала двумя словами: «C'est la beauté». Это красота.
+          en: |
+            What did she change in music? She proved that a young woman inside the vast pop industry could sing her own songs—about her shyness, her uncertainty, her loneliness—and that millions of people needed to hear them. She was not the first woman in France to write songs. But she was the first yé-yé star to sing her own material rather than someone else’s, and to sing quietly when everyone was shouting.
+
+            Her echo can be heard in those who openly acknowledged her: Lætitia Sadier and Stereolab; Air, with whom she worked; Bob Stanley of Saint Etienne; Étienne Daho, for whom, in the words of the French Ministry of Culture, she was “un modèle et une idole”—a role model and an idol. On the day she died, Belle and Sebastian were playing in Nîmes, and sang Comment te dire adieu in her memory.
+
+            When asked about the sadness she had sung of all her life, she answered with two words: “C’est la beauté”. It is beauty.
+        sources:
+          - title: OndaRock — Laetitia Sadier interview
+            url: https://ondarock.com/interviews/laetitiasadier/
+          - title: Le Progrès — Saint Etienne, 21.10.2025
+            url: https://www.leprogres.fr/culture-loisirs/2025/10/21/saint-etienne-ce-groupe-britannique-qui-a-choisi-son-nom-en-hommage-a-l-asse
+          - title: Ministère de la Culture — Hommage à Françoise Hardy, 12.06.2024
+            url: https://www.culture.gouv.fr/presse/communiques-de-presse/hommage-de-mme-rachida-dati-ministre-de-la-culture-a-mme-francoise-hardy
+          - title: setlist.fm — Belle and Sebastian, Paloma, Nîmes, 12.06.2024
+            url: https://www.setlist.fm/setlist/belle-and-sebastian/2024/paloma-nimes-france-1ba8ed00.html
+          - title: Rock&Folk — interview, 20.05.2018
+            url: https://www.rocknfolk.com/interview/francoise-hardy-les-guitares-electriques-planantes-cest-ce-dont-jai-reve-toute-ma-vie/4087
+      - type: art
+        src: records-wall.webp
+        alt:
+          ru: Стена из цветных конвертов пластинок, высокая девушка перебирает их
+          en: "A wall of colourful record sleeves, with a tall young woman looking through them"
+        size: bleed
+      - type: playlist
+        title:
+          ru: Двенадцать песен Франсуазы Арди — по порядку
+          en: "Twelve Françoise Hardy Songs, in Order"
+        items:
+          - {title: "Tous les garçons et les filles", year: "1962", video_id: m94_C8Z7wLk, note: {ru: "одиночество как хит", en: "loneliness as a hit"}}
+          - {title: "Le Premier Bonheur du jour", year: "1963", video_id: 7jh40FpjdQ0, note: {ru: "маленькое счастье", en: "a little happiness"}}
+          - {title: "L'amour s'en va", year: "1963", video_id: SFf1lNB4Uas, note: {ru: "Евровидение", en: "Eurovision"}}
+          - {title: "J'aurais voulu", year: "1963", video_id: bb9kVPZZoSo, note: {ru: "несбывшееся", en: "what never came to be"}}
+          - {title: "Mon amie la rose", year: "1965", video_id: Oc702n95FC0, note: {ru: "первая песня о смерти", en: "the first song about death"}}
+          - {title: "Il n'y a pas d'amour heureux", year: "1968", video_id: cKVka46k_sY, note: {ru: "Арагон и Брассенс", en: "Aragon and Brassens"}}
+          - {title: "Comment te dire adieu", year: "1969", video_id: dqZDRWdZRd4, note: {ru: "Генсбур", en: "Gainsbourg"}}
+          - {title: "Suzanne", year: "1968", video_id: c7zhA2O7GRk, note: {ru: "Коэн, не Дилан", en: "Cohen, not Dylan"}}
+          - {title: "Message personnel", year: "1973", video_id: ANchsQz11po, note: {ru: "голос между речью и песней", en: "a voice between speech and song"}}
+          - {title: "J'écoute de la musique saoule", year: "1978", video_id: 9U13DDZTxDg, note: {ru: "диско", en: "disco"}}
+          - {title: "To the End (La Comédie)", year: "1995", video_id: WtpvikPvewk, note: {ru: "с Blur", en: "with Blur"}}
+          - {title: "Le Large", year: "2018", video_id: opJZildiOlo, note: {ru: "открытое море", en: "the open sea"}}
