@@ -476,7 +476,6 @@ chapters:
         title:
           ru: 1962. Первое появление Франсуазы Арди на телевидении
           en: "1962. Françoise Hardy’s First Television Appearance"
-        poster: studio-vogue.webp
         caption:
           ru: RTF, 6 февраля 1962 года. «Маленькая консерватория» Мирей.
           en: "RTF, 6 February 1962. Mireille’s Le Petit Conservatoire de la chanson."
@@ -585,6 +584,7 @@ chapters:
             url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=3881
       - type: song
         title: "Le Temps de l'amour"
+        video_id: F9we8i2Lj5w
         year: "1962"
         credits: {ru: "Слова — Люсьен Мориз и Андре Сальве, музыка — Жак Дютрон", en: "Lyrics by Lucien Morisse and André Salvet; music by Jacques Dutronc"}
         text:
@@ -597,6 +597,7 @@ chapters:
             url: https://www.abkco.com/film/moonrise-kingdom-2/
       - type: song
         title: "J'suis d'accord"
+        video_id: yS6Hr5Hl8Po
         year: "1962"
         credits: {ru: "Слова — Арди, музыка — Арди и Роже Самин", en: "Lyrics by Hardy; music by Hardy and Roger Samyn"}
         text:
@@ -702,6 +703,7 @@ chapters:
             url: https://catalogue.bnf.fr/rechercher.do?index=AUT3&numNotice=14835202
       - type: song
         title: "Et même"
+        video_id: n9JuMRHOGcQ
         year: "1964"
         credits: {ru: "Слова и музыка — Франсуаза Арди", en: "Words and music by Françoise Hardy"}
         text:
@@ -712,6 +714,7 @@ chapters:
             url: https://www.officialcharts.com/artist/11186/francoise-hardy/
       - type: song
         title: "All Over the World"
+        video_id: M3Fs7bo_Cts
         year: "1965"
         credits: {ru: "Музыка — Арди (Dans le monde entier), английский текст — Джулиан Мор, аранжировка — Чарльз Блэкуэлл", en: "Music by Hardy (Dans le monde entier); English lyrics by Julian More; arrangement by Charles Blackwell"}
         text:
@@ -722,6 +725,7 @@ chapters:
             url: https://www.officialcharts.com/songs/francoise-hardy-all-over-the-world/
       - type: song
         title: "L'Amitié"
+        video_id: JPcftALP7tw
         year: "1965"
         credits: {ru: "Слова — Жан-Макс Ривьер, музыка — Жерар Буржуа", en: "Lyrics by Jean-Max Rivière; music by Gérard Bourgeois"}
         text:
@@ -732,6 +736,7 @@ chapters:
             url: https://fr.wikipedia.org/wiki/Discographie_de_Fran%C3%A7oise_Hardy
       - type: song
         title: "Ce petit cœur"
+        video_id: NEnGf5x0bVg
         year: "1965"
         credits: {ru: "Слова и музыка — Франсуаза Арди, оркестр Чарльза Блэкуэлла", en: "Words and music by Françoise Hardy; Charles Blackwell’s orchestra"}
         text:
@@ -742,6 +747,7 @@ chapters:
             url: https://musicbrainz.org/release/cb9f9cb6-900c-4b93-b682-641c1b9b16c4
       - type: song
         title: "Le Temps des souvenirs"
+        video_id: XWXe6SXpte8
         year: "1965"
         credits: {ru: "Французский текст — Жак Датен и Морис Видален, музыка — Чарльз Блэкуэлл", en: "French lyrics by Jacques Datin and Maurice Vidalin; music by Charles Blackwell"}
         text:
@@ -966,6 +972,7 @@ chapters:
             url: https://www.lemonde.fr/en/obituaries/article/2024/06/12/pop-culture-icon-francoise-hardy-has-died_6674549_15.html
       - type: song
         title: "Ma jeunesse fout le camp…"
+        video_id: hkWgpDf9FR8
         year: "1967"
         credits: {ru: "Слова и музыка — Ги Бонтемпелли", en: "Words and music by Guy Bontempelli"}
         text:
@@ -976,6 +983,7 @@ chapters:
             url: https://www.ultratop.be/fr/song/604b5/Francoise-Hardy-Ma-jeunesse-fout-l%27camp
       - type: song
         title: "La Maison où j'ai grandi"
+        video_id: z-fqX1MhdN8
         year: "1966"
         credits: {ru: "Французский текст — Эдди Марне, музыка — Адриано Челентано", en: "French lyrics by Eddy Marnay; music by Adriano Celentano"}
         text:
@@ -986,6 +994,7 @@ chapters:
             url: https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/SimpleExhibitions?id=4821
       - type: song
         title: "Des ronds dans l'eau"
+        video_id: vs_JRgKz7Qo
         year: "1967"
         credits: {ru: "Слова — Пьер Бару, музыка — Раймон Ле Сенешаль", en: "Lyrics by Pierre Barouh; music by Raymond Le Sénéchal"}
         text:
@@ -1044,7 +1053,7 @@ chapters:
       - type: text
         text:
           ru: |
-            Семидесятые Арди начала с пластинки, которую многие считают её лучшей. Альбом La Question 1971 года она записала с бразильской певицей и гитаристкой Тукой, которая написала почти всю музыку. Голос, акустическая гитара, контрабас Ги Педерсена и струнные — больше ничего. Тихий, чувственный, тревожный альбом, на тридцать лет опередивший моду на такую музыку. Летиция Садье, певица Stereolab, говорила, что именно La Question значил для неё очень много.
+            Семидесятые Арди начала с пластинки, которую многие считают её лучшей работой. Альбом La Question 1971 года она записала с бразильской певицей и гитаристкой Тукой, которая написала почти всю музыку. Голос, акустическая гитара, контрабас Ги Педерсена и струнные — больше ничего. Тихий, чувственный, тревожный альбом, на тридцать лет опередивший моду на такую музыку. Летиция Садье, певица Stereolab, говорила, что именно La Question значил для неё очень много.
 
             Потом пришёл Мишель Бергер, и в 1973 году — Message personnel: песня, которая начинается с того, что Арди не поёт, а говорит, как будто записывает сообщение на автоответчик человеку, которому не решается признаться. В конце семидесятых — неожиданный диско-фанк J'écoute de la musique saoule с композитором Габриэлем Яредом. Параллельно она стала всерьёз заниматься астрологией и написала о ней несколько книг.
           en: |
@@ -1062,6 +1071,7 @@ chapters:
             url: https://www.mollat.com/livres/729565/francoise-hardy-les-rythmes-du-zodiaque
       - type: song
         title: "La Question"
+        video_id: j-KstH87k_s
         year: "1971"
         credits: {ru: "Слова — Арди, музыка — Тука", en: "Lyrics by Hardy; music by Tuca"}
         text:
@@ -1137,6 +1147,7 @@ chapters:
             url: https://en.wikipedia.org/wiki/To_the_End_%28Blur_song%29
       - type: song
         title: "Tant de belles choses"
+        video_id: eYR2DV-wN5c
         year: "2004"
         credits: {ru: "Слова — Арди, музыка — Паскаль Даниэль и Ален Любрано", en: "Lyrics by Hardy; music by Pascale Daniel and Alain Lubrano"}
         text:
@@ -1160,7 +1171,7 @@ chapters:
       - type: text
         text:
           ru: |
-            Последние двадцать лет она тяжело болела: лимфома, потом рак гортани. Лечение отнимало голос. Франсуаза Арди умерла 11 июня 2024 года, ей было восемьдесят лет. Об этом сообщил её сын Тома.
+            Последние двадцать лет она тяжело болела: лимфома, потом рак гортани. Из-за лечения ей становилось всё труднее петь. Франсуаза Арди умерла 11 июня 2024 года, ей было восемьдесят лет. Об этом сообщил её сын Тома.
           en: |
             For her last twenty years, she was seriously ill: lymphoma, then cancer of the larynx. Treatment took away her voice. Françoise Hardy died on 11 June 2024, aged eighty. Her son Thomas announced her death.
         sources:

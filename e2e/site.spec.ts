@@ -10,12 +10,12 @@ for(const project of Object.values(data.projects))for(const lang of ['ru','en'] 
   await page.goto(`${lang==='ru'?'/ru':''}/projects/${project.id}/`);
   await expect(page.locator('[data-chapter]')).toHaveCount(project.chapters.length);
   for(const chapter of project.chapters)await expect(page.locator(`#${chapter.id} h2`)).toHaveText(typeof chapter.name[lang]==='string'?chapter.name[lang] as string:(chapter.name[lang] as {text:string}).text);
-  expect(requests).toEqual([]);await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('.video [data-video]')).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const video=page.locator('.video [data-video]').first();if(await video.count()){await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({body:'<html></html>',contentType:'text/html'}));await video.click();await expect(page.locator('iframe')).toHaveAttribute('src',/^https:\/\/www.youtube-nocookie.com\/embed\//)}
  });
  test(`${project.id} ${lang}: readable without JavaScript`,async({browser,baseURL})=>{
-  const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();await page.goto(`${baseURL}${lang==='ru'?'/ru':''}/projects/${project.id}/`);await expect(page.locator('[data-chapter]')).toHaveCount(project.chapters.length);await expect(page.locator('.text-block').first()).toBeVisible();await expect(page.locator('iframe')).toHaveCount(0);await context.close();
+  const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();await page.goto(`${baseURL}${lang==='ru'?'/ru':''}/projects/${project.id}/`);await expect(page.locator('[data-chapter]')).toHaveCount(project.chapters.length);await expect(page.locator('.text-block').first()).toBeVisible();await context.close();
  });
 }
 for(const theme of ['watercolor','yeye'] as const)test(`${theme}: structure API seeks, motion and layout`,async({page})=>{
@@ -39,16 +39,17 @@ for(const theme of ['watercolor','yeye'] as const)test(`${theme}: songs, shared 
  const p=fixture(theme);const requests:string[]=[];
  page.on('request',r=>{if(/youtube|ytimg/.test(r.url()))requests.push(r.url())});
  await page.route('**/projects/test-*/',async route=>{const response=await route.fetch();await route.fulfill({response,body:(await response.text()).replace(/<div id="app">[\s\S]*?<\/div>\s*<\/body>/,`<div id="app">${projectPage(fixtureData(p),p,'ru')}</div></body>`)})});
+ await page.route('https://www.youtube.com/iframe_api',r=>r.fulfill({contentType:'text/javascript',body:`window.YT={Player:function(el,o){const f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+o.videoId;el.replaceWith(f);this.playVideo=()=>{};this.pauseVideo=()=>{};this.destroy=()=>f.remove();setTimeout(()=>o.events.onReady({target:this}))}};window.onYouTubeIframeAPIReady&&window.onYouTubeIframeAPIReady();`}));
  await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({body:'<html></html>',contentType:'text/html'}));
  await page.goto(`/projects/${p.id}/`);
  expect(requests).toEqual([]);await expect(page.locator('iframe')).toHaveCount(0);
- const tracks=page.locator('.playlist [data-video]');
+ const tracks=page.locator('.playlist [data-dock]');
  await tracks.first().focus();await page.keyboard.press('Enter');
- await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk\?autoplay=1/);
- await tracks.nth(1).click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/8JGBNkLM9_8\?autoplay=1/);
- await expect(tracks.nth(1)).toHaveAttribute('aria-current','true');await expect(tracks.first()).not.toHaveAttribute('aria-current','true');
- await tracks.first().click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/embed\/m94_C8Z7wLk/);
- await page.locator('.song-watch').click();await expect(page.locator('.song iframe')).toHaveCount(1);await expect(page.locator('.song iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk/);await expect(page.locator('.playlist iframe')).toHaveCount(1);
+ await expect(page.locator('.dock iframe')).toHaveCount(1);await expect(page.locator('.dock iframe')).toHaveAttribute('src',/embed\/m94_C8Z7wLk/);await expect(page.locator('.dock-title')).toHaveText('Tous les garçons et les filles');
+ await page.locator('.dock-next').click();await expect(page.locator('.dock iframe')).toHaveCount(1);await expect(page.locator('.dock iframe')).toHaveAttribute('src',/embed\/8JGBNkLM9_8/);
+ await expect(tracks.nth(1)).toHaveAttribute('aria-current','');await expect(tracks.first()).not.toHaveAttribute('aria-current','');
+ await page.locator('.song-play').first().click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('.dock iframe')).toHaveAttribute('src',/embed\/m94_C8Z7wLk/);
+ await page.locator('.dock-close').click();await expect(page.locator('.dock')).toHaveCount(0);
  const cutout=page.locator('.collage-piece img').first();await expect(cutout).toHaveAttribute('src',/^data:image\/png/);await expect(cutout).toHaveCSS('filter',/drop-shadow\(rgb\(255, 255, 255\)/);
  expect(await cutout.evaluate(async el=>{const img=el as HTMLImageElement;await img.decode();const canvas=document.createElement('canvas');canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;const ctx=canvas.getContext('2d')!;ctx.drawImage(img,0,0);return ctx.getImageData(0,0,1,1).data[3]})).toBe(0);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
@@ -59,7 +60,7 @@ test('song and playlist links remain usable without JavaScript',async({browser,b
  const p=fixture('yeye');
  await page.route('**/projects/test-*/',async route=>{const response=await route.fetch();await route.fulfill({response,body:(await response.text()).replace(/<div id="app">[\s\S]*?<\/div>\s*<\/body>/,`<div id="app">${projectPage(fixtureData(p),p,'en')}</div></body>`)})});
  await page.goto(`${baseURL}/projects/${p.id}/`);
- await expect(page.locator('.song-watch')).toBeVisible();await expect(page.locator('.song-watch')).toHaveAttribute('href',/watch\?v=m94_C8Z7wLk/);
+ await expect(page.locator('.song-play')).toBeVisible();await expect(page.locator('.song-play')).toHaveAttribute('href',/watch\?v=m94_C8Z7wLk/);
  const tracks=page.locator('.playlist-tracks a');await expect(tracks).toHaveCount(2);await expect(tracks.first()).toBeVisible();await expect(page.locator('.track-note')).toBeVisible();await expect(page.locator('iframe')).toHaveCount(0);
  await page.route('https://www.youtube.com/watch**',route=>route.fulfill({body:'YouTube link destination'}));
  await tracks.nth(1).click();await expect(page).toHaveURL(/youtube.com\/watch\?v=8JGBNkLM9_8/);

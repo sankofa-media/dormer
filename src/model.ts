@@ -10,7 +10,7 @@ export type Block = Art | Photo | Collage
  | {type:'text';text:Bi;sources?:Source[]}
  | {type:'gallery';items:(Art|Photo)[];layout:'strip'|'grid'|'scatter'}
  | {type:'clipping';masthead:Copy;date:string;headline:Copy;deck:Copy;body:Copy;cite:{publication:string;date:string;page:string;url:string};style:'broadsheet'|'tabloid'|'magazine'|'french-daily';paper?:string}
- | {type:'video';id:string;title:Bi;poster:string;start?:number;caption:Bi;credit:Copy}
+ | {type:'video';id:string;title:Bi;poster?:string;start?:number;caption:Bi;credit:Copy}
  | {type:'song';title:string;year:string;credits:Bi;label?:string;text:Bi;video_id?:string;video_note?:Bi;sleeve?:string;sources?:Source[]}
  | {type:'playlist';title:Bi;items:{title:string;year:string;video_id:string;note?:Bi}[]}
  | {type:'structure';video_id:string;sections:{label:Bi;start:number;end:number;note:Bi}[]}
@@ -56,7 +56,7 @@ export function validateBlock(b:any):asserts b is Block {
   if(b.layers){if(!Array.isArray(b.layers))fail('Invalid layers');for(const layer of b.layers){asset(layer.src);finite(layer.depth)}}break;
  case 'gallery':choice(b.layout,['strip','grid','scatter']);list(b.items);for(const i of b.items){choice(i.type,['art','photo']);validateBlock(i)}break;
  case 'clipping':for(const k of ['masthead','headline','deck','body'])copy(b[k]);for(const k of ['publication','date','page'])if(!str(b.cite?.[k]))fail('Invalid clipping citation');if(!http(b.cite?.url)||!str(b.date))fail('Invalid clipping citation');choice(b.style,['broadsheet','tabloid','magazine','french-daily']);if(b.paper)asset(b.paper);break;
- case 'video':video(b.id);bi(b.title);asset(b.poster);bi(b.caption);copy(b.credit);if(b.start!==undefined){finite(b.start);if(b.start<0)fail('Invalid video start')}break;
+ case 'video':video(b.id);bi(b.title);if(b.poster!==undefined)asset(b.poster);bi(b.caption);copy(b.credit);if(b.start!==undefined){finite(b.start);if(b.start<0)fail('Invalid video start')}break;
  case 'song':
   if(!str(b.title)||!str(b.year))fail('Song title and year required');bi(b.credits);bi(b.text);
   if(b.label!==undefined&&!str(b.label))fail('Invalid song label');
@@ -86,7 +86,7 @@ export function projectAssets(p:Project):string[] {
  case 'art':case 'photo':add(b.src,b.type==='photo'?'photos':'art');if(b.type==='art')b.layers?.forEach(l=>add(l.src));break;
  case 'gallery':b.items.forEach(visit);break;
  case 'clipping':if(b.paper)add(b.paper);break;
- case 'video':add(b.poster);break;
+ case 'video':if(b.poster)add(b.poster);break;
  case 'song':if(b.sleeve)add(b.sleeve);break;
  case 'poster':if(b.photo)visit(b.photo);break;
  case 'collage':typeof b.background==='string'?add(b.background):visit(b.background);b.pieces.forEach(p=>add(p.src));break;

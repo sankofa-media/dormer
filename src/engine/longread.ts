@@ -62,3 +62,48 @@ export function videos(){
   mount(slot,id,start,title,link,markExternal);
  }));
 }
+
+/** One fixed player at the bottom of the screen for song cards and playlists. */
+export function dock(){
+ const links=[...document.querySelectorAll<HTMLAnchorElement>('a[data-dock]')];
+ if(!links.length)return;
+ let bar:HTMLElement|undefined,player:Player&{pauseVideo?():void;getPlayerState?():number}|undefined,queue:HTMLAnchorElement[]=[],index=0,paused=false;
+ const T=(ruText:string,en:string)=>ru()?ruText:en;
+ const build=()=>{
+  bar=document.createElement('section');bar.className='dock';bar.setAttribute('aria-label',T('Плеер','Player'));
+  bar.innerHTML=`<div class="dock-screen"><div class="dock-frame"></div></div><div class="dock-info"><strong class="dock-title"></strong><span class="dock-meta"></span></div><div class="dock-controls"><button type="button" class="dock-prev" aria-label="${T('Предыдущая','Previous')}">⏮</button><button type="button" class="dock-toggle" aria-label="${T('Пауза','Pause')}">⏸</button><button type="button" class="dock-next" aria-label="${T('Следующая','Next')}">⏭</button><a class="dock-out" target="_blank" rel="noopener" aria-label="${T('Открыть на YouTube','Open on YouTube')}">↗</a><button type="button" class="dock-close" aria-label="${T('Закрыть плеер','Close player')}">✕</button></div>`;
+  document.body.append(bar);document.body.classList.add('has-dock');
+  bar.querySelector('.dock-prev')!.addEventListener('click',()=>go(index-1));
+  bar.querySelector('.dock-next')!.addEventListener('click',()=>go(index+1));
+  bar.querySelector('.dock-toggle')!.addEventListener('click',()=>{if(!player)return;if(paused){player.playVideo();}else{player.pauseVideo?.()}});
+  bar.querySelector('.dock-close')!.addEventListener('click',close);
+ };
+ const close=()=>{player?.destroy?.();player=undefined;bar?.remove();bar=undefined;document.body.classList.remove('has-dock');mark()};
+ const mark=()=>{for(const a of links){const on=!!bar&&queue[index]===a;a.toggleAttribute('aria-current',on);a.closest('.song,li')?.classList.toggle('is-playing',on);const label=a.querySelector('.song-play-label');if(label)label.textContent=on?T('играет','playing'):T('слушать','listen')}};
+ const setPaused=(p:boolean)=>{paused=p;const b=bar?.querySelector<HTMLButtonElement>('.dock-toggle');if(b){b.textContent=p?'▶':'⏸';b.setAttribute('aria-label',p?T('Играть','Play'):T('Пауза','Pause'))}};
+ const go=(i:number)=>{if(!queue.length)return;index=(i+queue.length)%queue.length;load()};
+ const load=()=>{
+  if(!bar)build();
+  const a=queue[index],id=a.dataset.dock!;
+  bar!.querySelector('.dock-title')!.textContent=a.dataset.title??'';
+  bar!.querySelector('.dock-meta')!.textContent=[a.dataset.year,'Françoise Hardy'].filter(Boolean).join(' · ');
+  bar!.querySelector<HTMLAnchorElement>('.dock-out')!.href=watchUrl(id,0);
+  bar!.classList.remove('dock-blocked');mark();setPaused(false);
+  player?.destroy?.();player=undefined;
+  const frame=document.createElement('div');frame.className='dock-frame';bar!.querySelector('.dock-screen')!.replaceChildren(frame);
+  void youtube().then(YT=>{const P=YT.Player as unknown as new (el:HTMLElement,o:object)=>Player;
+   const current=a;
+   player=new P(frame,{host:'https://www.youtube-nocookie.com',videoId:id,width:'100%',height:'100%',playerVars:{autoplay:1,playsinline:1,rel:0,origin:location.origin},events:{
+    onReady:({target}:{target:Player})=>{if(queue[index]!==current)return;target.playVideo()},
+    onStateChange:({data}:{data:number})=>{if(data===1)setPaused(false);if(data===2)setPaused(true);if(data===0)go(index+1)},
+    onError:({data}:{data:number})=>{if(queue[index]!==current||![2,5,100,101,150,152,153].includes(data))return;bar!.classList.add('dock-blocked');bar!.querySelector('.dock-meta')!.textContent=T('Эту запись можно послушать только на YouTube ↗','This recording plays on YouTube only ↗');setTimeout(()=>{if(queue[index]===current)go(index+1)},4000)}
+   }}) as typeof player}).catch(()=>{location.href=watchUrl(id,0)});
+ };
+ for(const a of links)a.addEventListener('click',e=>{
+  if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();
+  const scope=a.closest('.playlist');queue=links.filter(x=>scope?scope.contains(x):!x.closest('.playlist'));
+  const i=queue.indexOf(a);
+  if(bar&&i===index&&queue[index]===a&&player){if(paused)player.playVideo();else player.pauseVideo?.();return}
+  index=i;load();
+ });
+}

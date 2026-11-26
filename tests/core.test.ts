@@ -52,7 +52,7 @@ describe('songs and playlists',()=>{
   const p=fixture('yeye'),data=fixtureData(p);
   const ru=projectPage(data,p,'ru'),en=projectPage(data,p,'en');
   expect(ru.match(/--sleeve-color:#[a-f0-9]+/g)).toEqual(en.match(/--sleeve-color:#[a-f0-9]+/g));
-  expect(ru).toContain('▶ смотреть');expect(en).toContain('▶ watch');expect(en).toContain('Song archive');expect(en).toContain('Vogue EPL 7967');
+  expect(ru).toContain('слушать');expect(en).toContain('listen');expect(en).toContain('Song archive');expect(en).toContain('Vogue EPL 7967');
   expect(en).toContain('class="playlist-tracks"');expect(en).toContain('https://www.youtube.com/watch?v=m94_C8Z7wLk');expect(en).not.toContain('<iframe');expect(en).not.toContain('youtube-nocookie');
  });
 });
