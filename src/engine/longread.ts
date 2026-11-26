@@ -22,9 +22,15 @@ export function videos(){
  const players=new WeakMap<HTMLElement,{player?:Player;start:number}>();
  document.querySelectorAll<HTMLAnchorElement>('[data-video]').forEach(link=>link.addEventListener('click',event=>{
   if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();
-  const structure=link.closest<HTMLElement>('.structure');const slot=structure?.querySelector<HTMLElement>('[data-player]')??link.closest<HTMLElement>('[data-player]')!;
+  const playlist=link.closest<HTMLElement>('.playlist');
+  const structure=link.closest<HTMLElement>('.structure');const slot=(playlist??structure)?.querySelector<HTMLElement>('[data-player]')??link.closest<HTMLElement>('[data-player]')!;
   const start=Number(link.dataset.start??0),id=link.dataset.video!;
   if(structure){const note=structure.querySelector<HTMLElement>('.structure-note')!;note.hidden=false;note.textContent=link.parentElement!.querySelector('.section-note')!.textContent;structure.querySelectorAll('[data-section]').forEach(a=>a.setAttribute('aria-current',String(a===link)))}
+  if(playlist){
+   playlist.querySelectorAll('[data-video]').forEach(a=>{if(a===link)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')});
+   const frame=slot.querySelector('iframe');
+   if(frame){frame.src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`;frame.title=link.getAttribute('aria-label')??id;slot.querySelector<HTMLAnchorElement>('.video-fallback')!.href=link.href;return}
+  }
   const existing=players.get(slot);if(existing){existing.start=start;existing.player?.seekTo(start,true);existing.player?.playVideo();return}
   const state:{player?:Player;start:number}={start};players.set(slot,state);slot.hidden=false;
   const iframe=document.createElement('iframe');iframe.title=link.getAttribute('aria-label')??link.textContent?.trim()??'YouTube';iframe.allow='autoplay; encrypted-media; picture-in-picture';iframe.allowFullscreen=true;iframe.referrerPolicy='strict-origin-when-cross-origin';

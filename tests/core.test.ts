@@ -28,3 +28,31 @@ for(const theme of ['watercolor','yeye'] as const)it(`validates and renders ever
 it('escapes HTML and rejects executable Markdown links',()=>{expect(markdown('<script>alert(1)</script> [bad](javascript:alert) **bold** *soft*')).toBe('<p>&lt;script&gt;alert(1)&lt;/script&gt; bad <strong>bold</strong> <em>soft</em></p>')});
 
 it('preserves time gaps in proportional structure strips',()=>{const p=fixture('yeye');p.chapters[0].blocks=[{type:'structure',video_id:'8JGBNkLM9_8',sections:[{label:bi,note:bi,start:10,end:20},{label:bi,note:bi,start:30,end:40}]}];const html=projectPage(fixtureData(p),p,'en');expect(html).toContain('--gap:25%;--length:25%')});
+
+const song={type:'song',title:'Tous les garçons et les filles',year:'1962',credits:bi,text:bi};
+const track={title:'Le temps',year:'1963',video_id:'m94_C8Z7wLk'};
+describe('songs and playlists',()=>{
+ it('accepts minimal and complete song cards and playlists',()=>{
+  expect(()=>validateBlock(song)).not.toThrow();
+  expect(()=>validateBlock({...song,label:'Vogue EPL 7967',video_id:track.video_id,video_note:bi,sleeve:'obj-45.png',sources:[{title:'Archive',url:'https://example.com'}]})).not.toThrow();
+  expect(()=>validateBlock({type:'playlist',title:bi,items:[track,{...track,note:bi}]})).not.toThrow();
+ });
+ it('requires original titles, string years and bilingual copy',()=>{
+  for(const patch of [{title:bi},{title:''},{year:1962},{year:''},{credits:undefined},{credits:{ru:'Есть'}},{text:undefined},{text:{en:'Only English'}}])expect(()=>validateBlock({...song,...patch})).toThrow();
+  for(const patch of [{title:'Not bilingual'},{items:[]},{items:[null]},{items:[{...track,title:bi}]},{items:[{...track,year:1963}]},{items:[{...track,note:{ru:'Есть'}}]}])expect(()=>validateBlock({type:'playlist',title:bi,items:[track],...patch})).toThrow();
+ });
+ it('validates optional fields, video IDs, sources and asset paths',()=>{
+  for(const patch of [{label:''},{video_id:''},{video_id:'bad/id'},{video_note:{ru:'Есть'}},{sleeve:'../secret.png'},{sleeve:''},{sources:[{title:'Bad',url:'javascript:alert(1)'}]}])expect(()=>validateBlock({...song,...patch})).toThrow();
+  for(const video_id of ['',undefined,'bad/id',12345678901])expect(()=>validateBlock({type:'playlist',title:bi,items:[{...track,video_id}]})).toThrow();
+ });
+ it('collects sleeves and PNG collage assets in the project art folder',()=>{
+  const p=fixture('yeye');const assets=projectAssets(p);expect(assets).toContain('art/obj-45.png');expect(assets).toContain('art/cutout.png');expect(assets).toContain('art/test.webp');
+ });
+ it('renders stable sleeve colors, translated copy, sources and plain video links without embeds',()=>{
+  const p=fixture('yeye'),data=fixtureData(p);
+  const ru=projectPage(data,p,'ru'),en=projectPage(data,p,'en');
+  expect(ru.match(/--sleeve-color:#[a-f0-9]+/g)).toEqual(en.match(/--sleeve-color:#[a-f0-9]+/g));
+  expect(ru).toContain('▶ смотреть');expect(en).toContain('▶ watch');expect(en).toContain('Song archive');expect(en).toContain('Vogue EPL 7967');
+  expect(en).toContain('class="playlist-tracks"');expect(en).toContain('https://www.youtube.com/watch?v=m94_C8Z7wLk');expect(en).not.toContain('<iframe');expect(en).not.toContain('youtube-nocookie');
+ });
+});

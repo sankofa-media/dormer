@@ -34,3 +34,35 @@ for(const theme of ['watercolor','yeye'] as const)test(`${theme}: structure API 
 test('home wall, language switch and Pagefind',async({page})=>{
  await page.goto('/ru/');await page.locator('.home-search input').fill('Фердинанд');await page.locator('.home-search').press('Enter');await expect(page.locator('.search-result').first()).toBeVisible();await page.locator('#search-dialog [data-close]').click();await page.locator('header a[lang=en]').click();await expect(page.locator('html')).toHaveAttribute('lang','en');
 });
+
+for(const theme of ['watercolor','yeye'] as const)test(`${theme}: songs, shared playlist player and transparent cutouts`,async({page})=>{
+ const p=fixture(theme);const requests:string[]=[];
+ page.on('request',r=>{if(/youtube|ytimg/.test(r.url()))requests.push(r.url())});
+ await page.route('**/projects/test-*/',async route=>{const response=await route.fetch();await route.fulfill({response,body:(await response.text()).replace(/<div id="app">[\s\S]*?<\/div>\s*<\/body>/,`<div id="app">${projectPage(fixtureData(p),p,'ru')}</div></body>`)})});
+ await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({body:'<html></html>',contentType:'text/html'}));
+ await page.goto(`/projects/${p.id}/`);
+ expect(requests).toEqual([]);await expect(page.locator('iframe')).toHaveCount(0);
+ const tracks=page.locator('.playlist [data-video]');
+ await tracks.first().focus();await page.keyboard.press('Enter');
+ await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk\?autoplay=1/);
+ await page.locator('iframe').evaluate(el=>el.setAttribute('data-original','true'));
+ await tracks.nth(1).click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/8JGBNkLM9_8\?autoplay=1/);await expect(page.locator('iframe')).toHaveAttribute('data-original','true');
+ await expect(tracks.nth(1)).toHaveAttribute('aria-current','true');await expect(tracks.first()).not.toHaveAttribute('aria-current','true');
+ await tracks.first().click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/embed\/m94_C8Z7wLk/);
+ await page.locator('.song-watch').click();await expect(page.locator('.song iframe')).toHaveCount(1);await expect(page.locator('.song iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk/);await expect(page.locator('.playlist iframe')).toHaveCount(1);
+ const cutout=page.locator('.collage-piece img').first();await expect(cutout).toHaveAttribute('src',/^data:image\/png/);await expect(cutout).toHaveCSS('filter',/drop-shadow\(rgb\(255, 255, 255\)/);
+ expect(await cutout.evaluate(async el=>{const img=el as HTMLImageElement;await img.decode();const canvas=document.createElement('canvas');canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;const ctx=canvas.getContext('2d')!;ctx.drawImage(img,0,0);return ctx.getImageData(0,0,1,1).data[3]})).toBe(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+
+test('song and playlist links remain usable without JavaScript',async({browser,baseURL})=>{
+ const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();
+ const p=fixture('yeye');
+ await page.route('**/projects/test-*/',async route=>{const response=await route.fetch();await route.fulfill({response,body:(await response.text()).replace(/<div id="app">[\s\S]*?<\/div>\s*<\/body>/,`<div id="app">${projectPage(fixtureData(p),p,'en')}</div></body>`)})});
+ await page.goto(`${baseURL}/projects/${p.id}/`);
+ await expect(page.locator('.song-watch')).toBeVisible();await expect(page.locator('.song-watch')).toHaveAttribute('href',/watch\?v=m94_C8Z7wLk/);
+ const tracks=page.locator('.playlist-tracks a');await expect(tracks).toHaveCount(2);await expect(tracks.first()).toBeVisible();await expect(page.locator('.track-note')).toBeVisible();await expect(page.locator('iframe')).toHaveCount(0);
+ await page.route('https://www.youtube.com/watch**',route=>route.fulfill({body:'YouTube link destination'}));
+ await tracks.nth(1).click();await expect(page).toHaveURL(/youtube.com\/watch\?v=8JGBNkLM9_8/);
+ await context.close();
+});

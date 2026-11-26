@@ -11,6 +11,8 @@ export type Block = Art | Photo | Collage
  | {type:'gallery';items:(Art|Photo)[];layout:'strip'|'grid'|'scatter'}
  | {type:'clipping';masthead:Copy;date:string;headline:Copy;deck:Copy;body:Copy;cite:{publication:string;date:string;page:string;url:string};style:'broadsheet'|'tabloid'|'magazine'|'french-daily';paper?:string}
  | {type:'video';id:string;title:Bi;poster:string;start?:number;caption:Bi;credit:Copy}
+ | {type:'song';title:string;year:string;credits:Bi;label?:string;text:Bi;video_id?:string;video_note?:Bi;sleeve?:string;sources?:Source[]}
+ | {type:'playlist';title:Bi;items:{title:string;year:string;video_id:string;note?:Bi}[]}
  | {type:'structure';video_id:string;sections:{label:Bi;start:number;end:number;note:Bi}[]}
  | {type:'quote';text:Bi;attribution:Copy;source:Source}
  | {type:'timeline';items:{date:string;text:Bi}[]}
@@ -40,7 +42,7 @@ const asset=(v:any,folder='art')=>{assetPath(v,folder)};
 const list=(v:any)=>{if(!Array.isArray(v)||!v.length)fail('Expected nonempty list')};
 const choice=(v:any,values:string[])=>{if(!values.includes(v))fail(`Invalid value: ${v}`)};
 const finite=(...values:any[])=>{if(values.some(v=>typeof v!=='number'||!Number.isFinite(v)))fail('Expected finite number')};
-const video=(v:any)=>{if(!/^[\w-]{11}$/.test(v))fail('Invalid YouTube id')};
+const video=(v:any)=>{if(typeof v!=='string'||!/^[\w-]{11}$/.test(v))fail('Invalid YouTube id')};
 const color=(v:any)=>{if(!str(v)||! /^(#[\da-f]{3,8}|[a-z]+)$/i.test(v))fail('Invalid color')};
 export function validateBlock(b:any):asserts b is Block {
  if(!b||typeof b!=='object')fail('Invalid block');
@@ -55,6 +57,11 @@ export function validateBlock(b:any):asserts b is Block {
  case 'gallery':choice(b.layout,['strip','grid','scatter']);list(b.items);for(const i of b.items){choice(i.type,['art','photo']);validateBlock(i)}break;
  case 'clipping':for(const k of ['masthead','headline','deck','body'])copy(b[k]);for(const k of ['publication','date','page'])if(!str(b.cite?.[k]))fail('Invalid clipping citation');if(!http(b.cite?.url)||!str(b.date))fail('Invalid clipping citation');choice(b.style,['broadsheet','tabloid','magazine','french-daily']);if(b.paper)asset(b.paper);break;
  case 'video':video(b.id);bi(b.title);asset(b.poster);bi(b.caption);copy(b.credit);if(b.start!==undefined){finite(b.start);if(b.start<0)fail('Invalid video start')}break;
+ case 'song':
+  if(!str(b.title)||!str(b.year))fail('Song title and year required');bi(b.credits);bi(b.text);
+  if(b.label!==undefined&&!str(b.label))fail('Invalid song label');
+  if(b.video_id!==undefined)video(b.video_id);if(b.video_note!==undefined)bi(b.video_note);if(b.sleeve!==undefined)asset(b.sleeve);break;
+ case 'playlist':bi(b.title);list(b.items);for(const item of b.items){if(!str(item?.title)||!str(item?.year))fail('Track title and year required');video(item.video_id);if(item.note!==undefined)bi(item.note)}break;
  case 'structure':video(b.video_id);list(b.sections);let end=0;for(const s of b.sections){bi(s.label);bi(s.note);finite(s.start,s.end);if(s.start<end||s.end<=s.start)fail('Invalid section times');end=s.end}break;
  case 'quote':bi(b.text);copy(b.attribution);source(b.source);break;
  case 'timeline':list(b.items);for(const i of b.items){if(!str(i.date))fail('Missing date');bi(i.text)}break;
@@ -80,6 +87,7 @@ export function projectAssets(p:Project):string[] {
  case 'gallery':b.items.forEach(visit);break;
  case 'clipping':if(b.paper)add(b.paper);break;
  case 'video':add(b.poster);break;
+ case 'song':if(b.sleeve)add(b.sleeve);break;
  case 'poster':if(b.photo)visit(b.photo);break;
  case 'collage':typeof b.background==='string'?add(b.background):visit(b.background);b.pieces.forEach(p=>add(p.src));break;
  }};
