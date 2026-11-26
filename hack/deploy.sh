@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 repo=$PWD
-stand=${SANKOFA_ROOT:-$HOME/projects/sankofa-int}
+stand=${SANKOFA_ROOT:-$HOME/projects/sankofa}
 source "$stand/hack/stand/env.sh"
 export DORMER_HOST=${DORMER_HOST:-dormer.sankofa.workshop.aenix.io}
 export SITE_URL=${SITE_URL:-https://$DORMER_HOST}
