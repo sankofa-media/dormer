@@ -89,3 +89,7 @@
 .meter b{height:10px;background:linear-gradient(90deg,#ff8fb8 calc(var(--v)*10%),#0000 0),repeating-linear-gradient(90deg,#0002 0 9.6%,#0000 0 10%)}
 .meter-zhest b{background:linear-gradient(90deg,#6b7a1f,#2b1d10 calc(var(--v)*10%),#0000 0),repeating-linear-gradient(90deg,#0002 0 9.6%,#0000 0 10%)}
 .scorecard dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:16px 0 0}.scorecard dt{font:600 11px 'IBM Plex Mono',monospace;text-transform:uppercase;opacity:.75;padding-top:2px}.scorecard dd{margin:0}
+.theme-scent .cover .visual{max-width:min(320px,70vw);margin-inline:auto}.theme-scent .cover .visual img{mix-blend-mode:multiply}
+.ladder-bottle:empty{background:linear-gradient(135deg,hsl(calc(330 - var(--zhest) * 28) 55% 80%),hsl(calc(330 - var(--zhest) * 28) 40% 45%))}.ladder-bottle:empty:after{content:attr(data-initial);font:800 30px 'Unbounded',sans-serif;color:#fff8}
+.theme-scent[data-dark=true] .aside{background:#ffffff12;color:var(--fg);border:1px solid #ffffff22}
+.theme-scent[data-dark=true] .scorecard{border-color:#efe6d655}

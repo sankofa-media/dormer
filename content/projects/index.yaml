@@ -43,10 +43,12 @@ projects:
       type: type
   - id: perfume
     title:
-      ru: Парфюмерия
-      en: Perfumery
+      ru: Горче горького
+      en: Bitterer than Bitter
+    dek:
+      ru: Двадцать один шаг от Terre d'Hermès до запаха морга
+      en: Twenty-one steps from Terre d'Hermès to the smell of a morgue
     tags:
       - perfume
-    upcoming: true
     tile:
-      type: empty
+      type: art
