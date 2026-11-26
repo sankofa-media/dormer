@@ -1,7 +1,7 @@
 // Adapted from Sankofa scripts/seo: prerender, alternates, JSON-LD, discovery files.
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import sharp from 'sharp';
-import {homePage,projectPage,esc,url,home} from '../src/render.ts';
+import {homePage,projectPage,friendsPage,esc,url,home} from '../src/render.ts';
 import {type Data,type Lang,text,local} from '../src/model.ts';
 const data:Data=JSON.parse(await readFile('src/generated.json','utf8'));
 const template=await readFile('dist/index.html','utf8');
@@ -11,6 +11,7 @@ const json=(v:unknown)=>JSON.stringify(v).replace(/</g,'\\u003c');
 const pages:{path:string;lang:Lang;title:string;description:string;alternate:string;body:string;id?:string}[]=[];
 for(const lang of ['en','ru'] as Lang[]){
  pages.push({path:home(lang),lang,title:'Dormer',description:lang==='ru'?'Большие истории о музыке, живописи, театре, запахах — обо всём, что нам интересно.':'Independent multimedia stories about music and art.',alternate:home(lang==='ru'?'en':'ru'),body:homePage(data,lang)});
+ pages.push({path:home(lang)+'friends/',lang,title:lang==='ru'?'Другие наши проекты — Dormer':'Our other projects — Dormer',description:lang==='ru'?'Sankofa, damn.academy, Sheet-Native Computing Foundation и Палеокомпьютинг':'Sankofa, damn.academy, Sheet-Native Computing Foundation and Paleocomputing',alternate:home(lang==='ru'?'en':'ru')+'friends/',body:friendsPage(lang)});
  for(const p of Object.values(data.projects))pages.push({path:url(p.id,lang),lang,title:local(p.title,lang),description:local(p.dek,lang),alternate:url(p.id,lang==='ru'?'en':'ru'),body:projectPage(data,p,lang),id:p.id});
 }
 await mkdir('dist/media',{recursive:true});

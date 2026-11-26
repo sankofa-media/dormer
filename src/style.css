@@ -122,3 +122,9 @@
 .tile-id-girl-on-a-ball p{display:none}
 .tile-id-girl-on-a-ball .tile-inner:before{width:30%;left:-8%;bottom:auto;top:58%}
 .tile-id-perfume .visual,.tile-id-perfume .visual .image-stack,.tile-id-perfume .visual img{mask:none!important;-webkit-mask:none!important}
+.friends-list{list-style:none;padding:0 0 60px;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px}
+.friends-list a{display:block;height:100%;padding:26px 28px;background:#e9e3d2;text-decoration:none;color:inherit;transition:transform .25s}
+.friends-list li:nth-child(odd) a{rotate:-1deg}.friends-list li:nth-child(even) a{rotate:1.2deg;background:#dcd5c3}
+.friends-list a:hover{transform:translateY(-4px)}
+.friends-list h2{font:600 30px/1.1 'Literata',Georgia,serif;margin:0 0 12px}.friends-list p{font-size:15px}.friends-list span{font:12px monospace}
+.header-friends{text-decoration:none}@media(max-width:700px){.header-friends{font-size:11px;max-width:90px;line-height:1.2}}

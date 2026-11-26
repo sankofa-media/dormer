@@ -1,7 +1,7 @@
 import './style.css';
 import raw from './generated.json';
 import {type Data,type Lang} from './model';
-import {homePage,projectPage,pick} from './render';
+import {homePage,projectPage,friendsPage,pick} from './render';
 import {isCalm,onCalm} from './engine/calm';
 const data=raw as Data;
 const lang:Lang=location.pathname.startsWith('/ru/')?'ru':'en';
@@ -9,7 +9,7 @@ const t=(ru:string,en:string)=>pick(lang,ru,en);
 const id=location.pathname.match(/\/projects\/([^/]+)/)?.[1];
 const p=id?data.projects[id]:undefined;
 const app=document.querySelector<HTMLDivElement>('#app')!;
-if(!app.querySelector('main'))app.innerHTML=p?projectPage(data,p,lang):homePage(data,lang);
+if(!app.querySelector('main'))app.innerHTML=p?projectPage(data,p,lang):location.pathname.endsWith('/friends/')?friendsPage(lang):homePage(data,lang);
 document.documentElement.lang=lang;document.body.classList.add('enhanced');
 const q=<T extends Element=HTMLElement>(s:string)=>document.querySelector<T>(s)!;
 let calm=isCalm()||read('dormer.calm')==='true';
