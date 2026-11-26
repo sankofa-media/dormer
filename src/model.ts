@@ -17,9 +17,12 @@ export type Block = Art | Photo | Collage
  | {type:'quote';text:Bi;attribution:Copy;source:Source}
  | {type:'timeline';items:{date:string;text:Bi}[]}
  | {type:'poster';lines:{text:Copy;size:'xl'|'l'|'m'|'s';font:'display'|'grotesk'|'script';color:string}[];paper:string;photo?:Photo}
- | {type:'aside';title?:Bi;text:Bi;sources?:Source[]};
+ | {type:'aside';title?:Bi;text:Bi;sources?:Source[]}
+ | {type:'tour';src:string;alt:Bi;credit:Copy;source_url:string;stops:{x:number;y:number;w:number;h:number;title:Bi;text:Bi}[]}
+ | {type:'ladder';title:Bi;left:Bi;right:Bi;items:{step:number;anchor:string;name:string;brand:string;year:string;image?:string;popsa:number;zhest:number;teaser:Bi}[]}
+ | {type:'scorecard';popsa:number;zhest:number;facts:{label:Bi;value:Bi}[]};
 export type Cover = (Omit<Art,'type'> & {kind:'art'}) | (Omit<Collage,'type'> & {kind:'collage'});
-export interface Chapter {id:string;name:Bi;kicker?:Bi;blocks:Block[]}
+export interface Chapter {id:string;name:Bi;kicker?:Bi;heat?:number;blocks:Block[]}
 export interface Project {id:string;layout:'longread';theme:'watercolor'|'yeye';title:Bi;dek:Bi;date:string;cover:Cover;paper?:string;chapters:Chapter[]}
 export interface Entry {id:string;title:Bi;dek?:Bi;tags:string[];upcoming?:boolean;tile:{type:'art'|'collage'|'empty'|'type'|'image'|'video';src?:string;quote?:Bi}}
 export interface Media {src:string;widths:Record<string,string>;width:number;height:number}
@@ -70,12 +73,15 @@ export function validateBlock(b:any):asserts b is Block {
   if(!Array.isArray(b.pieces)||!Array.isArray(b.balloons))fail('Invalid collage');
   for(const p of b.pieces){asset(p.src);finite(p.x,p.y,p.w,p.rotate,p.z,p.depth);if(p.x<0||p.x>100||p.y<0||p.y>100||p.w<=0||p.w>100)fail('Invalid collage coordinates')}
   for(const balloon of b.balloons){copy(balloon.text);if(!str(balloon.who)||! /^[a-z]{2,3}(-[A-Za-z]+)?$/.test(balloon.lang))fail('Invalid balloon');finite(balloon.x,balloon.y);if(balloon.x<0||balloon.x>100||balloon.y<0||balloon.y>100)fail('Invalid balloon coordinates');choice(balloon.tail,['left','right','down'])}break;
+ case 'tour':asset(b.src,'photos');bi(b.alt);copy(b.credit);if(!http(b.source_url))fail('Tour source_url required');list(b.stops);for(const st of b.stops){finite(st.x,st.y,st.w,st.h);if(st.x<0||st.y<0||st.w<=0||st.h<=0||st.x+st.w>100.01||st.y+st.h>100.01)fail('Invalid tour stop');bi(st.title);bi(st.text)}break;
+ case 'ladder':bi(b.title);bi(b.left);bi(b.right);list(b.items);for(const it of b.items){finite(it.step,it.popsa,it.zhest);if(!str(it.name)||!str(it.brand)||!str(it.year)||!/^[a-z0-9-]+$/.test(it.anchor))fail('Invalid ladder item');if(it.image)asset(it.image,'photos');bi(it.teaser)}break;
+ case 'scorecard':finite(b.popsa,b.zhest);list(b.facts);for(const f of b.facts){bi(f.label);bi(f.value)}break;
  default:fail(`Unknown block type: ${b.type}`);
  }
 }
 export function validateProject(p:any):Project {
  if(!p||! /^[a-z0-9-]+$/.test(p.id)||p.layout!=='longread')fail('Invalid project');
- choice(p.theme,['watercolor','yeye']);bi(p.title);bi(p.dek);if(!/^\d{4}-\d{2}-\d{2}$/.test(p.date))fail('Invalid date');
+ choice(p.theme,['watercolor','yeye','rose','scent']);bi(p.title);bi(p.dek);if(!/^\d{4}-\d{2}-\d{2}$/.test(p.date))fail('Invalid date');
  choice(p.cover?.kind,['art','collage']);validateBlock({...p.cover,type:p.cover.kind});if(p.paper)asset(p.paper);
  list(p.chapters);const ids=new Set<string>();for(const c of p.chapters){if(!/^[a-z0-9-]+$/.test(c.id)||ids.has(c.id))fail('Invalid chapter id');ids.add(c.id);bi(c.name);if(c.kicker)bi(c.kicker);list(c.blocks);c.blocks.forEach(validateBlock)}return p;
 }
@@ -89,6 +95,8 @@ export function projectAssets(p:Project):string[] {
  case 'video':if(b.poster)add(b.poster);break;
  case 'song':if(b.sleeve)add(b.sleeve);break;
  case 'poster':if(b.photo)visit(b.photo);break;
+ case 'tour':add(b.src,'photos');break;
+ case 'ladder':for(const it of b.items)if(it.image)add(it.image,'photos');break;
  case 'collage':typeof b.background==='string'?add(b.background):visit(b.background);b.pieces.forEach(p=>add(p.src));break;
  }};
  visit({...p.cover,type:p.cover.kind} as Block);if(p.paper)add(p.paper);p.chapters.forEach(c=>c.blocks.forEach(visit));return [...files];

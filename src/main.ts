@@ -34,11 +34,11 @@ async function search(){const value=q<HTMLInputElement>('#search-input').value.t
  }catch{if(version===searchVersion)out.textContent=t('Поиск временно недоступен. Попробуйте позже.','Search is temporarily unavailable. Please try again later.')}}
 document.querySelectorAll<HTMLFormElement>('[data-inline-search]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();q<HTMLDialogElement>('#search-dialog').showModal();q<HTMLInputElement>('#search-input').value=form.querySelector('input')!.value;q<HTMLInputElement>('#search-input').focus();void search()}));
 q('#search-form').addEventListener('submit',e=>{e.preventDefault();void search()});let debounce:number;q('#search-input').addEventListener('input',()=>{clearTimeout(debounce);debounce=window.setTimeout(()=>void search(),180)});
-import {motion,videos,dock} from './engine/longread';
+import {motion,videos,dock,tours,heat} from './engine/longread';
 const refreshMotion=motion(()=>calm);
 q('#calm')?.addEventListener('click',()=>{const requested=read('dormer.calm')!=='true';write('dormer.calm',String(requested));calm=isCalm()||requested;applyCalm();refreshMotion()});
 onCalm(()=>refreshMotion());
-videos();dock();
+videos();dock();tours(()=>calm);heat();
 if(!p){
  const filter=(tag:string)=>{q('.wall').classList.toggle('filtered',tag!=='all');document.querySelectorAll<HTMLElement>('.tile').forEach(el=>el.hidden=tag!=='all'&&!el.dataset.tags!.split(' ').includes(tag));document.querySelectorAll<HTMLElement>('[data-tag]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tag===tag)))};
  filter(new URLSearchParams(location.search).get('tag')??'all');

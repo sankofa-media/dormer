@@ -107,3 +107,37 @@ export function dock(){
   index=i;load();
  });
 }
+
+/** Sticky painting that zooms to each detail as its card scrolls through the middle of the screen. */
+export function tours(calm:()=>boolean){
+ for(const tour of document.querySelectorAll<HTMLElement>('[data-tour]')){
+  tour.classList.add('tour-live');
+  const img=tour.querySelector<HTMLImageElement>('.tour-frame img')!;
+  const stops=[...tour.querySelectorAll<HTMLElement>('.tour-stop')];
+  const show=(st?:HTMLElement)=>{
+   stops.forEach(x=>x.classList.toggle('is-active',x===st));
+   if(!st||calm()){img.style.transform='';return}
+   const [x,y,w,h]=['x','y','w','h'].map(k=>Number(st.dataset[k]));
+   const s=Math.min(4,Math.max(1,Math.min(100/w,100/h)*0.92));
+   const cx=x+w/2,cy=y+h/2;
+   const tx=Math.min(0,Math.max(100-100*s,50-cx*s)),ty=Math.min(0,Math.max(100-100*s,50-cy*s));
+   img.style.transform=`translate(${tx}%,${ty}%) scale(${s})`;
+  };
+  const io=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)show(e.target as HTMLElement)},{rootMargin:'-45% 0px -45% 0px'});
+  stops.forEach(st=>io.observe(st));
+  new IntersectionObserver(([e])=>{if(!e.isIntersecting)show(undefined)}).observe(tour);
+ }
+}
+
+/** Page colour follows the chapter's heat: from sweet pink to the colour of something you should not smell. */
+export function heat(){
+ const chapters=[...document.querySelectorAll<HTMLElement>('[data-heat]')];
+ const page=document.querySelector<HTMLElement>('.theme-scent');
+ if(!chapters.length||!page)return;
+ const stops:[number,number[]][]=[[0,[255,228,238]],[.35,[236,226,200]],[.6,[196,201,150]],[.8,[110,98,64]],[1,[28,20,16]]];
+ const color=(t:number)=>{for(let i=1;i<stops.length;i++){const [a,ca]=stops[i-1],[b,cb]=stops[i];if(t<=b){const k=(t-a)/(b-a);return ca.map((v,j)=>Math.round(v+(cb[j]-v)*k))}}return stops.at(-1)![1]};
+ let frame=0;
+ const update=()=>{frame=0;const mid=innerHeight/2;let t=0;for(const ch of chapters){const r=ch.getBoundingClientRect();if(r.top<mid)t=Number(ch.dataset.heat)}
+  const [r,g,b]=color(Math.max(0,Math.min(1,t)));page.style.setProperty('--bg',`rgb(${r},${g},${b})`);page.style.setProperty('--fg',t>.7?'#efe6d6':'#2a1f1a');page.dataset.dark=String(t>.7)};
+ addEventListener('scroll',()=>{if(!frame)frame=requestAnimationFrame(update)},{passive:true});update();
+}
