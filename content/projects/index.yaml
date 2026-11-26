@@ -10,7 +10,7 @@ projects:
       - music
       - horses
     tile:
-      type: layers
+      type: art
   - id: transparent
     title:
       ru: Прозрачная

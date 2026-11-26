@@ -1,46 +1,20 @@
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
 import {parse} from 'yaml';
-import {checkName,suggest} from '../src/names';
-import {scrollToX} from '../src/engine/scroll';
-import {validateProject,type Project} from '../src/model';
-const project=parse(readFileSync('content/projects/bull-in-the-heather/project.yaml','utf8')) as Project;
-describe('name rules',()=>{
- it('counts spaces and punctuation, including the two Bull spellings',()=>{expect(checkName('Bull Inthe Heather')).toMatchObject({length:18,valid:true});expect(checkName('Bull In The Heather')).toMatchObject({length:19,valid:false});expect(checkName('a'.repeat(17)+'!').valid).toBe(true);expect(checkName('a'.repeat(18)+'!').errors).toContain('length')});
- it('counts Unicode characters and normalizes combining marks',()=>{expect(checkName('Лошадь').length).toBe(6);expect(checkName('e\u0301').length).toBe(1)});
- it('rejects blank, protected and declared forbidden categories',()=>{expect(checkName('  ').valid).toBe(false);expect(checkName(' secretariat ').errors).toContain('protected');expect(checkName('New horse',{livingPerson:true,commercial:true,offensive:true}).errors).toEqual(['livingPerson','commercial','offensive'])});
- it('suggests combinations without empty or duplicate results',()=>{expect(suggest('Village Star','Kauto Relka')).toContain('Kauto Star');expect(suggest('','')).toEqual([])});
-});
-describe('scroll mapping',()=>{
- it('clamps outside race and reaches every furlong',()=>{expect(scrollToX(-200,100,9000,12960)).toBe(0);expect(scrollToX(10000,100,9000,12960)).toBe(12960);for(let i=0;i<=9;i++)expect(scrollToX(100+i*1000,100,9000,12960)).toBeCloseTo(i*1440)});
- it('handles no available distance without NaN',()=>expect(scrollToX(0,0,0,0)).toBe(0));
-});
-describe('content loader',()=>{
- it('loads bilingual scenes, source links and the provisional field',()=>{expect(validateProject(project)).toBe(project);expect(project.scenes).toHaveLength(16);expect(project.runners).toHaveLength(13);expect(project.scenes.filter(s=>s.id.startsWith('pole-'))).toHaveLength(9);expect(project.scenes.flatMap(s=>s.blocks).every(b=>b.en.draft)).toBe(true)});
- it('rejects duplicate scenes and invalid sources',()=>{const duplicate=structuredClone(project);duplicate.scenes.push(duplicate.scenes[0]);expect(()=>validateProject(duplicate)).toThrow();const bad=structuredClone(project);bad.scenes[1].blocks[0].sources[0].url='javascript:alert(1)';expect(()=>validateProject(bad)).toThrow('Invalid source')});
- it('excludes the flagged sentences without rewriting the remainder',()=>{expect(project.scenes[14].blocks[0].ru).toBe('В апреле 2014 года Булли было двадцать четыре года.');expect(project.scenes[7].blocks[0].ru).not.toContain('впервые снова');expect(project.scenes[6].blocks[0].ru).toMatch(/^В 1994 году/)});
-});
-
-describe('block-level provenance',()=>{
- const catalog=JSON.parse(readFileSync('content/projects/bull-in-the-heather/fact-sources.json','utf8'));
- it('resolves each block from its own fact ids, deduplicated by URL',()=>{
-  for(const scene of project.scenes)for(const block of scene.blocks){
-   const expected=[...new Map(block.fact_ids.flatMap(id=>catalog[id]).map((s:{url:string})=>[s.url,s])).values()];
-   expect(block.sources,block.id).toEqual(expected);
-  }
-  expect(project.scenes[3].blocks[1].fact_ids).toEqual(['research3-04','research3-05','research3-06']);
-  expect(project.scenes[12].blocks[1].fact_ids).toEqual(['followup-07','followup-10','followup-11','followup-12']);
+import {validateProject,validateBlock,projectAssets} from '../src/model';
+const bi={ru:'Текст',en:'Text'};
+const photo={type:'photo',src:'photo.jpg',alt:bi,caption:bi,credit:'Photo: Author',source_url:'https://example.com/photo'};
+const project=parse(readFileSync('content/projects/bull-in-the-heather/project.yaml','utf8'));
+describe('longread validation',()=>{
+ it('accepts the supplied bilingual project',()=>expect(validateProject(project)).toBe(project));
+ it('requires photo credit and a source URL including in galleries',()=>{for(const key of ['credit','source_url']){const bad={...photo,[key]:undefined};expect(()=>validateBlock(bad)).toThrow();expect(()=>validateBlock({type:'gallery',layout:'grid',items:[bad]})).toThrow()}});
+ it('rejects unknown block types',()=>expect(()=>validateBlock({type:'race'})).toThrow('Unknown block type'));
+ it('rejects unsafe URLs, duplicate chapters and missing translations',()=>{
+ expect(()=>validateBlock({...photo,source_url:'javascript:alert(1)'})).toThrow();
+ expect(()=>validateBlock({type:'text',text:bi,sources:[{title:'',url:'https://example.com'}]})).toThrow('Invalid source');
+ expect(()=>validateProject({...project,chapters:[project.chapters[0],project.chapters[0]]})).toThrow('chapter');
+ expect(()=>validateBlock({type:'text',text:{ru:'Есть'}})).toThrow('bilingual');
  });
-});
-
-import {raceTimeline,runnerPosition} from '../src/engine/race';
-describe('reading timeline and race field',()=>{
- it('holds long chapters through their last pixel, and reverses continuously',()=>{
- const t=raceTimeline([0,1200,40]);expect(t.at(t.stops[1].start+1199)).toEqual({pole:1,position:1,read:1199});expect(t.at(t.stops[1].start+1200).read).toBe(1200);expect(t.at(t.stops[2].start)).toEqual({pole:2,position:2,read:0});expect(t.at(1e6).read).toBe(40);
- });
- it('starts Bull eighth, keeps him there, then advances through the field to win',()=>{
- const rank=(p:number)=>1+Array.from({length:12},(_,i)=>runnerPosition(i+1,p)).filter(x=>x>runnerPosition(0,p)).length;
- expect(rank(0)).toBe(8);expect(rank(.6)).toBe(8);expect(rank(.85)).toBeLessThan(8);expect(rank(1)).toBe(1);
- const field=Array.from({length:13},(_,i)=>runnerPosition(i,.4));expect(Math.max(...field)-Math.min(...field)).toBeGreaterThan(.8);
- });
+ it('rejects traversal and invalid section times',()=>{expect(()=>validateBlock({...photo,src:'../secret.jpg'})).toThrow('asset');expect(()=>validateBlock({type:'structure',video_id:'8JGBNkLM9_8',sections:[{label:bi,note:bi,start:5,end:2}]})).toThrow('times')});
+ it('collects only referenced assets, including nested photos',()=>{const p=structuredClone(project);p.chapters[0].blocks.push({type:'gallery',layout:'grid',items:[photo]});const assets=projectAssets(p);expect(assets).toContain('photos/photo.jpg');expect(assets).toContain('art/cover-full.webp');expect(assets.some(s=>/walk|gallop/.test(s))).toBe(false)});
 });

@@ -1,43 +1,31 @@
-// Adapted from Sankofa's YAML feature compiler and responsive-media pipeline.
-import {readFile,writeFile,mkdir,readdir,statfs,stat} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rm,rename} from 'node:fs/promises';
 import path from 'node:path';
 import {parse} from 'yaml';
 import sharp from 'sharp';
-import {validateProject,type Entry,type Project,type Media} from '../src/model.ts';
-const disk=await statfs('.');
-if(disk.bavail*disk.bsize<3*1024**3)throw Error('Stopped: less than 3 GiB of disk space is free.');
-const read=async(p:string)=>parse(await readFile(p,'utf8'));
-const entries:Entry[]=(await read('content/projects/index.yaml')).projects;
-const projects:Record<string,Project>={};const media:Record<string,Media>={};
-for(const e of entries){
- if(e.upcoming)continue;
- projects[e.id]=validateProject(await read(`content/projects/${e.id}/project.yaml`));
- const facts=JSON.parse(await readFile(`content/projects/${e.id}/fact-sources.json`,'utf8'));
- for(const scene of projects[e.id].scenes)for(const block of scene.blocks){
-  const expected=[...new Map(block.fact_ids.flatMap(id=>{if(!facts[id])throw Error(`Unknown fact: ${id}`);return facts[id]}).map((s:any)=>[s.url,s])).values()];
-  if(JSON.stringify(expected)!==JSON.stringify(block.sources))throw Error(`Stale block sources: ${block.id}`);
- }
- const dir=path.resolve(`content/projects/${e.id}/art`);
- {
-  const manifest=await readFile(path.join(dir,'manifest.json'),'utf8').then(JSON.parse).catch(()=>null);
-  const files:string[]=manifest?manifest.files.map((f:{file:string;technical_pass:boolean})=>{if(!f.technical_pass)throw Error(`Art failed checks: ${f.file}`);return f.file}):await readdir(dir).catch(()=>[]);
-  if(manifest)for(let horse=1;horse<=5;horse++)for(const [gait,count] of [['gallop',10],['walk',8]] as const){
-   for(let frame=1;frame<=count;frame++)if(!['png','webp'].some(ext=>files.includes(`horse-${horse}-${gait}-${frame}.${ext}`)))throw Error(`Missing horse ${horse} ${gait} frame ${frame}`);
-  }
-  for(const file of files.filter(f=>/\.(png|jpg|jpeg|webp)$/i.test(f))){
-   const key=`${e.id}/${file.replace(/\.[^.]+$/,'')}`;
-   const out=`public/media/${e.id}`;await mkdir(out,{recursive:true});
-   const base=file.replace(/\.[^.]+$/,'');
-   const source=path.join(dir,file);const modified=(await stat(source)).mtimeMs;
-   const fresh=async(file:string)=>(await stat(file).catch(()=>({mtimeMs:0}))).mtimeMs>=modified;
-   if(!await fresh(`${out}/${base}.webp`))await sharp(source).webp({quality:85}).toFile(`${out}/${base}.webp`);
+import {validateProject,projectAssets,type Entry,type Project,type Media} from '../src/model.ts';
+const entries:Entry[]=parse(await readFile('content/projects/index.yaml','utf8')).projects;
+const projects:Record<string,Project>={},media:Record<string,Media>={};
+const staging='public/.media-build';
+await rm(staging,{recursive:true,force:true});await mkdir(staging,{recursive:true});
+try {
+ for(const e of entries){
+  if(e.upcoming)continue;
+  if(!/^[a-z0-9-]+$/.test(e.id)||projects[e.id])throw Error('Invalid or duplicate project index id');
+  const p=validateProject(parse(await readFile(`content/projects/${e.id}/project.yaml`,'utf8')));
+  if(p.id!==e.id)throw Error('Project id does not match index');projects[e.id]=p;e.tile={type:p.cover.kind};
+  for(const file of projectAssets(p)){
+   const source=path.resolve('content/projects',e.id,file);const base=`${e.id}/${file.replace(/\.[^.]+$/,'')}`;
+   const out=`${staging}/${base}`;await mkdir(path.dirname(out),{recursive:true});
+   const meta=await sharp(source).rotate().toBuffer({resolveWithObject:true});
+   const width=meta.info.width,height=meta.info.height;
+   await sharp(meta.data).webp({quality:85}).toFile(`${out}.webp`);
    const widths:Record<string,string>={};
-   for(const w of [480,960,1600]){if(!await fresh(`${out}/${base}-w${w}.webp`))await sharp(source).resize({width:w,withoutEnlargement:true}).webp({quality:82}).toFile(`${out}/${base}-w${w}.webp`);widths[w]=`/media/${e.id}/${base}-w${w}.webp`;}
-   media[key]={src:`/media/${e.id}/${base}.webp`,widths};
+   for(const w of [480,960,1600]){const actual=Math.min(w,width);if(widths[actual])continue;await sharp(meta.data).resize({width:actual}).webp({quality:82}).toFile(`${out}-w${w}.webp`);widths[actual]=`/media/${base}-w${w}.webp`}
+   media[`${e.id}/${file}`]={src:`/media/${base}.webp`,widths,width,height};
   }
  }
-}
-await mkdir('public/media',{recursive:true});
-await writeFile('public/media/manifest.json',JSON.stringify(media,null,2));
-await writeFile('src/generated.json',JSON.stringify({entries,projects,media}));
-console.log(`Compiled ${Object.keys(projects).length} projects, ${Object.keys(media).length} art assets.`);
+ await writeFile(`${staging}/manifest.json`,JSON.stringify(media,null,2));
+ await rm('public/media',{recursive:true,force:true});await rename(staging,'public/media');
+ await writeFile('src/generated.json',JSON.stringify({entries,projects,media}));
+ console.log(`Compiled ${Object.keys(projects).length} projects, ${Object.keys(media).length} referenced assets.`);
+} finally {await rm(staging,{recursive:true,force:true})}

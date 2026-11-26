@@ -1,4 +1,6 @@
 id: bull-in-the-heather
+layout: longread
+theme: watercolor
 title:
   ru: Bull in the Heather
   en: Bull in the Heather
@@ -6,698 +8,436 @@ dek:
   ru: Песня Sonic Youth, скаковой конь, в честь которого она названа, и его отец
   en: The Sonic Youth song, the racehorse it was named after, and his father
 date: 2026-11-20
-editorial_notes:
-  - Russian quoted blocks copied verbatim from STORYBOARD.ru.md. Markdown emphasis is preserved in content.
-  - Omitted the two opening sentences at pole 5 pending verification of words-01; the last sentence at pole 6 pending words-04; the second sentence in April 2014 pending confirmation of location.
-  - Bumper sticker account retained as explicitly attributed hearsay; the verification note requests a direct account, not suppression of the attributed secondary version.
-  - Runner order provisional; no unverified racing colours are represented.
-scenes:
-  - id: cover
-    name:
-      ru: Обложка
-      en: Cover
-    blocks:
-      - id: cover-0
-        ru: "**Bull in the Heather**"
-        en:
-          text: Bull in the Heather
-          draft: true
-        sources: []
-        fact_ids: []
-      - id: cover-1
-        ru: Песня Sonic Youth, скаковой конь, в честь которого она названа, и его отец
-        en:
-          text: The Sonic Youth song, the racehorse it was named after, and his father
-          draft: true
-        sources: []
-        fact_ids: []
+cover:
+  kind: art
+  src: cover-full.webp
+  alt:
+    ru: Серый конь на акварельном пейзаже
+    en: A grey horse in a watercolor landscape
+  size: bleed
+paper: paper-1.webp
+chapters:
   - id: start
     name:
       ru: Старт
       en: The start
     blocks:
-      - id: start-0
-        ru: "20 марта 1993 года, ипподром Галфстрим-парк во Флориде, скачка Florida Derby. Весь день шёл дождь, и дорожка раскисла. Стартуют тринадцать трёхлеток. Среди них — серый жеребец Bull Inthe Heather. Ставят на него двадцать девять к одному: в него почти никто не верит."
-        en:
-          text: "March 20, 1993, Gulfstream Park in Florida: the Florida Derby. It has rained all day, and the track is sloppy. Thirteen three-year-olds are starting. Among them is a grey colt, Bull Inthe Heather. His odds are twenty-nine to one: almost nobody believes in him."
-          draft: true
+      - type: text
+        text:
+          ru: "20 марта 1993 года, ипподром Галфстрим-парк во Флориде, скачка Florida Derby. Весь день шёл дождь, и дорожка раскисла. Стартуют тринадцать трёхлеток. Среди них — серый жеребец Bull Inthe Heather. Ставят на него двадцать девять к одному: в него почти никто не верит."
+          en:
+            text: "March 20, 1993, Gulfstream Park in Florida: the Florida Derby. It has rained all day, and the track is sloppy. Thirteen three-year-olds are starting. Among them is a grey colt, Bull Inthe Heather. His odds are twenty-nine to one: almost nobody believes in him."
+            draft: true
         sources:
-          - id: followup-22
-            title: "Churchill Downs — Stakes Histories: Florida Derby"
+          - title: "Churchill Downs — Stakes Histories: Florida Derby"
             url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
-          - id: followup-23
-            title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
+          - title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
             url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
-          - id: followup-23
-            title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+          - title: Gulfstream Park — 2025/2026 Media Guide, Section 2
             url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-          - id: followup-23
-            title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
             url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
-          - id: research3-07
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
+          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
             url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - id: research3-07
-            title: "JBIS — Sire line: Ferdinand, best progeny"
+          - title: "JBIS — Sire line: Ferdinand, best progeny"
             url: https://www.jbis.jp/horse/0000576487/pedigree/sire/
-          - id: research3-07
-            title: Los Angeles Times — Kentucky Derby Capsules
+          - title: Los Angeles Times — Kentucky Derby Capsules
             url: https://www.latimes.com/archives/la-xpm-1993-05-01-sp-29774-story.html
-        fact_ids:
-          - followup-21
-          - followup-22
-          - followup-23
-          - research3-07
-  - id: pole-1
+  - id: chapter-1
     name:
       ru: Наклейка на бампере
       en: A bumper sticker
     blocks:
-      - id: pole-1-0
-        ru: "Песня Sonic Youth называется почти так же, как этот конь, — только в названии песни слова стоят раздельно. Как кличка попала к группе, сами музыканты, насколько удалось найти, не рассказывали. Есть пересказ: Боб Настанович, барабанщик группы Pavement, прислал Терстону Муру и Ким Гордон наклейку на бампер с именем коня."
-        en:
-          text: The Sonic Youth song has almost the same name as this horse, except that all the words in the song title are separate. As far as we could find, the musicians have not explained how the name reached them. One account says that Bob Nastanovich, the Pavement drummer, sent Thurston Moore and Kim Gordon a bumper sticker bearing the horse’s name.
-          draft: true
+      - type: text
+        text:
+          ru: "Песня Sonic Youth называется почти так же, как этот конь, — только в названии песни слова стоят раздельно. Как кличка попала к группе, сами музыканты, насколько удалось найти, не рассказывали. Есть пересказ: Боб Настанович, барабанщик группы Pavement, прислал Терстону Муру и Ким Гордон наклейку на бампер с именем коня."
+          en:
+            text: The Sonic Youth song has almost the same name as this horse, except that all the words in the song title are separate. As far as we could find, the musicians have not explained how the name reached them. One account says that Bob Nastanovich, the Pavement drummer, sent Thurston Moore and Kim Gordon a bumper sticker bearing the horse’s name.
+            draft: true
         sources:
-          - id: horse-10
-            title: "uDiscover Music — The Best Sonic Youth Songs: Alternative Classics"
+          - title: "uDiscover Music — The Best Sonic Youth Songs: Alternative Classics"
             url: https://www.udiscovermusic.com/stories/sonic-youth-best-songs-feature/
-        fact_ids:
-          - horse-10
-  - id: pole-2
+  - id: chapter-2
     name:
       ru: Чей он сын
       en: His father’s son
     blocks:
-      - id: pole-2-0
-        ru: "Отец Bull Inthe Heather — Фердинанд, конь знаменитый: в 1986 году он выиграл Кентуккийское дерби под Биллом Шумейкером, а через год его признали лошадью года в Америке. Мать — кобыла Heather Road, «Вересковая дорога». Вырастили жеребёнка в Кентукки, на ферме Клейборн, вместе с Джоном Фрэнксом."
-        en:
-          text: "Bull Inthe Heather’s father was Ferdinand, a famous horse: in 1986 he won the Kentucky Derby under Bill Shoemaker, and the next year he was named Horse of the Year in America. His mother was the mare Heather Road. The colt was bred in Kentucky by Claiborne Farm together with John Franks."
-          draft: true
+      - type: text
+        text:
+          ru: "Отец Bull Inthe Heather — Фердинанд, конь знаменитый: в 1986 году он выиграл Кентуккийское дерби под Биллом Шумейкером, а через год его признали лошадью года в Америке. Мать — кобыла Heather Road, «Вересковая дорога». Вырастили жеребёнка в Кентукки, на ферме Клейборн, вместе с Джоном Фрэнксом."
+          en:
+            text: "Bull Inthe Heather’s father was Ferdinand, a famous horse: in 1986 he won the Kentucky Derby under Bill Shoemaker, and the next year he was named Horse of the Year in America. His mother was the mare Heather Road. The colt was bred in Kentucky by Claiborne Farm together with John Franks."
+            draft: true
         sources:
-          - id: horse-02
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
+          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
             url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - id: horse-02
-            title: netkeiba — Bull Inthe Heather, horse 000a02173d
+          - title: netkeiba — Bull Inthe Heather, horse 000a02173d
             url: https://en.netkeiba.com/db/horse/000a02173d/
-          - id: horse-03
-            title: Equibase — Bull Inthe Heather Euthanized at Old Friends
+          - title: Equibase — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-          - id: horse-03
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - id: followup-01
-            title: Kentucky Derby — Past Winners
+          - title: Kentucky Derby — Past Winners
             url: https://www.kentuckyderby.com/past-winners/
-          - id: followup-01
-            title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
+          - title: UPI — The Kentucky Derby-winning team of jockey Bill Shoemaker and...
             url: https://www.upi.com/Archives/1986/05/04/The-Kentucky-Derby-winning-team-of-jockey-Bill-Shoemaker-and/2709515563200/
-          - id: followup-02
-            title: The Jockey Club — Fact Book Racing Chronicle (2022)
+          - title: The Jockey Club — Fact Book Racing Chronicle (2022)
             url: https://www.jockeyclub.com/factbook/Chronicle/2022_Chronicle.pdf
-          - id: followup-02
-            title: Los Angeles Times — Ferdinand Is Horse of the Year
+          - title: Los Angeles Times — Ferdinand Is Horse of the Year
             url: https://www.latimes.com/archives/la-xpm-1988-01-27-mn-26095-story.html
-        fact_ids:
-          - horse-02
-          - horse-03
-          - followup-01
-          - followup-02
-      - id: pole-2-1
-        ru: "Обратите внимание, как пишется его кличка: Inthe — слитно. Правила разрешают коню имя не длиннее восемнадцати знаков вместе с пробелами. «Bull In The Heather» с пробелами — девятнадцать. «Bull Inthe Heather» — ровно восемнадцать."
-        en:
-          text: "Notice how his name is written: Inthe is one word. The rules allow a horse’s name to have no more than eighteen characters, including spaces. “Bull In The Heather” with spaces has nineteen. “Bull Inthe Heather” has exactly eighteen."
-          draft: true
+      - type: text
+        text:
+          ru: "Обратите внимание, как пишется его кличка: Inthe — слитно. Правила разрешают коню имя не длиннее восемнадцати знаков вместе с пробелами. «Bull In The Heather» с пробелами — девятнадцать. «Bull Inthe Heather» — ровно восемнадцать."
+          en:
+            text: "Notice how his name is written: Inthe is one word. The rules allow a horse’s name to have no more than eighteen characters, including spaces. “Bull In The Heather” with spaces has nineteen. “Bull Inthe Heather” has exactly eighteen."
+            draft: true
         sources:
-          - id: research3-04
-            title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
+          - title: "Bill Barich / The New Yorker — Race Track—I: Laughing in the Hills"
             url: https://www.newyorker.com/magazine/1980/05/05/race-track-i-laughing-in-the-hills
-          - id: research3-04
-            title: The Washington Post — No Easy Task to Name Names
+          - title: The Washington Post — No Easy Task to Name Names
             url: https://www.washingtonpost.com/archive/sports/1992/01/04/no-easy-task-to-name-names/51968299-4a5b-46b6-9766-a608c9027501/
-          - id: research3-05
-            title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
+          - title: "The Jockey Club — The American Stud Book: Principal Rules and Requirements"
             url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-          - id: research3-06
-            title: The Jockey Club — Foal crop 2000, sire contributions
+          - title: The Jockey Club — Foal crop 2000, sire contributions
             url: https://w07.jockeyclub.com/default.asp?area=23&foalcrop=2000&generation=1&section=Resources
-        fact_ids:
-          - research3-04
-          - research3-05
-          - research3-06
-      - id: pole-2-2
-        ru: Откуда взялось имя отца, рассказывают по-разному. Историк чистокровного коннозаводства Авалин Хантер связывает его с быком Фердинандом из детской книжки Манро Лифа — с быком, который не хотел драться на корриде и любил сидеть под пробковым дубом и нюхать цветы. А сам владелец, Говард Кек, вспоминал, что имя пришло от статуэтки буйвола, которая была у его жены Элизабет. Как бы то ни было, у сына в кличке тоже бык — только в вереске.
-        en:
-          text: "There are different accounts of his father’s name. Thoroughbred historian Avalyn Hunter connects it to Ferdinand the bull in Munro Leaf’s children’s book: the bull who did not want to fight in the bullring and liked sitting under a cork tree smelling flowers. But his owner, Howard Keck, recalled that the name came from a buffalo figurine belonging to his wife, Elizabeth. Either way, there is a bull in the son’s name too, only this one is in the heather."
-          draft: true
+      - type: text
+        text:
+          ru: Откуда взялось имя отца, рассказывают по-разному. Историк чистокровного коннозаводства Авалин Хантер связывает его с быком Фердинандом из детской книжки Манро Лифа — с быком, который не хотел драться на корриде и любил сидеть под пробковым дубом и нюхать цветы. А сам владелец, Говард Кек, вспоминал, что имя пришло от статуэтки буйвола, которая была у его жены Элизабет. Как бы то ни было, у сына в кличке тоже бык — только в вереске.
+          en:
+            text: "There are different accounts of his father’s name. Thoroughbred historian Avalyn Hunter connects it to Ferdinand the bull in Munro Leaf’s children’s book: the bull who did not want to fight in the bullring and liked sitting under a cork tree smelling flowers. But his owner, Howard Keck, recalled that the name came from a buffalo figurine belonging to his wife, Elizabeth. Either way, there is a bull in the son’s name too, only this one is in the heather."
+            draft: true
         sources:
-          - id: research3-01
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
+          - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
             url: https://www.americanclassicpedigrees.com/ferdinand.html
-          - id: research3-01
-            title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
+          - title: "Eric Carle Museum — Under the Cork Tree: The Story of Ferdinand"
             url: https://carlemuseum.org/art-books/exhibitions/current-exhibition/under-cork-tree-story-ferdinand
-          - id: research3-02
-            title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
+          - title: "Los Angeles Times — CROWNING GLORY: Cars Go Too Fast for Howard B. Keck; He Prefers Horses, Such as Ferdinand"
             url: https://www.latimes.com/archives/la-xpm-1986-05-15-sp-5308-story.html
-          - id: research3-03
-            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-          - id: research3-03
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
+          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
             url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-        fact_ids:
-          - research3-01
-          - research3-02
-          - research3-03
-  - id: pole-3
+  - id: chapter-3
     name:
       ru: Как дают имена скаковым лошадям
       en: How racehorses get their names
     blocks:
-      - id: pole-3-0
-        ru: "Назвать скаковую лошадь как вздумается нельзя. В Америке клички утверждает Жокей-клуб, в Британии — компания Weatherbys, а над ними действуют международные правила. Не больше восемнадцати знаков. Нельзя назвать лошадь в честь живого человека без его письменного согласия. Нельзя рекламу, нельзя непристойное. И есть список имён, закрытых навсегда: так защищены клички победителей главных скачек мира и самых знаменитых производителей."
-        en:
-          text: You cannot name a racehorse just anything you like. In America, names are approved by The Jockey Club; in Britain, by Weatherbys, with international rules above them. No more than eighteen characters. You cannot name a horse after a living person without their written permission. No advertising, no obscenity. And there is a list of names closed forever, protecting the names of winners of the world’s major races and the most famous breeding horses.
-          draft: true
+      - type: text
+        text:
+          ru: "Назвать скаковую лошадь как вздумается нельзя. В Америке клички утверждает Жокей-клуб, в Британии — компания Weatherbys, а над ними действуют международные правила. Не больше восемнадцати знаков. Нельзя назвать лошадь в честь живого человека без его письменного согласия. Нельзя рекламу, нельзя непристойное. И есть список имён, закрытых навсегда: так защищены клички победителей главных скачек мира и самых знаменитых производителей."
+          en:
+            text: You cannot name a racehorse just anything you like. In America, names are approved by The Jockey Club; in Britain, by Weatherbys, with international rules above them. No more than eighteen characters. You cannot name a horse after a living person without their written permission. No advertising, no obscenity. And there is a list of names closed forever, protecting the names of winners of the world’s major races and the most famous breeding horses.
+            draft: true
         sources:
-          - id: naming-03
-            title: The Jockey Club — Principal Rules and Requirements of The American Stud Book, Rule 6
+          - title: The Jockey Club — Principal Rules and Requirements of The American Stud Book, Rule 6
             url: https://www.registry.jockeyclub.com/RegistryIncludes/pdfs/rule_book.pdf
-          - id: naming-04
-            title: "Weatherbys Racing Admin — User Guide: Register Horse Name"
+          - title: "Weatherbys Racing Admin — User Guide: Register Horse Name"
             url: https://support.racingadmin.co.uk/opencms/export/sites/weatherbys/racing-admin-support/.galleries/racing-admin-downloads/User-Guide-Register-Name.pdf
-          - id: naming-08
-            title: IFHA — International Agreement on Breeding, Racing and Wagering, Article 14
+          - title: IFHA — International Agreement on Breeding, Racing and Wagering, Article 14
             url: https://www.ifhaonline.org/default.asp?AREA=2&section=IABRW
-          - id: naming-10
-            title: IFHA — International List of Protected Names, Appendix 9
+          - title: IFHA — International List of Protected Names, Appendix 9
             url: https://www.ifhaonline.org/resources/NP_2024.pdf
-        fact_ids:
-          - naming-01
-          - naming-03
-          - naming-04
-          - naming-07
-          - naming-08
-          - naming-09
-          - naming-10
-      - id: pole-3-1
-        ru: "Чаще всего кличку собирают из имён родителей. Отца британского чемпиона Kauto Star звали Village Star, мать — Kauto Relka. Отца Сухаря, Seabiscuit, звали Hard Tack — и то и другое значит «морской сухарь». А бывает, что проверку проскакивает то, что не должно было проскочить: в Южной Африке бегал конь по кличке Hoof Hearted — прочтите вслух."
-        en:
-          text: "Names are most often assembled from the parents’ names. The British champion Kauto Star’s sire was Village Star and his dam was Kauto Relka. Seabiscuit’s sire was Hard Tack: both names mean a ship’s biscuit. Sometimes something slips through that should not: a horse in South Africa raced as Hoof Hearted. Read it aloud."
-          draft: true
+      - type: text
+        text:
+          ru: "Чаще всего кличку собирают из имён родителей. Отца британского чемпиона Kauto Star звали Village Star, мать — Kauto Relka. Отца Сухаря, Seabiscuit, звали Hard Tack — и то и другое значит «морской сухарь». А бывает, что проверку проскакивает то, что не должно было проскочить: в Южной Африке бегал конь по кличке Hoof Hearted — прочтите вслух."
+          en:
+            text: "Names are most often assembled from the parents’ names. The British champion Kauto Star’s sire was Village Star and his dam was Kauto Relka. Seabiscuit’s sire was Hard Tack: both names mean a ship’s biscuit. Sometimes something slips through that should not: a horse in South Africa raced as Hoof Hearted. Read it aloud."
+            draft: true
         sources:
-          - id: naming-11
-            title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
+          - title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
             url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
-          - id: naming-12
-            title: ESPN Classic — Heart of a Champion
+          - title: ESPN Classic — Heart of a Champion
             url: https://a.espncdn.com/classic/s/add_seabiscuit.html
-          - id: naming-14
-            title: Racing Post — The art, rules and rudeness of naming racehorses
+          - title: Racing Post — The art, rules and rudeness of naming racehorses
             url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
-        fact_ids:
-          - naming-11
-          - naming-12
-          - naming-14
-  - id: pole-4
+  - id: chapter-4
     name:
       ru: Как записали песню
       en: Recording the song
     blocks:
-      - id: pole-4-0
-        ru: Песню записали осенью 1993 года в Нью-Йорке, в студии Sear Sound. Продюсером вместе с группой был Бутч Виг — тот самый, что за два года до этого записал Nevermind с Nirvana. Основу сыграли живьём, все четверо разом, без наложений. Поёт Ким Гордон, она же написала слова; музыку в выходных данных записали на всю четвёрку — Гордон, Мура, Ранальдо и Шелли.
-        en:
-          text: "The song was recorded in autumn 1993 at Sear Sound in New York. The band’s co-producer was Butch Vig, who had recorded Nevermind with Nirvana two years earlier. The basic track was played live, all four together, without overdubs. Kim Gordon sings and wrote the lyrics; the music was credited to all four: Gordon, Moore, Ranaldo and Shelley."
-          draft: true
+      - type: text
+        text:
+          ru: Песню записали осенью 1993 года в Нью-Йорке, в студии Sear Sound. Продюсером вместе с группой был Бутч Виг — тот самый, что за два года до этого записал Nevermind с Nirvana. Основу сыграли живьём, все четверо разом, без наложений. Поёт Ким Гордон, она же написала слова; музыку в выходных данных записали на всю четвёрку — Гордон, Мура, Ранальдо и Шелли.
+          en:
+            text: "The song was recorded in autumn 1993 at Sear Sound in New York. The band’s co-producer was Butch Vig, who had recorded Nevermind with Nirvana two years earlier. The basic track was played live, all four together, without overdubs. Kim Gordon sings and wrote the lyrics; the music was credited to all four: Gordon, Moore, Ranaldo and Shelley."
+            draft: true
         sources:
-          - id: song-01
-            title: SonicYouth.com discography — Bull in the Heather (archived 2015-02-18)
+          - title: SonicYouth.com discography — Bull in the Heather (archived 2015-02-18)
             url: https://web.archive.org/web/20150218044901/http://www.sonicyouth.com/mustang/lp/ep35.html
-          - id: song-01
-            title: Radio & Records — Sonic Youth’s 10th, p. 28
+          - title: Radio & Records — Sonic Youth’s 10th, p. 28
             url: https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1990s/1994/RR-1994-03-04.pdf
-          - id: song-03
-            title: Gearspace — Interview with Butch Vig with co-engineer Billy Bush
+          - title: Gearspace — Interview with Butch Vig with co-engineer Billy Bush
             url: https://gearspace.com/threads/interview-with-butch-vig-with-co-engineer-billy-bush.1366015/
-          - id: song-08
-            title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
+          - title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
             url: https://www.soniclife.ca/sy/cc/timeline.html
-          - id: song-09
-            title: Chico News & Review — History in the mix
+          - title: Chico News & Review — History in the mix
             url: https://www.newsreview.com/chico/content/history-in-the-mix/70653/
-          - id: song-10
-            title: "MusicBrainz — CMJ New Music Monthly, Volume 10: May 1994"
+          - title: "MusicBrainz — CMJ New Music Monthly, Volume 10: May 1994"
             url: https://musicbrainz.org/release/d210933c-f7ad-42a5-96d6-9fc50dfeb0ad
-          - id: research3-14
-            title: "Ana Monroy Yglesias / Recording Academy — Nirvana’s Era-Defining Nevermind: For The Record"
+          - title: "Ana Monroy Yglesias / Recording Academy — Nirvana’s Era-Defining Nevermind: For The Record"
             url: https://www.grammy.com/news/nirvanas-era-defining-nevermind-record/
-        fact_ids:
-          - song-01
-          - song-02
-          - song-03
-          - song-08
-          - song-09
-          - song-10
-          - research3-14
-  - id: pole-5
+  - id: chapter-5
     name:
       ru: О чём песня
       en: What the song is about
     blocks:
-      - id: pole-5-0
-        ru: В 1994 году это слушалось рядом с движением riot grrrl — девичьими панк-группами, которые требовали места для женщин в музыке, — и Гордон позвала в клип одну из главных его фигур.
-        en:
-          text: In 1994, it was heard alongside riot grrrl, the movement of women’s punk bands demanding space for women in music, and Gordon invited one of its leading figures into the video.
-          draft: true
+      - type: text
+        text:
+          ru: В 1994 году это слушалось рядом с движением riot grrrl — девичьими панк-группами, которые требовали места для женщин в музыке, — и Гордон позвала в клип одну из главных его фигур.
+          en:
+            text: In 1994, it was heard alongside riot grrrl, the movement of women’s punk bands demanding space for women in music, and Gordon invited one of its leading figures into the video.
+            draft: true
         sources:
-          - id: words-03
-            title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
+          - title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
             url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
-        fact_ids:
-          - words-03
-  - id: pole-6
+  - id: chapter-6
     name:
       ru: Клип
       en: The video
     blocks:
-      - id: pole-6-0
-        ru: "Клип сняла Тамра Дэвис. В нём с группой танцует Кэтлин Ханна, певица Bikini Kill, — в кедах и с косичками, и всё время сбивает музыкантов с их рок-поз. Гордон хотела показать её весёлой: тогда о Ханне и о riot grrrl писали как о чём-то злом и мрачном."
-        en:
-          text: "Tamra Davis directed the video. Kathleen Hanna, the Bikini Kill singer, dances with the band in sneakers and pigtails, constantly knocking the musicians out of their rock poses. Gordon wanted to show her having fun: at the time, Hanna and riot grrrl were written about as angry and gloomy."
-          draft: true
+      - type: text
+        text:
+          ru: "Клип сняла Тамра Дэвис. В нём с группой танцует Кэтлин Ханна, певица Bikini Kill, — в кедах и с косичками, и всё время сбивает музыкантов с их рок-поз. Гордон хотела показать её весёлой: тогда о Ханне и о riot grrrl писали как о чём-то злом и мрачном."
+          en:
+            text: "Tamra Davis directed the video. Kathleen Hanna, the Bikini Kill singer, dances with the band in sneakers and pigtails, constantly knocking the musicians out of their rock poses. Gordon wanted to show her having fun: at the time, Hanna and riot grrrl were written about as angry and gloomy."
+            draft: true
         sources:
-          - id: video-01
-            title: Billboard 106(22), Production Notes p. 34; charts
+          - title: Billboard 106(22), Production Notes p. 34; charts
             url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-05-28.pdf
-          - id: video-02
-            title: CMJ New Music Report, May 9 1994 — video review and album advertisement
+          - title: CMJ New Music Report, May 9 1994 — video review and album advertisement
             url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
-          - id: video-02
-            title: Alex Frank — On the Eve of Her New Memoir, the Best Videos of Kim Gordon on YouTube
+          - title: Alex Frank — On the Eve of Her New Memoir, the Best Videos of Kim Gordon on YouTube
             url: https://www.vogue.com/article/kim-gordon-girl-in-a-band-youtube-videos
-          - id: video-04
-            title: Rolling Stone Australia — Sonic Youth, Bull in the Heather (best music videos)
+          - title: Rolling Stone Australia — Sonic Youth, Bull in the Heather (best music videos)
             url: https://au.rollingstone.com/music/music-lists/best-music-videos-28407/sonic-youth-bull-in-the-heather-28441/
-          - id: words-03
-            title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
+          - title: Vogue — Why Kim Gordon and Her New Memoir Will Outlive the Lana Del Rey Twitter Controversy
             url: https://www.vogue.com/article/kim-gordon-interview-girl-in-a-band-memoir
-        fact_ids:
-          - video-01
-          - video-02
-          - video-04
-          - words-03
-  - id: pole-7
+      - type: art
+        src: clip-1-full.webp
+        alt:
+          ru: Sonic Youth играют
+          en: Sonic Youth playing
+        size: wide
+      - type: video
+        id: 8JGBNkLM9_8
+        title:
+          ru: Bull in the Heather — официальный клип
+          en: Bull in the Heather — official video
+        poster: clip-1-full.webp
+        caption:
+          ru: Sonic Youth, 1994. Режиссёр Тамра Дэвис.
+          en: Sonic Youth, 1994. Directed by Tamra Davis.
+        credit: Sonic Youth
+  - id: chapter-7
     name:
       ru: Чарты и газеты
       en: Charts and newspapers
     blocks:
-      - id: pole-7-0
-        ru: Весной 1994 года песню крутило лос-анджелесское радио KROQ, клип взял в ротацию MTV. В британском чарте синглов она поднялась до двадцать четвёртого места, в американском чарте альтернативного рока — до тринадцатого. Альбом Experimental Jet Set, Trash and No Star вышел в начале мая и в Британии дошёл до десятого места.
-        en:
-          text: In spring 1994, Los Angeles radio station KROQ was playing the song, and MTV put the video in rotation. It reached number twenty-four on the UK singles chart and number thirteen on the US alternative rock chart. The album Experimental Jet Set, Trash and No Star came out in early May and reached number ten in Britain.
-          draft: true
+      - type: text
+        text:
+          ru: Весной 1994 года песню крутило лос-анджелесское радио KROQ, клип взял в ротацию MTV. В британском чарте синглов она поднялась до двадцать четвёртого места, в американском чарте альтернативного рока — до тринадцатого. Альбом Experimental Jet Set, Trash and No Star вышел в начале мая и в Британии дошёл до десятого места.
+          en:
+            text: In spring 1994, Los Angeles radio station KROQ was playing the song, and MTV put the video in rotation. It reached number twenty-four on the UK singles chart and number thirteen on the US alternative rock chart. The album Experimental Jet Set, Trash and No Star came out in early May and reached number ten in Britain.
+            draft: true
         sources:
-          - id: archive-04
-            title: Los Angeles Times — Hanging Out on the Fringe
+          - title: Los Angeles Times — Hanging Out on the Fringe
             url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
-          - id: video-05
-            title: The Hard Report — MTV playlist effective June 27, 1994
+          - title: The Hard Report — MTV playlist effective June 27, 1994
             url: https://www.worldradiohistory.com/Archive-All-Music/Hard-Report/1994/Hard-Report-1994-06-24.pdf
-          - id: charts-01
-            title: Official Charts — Bull in the Heather
+          - title: Official Charts — Bull in the Heather
             url: https://www.officialcharts.com/songs/sonic-youth-bull-in-the-heather/
-          - id: charts-04
-            title: Billboard — Modern Rock Tracks, week ending July 2 1994
+          - title: Billboard — Modern Rock Tracks, week ending July 2 1994
             url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-07-02.pdf
-          - id: charts-07
-            title: ChartVault — Bull In The Heather, Sonic Youth
+          - title: ChartVault — Bull In The Heather, Sonic Youth
             url: https://www.chartvault.fm/song/47970/bull-in-the-heather-sonic-youth
-          - id: charts-03
-            title: Official Charts — Experimental Jet Set, Trash and No Star
+          - title: Official Charts — Experimental Jet Set, Trash and No Star
             url: https://www.officialcharts.com/albums/sonic-youth-experimental-jet-set-trash-and-no-star/
-          - id: song-04
-            title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
+          - title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
             url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
-          - id: song-04
-            title: AllMusic — Experimental Jet Set, Trash and No Star
+          - title: AllMusic — Experimental Jet Set, Trash and No Star
             url: https://www.allmusic.com/album/experimental-jet-set-trash-no-star-mw0000107964
-          - id: song-04
-            title: "Wyoming Reynolds — Experimental Jet Set, Trash and No Star: A Sonic Youth Masterpiece"
+          - title: "Wyoming Reynolds — Experimental Jet Set, Trash and No Star: A Sonic Youth Masterpiece"
             url: https://www.udiscovermusic.com/stories/sonic-youth-experimental-jet-set-trash-and-no-star/
-        fact_ids:
-          - archive-04
-          - video-05
-          - charts-01
-          - charts-04
-          - charts-07
-          - charts-03
-          - song-04
-  - id: pole-8
+  - id: chapter-8
     name:
       ru: Что было с песней дальше
       en: The song’s later life
     blocks:
-      - id: pole-8-0
-        ru: Стивен Малкмус из Pavement говорил, что в своей песне Stereo пытался сделать что-то вроде Bull in the Heather, только поприлипчивее. Её перепели The Go! Team. Sonic Youth сыграли её на концертах больше трёхсот раз — например, 4 июля 2008 года в Баттери-парке в Нью-Йорке, — а журнал SPIN включил её в число тринадцати песен, лучше всего показывающих Ким Гордон.
-        en:
-          text: Stephen Malkmus of Pavement said that with his song Stereo he was trying to do something like Bull in the Heather, only catchier. The Go! Team covered it. Sonic Youth played it live more than three hundred times, including on July 4, 2008, in Battery Park, New York, and SPIN included it among thirteen songs that best represent Kim Gordon.
-          draft: true
+      - type: text
+        text:
+          ru: Стивен Малкмус из Pavement говорил, что в своей песне Stereo пытался сделать что-то вроде Bull in the Heather, только поприлипчивее. Её перепели The Go! Team. Sonic Youth сыграли её на концертах больше трёхсот раз — например, 4 июля 2008 года в Баттери-парке в Нью-Йорке, — а журнал SPIN включил её в число тринадцати песен, лучше всего показывающих Ким Гордон.
+          en:
+            text: Stephen Malkmus of Pavement said that with his song Stereo he was trying to do something like Bull in the Heather, only catchier. The Go! Team covered it. Sonic Youth played it live more than three hundred times, including on July 4, 2008, in Battery Park, New York, and SPIN included it among thirteen songs that best represent Kim Gordon.
+            draft: true
         sources:
-          - id: afterlife-01
-            title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune
+          - title: William Goodman — Stephen Malkmus on Pavement’s Funky Tune
             url: https://www.spinmagazine.com/2009/01/stephen-malkmus-pavements-funky-tune/
-          - id: afterlife-03
-            title: KEXP — Sub Pop catalogue SP701–SP800, SP0756
+          - title: KEXP — Sub Pop catalogue SP701–SP800, SP0756
             url: https://www.kexp.org/subpop/sp701-sp800/
-          - id: afterlife-04
-            title: The Go! Team — Bull In The Heather, official audio
+          - title: The Go! Team — Bull In The Heather, official audio
             url: https://www.youtube.com/watch?v=xwccuQSe98w
-          - id: afterlife-05
-            title: setlist.fm — Bull in the Heather performed by Sonic Youth
+          - title: setlist.fm — Bull in the Heather performed by Sonic Youth
             url: https://www.setlist.fm/stats/songs/sonic-youth-2bd6b812.html?songid=5bd68b14
-          - id: afterlife-08
-            title: "Sonic Youth — Bull In The Heather (Battery Park, NYC: July 4th 2008), official audio"
+          - title: "Sonic Youth — Bull In The Heather (Battery Park, NYC: July 4th 2008), official audio"
             url: https://www.youtube.com/watch?v=O93OobL8QpI
-          - id: afterlife-07
-            title: SPIN — 13 Best Sonic Youth Songs That Showcase Kim Gordon
+          - title: SPIN — 13 Best Sonic Youth Songs That Showcase Kim Gordon
             url: https://www.spinmagazine.com/2019/10/kim-gordon-sonic-youth-best-songs/
-        fact_ids:
-          - afterlife-01
-          - afterlife-03
-          - afterlife-04
-          - afterlife-05
-          - afterlife-08
-          - afterlife-07
-  - id: pole-9
+  - id: chapter-9
     name:
       ru: Финиш
       en: The finish
     blocks:
-      - id: pole-9-0
-        ru: Bull Inthe Heather выходит вперёд на прямой и приходит первым, на два корпуса впереди Storm Tower. Время — минута пятьдесят одна и одна пятая секунды. Тот, кто поставил на него два доллара, получает шестьдесят долларов восемьдесят центов.
-        en:
-          text: Bull Inthe Heather takes the lead in the stretch and finishes first, two lengths ahead of Storm Tower. His time is one minute, fifty-one and one-fifth seconds. A two-dollar bet on him returns sixty dollars and eighty cents.
-          draft: true
+      - type: text
+        text:
+          ru: Bull Inthe Heather выходит вперёд на прямой и приходит первым, на два корпуса впереди Storm Tower. Время — минута пятьдесят одна и одна пятая секунды. Тот, кто поставил на него два доллара, получает шестьдесят долларов восемьдесят центов.
+          en:
+            text: Bull Inthe Heather takes the lead in the stretch and finishes first, two lengths ahead of Storm Tower. His time is one minute, fifty-one and one-fifth seconds. A two-dollar bet on him returns sixty dollars and eighty cents.
+            draft: true
         sources:
-          - id: followup-21
-            title: "Churchill Downs — Stakes Histories: Florida Derby"
+          - title: "Churchill Downs — Stakes Histories: Florida Derby"
             url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2025/08/Stakes-Histories-Florida-Derby-2025.pdf
-          - id: followup-23
-            title: Gulfstream Park — 2025/2026 Media Guide, Section 2
+          - title: Gulfstream Park — 2025/2026 Media Guide, Section 2
             url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-          - id: followup-23
-            title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
+          - title: Bill Christine — Bull Inthe Heather Scores Upset, Los Angeles Times
             url: https://www.latimes.com/archives/la-xpm-1993-03-21-sp-13581-story.html
-          - id: research3-11
-            title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
+          - title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
             url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
-        fact_ids:
-          - followup-21
-          - followup-24
-          - followup-23
-          - research3-11
   - id: kentucky
     name:
       ru: Полтора месяца спустя
       en: Six weeks later
     blocks:
-      - id: kentucky-0
-        ru: Первого мая 1993 года он бежал Кентуккийское дерби, главную скачку Америки, ту самую, что когда-то выиграл его отец. Пришёл одиннадцатым. Потом были другие скачки — вторые места, Belmont Stakes, — но таких побед, как во Флориде, больше не было. Ещё в октябре 1994 года он пришёл в Белмонте девятым, последним.
-        en:
-          text: On May 1, 1993, he ran in the Kentucky Derby, America’s greatest race, the one his father had once won. He finished eleventh. Other races followed — second places, the Belmont Stakes — but there were no more wins like Florida. In October 1994, he finished ninth and last at Belmont.
-          draft: true
+      - type: text
+        text:
+          ru: Первого мая 1993 года он бежал Кентуккийское дерби, главную скачку Америки, ту самую, что когда-то выиграл его отец. Пришёл одиннадцатым. Потом были другие скачки — вторые места, Belmont Stakes, — но таких побед, как во Флориде, больше не было. Ещё в октябре 1994 года он пришёл в Белмонте девятым, последним.
+          en:
+            text: On May 1, 1993, he ran in the Kentucky Derby, America’s greatest race, the one his father had once won. He finished eleventh. Other races followed — second places, the Belmont Stakes — but there were no more wins like Florida. In October 1994, he finished ninth and last at Belmont.
+            draft: true
         sources:
-          - id: followup-26
-            title: Churchill Downs — Kentucky Derby charts 1964–2007, Sea Hero / May 1, 1993
+          - title: Churchill Downs — Kentucky Derby charts 1964–2007, Sea Hero / May 1, 1993
             url: https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Kentucky-Derby-1964-2007.pdf
-          - id: followup-27
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - id: followup-27
-            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-          - id: horse-08
-            title: Thoroughbred Daily News, p. 3
+          - title: Thoroughbred Daily News, p. 3
             url: https://www.thoroughbreddailynews.com/pdf/tdn/1994/tdn941005.pdf
-        fact_ids:
-          - followup-26
-          - followup-27
-          - horse-08
+      - type: art
+        src: kentucky-full.webp
+        alt:
+          ru: Кентукки
+          en: Kentucky
+        size: wide
   - id: father
     name:
       ru: Отец
       en: The father
     blocks:
-      - id: father-0
-        ru: А Фердинанда в 1994 году продали в Японию. Шесть лет он стоял там на конном заводе. Потом его следы теряются. В 2003 году журнал Blood-Horse сообщил, что победитель Кентуккийского дерби погиб в Японии в 2002 году — скорее всего, на бойне. Где и когда точно, так и не установили.
-        en:
-          text: Ferdinand was sold to Japan in 1994. He spent six years at a stud farm there. Then his trail goes cold. In 2003, Blood-Horse reported that the Kentucky Derby winner had died in Japan in 2002, most likely in a slaughterhouse. Exactly where and when was never established.
-          draft: true
+      - type: text
+        text:
+          ru: А Фердинанда в 1994 году продали в Японию. Шесть лет он стоял там на конном заводе. Потом его следы теряются. В 2003 году журнал Blood-Horse сообщил, что победитель Кентуккийского дерби погиб в Японии в 2002 году — скорее всего, на бойне. Где и когда точно, так и не установили.
+          en:
+            text: Ferdinand was sold to Japan in 1994. He spent six years at a stud farm there. Then his trail goes cold. In 2003, Blood-Horse reported that the Kentucky Derby winner had died in Japan in 2002, most likely in a slaughterhouse. Exactly where and when was never established.
+            draft: true
         sources:
-          - id: followup-04
-            title: "America's Best Racing — Ferdinand: Whittingham’s Memorable Derby Winner"
+          - title: "America's Best Racing — Ferdinand: Whittingham’s Memorable Derby Winner"
             url: https://www.americasbestracing.net/the-sport/2021-ferdinand-whittinghams-memorable-derby-winner
-          - id: followup-04
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
+          - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
             url: https://www.americanclassicpedigrees.com/ferdinand.html
-          - id: followup-06
-            title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
+          - title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
             url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
-          - id: followup-06
-            title: Thoroughbred Daily News — Ferdinand Likely Slaughtered in Japan
+          - title: Thoroughbred Daily News — Ferdinand Likely Slaughtered in Japan
             url: https://www.thoroughbreddailynews.com/pdf/tdn/2003/tdn030723.pdf
-        fact_ids:
-          - followup-04
-          - followup-05
-          - followup-06
-      - id: father-1
-        ru: Американские конники были потрясены. На нью-йоркских ипподромах ввели добровольный «сбор Фердинанда» — два доллара в пользу приютов для старых скаковых лошадей. В договоры о продаже жеребцов за границу стали вписывать право выкупить коня домой, когда он больше не нужен.
-        en:
-          text: "American horse people were shocked. New York racetracks introduced a voluntary “Ferdinand fee”: two dollars to support homes for retired racehorses. Contracts for stallions sold abroad began to include the right to buy a horse back home when he was no longer needed."
-          draft: true
+      - type: text
+        text:
+          ru: Американские конники были потрясены. На нью-йоркских ипподромах ввели добровольный «сбор Фердинанда» — два доллара в пользу приютов для старых скаковых лошадей. В договоры о продаже жеребцов за границу стали вписывать право выкупить коня домой, когда он больше не нужен.
+          en:
+            text: "American horse people were shocked. New York racetracks introduced a voluntary “Ferdinand fee”: two dollars to support homes for retired racehorses. Contracts for stallions sold abroad began to include the right to buy a horse back home when he was no longer needed."
+            draft: true
         sources:
-          - id: followup-07
-            title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
+          - title: "Ray Paulick — Death of a Derby Winner: Slaughterhouse Likely Fate for Ferdinand (reprint)"
             url: https://www.thehorseguide.com/equestrian-news/death-of-a-derby-winner-slaughterhouse-likely-fate-for-ferdinand/
-          - id: followup-10
-            title: Manes and Tails Organization — Spring 2007
+          - title: Manes and Tails Organization — Spring 2007
             url: https://www.manesandtailsorganization.org/spring_2007.html
-          - id: followup-11
-            title: Winnipeg Free Press — Saddling up FOR SLAUGHTER
+          - title: Winnipeg Free Press — Saddling up FOR SLAUGHTER
             url: https://www.winnipegfreepress.com/historic/2006/09/17/saddling-up-for-slaughter
-          - id: followup-12
-            title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
+          - title: Avalyn Hunter — Ferdinand, American Classic Pedigrees
             url: https://www.americanclassicpedigrees.com/ferdinand.html
-        fact_ids:
-          - followup-07
-          - followup-10
-          - followup-11
-          - followup-12
+      - type: art
+        src: stall-full.webp
+        alt:
+          ru: Пустое стойло
+          en: An empty stall
+        size: wide
   - id: old-friends
     name:
       ru: Сын
       en: The son
     blocks:
-      - id: old-friends-0
-        ru: В 2003 году Майкл Блоуэн, бывший кинокритик газеты The Boston Globe, основал в Кентукки, под Джорджтауном, ферму Old Friends, где старые скакуны доживают свой век. Идея появилась у него раньше, но после истории с Фердинандом люди начали помогать всерьёз.
-        en:
-          text: In 2003, Michael Blowen, a former film critic for The Boston Globe, founded Old Friends near Georgetown, Kentucky, a farm where retired racehorses spend the rest of their lives. He had thought of it earlier, but after Ferdinand’s story people began to help in earnest.
-          draft: true
+      - type: text
+        text:
+          ru: В 2003 году Майкл Блоуэн, бывший кинокритик газеты The Boston Globe, основал в Кентукки, под Джорджтауном, ферму Old Friends, где старые скакуны доживают свой век. Идея появилась у него раньше, но после истории с Фердинандом люди начали помогать всерьёз.
+          en:
+            text: In 2003, Michael Blowen, a former film critic for The Boston Globe, founded Old Friends near Georgetown, Kentucky, a farm where retired racehorses spend the rest of their lives. He had thought of it earlier, but after Ferdinand’s story people began to help in earnest.
+            draft: true
         sources:
-          - id: followup-14
-            title: Old Friends — Who We Are
+          - title: Old Friends — Who We Are
             url: https://oldfriendsequine.org/who-we-are/
-          - id: research3-13
-            title: Bruce Schreiner / AP — For ex-Derby winner Silver Charm, it's a life of leisure and Old Friends at Kentucky retirement farm
+          - title: Bruce Schreiner / AP — For ex-Derby winner Silver Charm, it's a life of leisure and Old Friends at Kentucky retirement farm
             url: https://apnews.com/article/55262eab5519c853be20b8c55a8a487c
-          - id: research3-13
-            title: Michael Blowen — Introduction to The Ride of Their Lives
+          - title: Michael Blowen — Introduction to The Ride of Their Lives
             url: https://therideoftheirlives.com/introduction
-        fact_ids:
-          - followup-13
-          - followup-14
-          - research3-13
-      - id: old-friends-1
-        ru: В 2006 году туда привезли Bull Inthe Heather. На ферме его звали Булли. Он любил угощения, любил, когда ему чешут спину, и устраивал скачки с соседями через изгородь паддока.
-        en:
-          text: Bull Inthe Heather arrived in 2006. On the farm he was called Bully. He liked treats and having his back scratched, and raced his neighbours across the paddock fence.
-          draft: true
+      - type: text
+        text:
+          ru: В 2006 году туда привезли Bull Inthe Heather. На ферме его звали Булли. Он любил угощения, любил, когда ему чешут спину, и устраивал скачки с соседями через изгородь паддока.
+          en:
+            text: Bull Inthe Heather arrived in 2006. On the farm he was called Bully. He liked treats and having his back scratched, and raced his neighbours across the paddock fence.
+            draft: true
         sources:
-          - id: followup-15
-            title: Old Friends — BULL INTHE HEATHER (1990–2014)
+          - title: Old Friends — BULL INTHE HEATHER (1990–2014)
             url: https://oldfriendsequine.org/horse/bull-inthe-heather/
-          - id: followup-15
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - id: followup-16
-            title: Beth — April 7, 2014, Old Friends Blog (April archive)
+          - title: Beth — April 7, 2014, Old Friends Blog (April archive)
             url: https://oldfriendsblog.wordpress.com/2014/04/
-        fact_ids:
-          - followup-15
-          - followup-16
   - id: april
     name:
       ru: Апрель 2014
       en: April 2014
     blocks:
-      - id: april-0
-        ru: В апреле 2014 года Булли было двадцать четыре года.
-        en:
-          text: In April 2014, Bully was twenty-four years old.
-          draft: true
+      - type: text
+        text:
+          ru: В апреле 2014 года Булли было двадцать четыре года.
+          en:
+            text: In April 2014, Bully was twenty-four years old.
+            draft: true
         sources:
-          - id: followup-18
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - id: followup-18
-            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-        fact_ids:
-          - followup-18
   - id: paddock
     name:
       ru: Паддок
       en: The last paddock
     blocks:
-      - id: paddock-0
-        ru: Bull in the Heather. Sonic Youth, 1994.
-        en:
-          text: Bull in the Heather. Sonic Youth, 1994.
-          draft: true
+      - type: text
+        text:
+          ru: Bull in the Heather. Sonic Youth, 1994.
+          en:
+            text: Bull in the Heather. Sonic Youth, 1994.
+            draft: true
         sources:
-          - id: song-08
-            title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
+          - title: "Chris Lawrence — Sonic Youth Timeline: Concert Chronology + Sessionography"
             url: https://www.soniclife.ca/sy/cc/timeline.html
-        fact_ids:
-          - song-08
-      - id: paddock-1
-        ru: Bull Inthe Heather. 1990–2014.
-        en:
-          text: Bull Inthe Heather. 1990–2014.
-          draft: true
+      - type: text
+        text:
+          ru: Bull Inthe Heather. 1990–2014.
+          en:
+            text: Bull Inthe Heather. 1990–2014.
+            draft: true
         sources:
-          - id: followup-18
-            title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
+          - title: Joe Nevills — Bull Inthe Heather, Florida Derby winner, dies at Old Friends
             url: https://www.drf.com/news/bull-inthe-heather-florida-derby-winner-dies-old-friends
-          - id: followup-18
-            title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
+          - title: Equibase / BloodHorse — Bull Inthe Heather Euthanized at Old Friends
             url: https://cms.equibase.com/node/4118
-        fact_ids:
-          - followup-18
-runners:
-  - position: 1
-    horse: Bull Inthe Heather
-    verification: official_summary
-  - position: 2
-    horse: Storm Tower
-    verification: official_summary
-  - position: 3
-    horse: Wallenda
-    verification: official_summary
-  - position: 4
-    horse: Kissin Kris
-    verification: secondary_only
-  - position: 5
-    horse: Silver of Silver
-    verification: secondary_plus_UPI
-  - position: 6
-    horse: Halostrada
-    verification: secondary_only
-  - position: 7
-    horse: Duc d'Sligovil
-    verification: secondary_plus_UPI
-  - position: 8
-    horse: Pride of Burkaan
-    verification: secondary_only
-  - position: 9
-    horse: Living Vicariously
-    verification: secondary_plus_UPI
-  - position: 10
-    horse: Hidden Trick
-    verification: secondary_only
-  - position: 11
-    horse: Great Navigator
-    verification: secondary_only
-  - position: 12
-    horse: Gentle Patrick
-    verification: secondary_only
-  - position: 13
-    horse: Ambush Alley
-    verification: secondary_only
-runner_sources:
-  - id: followup-25
-    url: https://www.ahonoora.com/floridaderby_1993.html
-    title: Ahonoora — Florida Derby 1993
-  - id: followup-25
-    url: https://www.gulfstreampark.com/assets/71tzd15sgbj0/6qrG21gebw1MEfinO6tTOh/5d649b43265e678cc4dd55e6f65d9c38/GulfstreamMediaGuide_Sec2_p1-80_FINAL.pdf
-    title: Gulfstream Park — 2025/2026 Media Guide, Section 2
-  - id: research3-10
-    url: https://www.upi.com/amp/Archives/1993/03/20/Bull-Inthe-Heather-wins-Florida-Derby/5384732603600/
-    title: Les Kjos — Bull Inthe Heather wins Florida Derby, UPI
-clippings:
-  - id: archive-01
-    title: Bradley Bambarger — Sonic Youth Looks Back to the Future; Billboard 106(14), pp. 13–14
-    url: https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1994/BB-1994-04-02.pdf
-    quote: Sonic Youth Looks Back to the Future
-    date: 1994-04-02
-    source_id: bb0402
-    locator: Article title, pp. 13–14
-  - id: archive-03
-    title: CMJ New Music Report, May 9 1994 — video review and album advertisement
-    url: https://www.worldradiohistory.com/Archive-All-Music/CMJ/1994/CMJ-New-Music-Report-1994-05-09.pdf
-    quote: THE NEW SONIC YOUTH
-    date: 1994-05-09
-    source_id: cmj0509
-    locator: Final advertisement
-  - id: archive-04
-    title: Los Angeles Times — Hanging Out on the Fringe
-    url: https://www.latimes.com/archives/la-xpm-1994-05-08-ca-55173-story.html
-    quote: is already being played on KROQ
-    date: 1994-05-08
-    source_id: latimes
-    locator: Hanging Out on the Fringe
-name_stories:
-  - name: Seabiscuit
-    id: naming-12
-    summary: Seabiscuit's name is a synonym of his sire's name, Hard Tack.
-    sources:
-      - id: naming-12
-        url: https://a.espncdn.com/classic/s/add_seabiscuit.html
-        title: ESPN Classic — Heart of a Champion
-  - name: Kauto Star
-    id: naming-11
-    summary: "Great British Racing gives Kauto Star as an example of combining sire and dam names: Village Star and Kauto Relka."
-    sources:
-      - id: naming-11
-        url: https://www.greatbritishracing.com/features/guide-how-do-you-pick-a-name-for-a-racehorse/
-        title: "Great British Racing — Guide: How do you pick a name for a racehorse?"
-  - name: Potoooooooo
-    id: naming-13
-    summary: The NSLM museum blog recounts the tradition that Potoooooooo arose from writing Pot followed by eight O's.
-    sources:
-      - id: naming-13
-        url: https://nslmblog.wordpress.com/2023/08/30/eclipses-loveliest-son-pot8os/
-        title: National Sporting Library & Museum, Jamie Eagle — Eclipse’s Loveliest Son, Pot8o’s
-  - name: Fake News
-    id: naming-15
-    summary: Racing Post reports that a South African horse named President Trump was renamed Fake News at the authorities' request.
-    sources:
-      - id: naming-15
-        url: https://www.racingpost.com/news/features/series/the-art-rules-and-rudeness-of-naming-racehorses-aKhbD0H3baKM/
-        title: Racing Post — The art, rules and rudeness of naming racehorses
-  - name: Merrylegs
-    id: naming-16
-    summary: In September 2026 the Jockey Club ordered Austrian Painter renamed Merrylegs after an offensive-name complaint.
-    sources:
-      - id: naming-16
-        url: https://apnews.com/article/9a5abbac9fa0639291dd0c97fb47edf0
-        title: Associated Press — Austrian Painter horse renamed after complaint it referenced Adolf Hitler
-  - name: Stewball
-    id: naming-17
-    summary: The traditional song Stewball derives from a ballad about the racehorse Skew Ball, according to Smithsonian Folkways' liner notes.
-    sources:
-      - id: naming-17
-        url: https://folkways-media.si.edu/docs/folkways/artwork/SFW40103.pdf
-        title: Smithsonian Folkways — Lead Belly compilation liner notes, Stewball (Version 2), p. 22
