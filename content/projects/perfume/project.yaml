@@ -6139,6 +6139,7 @@
         "ru": "Эрнест Крокер",
         "en": "Ernest Crocker"
        },
+       "image": "n-oss-who-me.jpg",
        "px": 91.28,
        "py": 89.9,
        "flip": false
@@ -6169,6 +6170,7 @@
         "ru": "Памела Далтон",
         "en": "Pamela Dalton"
        },
+       "image": "n-us-government-standard-bathroom-malodor.jpg",
        "px": 89.04,
        "py": 97.28,
        "flip": true
@@ -6784,6 +6786,7 @@
         "ru": "Аника Йи с Талом Данино (MIT)",
         "en": "Anicka Yi with Tal Danino (MIT)"
        },
+       "image": "n-anicka-yi-you-can-call-me-f.jpg",
        "px": 63.68,
        "py": 82.65,
        "flip": false
@@ -6876,6 +6879,7 @@
         "ru": "Мартынка Вавжиняк с Янном Васнье (Givaudan)",
         "en": "Martynka Wawrzyniak with Yann Vasnier (Givaudan)"
        },
+       "image": "n-wawrzyniak-smell-me.jpg",
        "px": 63.4,
        "py": 97.01,
        "flip": true
@@ -6906,6 +6910,7 @@
         "ru": "Кристина Агапакис, Сиссель Толаас",
         "en": "Christina Agapakis, Sissel Tolaas"
        },
+       "image": "n-selfmade-human-cheese.jpg",
        "px": 71.87,
        "py": 89.51,
        "flip": true
@@ -7122,6 +7127,7 @@
         "ru": "Александра Башан",
         "en": "Alexandra Bachand"
        },
+       "image": "n-war-flowers.jpg",
        "px": 53.73,
        "py": 88.27,
        "flip": true
@@ -7152,6 +7158,7 @@
         "ru": "Питер Джексон",
         "en": "Peter Jackson"
        },
+       "image": "n-quinns-post-trench-experience.jpg",
        "px": 72.27,
        "py": 77.44,
        "flip": false
@@ -15293,7 +15300,10 @@
        "who": {
         "ru": "Эрнест Крокер",
         "en": "Ernest Crocker"
-       }
+       },
+       "image": "n-oss-who-me.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://en.wikipedia.org/wiki/Who_Me"
       },
       {
        "name": "U.S. Government Standard Bathroom Malodor",
@@ -15316,7 +15326,10 @@
        "who": {
         "ru": "Памела Далтон",
         "en": "Pamela Dalton"
-       }
+       },
+       "image": "n-us-government-standard-bathroom-malodor.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://www.military.com/off-duty/2020/02/20/worst-smell-world-veterans-saw-coming.html"
       }
      ]
     }
@@ -16655,7 +16668,10 @@
        "who": {
         "ru": "Аника Йи с Талом Данино (MIT)",
         "en": "Anicka Yi with Tal Danino (MIT)"
-       }
+       },
+       "image": "n-anicka-yi-you-can-call-me-f.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://news.mit.edu/2015/anicka-yi-olfactory-art-0728"
       },
       {
        "name": "Farmakon",
@@ -16730,7 +16746,10 @@
        "who": {
         "ru": "Мартынка Вавжиняк с Янном Васнье (Givaudan)",
         "en": "Martynka Wawrzyniak with Yann Vasnier (Givaudan)"
-       }
+       },
+       "image": "n-wawrzyniak-smell-me.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://en.wikipedia.org/wiki/Martynka_Wawrzyniak"
       },
       {
        "name": "Selfmade",
@@ -16753,7 +16772,10 @@
        "who": {
         "ru": "Кристина Агапакис, Сиссель Толаас",
         "en": "Christina Agapakis, Sissel Tolaas"
-       }
+       },
+       "image": "n-selfmade-human-cheese.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://www.nationalgeographic.com/culture/article/131202-human-cheese-food-biology-weird-gastronomy"
       }
      ]
     }
@@ -17283,7 +17305,10 @@
        "who": {
         "ru": "Александра Башан",
         "en": "Alexandra Bachand"
-       }
+       },
+       "image": "n-war-flowers.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://legionmagazine.com/a-war-story-told-in-flowers-and-scents/"
       },
       {
        "name": "Quinn's Post Trench Experience",
@@ -17306,7 +17331,10 @@
        "who": {
         "ru": "Питер Джексон",
         "en": "Peter Jackson"
-       }
+       },
+       "image": "n-quinns-post-trench-experience.jpg",
+       "credit": "Иллюстрация редакции Dormer",
+       "source_url": "https://nzherald.co.nz/nz/world-first-exhibit-created-by-peter-jackson-brings-anzac-soldiers-gallipoli-struggle-to-life/WM5FFSTEDSHOS2EIT7HUDVL2OU"
       },
       {
        "name": "Smell of the First World War",
