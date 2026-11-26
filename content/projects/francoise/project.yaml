@@ -5,8 +5,8 @@ title:
   ru: Франсуаза
   en: Françoise
 dek:
-  ru: Девушка, ради которой Боб Дилан не хотел возвращаться на сцену. Франсуаза Арди, йе-йе, её песни, её платья и одна ночь в Париже в мае 1966 года
-  en: "The girl for whom Bob Dylan refused to go back onstage. Françoise Hardy, yé-yé, her songs, her dresses, and one night in Paris in May 1966"
+  ru: Девушка, ради встречи с которой Боб Дилан прервал концерт. Франсуаза Арди, йе-йе, её песни, её платья и одна ночь в Париже в мае 1966 года
+  en: "The girl Bob Dylan stopped his concert to meet. Françoise Hardy, yé-yé, her songs, her dresses, and one night in Paris in May 1966"
 date: 2026-11-26
 cover:
   kind: collage
@@ -16,7 +16,7 @@ cover:
     - {src: obj-45.webp, x: 40, y: 30, w: 20, rotate: 12, z: 1, depth: 10}
     - {src: cut-dylan-1965.webp, x: 5, y: 22, w: 34, rotate: -3, z: 3, depth: 16}
     - {src: cut-hardy-1969.webp, x: 60, y: 22, w: 28, rotate: 2, z: 4, depth: 22}
-    - {src: obj-sunglasses.webp, x: 14, y: 17, w: 15, rotate: -14, z: 5, depth: 28}
+    - {src: obj-sunglasses.webp, x: 43, y: 52, w: 13, rotate: 8, z: 7, depth: 28}
     - {src: obj-harmonica.webp, x: 36, y: 70, w: 16, rotate: 9, z: 5, depth: 12}
     - {src: obj-cigarettes.webp, x: 84, y: 66, w: 12, rotate: 18, z: 5, depth: 14}
     - {src: obj-rose.webp, x: 60, y: 76, w: 16, rotate: -20, z: 6, depth: 20}
