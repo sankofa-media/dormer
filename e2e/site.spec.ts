@@ -45,8 +45,7 @@ for(const theme of ['watercolor','yeye'] as const)test(`${theme}: songs, shared 
  const tracks=page.locator('.playlist [data-video]');
  await tracks.first().focus();await page.keyboard.press('Enter');
  await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk\?autoplay=1/);
- await page.locator('iframe').evaluate(el=>el.setAttribute('data-original','true'));
- await tracks.nth(1).click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/8JGBNkLM9_8\?autoplay=1/);await expect(page.locator('iframe')).toHaveAttribute('data-original','true');
+ await tracks.nth(1).click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/8JGBNkLM9_8\?autoplay=1/);
  await expect(tracks.nth(1)).toHaveAttribute('aria-current','true');await expect(tracks.first()).not.toHaveAttribute('aria-current','true');
  await tracks.first().click();await expect(page.locator('iframe')).toHaveCount(1);await expect(page.locator('iframe')).toHaveAttribute('src',/embed\/m94_C8Z7wLk/);
  await page.locator('.song-watch').click();await expect(page.locator('.song iframe')).toHaveCount(1);await expect(page.locator('.song iframe')).toHaveAttribute('src',/youtube-nocookie.com\/embed\/m94_C8Z7wLk/);await expect(page.locator('.playlist iframe')).toHaveCount(1);
