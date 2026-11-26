@@ -1,0 +1,19 @@
+# Old host → canonical host, permanent redirect with path and query.
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dormer-redirect
+  namespace: dormer
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+    nginx.ingress.kubernetes.io/permanent-redirect: https://DORMER_HOST$request_uri
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [DORMER_OLD_HOST]
+      secretName: dormer-old-tls
+  rules:
+    - host: DORMER_OLD_HOST
+      http:
+        paths:
+          - {path: /, pathType: Prefix, backend: {service: {name: dormer, port: {name: http}}}}

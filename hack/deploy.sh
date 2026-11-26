@@ -36,6 +36,11 @@ DORMER_IMAGE=$(cd "$stand" && hack/stand/push.sh dormer "$work/dormer.tar" | tai
 [[ $DORMER_IMAGE =~ ^localhost:5000/sankofa/dormer@sha256:[a-f0-9]{64}$ ]] || { echo 'push failed' >&2; exit 1; }
 export DORMER_IMAGE
 sed -e "s#DORMER_IMAGE#$DORMER_IMAGE#g" -e "s#DORMER_HOST#$DORMER_HOST#g" deploy/dormer.yaml > dist/dormer.yaml
+# Optional: keep an old host as a permanent redirect to the canonical one.
+if [[ -n ${DORMER_OLD_HOST:-} && $DORMER_OLD_HOST != "$DORMER_HOST" ]]; then
+  [[ $DORMER_OLD_HOST =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] || { echo 'Invalid DORMER_OLD_HOST' >&2; exit 1; }
+  { echo '---'; sed -e "s#DORMER_OLD_HOST#$DORMER_OLD_HOST#g" -e "s#DORMER_HOST#$DORMER_HOST#g" deploy/dormer-redirect.yaml; } >> dist/dormer.yaml
+fi
 km apply -f "$repo/dist/dormer.yaml"
 km -n dormer rollout status deploy/dormer --timeout=180s
 # Validate TLS and compare the public HTML to the build just deployed.
