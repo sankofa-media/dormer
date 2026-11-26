@@ -1,7 +1,7 @@
 # Dormer
 
 A bilingual, static multimedia publication. Vite + TypeScript, without a framework.
-Requires Node 24+ (the build uses native TypeScript stripping).
+Requires Node 24 (the build uses native TypeScript stripping).
 
 ```sh
 npm ci
@@ -16,67 +16,65 @@ npm run preview
 # http://localhost:4173 and http://localhost:4173/ru/
 ```
 
-The default SEO origin is `https://dormer.sankofa.workshop.aenix.io`. Override it with
+The default SEO origin is `https://dormer.workshop.aenix.io`. Override it with
 `SITE_URL=https://your-domain.example npm run build`.
 Serve `dist/` with directory indexes. Both languages are prerendered and remain
 readable without JavaScript. Unknown project routes should return the host's 404.
 
-## Content
+## Longread content
 
-`content/projects/index.yaml` is the wall catalogue. Upcoming entries have no
-project links or invented descriptions. Tile types: layers, video, image, empty,
-and type. Image/video tiles accept a `src`; type tiles may use `quote`.
-`content/projects/<id>/project.yaml` contains bilingual scenes, blocks, fact IDs and sources.
-`fact-sources.json` snapshots the supplied research sources; the build checks that each
-block contains exactly the deduplicated sources for its own fact IDs.
-English blocks explicitly carry `draft: true`. The Russian prose is copied from
-the storyboard, with the flagged sentences excluded (see `editorial_notes`).
+`content/projects/index.yaml` is the wall catalogue. Published entries load their
+cover from `project.yaml`; upcoming entries remain unlinked. The compiler supports
+any number of published projects. The checkout currently supplies only Bull.
 
-The engine enhances the same article into a horizontal race. Scroll vertically,
-swipe horizontally, use left/right arrow keys in the race, or choose a furlong in
-the programme. Long panels scroll internally. Calm mode and system reduced motion
-show the complete vertical article. Audio starts off. YouTube only loads on click.
-A locally saved horse name appears in the last paddock; storage failure is handled.
-Name validation is an educational subset, not registry clearance. Category checks
-require declarations; protected names are a small, explicitly disclosed IFHA sample.
+Projects use `layout: longread`, `theme: watercolor | yeye`, bilingual `title` and
+`dek`, ISO `date`, a `cover` with `kind: art | collage`, and `chapters` with unique
+IDs, bilingual names, optional kickers and ordered blocks. Optional project `paper`
+references a texture. Bilingual values are `{ru: string, en: string}`; English may
+also be `{text: string, draft: true}`. Plain bibliographic credits may be strings.
 
-## Art
+Blocks: `text`, `art`, `photo`, `gallery`, `clipping`, `video`, `structure`, `quote`,
+`timeline`, `poster`, `collage`, `aside`. Text/aside/quote use `text: {ru, en}`.
+Text supports paragraphs, bold, italic and HTTP(S) links. Text and aside `sources`
+are numbered at chapter end. Every source requires a title and HTTP(S) URL.
+Photos require bilingual alt/caption, credit and source_url, including when nested
+inside galleries, posters or collage backgrounds. Poster `photo` is a photo block;
+collage `background` is a file reference or an art/photo block.
+See `src/model.ts` for types and `tests/fixtures.ts` for all-block examples.
 
-All 140 artwork sources are committed as WebP in
-`content/projects/bull-in-the-heather/art/` (24.04 MB, quality 88, original
-sizes and lossless alpha). No sibling checkout is needed to build the site.
-The source manifest retains technical checks and geometry; file sizes and SHA-256
-refer to the WebP files. Support scripts from the original art workspace are not
-part of this snapshot. The build reads only `content/projects/<id>/art/` and writes
-WebP originals plus w480/w960/w1600 versions to `public/media/`, without enlargement.
-The generated `media/manifest.json` lists every asset. `track-plate.webp` is
-used for the racetrack. Scene assets keep their base names and layer margins.
-The art manifest validates five horses, each with ten gallop and eight walk frames.
-Thirteen runners reuse horses 2–5; horse 1 is the unique grey winner. There are no
-CSS horse silhouettes or hue shifts. The pack walks when scrolling stops.
-The cover tile uses `cover-plate` and `cover-grey` with pointer depth.
-The photo-finish drawings are original illustrations, not video stills. No third-party photographs or newspaper scans are reproduced.
+Media paths are relative to the project. Bare filenames in photo blocks resolve
+under `photos/`; other bare filenames resolve under `art/`. Use explicit
+`photos/name.jpg` for photo posters or collage pieces. Only referenced files are
+bundled. Existing unused art stays on disk. The compiler replaces generated media
+on success, emitting WebP plus responsive 480/960/1600 variants without enlargement,
+with actual intrinsic dimensions. Missing referenced files fail the build.
+
+Both languages are prerendered. No JS is needed to read chapters or follow video
+links. YouTube's privacy-enhanced iframe and IFrame API load only on interaction.
+Structure links seek through the API and remain a readable list without JS.
+Calm mode and system reduced motion disable bloom and parallax; displacement is
+clamped to ±24px. The home collage is static. Mobile balloons flow below the
+composition to preserve readable text. There is no audio or race interface.
 
 ## Verification
 
 ```sh
 npm run build
-npx tsc --noEmit
 npm test
 npx playwright install chromium
 npm run e2e
 npm run screenshots
 ```
 
-Playwright uses the built site, in Chromium at 1440×900 and mobile at 390×844.
-Screenshots are saved in `.shots/<desktop|mobile>-<scene>.png`; the screenshot test
-also covers the complete home wall, the cover, start, all nine poles, the constructor, five aftermath
-screens and the calm article. `.shots/manifest.txt` lists the generated files.
-See `VERIFICATION.md` for the recorded run and limitations.
+Use Node 24 (`.node-version`). Playwright checks Chromium at 375×812 and 1440×900.
+Screenshots go to `test-results/shots/`; `npm run screenshots` also writes its
+manifest. Tests cover all supplied projects in both languages, no-JS reading,
+click-only video, mocked YouTube IFrame API seeking, reduced motion, overflow,
+search, and both themes using test-only fixtures. No synthetic project is published.
 
-Search indexes prerendered content in one combined language index (`force-language
-en`) so both English and Russian queries work on either locale. English stemming
-is used; Russian exact/prefix matching works, Russian morphology is not enabled.
+Search uses one combined Pagefind index (`force-language en`) for both languages.
+Russian exact/prefix matching works; Russian morphology is not enabled. Search
+requires the production build. See `VERIFICATION.md` for run evidence and limits.
 
 ## Reuse and licence
 
@@ -98,7 +96,7 @@ On a machine with stand access, run:
 DORMER_HOST=stories.example.org ./hack/deploy.sh
 ```
 
-Requires Node 24+, npm, bash, rsync, BSD tar (macOS tar, as used by the museum),
+Requires Node 24, npm, bash, rsync, BSD tar (macOS tar, as used by the museum),
 curl, kubectl and crane at `~/go/bin/crane` (override with `CRANE`). No Docker
 daemon is needed. The script runs `npm ci` and `npm run build`, makes sorted layers
 with fixed UTC timestamps, modes and owners, and uses `crane append` on

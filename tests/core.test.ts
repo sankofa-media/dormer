@@ -18,3 +18,13 @@ describe('longread validation',()=>{
  it('rejects traversal and invalid section times',()=>{expect(()=>validateBlock({...photo,src:'../secret.jpg'})).toThrow('asset');expect(()=>validateBlock({type:'structure',video_id:'8JGBNkLM9_8',sections:[{label:bi,note:bi,start:5,end:2}]})).toThrow('times')});
  it('collects only referenced assets, including nested photos',()=>{const p=structuredClone(project);p.chapters[0].blocks.push({type:'gallery',layout:'grid',items:[photo]});const assets=projectAssets(p);expect(assets).toContain('photos/photo.jpg');expect(assets).toContain('art/cover-full.webp');expect(assets.some(s=>/walk|gallop/.test(s))).toBe(false)});
 });
+
+import {fixture,fixtureData} from './fixtures';
+import {projectPage,markdown} from '../src/render';
+for(const theme of ['watercolor','yeye'] as const)it(`validates and renders every ${theme} block in both languages`,()=>{
+ const p=fixture(theme);expect(validateProject(p)).toBe(p);
+ for(const lang of ['ru','en'] as const){const html=projectPage(fixtureData(p),p,lang);expect(html).toContain('class="structure"');expect(html).toContain('class="clipping');expect(html).toContain('data-video=');expect(html).not.toContain('<iframe');expect(html).toContain('width="960" height="640"');expect(html).toContain(lang==='ru'?'Вторая часть':'Second section')}
+});
+it('escapes HTML and rejects executable Markdown links',()=>{expect(markdown('<script>alert(1)</script> [bad](javascript:alert) **bold** *soft*')).toBe('<p>&lt;script&gt;alert(1)&lt;/script&gt; bad <strong>bold</strong> <em>soft</em></p>')});
+
+it('preserves time gaps in proportional structure strips',()=>{const p=fixture('yeye');p.chapters[0].blocks=[{type:'structure',video_id:'8JGBNkLM9_8',sections:[{label:bi,note:bi,start:10,end:20},{label:bi,note:bi,start:30,end:40}]}];const html=projectPage(fixtureData(p),p,'en');expect(html).toContain('--gap:25%;--length:25%')});
