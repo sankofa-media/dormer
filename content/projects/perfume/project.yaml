@@ -7279,6 +7279,7 @@
         "en": "burnt insulation and cold coffee"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 71.76,
        "py": 92.59,
        "flip": true
@@ -7306,6 +7307,7 @@
         "en": "a metro carriage in a heatwave"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 71.58,
        "py": 84.55,
        "flip": false
@@ -7333,6 +7335,7 @@
         "en": "the power went off on day two"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 80.06,
        "py": 91.75,
        "flip": false
@@ -7360,6 +7363,7 @@
         "en": "the drill, burnt bone and fear"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 69.98,
        "py": 84.97,
        "flip": true
@@ -7387,6 +7391,7 @@
         "en": "mothballs, wet wool and mould"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 63.97,
        "py": 86.43,
        "flip": true
@@ -7414,6 +7419,7 @@
         "en": "a blend of everything above"
        },
        "invented": true,
+       "image": "ill-x-inv.png",
        "px": 89.31,
        "py": 88.39,
        "flip": false
