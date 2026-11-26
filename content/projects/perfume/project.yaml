@@ -4618,6 +4618,7 @@
         "ru": "Карандаш из барселонской лавки",
         "en": "A pencil from a Barcelona shop"
        },
+       "image": "n-les-topettes-lapiz.jpg",
        "px": 12.64,
        "py": 86.84,
        "flip": false
@@ -5623,6 +5624,7 @@
         "ru": "сырьё (натуральная серая амбра из Новой Каледонии)",
         "en": "raw material (natural grey ambergris from New Caledonia)"
        },
+       "image": "n-fraterworks-ambergris-tincture.jpg",
        "px": 55.11,
        "py": 93.75,
        "flip": true
@@ -6106,6 +6108,7 @@
         "ru": "сырьё (3-метилиндол)",
         "en": "raw material (3-methylindole)"
        },
+       "image": "n-fraterworks-skatole.jpg",
        "px": 91.0,
        "py": 95.39,
        "flip": false
@@ -6842,6 +6845,7 @@
         "ru": "Клара Урситти (с Джорджем Доддом)",
         "en": "Clara Ursitti (with George Dodd)"
        },
+       "image": "n-ursitti-self-portrait-in-scent.jpg",
        "px": 63.89,
        "py": 95.43,
        "flip": true
@@ -7178,6 +7182,7 @@
         "ru": "Сиссель Толаас",
         "en": "Sissel Tolaas"
        },
+       "image": "n-tolaas-dresden-ww1-smell.jpg",
        "px": 81.37,
        "py": 88.04,
        "flip": true
@@ -7208,6 +7213,7 @@
         "ru": "Odortec и технологический отдел израильской полиции",
         "en": "Odortec with the Israel Police technology department"
        },
+       "image": "n-odortec-skunk.jpg",
        "px": 89.49,
        "py": 77.53,
        "flip": true
@@ -13410,7 +13416,10 @@
        "teaser": {
         "ru": "Карандаш из барселонской лавки",
         "en": "A pencil from a Barcelona shop"
-       }
+       },
+       "image": "n-les-topettes-lapiz.jpg",
+       "credit": "Официальное фото: Les Topettes",
+       "source_url": "https://lestopettes.bigcartel.com/product/lapiz-e-dp-50ml"
       },
       {
        "name": "Sawdust",
@@ -14453,7 +14462,10 @@
        "who": {
         "ru": "сырьё (натуральная серая амбра из Новой Каледонии)",
         "en": "raw material (natural grey ambergris from New Caledonia)"
-       }
+       },
+       "image": "n-fraterworks-ambergris-tincture.jpg",
+       "credit": "Официальное фото: Fraterworks",
+       "source_url": "https://fraterworks.com/products/ambergris-tincture"
       }
      ]
     }
@@ -15255,7 +15267,10 @@
        "who": {
         "ru": "сырьё (3-метилиндол)",
         "en": "raw material (3-methylindole)"
-       }
+       },
+       "image": "n-fraterworks-skatole.jpg",
+       "credit": "Молекула скатола. Изображение: Giorgiogp2, CC BY-SA 3.0",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Skatole_3d_structure.png"
       },
       {
        "name": "Who, Me?",
@@ -16689,7 +16704,10 @@
        "who": {
         "ru": "Клара Урситти (с Джорджем Доддом)",
         "en": "Clara Ursitti (with George Dodd)"
-       }
+       },
+       "image": "n-ursitti-self-portrait-in-scent.jpg",
+       "credit": "Флакон Eau Claire Клары Урситти. Фото: Sheepspeaks, CC BY-SA 4.0",
+       "source_url": "https://commons.wikimedia.org/wiki/File:EauClaireClaraUrsitti.jpg"
       },
       {
        "name": "Smell Me",
@@ -17311,7 +17329,10 @@
        "who": {
         "ru": "Сиссель Толаас",
         "en": "Sissel Tolaas"
-       }
+       },
+       "image": "n-tolaas-dresden-ww1-smell.jpg",
+       "credit": "Сиссель Толаас. Фото: Fotodimatti, CC BY 3.0",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Sissel-Tolaas_by_foto-di-matti.jpg"
       },
       {
        "name": "Skunk",
@@ -17334,7 +17355,10 @@
        "who": {
         "ru": "Odortec и технологический отдел израильской полиции",
         "en": "Odortec with the Israel Police technology department"
-       }
+       },
+       "image": "n-odortec-skunk.jpg",
+       "credit": "Машина со Skunk, Нилин, 2012. Фото: Yoram Shorek, CC BY-SA 3.0",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Skunk_in_Nilin_2012.JPG"
       },
       {
        "name": "Chemical Agent Identification Set («Sniff Set»)",
