@@ -16,7 +16,7 @@ describe('longread validation',()=>{
  expect(()=>validateBlock({type:'text',text:{ru:'Есть'}})).toThrow('bilingual');
  });
  it('rejects traversal and invalid section times',()=>{expect(()=>validateBlock({...photo,src:'../secret.jpg'})).toThrow('asset');expect(()=>validateBlock({type:'structure',video_id:'8JGBNkLM9_8',sections:[{label:bi,note:bi,start:5,end:2}]})).toThrow('times')});
- it('collects only referenced assets, including nested photos',()=>{const p=structuredClone(project);p.chapters[0].blocks.push({type:'gallery',layout:'grid',items:[photo]});const assets=projectAssets(p);expect(assets).toContain('photos/photo.jpg');expect(assets).toContain('art/cover-full.webp');expect(assets.some(s=>/walk|gallop/.test(s))).toBe(false)});
+ it('collects only referenced assets, including nested photos',()=>{const p=structuredClone(project);p.chapters[0].blocks.push({type:'gallery',layout:'grid',items:[photo]});const assets=projectAssets(p);expect(assets).toContain('photos/photo.jpg');expect(assets).toContain('art/cover.webp');expect(assets.some(s=>/walk|gallop/.test(s))).toBe(false)});
 });
 
 import {fixture,fixtureData} from './fixtures';

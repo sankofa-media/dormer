@@ -291,7 +291,7 @@ chapters:
             note:
               ru: Здесь в обычной песне был бы припев. Вместо него — флажолеты, шум, гудение баса на натуральных обертонах. Песня как будто выдыхает.
               en: "An ordinary song would have a chorus here. Instead, there are harmonics, noise, and the hum of the bass playing natural overtones. The song seems to exhale."
-          - label: {ru: "Звон снова", en: "Ringing Again"}
+          - label: {ru: "Звон", en: "Ringing"}
             start: 85
             end: 100
             note:
@@ -315,7 +315,7 @@ chapters:
             note:
               ru: Вторая шумовая пауза.
               en: "The second interlude of noise."
-          - label: {ru: "Звон и конец", en: "Ringing and the End"}
+          - label: {ru: "Звон", en: "Ringing"}
             start: 164
             end: 182
             note:
