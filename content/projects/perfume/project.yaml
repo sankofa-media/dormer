@@ -69,7 +69,8 @@
        "teaser": {
         "ru": "горький апельсин и нагретый камень",
         "en": "bitter orange and sun-warmed stone"
-       }
+       },
+       "image": "ill-01-a-terre.png"
       },
       {
        "step": 1,
@@ -82,7 +83,8 @@
        "teaser": {
         "ru": "полынь, апельсиновая корка и чуть-чуть пота",
         "en": "wormwood, orange peel and a hint of sweat"
-       }
+       },
+       "image": "ill-01-b-declaration.png"
       },
       {
        "step": 1,
@@ -109,7 +111,8 @@
        "teaser": {
         "ru": "солёный ветер на английском берегу",
         "en": "a salty wind on an English shore"
-       }
+       },
+       "image": "ill-01-d-wood-sage.png"
       },
       {
        "step": 1,
@@ -570,7 +573,8 @@
        "teaser": {
         "ru": "мыло и зверь — мейнстрим восьмидесятых",
         "en": "soap and beast: eighties mainstream"
-       }
+       },
+       "image": "ill-12-a-kouros.png"
       },
       {
        "step": 12,
@@ -625,7 +629,8 @@
        "teaser": {
         "ru": "мёд, кумин и воск — люксовый зверь",
         "en": "honey, cumin and wax: a luxury beast"
-       }
+       },
+       "image": "ill-13-b-absolue.png"
       },
       {
        "step": 13,
@@ -638,7 +643,8 @@
        "teaser": {
         "ru": "одичавший шипр с фекальной гранью",
         "en": "a feral chypre with a faecal edge"
-       }
+       },
+       "image": "ill-13-c-maai.png"
       },
       {
        "step": 14,
@@ -721,7 +727,8 @@
        "teaser": {
         "ru": "тореадор в поту на арене",
         "en": "a sweating toreador in the ring"
-       }
+       },
+       "image": "ill-15-c-vierges.png"
       },
       {
        "step": 16,
@@ -734,7 +741,8 @@
        "teaser": {
         "ru": "кожа, дёготь и металл первобытной Африки",
         "en": "leather, tar and the metal of primeval Africa"
-       }
+       },
+       "image": "ill-16-blood.png"
       },
       {
        "step": 16,
@@ -747,7 +755,8 @@
        "teaser": {
         "ru": "листья томата и металл",
         "en": "tomato leaf and metal"
-       }
+       },
+       "image": "ill-16-blood.png"
       },
       {
        "step": 16,
@@ -760,7 +769,8 @@
        "teaser": {
         "ru": "вишня, полынь и чай поверх крови",
         "en": "cherry, wormwood and tea over blood"
-       }
+       },
+       "image": "ill-16-blood.png"
       },
       {
        "step": 16,
@@ -773,7 +783,8 @@
        "teaser": {
         "ru": "алюминий, сланец и галька — кровь мегаполиса",
         "en": "aluminium, slate and pebbles: the blood of a metropolis"
-       }
+       },
+       "image": "ill-16-blood.png"
       },
       {
        "step": 17,
@@ -1030,6 +1041,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-01-a-terre.png",
+     "alt": {
+      "ru": "Рисунок флакона Terre d'Hermès",
+      "en": "A drawing of the Terre d'Hermès bottle"
+     },
+     "caption": {
+      "ru": "Terre d'Hermès, Hermès",
+      "en": "Terre d'Hermès, Hermès"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://www.hermes.com/us/en/product/terre-d-hermes-eau-de-toilette-V107188V0/",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Terre d'Hermès** · Hermès · 2006\n\nЖан-Клод Эллена, тогда штатный парфюмер Hermès, сложил этот аромат из горьких цитрусов без капли сахара, перца, ветивера и кедра, а в середину поставил минеральный аккорд, похожий на нагретый солнцем кремень. Hermès рассказывает о нём как об истории отношений человека с землёй. Получилось сухо и горько, но так спокойно и солидно, что Terre стал одним из самых продаваемых мужских ароматов своего класса и в 2007 году получил премию FiFi.",
@@ -1092,6 +1119,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-01-b-declaration.png",
+     "alt": {
+      "ru": "Рисунок флакона Déclaration",
+      "en": "A drawing of the Déclaration bottle"
+     },
+     "caption": {
+      "ru": "Déclaration, Cartier",
+      "en": "Déclaration, Cartier"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://www.cartier.com",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -1236,6 +1279,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-01-d-wood-sage.png",
+     "alt": {
+      "ru": "Рисунок флакона Wood Sage & Sea Salt",
+      "en": "A drawing of the Wood Sage & Sea Salt bottle"
+     },
+     "caption": {
+      "ru": "Wood Sage & Sea Salt, Jo Malone London",
+      "en": "Wood Sage & Sea Salt, Jo Malone London"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://www.jomalone.co.uk/our-stories/wood-sage-sea-salt",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -4142,6 +4201,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-12-a-kouros.png",
+     "alt": {
+      "ru": "Рисунок флакона Kouros",
+      "en": "A drawing of the Kouros bottle"
+     },
+     "caption": {
+      "ru": "Kouros, Yves Saint Laurent",
+      "en": "Kouros, Yves Saint Laurent"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://www.ysl.com",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Kouros** · Yves Saint Laurent · 1981\n\nYves Saint Laurent продавал его под слоганом «аромат богов», и в восьмидесятые его носили миллионы мужчин. Пьер Бурдон соединил мыльные альдегиды и полынь с мёдом, кожей и циветом, поэтому Kouros одновременно пахнет чистотой и чем-то очень грязным. Блог Now Smell This назвал рецензию на него «Грязный мальчик».",
@@ -4474,6 +4549,22 @@
      ]
     },
     {
+     "type": "photo",
+     "src": "ill-13-b-absolue.png",
+     "alt": {
+      "ru": "Рисунок флакона Absolue Pour le Soir",
+      "en": "A drawing of the Absolue Pour le Soir bottle"
+     },
+     "caption": {
+      "ru": "Absolue Pour le Soir, Maison Francis Kurkdjian",
+      "en": "Absolue Pour le Soir, Maison Francis Kurkdjian"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://www.franciskurkdjian.com",
+     "size": "left",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Absolue Pour le Soir** · Maison Francis Kurkdjian · 2010/2011\n\nФрансис Куркджян — один из самых модных парфюмеров мира, автор Baccarat Rouge 540, и тем удивительнее этот его аромат. Мёд, кумин, бензоин и сандал складываются в запах, который рецензенты описывают как пот, секс и воск. Блог The Candy Perfume Boy назвал рецензию «Зверь внутри». Источники расходятся, 2010 это год или 2011-й, а в 2024 году вышла новая версия.",
@@ -4536,6 +4627,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-13-c-maai.png",
+     "alt": {
+      "ru": "Рисунок флакона MAAI",
+      "en": "A drawing of the MAAI bottle"
+     },
+     "caption": {
+      "ru": "MAAI, Bogue Profumo",
+      "en": "MAAI, Bogue Profumo"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://lemouchoirparfume.blogspot.com/2015/09/maai-review.html",
+     "size": "right",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -5061,6 +5168,22 @@
      ]
     },
     {
+     "type": "photo",
+     "src": "ill-15-c-vierges.png",
+     "alt": {
+      "ru": "Рисунок флакона Vierges et Toreros",
+      "en": "A drawing of the Vierges et Toreros bottle"
+     },
+     "caption": {
+      "ru": "Vierges et Toreros, Etat Libre d'Orange",
+      "en": "Vierges et Toreros, Etat Libre d'Orange"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://nstperfume.com/2007/01/25/two-more-from-etat-libre-dorange-vierges-et-toreros-dont-get-me-wrong-baby-i-dont-swallow/",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Vierges et Toreros** · Etat Libre d'Orange · 2007\n\n«Девственницы и тореадоры» — коррида во флаконе: под туберозой и иланг-илангом лежат кожа, звериные ноты и костус, тот самый корень с запахом немытых волос. Аромат сделали два парфюмера, Антуан Ли и Антуан Мезондьё. Сейчас его на сайте марки нет, и найти его можно только на вторичном рынке.",
@@ -5149,6 +5272,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-16-blood.png",
+     "alt": {
+      "ru": "Рисунок флакона O",
+      "en": "A drawing of the O bottle"
+     },
+     "caption": {
+      "ru": "O, Blood Concept",
+      "en": "O, Blood Concept"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**O** · Blood Concept · 2011\n\nПервая группа, по замыслу марки, глубока, как первобытная Африка. Кожа, тимьян, малина, шиповник, берёза и кедр лежат поверх металлической базы крови, и это самый тёмный из четырёх ароматов.",
@@ -5207,6 +5346,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-16-blood.png",
+     "alt": {
+      "ru": "Рисунок флакона A",
+      "en": "A drawing of the A bottle"
+     },
+     "caption": {
+      "ru": "A, Blood Concept",
+      "en": "A, Blood Concept"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -5269,6 +5424,22 @@
      ]
     },
     {
+     "type": "photo",
+     "src": "ill-16-blood.png",
+     "alt": {
+      "ru": "Рисунок флакона B",
+      "en": "A drawing of the B bottle"
+     },
+     "caption": {
+      "ru": "B, Blood Concept",
+      "en": "B, Blood Concept"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**B** · Blood Concept · 2011\n\nТретья группа смела, как непредсказуемые маршруты: яблоко, чёрная вишня, полынь, перец, гранат, чёрный чай, пачули и тик. Фрукты здесь тёмные, и металл крови проступает сквозь них.",
@@ -5327,6 +5498,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-16-blood.png",
+     "alt": {
+      "ru": "Рисунок флакона AB",
+      "en": "A drawing of the AB bottle"
+     },
+     "caption": {
+      "ru": "AB, Blood Concept",
+      "en": "AB, Blood Concept"
+     },
+     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
