@@ -70,7 +70,7 @@
         "ru": "горький апельсин и нагретый камень",
         "en": "bitter orange and sun-warmed stone"
        },
-       "image": "ill-01-a-terre.png"
+       "image": "01-a-terre-d-hermes.jpg"
       },
       {
        "step": 1,
@@ -84,7 +84,7 @@
         "ru": "полынь, апельсиновая корка и чуть-чуть пота",
         "en": "wormwood, orange peel and a hint of sweat"
        },
-       "image": "ill-01-b-declaration.png"
+       "image": "01-b-cartier-declaration.jpg"
       },
       {
        "step": 1,
@@ -112,7 +112,7 @@
         "ru": "солёный ветер на английском берегу",
         "en": "a salty wind on an English shore"
        },
-       "image": "ill-01-d-wood-sage.png"
+       "image": "01-d-jo-malone-wood-sage.jpg"
       },
       {
        "step": 1,
@@ -574,7 +574,7 @@
         "ru": "мыло и зверь — мейнстрим восьмидесятых",
         "en": "soap and beast: eighties mainstream"
        },
-       "image": "ill-12-a-kouros.png"
+       "image": "12-a-ysl-kouros.jpg"
       },
       {
        "step": 12,
@@ -630,7 +630,7 @@
         "ru": "мёд, кумин и воск — люксовый зверь",
         "en": "honey, cumin and wax: a luxury beast"
        },
-       "image": "ill-13-b-absolue.png"
+       "image": "13-b-mfk-absolue-pour-le-soir.jpg"
       },
       {
        "step": 13,
@@ -644,7 +644,7 @@
         "ru": "одичавший шипр с фекальной гранью",
         "en": "a feral chypre with a faecal edge"
        },
-       "image": "ill-13-c-maai.png"
+       "image": "13-c-bogue-maai.jpg"
       },
       {
        "step": 14,
@@ -728,7 +728,7 @@
         "ru": "тореадор в поту на арене",
         "en": "a sweating toreador in the ring"
        },
-       "image": "ill-15-c-vierges.png"
+       "image": "15-c-elo-vierges-et-toreros.jpg"
       },
       {
        "step": 16,
@@ -742,7 +742,7 @@
         "ru": "кожа, дёготь и металл первобытной Африки",
         "en": "leather, tar and the metal of primeval Africa"
        },
-       "image": "ill-16-blood.png"
+       "image": "16-blood-concept-o.jpg"
       },
       {
        "step": 16,
@@ -756,7 +756,7 @@
         "ru": "листья томата и металл",
         "en": "tomato leaf and metal"
        },
-       "image": "ill-16-blood.png"
+       "image": "16-blood-concept-a.jpg"
       },
       {
        "step": 16,
@@ -770,7 +770,7 @@
         "ru": "вишня, полынь и чай поверх крови",
         "en": "cherry, wormwood and tea over blood"
        },
-       "image": "ill-16-blood.png"
+       "image": "16-blood-concept-b.jpg"
       },
       {
        "step": 16,
@@ -784,7 +784,7 @@
         "ru": "алюминий, сланец и галька — кровь мегаполиса",
         "en": "aluminium, slate and pebbles: the blood of a metropolis"
        },
-       "image": "ill-16-blood.png"
+       "image": "16-blood-concept-ab.jpg"
       },
       {
        "step": 17,
@@ -1056,16 +1056,16 @@
     },
     {
      "type": "photo",
-     "src": "ill-01-a-terre.png",
+     "src": "01-a-terre-d-hermes.jpg",
      "alt": {
-      "ru": "Рисунок флакона Terre d'Hermès",
-      "en": "A drawing of the Terre d'Hermès bottle"
+      "ru": "Флакон Terre d'Hermès",
+      "en": "The Terre d'Hermès bottle"
      },
      "caption": {
       "ru": "Terre d'Hermès, Hermès",
       "en": "Terre d'Hermès, Hermès"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
+     "credit": "Официальное фото: Hermès",
      "source_url": "https://www.hermes.com/us/en/product/terre-d-hermes-eau-de-toilette-V107188V0/",
      "size": "right",
      "treatment": "print"
@@ -1136,17 +1136,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-01-b-declaration.png",
+     "src": "01-b-cartier-declaration.jpg",
      "alt": {
-      "ru": "Рисунок флакона Déclaration",
-      "en": "A drawing of the Déclaration bottle"
+      "ru": "Флакон Déclaration",
+      "en": "The Déclaration bottle"
      },
      "caption": {
       "ru": "Déclaration, Cartier",
       "en": "Déclaration, Cartier"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://www.cartier.com",
+     "credit": "Официальное фото: Cartier",
+     "source_url": "https://www.cartier.com/en-us/fragrances/signatures/declaration-66100032.html",
      "size": "left",
      "treatment": "print"
     },
@@ -1296,17 +1296,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-01-d-wood-sage.png",
+     "src": "01-d-jo-malone-wood-sage.jpg",
      "alt": {
-      "ru": "Рисунок флакона Wood Sage & Sea Salt",
-      "en": "A drawing of the Wood Sage & Sea Salt bottle"
+      "ru": "Флакон Wood Sage & Sea Salt",
+      "en": "The Wood Sage & Sea Salt bottle"
      },
      "caption": {
       "ru": "Wood Sage & Sea Salt, Jo Malone London",
       "en": "Wood Sage & Sea Salt, Jo Malone London"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://www.jomalone.co.uk/our-stories/wood-sage-sea-salt",
+     "credit": "Официальное фото: Jo Malone London",
+     "source_url": "https://www.jomalone.com/product/25946/32241/colognes/wood-sage-sea-salt-cologne",
      "size": "left",
      "treatment": "print"
     },
@@ -4216,17 +4216,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-12-a-kouros.png",
+     "src": "12-a-ysl-kouros.jpg",
      "alt": {
-      "ru": "Рисунок флакона Kouros",
-      "en": "A drawing of the Kouros bottle"
+      "ru": "Флакон Kouros",
+      "en": "The Kouros bottle"
      },
      "caption": {
       "ru": "Kouros, Yves Saint Laurent",
       "en": "Kouros, Yves Saint Laurent"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://www.ysl.com",
+     "credit": "Официальное фото: Yves Saint Laurent",
+     "source_url": "https://www.yslbeauty.fr/parfums/parfum-homme/kouros/kouros-eau-de-toilette-spray/282YSL.html",
      "size": "right",
      "treatment": "print"
     },
@@ -4564,17 +4564,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-13-b-absolue.png",
+     "src": "13-b-mfk-absolue-pour-le-soir.jpg",
      "alt": {
-      "ru": "Рисунок флакона Absolue Pour le Soir",
-      "en": "A drawing of the Absolue Pour le Soir bottle"
+      "ru": "Флакон Absolue Pour le Soir",
+      "en": "The Absolue Pour le Soir bottle"
      },
      "caption": {
       "ru": "Absolue Pour le Soir, Maison Francis Kurkdjian",
       "en": "Absolue Pour le Soir, Maison Francis Kurkdjian"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://www.franciskurkdjian.com",
+     "credit": "Официальное фото: Maison Francis Kurkdjian",
+     "source_url": "https://www.franciskurkdjian.com/int-en/p/absolue-pour-le-soir-eau-de-parfum-RA120721.html",
      "size": "left",
      "treatment": "print"
     },
@@ -4644,17 +4644,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-13-c-maai.png",
+     "src": "13-c-bogue-maai.jpg",
      "alt": {
-      "ru": "Рисунок флакона MAAI",
-      "en": "A drawing of the MAAI bottle"
+      "ru": "Флакон MAAI",
+      "en": "The MAAI bottle"
      },
      "caption": {
       "ru": "MAAI, Bogue Profumo",
       "en": "MAAI, Bogue Profumo"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://lemouchoirparfume.blogspot.com/2015/09/maai-review.html",
+     "credit": "Официальное фото: Bogue Profumo",
+     "source_url": "https://bogue-profumo.com/projects/maai/",
      "size": "right",
      "treatment": "print"
     },
@@ -5183,17 +5183,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-15-c-vierges.png",
+     "src": "15-c-elo-vierges-et-toreros.jpg",
      "alt": {
-      "ru": "Рисунок флакона Vierges et Toreros",
-      "en": "A drawing of the Vierges et Toreros bottle"
+      "ru": "Флакон Vierges et Toreros",
+      "en": "The Vierges et Toreros bottle"
      },
      "caption": {
       "ru": "Vierges et Toreros, Etat Libre d'Orange",
       "en": "Vierges et Toreros, Etat Libre d'Orange"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://nstperfume.com/2007/01/25/two-more-from-etat-libre-dorange-vierges-et-toreros-dont-get-me-wrong-baby-i-dont-swallow/",
+     "credit": "Фото флакона: Fragrantica",
+     "source_url": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Vierges-et-Toreros-4525.html",
      "size": "right",
      "treatment": "print"
     },
@@ -5287,17 +5287,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-16-blood.png",
+     "src": "16-blood-concept-o.jpg",
      "alt": {
-      "ru": "Рисунок флакона O",
-      "en": "A drawing of the O bottle"
+      "ru": "Флакон O",
+      "en": "The O bottle"
      },
      "caption": {
       "ru": "O, Blood Concept",
       "en": "O, Blood Concept"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "credit": "Фото флакона: Fragrantica",
+     "source_url": "https://www.fragrantica.com/perfume/Blood-Concept/0-11738.html",
      "size": "right",
      "treatment": "print"
     },
@@ -5363,17 +5363,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-16-blood.png",
+     "src": "16-blood-concept-a.jpg",
      "alt": {
-      "ru": "Рисунок флакона A",
-      "en": "A drawing of the A bottle"
+      "ru": "Флакон A",
+      "en": "The A bottle"
      },
      "caption": {
       "ru": "A, Blood Concept",
       "en": "A, Blood Concept"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "credit": "Фото флакона: Fragrantica",
+     "source_url": "https://www.fragrantica.com/perfume/Blood-Concept/A-11735.html",
      "size": "left",
      "treatment": "print"
     },
@@ -5439,17 +5439,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-16-blood.png",
+     "src": "16-blood-concept-b.jpg",
      "alt": {
-      "ru": "Рисунок флакона B",
-      "en": "A drawing of the B bottle"
+      "ru": "Флакон B",
+      "en": "The B bottle"
      },
      "caption": {
       "ru": "B, Blood Concept",
       "en": "B, Blood Concept"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "credit": "Фото флакона: Fragrantica",
+     "source_url": "https://www.fragrantica.com/perfume/Blood-Concept/B-11736.html",
      "size": "right",
      "treatment": "print"
     },
@@ -5515,17 +5515,17 @@
     },
     {
      "type": "photo",
-     "src": "ill-16-blood.png",
+     "src": "16-blood-concept-ab.jpg",
      "alt": {
-      "ru": "Рисунок флакона AB",
-      "en": "A drawing of the AB bottle"
+      "ru": "Флакон AB",
+      "en": "The AB bottle"
      },
      "caption": {
       "ru": "AB, Blood Concept",
       "en": "AB, Blood Concept"
      },
-     "credit": "Иллюстрация редакции Dormer: официального фото флакона у нас нет",
-     "source_url": "https://nstperfume.com/2011/04/03/blood-concept-new-fragrances/",
+     "credit": "Фото флакона: Fragrantica",
+     "source_url": "https://www.fragrantica.com/perfume/Blood-Concept/AB-11737.html",
      "size": "left",
      "treatment": "print"
     },
