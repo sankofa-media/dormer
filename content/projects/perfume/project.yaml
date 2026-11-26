@@ -95,7 +95,8 @@
        "teaser": {
         "ru": "морская трава вместо морского бриза",
         "en": "sea grass instead of sea breeze"
-       }
+       },
+       "image": "01-c-bvlgari-aqva.jpg"
       },
       {
        "step": 1,
@@ -1155,6 +1156,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "01-c-bvlgari-aqva.jpg",
+     "alt": {
+      "ru": "Флакон Aqva Pour Homme",
+      "en": "The Aqva Pour Homme bottle"
+     },
+     "caption": {
+      "ru": "Aqva Pour Homme, Bvlgari",
+      "en": "Aqva Pour Homme, Bvlgari"
+     },
+     "credit": "Фото: Shack, Wikimedia Commons, CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Bvlgari_AQVA.jpg",
+     "size": "right",
+     "treatment": "print"
     },
     {
      "type": "text",
