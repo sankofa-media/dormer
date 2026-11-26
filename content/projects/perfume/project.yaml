@@ -839,7 +839,8 @@
        "teaser": {
         "ru": "пот страха на стенах галереи",
         "en": "the sweat of fear on gallery walls"
-       }
+       },
+       "image": "ill-x-fear.png"
       },
       {
        "step": 18,
@@ -852,7 +853,8 @@
        "teaser": {
         "ru": "запах, которым художница ответила ксенофобии",
         "en": "a scent the artist made as an answer to xenophobia"
-       }
+       },
+       "image": "ill-x-ants.png"
       },
       {
        "step": 18,
@@ -865,7 +867,8 @@
        "teaser": {
         "ru": "растения, которые пахнут трупами",
         "en": "plants that smell of corpses"
-       }
+       },
+       "image": "ill-x-plant.png"
       },
       {
        "step": 19,
@@ -878,7 +881,8 @@
        "teaser": {
         "ru": "запах свежего трупа для собак-поисковиков",
         "en": "the smell of a fresh corpse for search dogs"
-       }
+       },
+       "image": "ill-x-vial.png"
       },
       {
        "step": 19,
@@ -891,7 +895,8 @@
        "teaser": {
         "ru": "запах трупа после гниения",
         "en": "the smell of a corpse after putrefaction"
-       }
+       },
+       "image": "ill-x-vial.png"
       },
       {
        "step": 19,
@@ -904,7 +909,8 @@
        "teaser": {
         "ru": "молекулы, из которых состоит трупный запах",
         "en": "the molecules corpse smell is made of"
-       }
+       },
+       "image": "ill-x-molecule.png"
       },
       {
        "step": 20,
@@ -917,7 +923,8 @@
        "teaser": {
         "ru": "туман из воды, которой обмывали тела в морге",
         "en": "mist made from water used to wash bodies in a morgue"
-       }
+       },
+       "image": "ill-x-mist.png"
       },
       {
        "step": 20,
@@ -930,7 +937,8 @@
        "teaser": {
         "ru": "мыльные пузыри, которые лопаются о лицо",
         "en": "soap bubbles bursting against your face"
-       }
+       },
+       "image": "ill-x-bubbles.png"
       },
       {
        "step": 21,
@@ -943,7 +951,8 @@
        "teaser": {
         "ru": "горелая изоляция и холодный кофе",
         "en": "burnt insulation and cold coffee"
-       }
+       },
+       "image": "ill-x-inv.png"
       },
       {
        "step": 21,
@@ -956,7 +965,8 @@
        "teaser": {
         "ru": "вагон метро в жару",
         "en": "a metro carriage in a heatwave"
-       }
+       },
+       "image": "ill-x-inv.png"
       },
       {
        "step": 21,
@@ -969,7 +979,8 @@
        "teaser": {
         "ru": "электричество отключили на второй день",
         "en": "the power went off on day two"
-       }
+       },
+       "image": "ill-x-inv.png"
       },
       {
        "step": 21,
@@ -982,7 +993,8 @@
        "teaser": {
         "ru": "бормашина, жжёная кость и страх",
         "en": "the drill, burnt bone and fear"
-       }
+       },
+       "image": "ill-x-inv.png"
       },
       {
        "step": 21,
@@ -995,7 +1007,8 @@
        "teaser": {
         "ru": "нафталин, мокрая шерсть и плесень",
         "en": "mothballs, wet wool and mould"
-       }
+       },
+       "image": "ill-x-inv.png"
       },
       {
        "step": 21,
@@ -1008,7 +1021,8 @@
        "teaser": {
         "ru": "смесь всего, что было выше",
         "en": "a blend of everything above"
-       }
+       },
+       "image": "ill-x-inv.png"
       }
      ]
     }
@@ -5864,6 +5878,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-x-fear.png",
+     "alt": {
+      "ru": "Рисунок флакона The FEAR of Smell — the Smell of FEAR",
+      "en": "A drawing of the The FEAR of Smell — the Smell of FEAR bottle"
+     },
+     "caption": {
+      "ru": "The FEAR of Smell — the Smell of FEAR, Сиссель Толас",
+      "en": "The FEAR of Smell — the Smell of FEAR, Sissel Tolaas"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://en.wikipedia.org/wiki/Sissel_Tolaas",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**The FEAR of Smell — the Smell of FEAR** · Сиссель Толас · 2005/2006\n\nНорвежская художница Сиссель Толас живёт в Берлине и собрала архив из семи тысяч запахов в герметичных банках. Для этой работы мужчины с острыми фобиями прикладывали ватные тампоны к подмышкам в момент страха. Молекулы их пота синтезировали заново, заключили в микрокапсулы и нанесли на стены, и запах высвобождался, когда зритель касался стены. Толас говорит, что на современном Западе запах привыкли воспринимать только эстетически. Сколько было доноров и где работу показали впервые, источники расходятся: в Тиране в 2005 году или в Массачусетском технологическом в 2006-м.",
@@ -5926,6 +5956,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-x-ants.png",
+     "alt": {
+      "ru": "Рисунок флакона Immigrant Caucus",
+      "en": "A drawing of the Immigrant Caucus bottle"
+     },
+     "caption": {
+      "ru": "Immigrant Caucus, Аника Йи",
+      "en": "Immigrant Caucus, Anicka Yi"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://en.wikipedia.org/wiki/Anicka_Yi",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -5994,6 +6040,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-x-plant.png",
+     "alt": {
+      "ru": "Рисунок флакона The Smell of a Stranger",
+      "en": "A drawing of the The Smell of a Stranger bottle"
+     },
+     "caption": {
+      "ru": "The Smell of a Stranger, Петер де Купер",
+      "en": "The Smell of a Stranger, Peter de Cupere"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://scentculture.institute/2015/05/16/artist-scent-engineers-plants-to-smell-like-dead-2/",
+     "size": "right",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -6099,6 +6161,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-x-vial.png",
+     "alt": {
+      "ru": "Рисунок флакона Pseudo Corpse Scent, Formulation I",
+      "en": "A drawing of the Pseudo Corpse Scent, Formulation I bottle"
+     },
+     "caption": {
+      "ru": "Pseudo Corpse Scent, Formulation I, Sigma-Aldrich",
+      "en": "Pseudo Corpse Scent, Formulation I, Sigma-Aldrich"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://www.sigmaaldrich.com/product/sial/p4304",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Pseudo Corpse Scent, Formulation I** · Sigma-Aldrich\n\nПервая формула изображает ранние стадии разложения. Производитель честно пишет, что веществ, в честь которых назван продукт, в нём нет: смесь должна вызывать у собаки ту же реакцию, что и настоящий запах. Качество проверяют на обученных собаках, а хранить пузырёк нужно в холодильнике.",
@@ -6157,6 +6235,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-x-vial.png",
+     "alt": {
+      "ru": "Рисунок флакона Pseudo Corpse Scent, Formulation II",
+      "en": "A drawing of the Pseudo Corpse Scent, Formulation II bottle"
+     },
+     "caption": {
+      "ru": "Pseudo Corpse Scent, Formulation II, Sigma-Aldrich",
+      "en": "Pseudo Corpse Scent, Formulation II, Sigma-Aldrich"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://www.sigmaaldrich.com/US/en/product/sial/p3929",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -6221,6 +6315,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-x-molecule.png",
+     "alt": {
+      "ru": "Рисунок флакона Кадаверин и путресцин",
+      "en": "A drawing of the Кадаверин и путресцин bottle"
+     },
+     "caption": {
+      "ru": "Кадаверин и путресцин, лабораторные реактивы",
+      "en": "Кадаверин и путресцин, laboratory reagents"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://en.wikipedia.org/wiki/Cadaverine",
+     "size": "right",
+     "treatment": "print"
     },
     {
      "type": "text",
@@ -6315,6 +6425,22 @@
      }
     },
     {
+     "type": "photo",
+     "src": "ill-x-mist.png",
+     "alt": {
+      "ru": "Рисунок флакона Vaporización",
+      "en": "A drawing of the Vaporización bottle"
+     },
+     "caption": {
+      "ru": "Vaporización, Тереза Марголес",
+      "en": "Vaporización, Teresa Margolles"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://hyperallergic.com/teresa-margolles-and-the-violence-we-breathe/",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "**Vaporización** · Тереза Марголес · 2001\n\nЗритель входит в зал, наполненный туманом. Сначала ему не говорят, чем он дышит, и только надпись на стене объясняет: туман сделан из воды, которой в центральном морге Мехико обмывали тела погибших, предварительно обеззараженной. Запаха почти нет, и в этом весь ужас: жесть не в носу, а в знании, что эта вода оседает на вашей коже и попадает в лёгкие. Работу датируют 2000 или 2001 годом, а в 2002-м её показали в нью-йоркском MoMA PS1.",
@@ -6377,6 +6503,22 @@
        }
       }
      ]
+    },
+    {
+     "type": "photo",
+     "src": "ill-x-bubbles.png",
+     "alt": {
+      "ru": "Рисунок флакона En el aire",
+      "en": "A drawing of the En el aire bottle"
+     },
+     "caption": {
+      "ru": "En el aire, Тереза Марголес",
+      "en": "En el aire, Teresa Margolles"
+     },
+     "credit": "Иллюстрация редакции Dormer",
+     "source_url": "https://en.wikipedia.org/wiki/Teresa_Margolles",
+     "size": "left",
+     "treatment": "print"
     },
     {
      "type": "text",
