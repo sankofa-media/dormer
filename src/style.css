@@ -247,3 +247,22 @@ body:has(.theme-void) header{display:none}
 .wall .tile.tile-id-ponadobilsya h2{font-size:clamp(24px,2.3vw,34px);line-height:1.15;overflow-wrap:normal;word-break:normal;hyphens:none}
 @media(min-width:701px){.wall .tile.tile-id-ponadobilsya h2{font-size:clamp(22px,1.9vw,30px);max-width:36%}}
 @media(max-width:700px){.wall .tile.tile-id-ponadobilsya h2{font-size:24px;max-width:100%}}
+/* Sankofa music features: tiles that lead out, collage on top, title below */
+.tile-id-sea-lion-girls .tile-inner{background:#e8dcc3;color:#3b2c1f}
+.tile-id-forever-changes .tile-inner{background:#26385a;color:#f4e6c8}
+.tile-id-angel .tile-inner{background:#141414;color:#e6e1d8}
+:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .collage{inset:0 0 44% 0;opacity:1}
+:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .collage-stage{aspect-ratio:auto}
+.tile-id-angel .collage{filter:grayscale(.2)}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) h2{font:italic 400 clamp(30px,2.6vw,42px)/1.05 'Lora',Georgia,serif;letter-spacing:-.02em;color:inherit;text-shadow:none;margin:auto 0 8px;overflow-wrap:normal}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) p{color:inherit;opacity:.85;max-width:none}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .tile-meta{color:#f4efe4;text-shadow:0 1px 6px #000b}
+.wall .tile.tile-id-sea-lion-girls .tile-meta{color:#3b2c1f;text-shadow:none}
+@media(min-width:701px){.wall{min-height:1900px}.tile-5{grid-column:1/5;grid-row:26/35;transform:rotate(2deg);z-index:8}.tile-6{grid-column:5/9;grid-row:27/36;transform:rotate(-2.5deg) translate(6px,0);z-index:9}.tile-7{grid-column:9/13;grid-row:25/34;transform:rotate(3deg) translate(-4px,0);z-index:8}}
+@media(max-width:700px){.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel){min-height:440px}.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) h2{font-size:34px}}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .tile-inner{justify-content:flex-start}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) h2{margin:auto 0 8px}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) p{font:15px/1.45 'Lora',Georgia,serif;text-transform:none;letter-spacing:0;text-shadow:none}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .tile-foot{margin-top:0;padding-top:16px;color:inherit;text-shadow:none;background:none}
+.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) p{margin:0!important}
+@media(max-width:700px){.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel){min-height:0}.wall .tile:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .tile-inner{min-height:460px}:is(.tile-id-sea-lion-girls,.tile-id-forever-changes,.tile-id-angel) .collage{inset:0 0 auto 0;height:250px}}

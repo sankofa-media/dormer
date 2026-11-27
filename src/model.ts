@@ -27,9 +27,9 @@ export type Block = Art | Photo | Collage
 export type Cover = (Omit<Art,'type'> & {kind:'art'}) | (Omit<Collage,'type'> & {kind:'collage'});
 export interface Chapter {id:string;name:Bi;kicker?:Bi;heat?:number;blocks:Block[]}
 export interface Project {id:string;layout:'longread';theme:'watercolor'|'yeye'|'rose'|'scent'|'void';title:Bi;dek:Bi;date:string;cover:Cover;paper?:string;chapters:Chapter[]}
-export interface Entry {id:string;title:Bi;dek?:Bi;tags:string[];upcoming?:boolean;tile:{type:'art'|'collage'|'empty'|'type'|'image'|'video';src?:string;quote?:Bi}}
+export interface Entry {id:string;title:Bi;dek?:Bi;tags:string[];upcoming?:boolean;href?:Bi;tile:{type:'art'|'collage'|'empty'|'type'|'image'|'video';src?:string;quote?:Bi}}
 export interface Media {src:string;widths:Record<string,string>;width:number;height:number}
-export interface Data {entries:Entry[];projects:Record<string,Project>;media:Record<string,Media>}
+export interface Data {entries:Entry[];projects:Record<string,Project>;links:Record<string,Project>;media:Record<string,Media>}
 export const local=(v:Copy,l:Lang):string=>typeof v==='string'?v:typeof v[l]==='string'?v[l] as string:(v[l] as {text:string}).text;
 export const text=(b:Block,l:Lang):string=>'text' in b?local(b.text,l):b.type==='clipping'?local(b.body,l):'';
 const fail=(message:string):never=>{throw Error(message)};
@@ -84,6 +84,12 @@ export function validateBlock(b:any):asserts b is Block {
  case 'door':bi(b.label);list(b.lines);b.lines.forEach(bi);list(b.credits);for(const c of b.credits){copy(c.text);if(!http(c.url))fail('Invalid door credit')}break;
  default:fail(`Unknown block type: ${b.type}`);
  }
+}
+/** A tile that leads to a story published elsewhere: only its cover lives here. */
+export function validateLink(e:any,c:any):Project {
+ bi(e.title);if(!e.href||!http(e.href.ru)||!http(e.href.en))fail('Invalid link: href.ru and href.en must be http(s) URLs');
+ choice(c?.cover?.kind,['art','collage']);validateBlock({...c.cover,type:c.cover.kind});
+ return {id:e.id,layout:'longread',theme:'watercolor',title:e.title,dek:e.dek??e.title,date:'1970-01-01',cover:c.cover,chapters:[]};
 }
 export function validateProject(p:any):Project {
  if(!p||! /^[a-z0-9-]+$/.test(p.id)||p.layout!=='longread')fail('Invalid project');

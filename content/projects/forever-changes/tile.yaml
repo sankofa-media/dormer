@@ -1,0 +1,9 @@
+cover:
+  kind: collage
+  background: the-hillside-r2-plate.webp
+  pieces:
+    - {src: the-castle-r2-house.webp, x: 56, y: 6, w: 36, rotate: 3, z: 2, depth: 6}
+    - {src: alone-again-or-r2-instruments.webp, x: 8, y: 60, w: 34, rotate: -6, z: 3, depth: 12}
+    - {src: the-red-telephone-r2-telephone.webp, x: 66, y: 58, w: 22, rotate: 5, z: 4, depth: 14}
+    - {src: lee-r2-figure-standing.webp, x: 38, y: 16, w: 20, rotate: 0, z: 5, depth: 18}
+  balloons: []

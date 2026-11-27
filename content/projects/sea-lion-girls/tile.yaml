@@ -1,0 +1,9 @@
+cover:
+  kind: collage
+  background: arrival-r2-plate.webp
+  pieces:
+    - {src: single-r2-player.webp, x: 60, y: 22, w: 28, rotate: 4, z: 2, depth: 6}
+    - {src: album-r2-disc.webp, x: 70, y: 52, w: 22, rotate: -8, z: 3, depth: 12}
+    - {src: ring-r2-children.webp, x: 38, y: 52, w: 30, rotate: 0, z: 4, depth: 10}
+    - {src: words-r2-girls.webp, x: 6, y: 18, w: 34, rotate: -2, z: 5, depth: 16}
+  balloons: []

@@ -53,3 +53,45 @@ projects:
       - music
     tile:
       type: collage
+  - id: sea-lion-girls
+    title:
+      ru: Sea Lion Girls
+      en: Sea Lion Girls
+    dek:
+      ru: Как две девушки из Миссисипи спели песню, которую знает весь мир
+      en: How two young women from Mississippi sang a song the whole world knows
+    href:
+      ru: https://sankofa.black/ru/features/sea-lion-girls/
+      en: https://sankofa.black/features/sea-lion-girls/
+    tags:
+      - music
+    tile:
+      type: collage
+  - id: forever-changes
+    title:
+      ru: Forever Changes
+      en: Forever Changes
+    dek:
+      ru: Последние слова, которые не стали последними
+      en: The last words that were not the last
+    href:
+      ru: https://sankofa.black/ru/features/forever-changes/
+      en: https://sankofa.black/features/forever-changes/
+    tags:
+      - music
+    tile:
+      type: collage
+  - id: angel
+    title:
+      ru: Angel
+      en: Angel
+    dek:
+      ru: Песня, которой не должно было быть
+      en: The song that was never meant to be
+    href:
+      ru: https://sankofa.black/ru/features/angel/
+      en: https://sankofa.black/features/angel/
+    tags:
+      - music
+    tile:
+      type: collage

@@ -21,5 +21,5 @@ export function fixtureData(p:Project):Data {
  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640"><rect width="960" height="640" fill="#e7dfd0"/><circle cx="480" cy="300" r="180" fill="#b79b92"/><path d="M0 580 Q400 200 960 450V640H0" fill="#65796c"/></svg>`;
  const src=`data:image/svg+xml,${encodeURIComponent(svg)}`;
  const cutout='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA/UlEQVR4nO3QuwHDQAgEUfUfKnUhLs8qwRyfmwNtQMzsu76f+3rz4QH04QH04QH04QH04QH04QH04QH04QH07Xz2c1x7AM/orRgdhpdCdBpeAtF1fBpC5/EpCN3HhxEmjA8hTBnvRpg03oUwbfwyggAGjl9CEMDQ8WYEAQhg7ngTggAEIAABCEAAAhCAAAQgAAFMRPi7SwACsAN0QzBtEsAiQBcE8x4BOABOR1ja4gU4FWF5RwTgNATXhijAKQju/gwAGiHUngVAIYS7MwF2I6Q0ZwPsgEhtrQKogChprAaIYpR37QQ48vAA+vAA+vAA+vAA+vAA+vAA+vAA+h7RXTgv946RQQAAAABJRU5ErkJggg==';
- return {entries:[],projects:{[p.id]:p},media:Object.fromEntries(projectAssets(p).map(path=>[`${p.id}/${path}`,(path.endsWith('cutout.png')?{src:cutout,widths:{64:cutout},width:64,height:64}:{src,widths:{960:src},width:960,height:640}) as Media]))};
+ return {entries:[],projects:{[p.id]:p},links:{},media:Object.fromEntries(projectAssets(p).map(path=>[`${p.id}/${path}`,(path.endsWith('cutout.png')?{src:cutout,widths:{64:cutout},width:64,height:64}:{src,widths:{960:src},width:960,height:640}) as Media]))};
 }

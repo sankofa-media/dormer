@@ -1,0 +1,9 @@
+cover:
+  kind: collage
+  background: line-r2-plate.webp
+  pieces:
+    - {src: crowd-r2-crowd-2.webp, x: 4, y: 58, w: 36, rotate: 0, z: 2, depth: 6}
+    - {src: kingston-r2-soundsystem.webp, x: 70, y: 40, w: 26, rotate: 3, z: 3, depth: 10}
+    - {src: crowd-r2-man.webp, x: 50, y: 14, w: 24, rotate: 0, z: 4, depth: 14}
+    - {src: voice-r2-singer.webp, x: 12, y: 8, w: 30, rotate: -2, z: 5, depth: 18}
+  balloons: []
