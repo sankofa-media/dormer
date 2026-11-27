@@ -2,14 +2,14 @@ export const FRIENDS:{name:string;url:string;ru:string;en:string}[]=[
  {
   "name": "Sankofa",
   "url": "https://sankofa.black",
-  "ru": "Дистрибутив Kubernetes, который помнит, и музей семи веков чёрной культуры, который едет внутри него: музыка, кино, фотография и большие мультимедийные истории.",
-  "en": "A Kubernetes distribution that remembers, and a museum of seven centuries of Black culture that ships inside it: music, film, photography and long multimedia stories."
+  "ru": "Музей семи веков чёрной культуры и большие мультимедийные спецпроекты о ней: музыка, кино, фотография. А ещё Sankofa — дистрибутив Kubernetes, на котором этот музей и работает.",
+  "en": "A museum of seven centuries of Black culture and long multimedia special projects about it: music, film, photography. Sankofa is also a Kubernetes distribution, and the museum runs on it."
  },
  {
   "name": "damn.academy",
   "url": "https://damn.academy",
-  "ru": "Интерактивный двуязычный учебник и тренажёр для входа в DevOps прямо в браузере: настоящие системы, симуляторы и курсы.",
-  "en": "An interactive bilingual textbook and hands-on trainer for getting into DevOps, right in the browser: real systems, simulators and courses."
+  "ru": "Открытая бесплатная платформа для курсов с практикой в браузере: профессия DevOps-инженер с настоящим Linux и облаком во вкладке, деловые курсы и симуляторы отделов для инфраструктурных компаний. Открытый код, на русском и английском.",
+  "en": "An open-source, free platform for courses with practice in the browser: a DevOps engineer track with real Linux and a cloud in a tab, plus business courses and department simulators for infrastructure companies. In English and Russian."
  },
  {
   "name": "Sheet-Native Computing Foundation",
