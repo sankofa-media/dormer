@@ -244,3 +244,6 @@ body:has(.theme-void) header{display:none}
 .tile.tile-id-ponadobilsya h2{font-family:'Lora',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:-.01em}
 @media(max-width:700px){.wall .tile-id-ponadobilsya{min-height:560px}.tile-id-ponadobilsya .collage{inset:0 0 auto 0;height:300px}.tile-id-ponadobilsya .collage-stage{height:100%}.tile.tile-id-ponadobilsya h2{font-size:28px;margin:250px 0 10px}.tile-id-ponadobilsya p{font-size:13px}}
 @media(max-width:700px){.tile-id-perfume .tile-inner:after{display:none}.tile.tile-id-perfume h2{font-size:38px;max-width:100%}.tile-id-perfume p{max-width:58%}.tile-id-perfume .tile-foot{color:#2a1f1a}}
+.wall .tile.tile-id-ponadobilsya h2{font-size:clamp(24px,2.3vw,34px);line-height:1.15;overflow-wrap:normal;word-break:normal;hyphens:none}
+@media(min-width:701px){.wall .tile.tile-id-ponadobilsya h2{font-size:clamp(22px,1.9vw,30px);max-width:36%}}
+@media(max-width:700px){.wall .tile.tile-id-ponadobilsya h2{font-size:24px;max-width:100%}}
