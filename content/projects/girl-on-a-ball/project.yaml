@@ -7,8 +7,8 @@
   "en": "Who Keeps the Balance"
  },
  "dek": {
-  "ru": "«Девочка на шаре» Пикассо: о лёгкости и тяжести, о ребёнке и взрослом, где неизвестно, кто кого держит, и о портрете, спрятанном на обороте холста",
-  "en": "Picasso’s Young Acrobat on a Ball: on lightness and weight, on a child and a grown-up where it is unclear who holds whom, and on the portrait hidden on the back of the canvas"
+  "ru": "«Девочка на шаре» Пикассо: о лёгкости и тяжести, о хрупкой девочке и сломленном силаче и о портрете, спрятанном на обороте холста",
+  "en": "Picasso’s Young Acrobat on a Ball: on lightness and weight, a fragile girl and a broken strongman, and the portrait hidden on the back of the canvas"
  },
  "date": "2026-11-26",
  "cover": {
@@ -31,8 +31,8 @@
     {
      "type": "text",
      "text": {
-      "ru": "Это одна из самых известных картин в России. Её видели на марках, монетах, в учебниках и на плакатах, под неё катались фигуристки, а «Девочкой на шаре» называется и рассказ Драгунского. Пикассо написал её в Париже в 1905 году, когда ему было двадцать три года, и с 1913 года она живёт в Москве, сейчас в Пушкинском музее.\n\nНа картине двое. Тонкая девочка-акробатка балансирует на шаре, вся вытянутая вверх, лёгкая, почти бесплотная. А рядом, спиной к нам, сидит на тяжёлом кубе огромный атлет. Он сильнее всех на этой картине и, наверное, во всей бродячей труппе. Но сидит он так, будто эта сила ему давно ни к чему: плечи опущены, лицо в тени, рука лежит на колене.\n\nМы будем смотреть на эту картину как на историю о привязанности и заботе — не взрослой любви, а той, что бывает между ребёнком и взрослым, который рядом. О той, где один лёгкий и воздушный, а другой тяжёлый, усталый и сломленный при всей своей силе, и где неизвестно, кто кого держит. Сразу оговоримся: так её читаем мы. Пушкинский музей видит атлета иначе, как царственного защитника, и мы ещё дойдём до этого спора. Но сначала просто посмотрим на картину, деталь за деталью. Листайте вниз, и картина будет приближаться к тому, о чём идёт речь.",
-      "en": "It is one of the best-known paintings in Russia. People have seen it on stamps, coins, in textbooks and on posters, figure skaters have skated to it, and a Dragunsky story shares its title. Picasso painted it in Paris in 1905, aged twenty-three, and since 1913 it has lived in Moscow, now in the Pushkin Museum.\n\nThere are two people in it. A slender girl acrobat balances on a ball, stretched upwards, light, almost bodiless. And beside her, with his back to us, a huge athlete sits on a heavy cube. He is the strongest figure in the picture and probably in the whole travelling troupe. Yet he sits as if that strength had long been of no use to him: shoulders lowered, face in shadow, hand on his knee.\n\nWe will look at this painting as a story of attachment and care — not adult love, but the kind that exists between a child and the grown-up beside her. The kind where one is light and airy and the other heavy, tired and broken for all his strength, and where it is unclear who holds whom. A caveat up front: this is our reading. The Pushkin Museum sees the athlete differently, as a regal protector, and we will come to that argument. But first, let us simply look at the painting, detail by detail. Scroll down and the picture will move closer to whatever is being discussed."
+      "ru": "Это одна из самых известных картин в России. Её видели на марках, монетах, в учебниках и на плакатах, под неё катались фигуристки, а «Девочкой на шаре» называется и рассказ Драгунского. Пикассо написал её в Париже в 1905 году, когда ему было двадцать три года, и с 1913 года она живёт в Москве, сейчас в Пушкинском музее.\n\nНа картине двое. Тонкая девочка-акробатка балансирует на шаре, вся вытянутая вверх, лёгкая, почти бесплотная. А рядом, спиной к нам, сидит на тяжёлом кубе огромный атлет. Он сильнее всех на этой картине и, наверное, во всей бродячей труппе. Но сидит он так, будто эта сила ему давно ни к чему: плечи опущены, лицо в тени, рука лежит на колене.\n\nМы будем смотреть на эту картину как на картину о контрасте: она лёгкая и воздушная, он тяжёлый, усталый и сломленный при всей своей силе, и неизвестно, кто из них на самом деле держит равновесие. Сразу оговоримся: так её читаем мы. Пушкинский музей видит атлета иначе, как царственного защитника, и мы ещё дойдём до этого спора. Но сначала просто посмотрим на картину, деталь за деталью. Листайте вниз, и картина будет приближаться к тому, о чём идёт речь.",
+      "en": "It is one of the best-known paintings in Russia. People have seen it on stamps, coins, in textbooks and on posters, figure skaters have skated to it, and a Dragunsky story shares its title. Picasso painted it in Paris in 1905, aged twenty-three, and since 1913 it has lived in Moscow, now in the Pushkin Museum.\n\nThere are two people in it. A slender girl acrobat balances on a ball, stretched upwards, light, almost bodiless. And beside her, with his back to us, a huge athlete sits on a heavy cube. He is the strongest figure in the picture and probably in the whole travelling troupe. Yet he sits as if that strength had long been of no use to him: shoulders lowered, face in shadow, hand on his knee.\n\nWe will look at this painting as a picture of contrast: she is light and airy, he is heavy, tired and broken for all his strength, and it is unclear which of them is really keeping the balance. A caveat up front: this is our reading. The Pushkin Museum sees the athlete differently, as a regal protector, and we will come to that argument. But first, let us simply look at the painting, detail by detail. Scroll down and the picture will move closer to whatever is being discussed."
      },
      "sources": [
       {
@@ -221,6 +221,22 @@
    },
    "blocks": [
     {
+     "type": "photo",
+     "src": "picasso_1904_photo_canals.jpg",
+     "alt": {
+      "ru": "Молодой Пикассо в шляпе",
+      "en": "Young Picasso in a hat"
+     },
+     "caption": {
+      "ru": "Пабло Пикассо в Париже, 1904 год.",
+      "en": "Pablo Picasso in Paris, 1904."
+     },
+     "credit": "Фото: Ricard Canals i Llambí, Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1904,_Paris,_photograph_by_Ricard_Canals_i_Llambí.jpg",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "В 1904 году Пикассо окончательно перебрался из Барселоны в Париж и поселился на Монмартре, в доме, который прозвали Бато-Лавуар, «плавучая прачечная». Пушкинский музей описывает его как причудливый дом, состоящий только из чердаков и подвалов. Там же, в 1904-м, он познакомился с Фернандой Оливье, которая стала его возлюбленной на следующие годы.\n\nТолько что закончился его голубой период: нищие, слепые, больные, всё написано холодным синим цветом. Его друг Хайме Сабартес вспоминал, что Пикассо тогда верил, будто искусство рождается из печали и боли. А теперь в картинах появились розовые и охристые тона, и вместо нищих — бродячие акробаты, арлекины и циркачи.\n\nЦирк был совсем рядом, у подножия Монмартра: цирк Медрано. Пикассо потом вспоминал, что был по-настоящему околдован цирком и иногда приходил туда по три-четыре вечера в неделю. Гертруда Стайн писала, что вся их компания встречалась в Медрано по крайней мере раз в неделю и водила знакомство с клоунами, жонглёрами и наездниками. Фернанда Оливье добавляла, что Пикассо клоунами восхищался и по-настоящему им сочувствовал. Американский исследователь Э. А. Кармин даже предполагал, что «розовый» период назван так в честь розового шатра Медрано, но это только гипотеза.",
@@ -236,22 +252,6 @@
        "url": "https://pushkinmuseum.art/data/fonds/europe_and_america/j/1001_2000/zh_3399/index.php"
       }
      ]
-    },
-    {
-     "type": "photo",
-     "src": "picasso_1904_photo_canals.jpg",
-     "alt": {
-      "ru": "Молодой Пикассо в шляпе",
-      "en": "Young Picasso in a hat"
-     },
-     "caption": {
-      "ru": "Пабло Пикассо в Париже, 1904 год.",
-      "en": "Pablo Picasso in Paris, 1904."
-     },
-     "credit": "Фото: Ricard Canals i Llambí, Wikimedia Commons (public domain)",
-     "source_url": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1904,_Paris,_photograph_by_Ricard_Canals_i_Llambí.jpg",
-     "size": "right",
-     "treatment": "print"
     },
     {
      "type": "photo",
@@ -362,6 +362,22 @@
      "treatment": "print"
     },
     {
+     "type": "photo",
+     "src": "gotz_boy_balancing_on_ball_nga.jpg",
+     "alt": {
+      "ru": "Бронзовая статуэтка мальчика, балансирующего на шаре",
+      "en": "A bronze statuette of a boy balancing on a ball"
+     },
+     "caption": {
+      "ru": "Йоханнес Гётц, «Мальчик, балансирующий на шаре», модель 1888, отливка около 1905. Национальная галерея искусства, Вашингтон.",
+      "en": "Johannes Götz, Boy Balancing on a Ball, model 1888, cast c. 1905. National Gallery of Art, Washington."
+     },
+     "credit": "National Gallery of Art, Wikimedia Commons, CC0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Götz,_Boy_Balancing_on_a_Ball,_model_1888,_cast_probably_c._1905,_NGA_55701.jpg",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "Откуда поза? Ричардсон связывал её с бронзовой статуэткой берлинского скульптора Йоханнеса Гётца «Мальчик, балансирующий на шаре», модель 1888 года, — её отливка есть в той же Национальной галерее в Вашингтоне. Стоять так, как стоит девочка, можно лишь несколько секунд, поэтому писать её с живой модели было бы почти невозможно. Кто позировал для девочки и для атлета, неизвестно; Ричардсон полагал, что атлетом мог быть кто-то из знакомых по Медрано.",
@@ -377,22 +393,6 @@
        "url": "https://www.vokrugsveta.ru/articles/a-byl-li-malchik-istoriya-sozdaniya-i-9-primechatelnykh-detalei-kartiny-pablo-pikasso-devochka-na-share-id603066/"
       }
      ]
-    },
-    {
-     "type": "photo",
-     "src": "gotz_boy_balancing_on_ball_nga.jpg",
-     "alt": {
-      "ru": "Бронзовая статуэтка мальчика, балансирующего на шаре",
-      "en": "A bronze statuette of a boy balancing on a ball"
-     },
-     "caption": {
-      "ru": "Йоханнес Гётц, «Мальчик, балансирующий на шаре», модель 1888, отливка около 1905. Национальная галерея искусства, Вашингтон.",
-      "en": "Johannes Götz, Boy Balancing on a Ball, model 1888, cast c. 1905. National Gallery of Art, Washington."
-     },
-     "credit": "National Gallery of Art, Wikimedia Commons, CC0",
-     "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Götz,_Boy_Balancing_on_a_Ball,_model_1888,_cast_probably_c._1905,_NGA_55701.jpg",
-     "size": "right",
-     "treatment": "print"
     },
     {
      "type": "gallery",
@@ -578,8 +578,8 @@
     {
      "type": "text",
      "text": {
-      "ru": "Официальное прочтение Пушкинского музея такое. Атлет подобен египетскому фараону, царственно восседающему на кубе. Хрупкость девочки подчёркивает его силу, а его сила как бы защищает её от жестокости действительности. Бродячие акробаты — изгои, и они нужны друг другу: это мир людей, которые нуждаются друг в друге. Искусствовед Нина Дмитриева называла такую труппу идеальной моделью семьи.\n\nМы прочитаем его иначе, и это наше прочтение, а не музейное. Посмотрите ещё раз на его позу. Фараон сидел бы прямо, а этот человек сидит, подавшись вперёд, плечи опущены, голова мала для такой спины и утоплена в тени. Рука не держит, не готова подхватить, просто лежит на колене. Вся огромная сила, которую Пикассо так подчеркнул, сейчас ни на что не направлена. Это сила человека, который устал её носить.\n\nИ тогда картина становится историей о привязанности — той, где он смотрит на неё снизу, тяжёлый, неподвижный, придавленный собственным весом, а она стоит над ним на шаре, невесомая, вся в усилии не упасть, и даже не смотрит на него. Она держит равновесие сама. Он только смотрит. Может быть, это он и держится за неё — за то, что в мире ещё бывает такая лёгкость. Музей видит защитника. Нам видится человек, которого держит на земле только то, что она есть.",
-      "en": "The Pushkin Museum’s official reading is this. The athlete is like an Egyptian pharaoh sitting regally on the cube. The girl’s fragility underlines his strength, and his strength seems to shield her from the cruelty of reality. Travelling acrobats are outcasts and need one another: a world of people who need each other. The art historian Nina Dmitrieva called such a troupe an ideal model of a family.\n\nWe will read him differently, and this is our reading, not the museum’s. Look at his posture again. A pharaoh would sit upright; this man sits leaning forward, shoulders lowered, his head small for such a back and sunk in shadow. His hand does not hold, is not ready to catch — it just lies on his knee. All the enormous strength Picasso so stressed is directed at nothing. It is the strength of a man tired of carrying it.\n\nAnd then the painting becomes a story of attachment — where he looks up at her, heavy, still, pressed down by his own weight, while she stands above him on the ball, weightless, all effort not to fall, and does not even look at him. She keeps her balance herself. He only watches. Perhaps it is he who holds on to her — to the fact that such lightness still exists in the world. The museum sees a protector. We see a man held on earth only by the fact that she exists."
+      "ru": "Официальное прочтение Пушкинского музея такое. Атлет подобен египетскому фараону, царственно восседающему на кубе. Хрупкость девочки подчёркивает его силу, а его сила как бы защищает её от жестокости действительности. Бродячие акробаты — изгои, и они нужны друг другу: это мир людей, которые нуждаются друг в друге. Искусствовед Нина Дмитриева называла такую труппу идеальной моделью семьи.\n\nМы прочитаем его иначе, и это наше прочтение, а не музейное. Посмотрите ещё раз на его позу. Фараон сидел бы прямо, а этот человек сидит, подавшись вперёд, плечи опущены, голова мала для такой спины и утоплена в тени. Рука не держит, не готова подхватить, просто лежит на колене. Вся огромная сила, которую Пикассо так подчеркнул, сейчас ни на что не направлена. Это сила человека, который устал её носить.\n\nИ тогда картина становится историей о контрасте: он внизу, тяжёлый, неподвижный, придавленный собственным весом, а она стоит над ним на шаре, невесомая, вся в усилии не упасть, и даже не смотрит на него. Она держит равновесие сама. Он только смотрит. Вся его сила здесь ни к чему, и её лёгкость оказывается прочнее. Музей видит защитника. Нам видится сломленный силач рядом с девочкой, которой его сила не нужна: она справляется сама.",
+      "en": "The Pushkin Museum’s official reading is this. The athlete is like an Egyptian pharaoh sitting regally on the cube. The girl’s fragility underlines his strength, and his strength seems to shield her from the cruelty of reality. Travelling acrobats are outcasts and need one another: a world of people who need each other. The art historian Nina Dmitrieva called such a troupe an ideal model of a family.\n\nWe will read him differently, and this is our reading, not the museum’s. Look at his posture again. A pharaoh would sit upright; this man sits leaning forward, shoulders lowered, his head small for such a back and sunk in shadow. His hand does not hold, is not ready to catch — it just lies on his knee. All the enormous strength Picasso so stressed is directed at nothing. It is the strength of a man tired of carrying it.\n\nAnd then the painting becomes a story of contrast: he sits below, heavy, still, pressed down by his own weight, while she stands above him on the ball, weightless, all effort not to fall, and does not even look at him. She keeps her balance herself. He only watches. All his strength is of no use here, and her lightness proves the sturdier of the two. The museum sees a protector. We see a broken strongman beside a girl who does not need his strength: she manages on her own."
      },
      "sources": [
       {
@@ -640,6 +640,22 @@
    },
    "blocks": [
     {
+     "type": "photo",
+     "src": "ivan_morozov_serov_1910.jpg",
+     "alt": {
+      "ru": "Портрет Ивана Морозова на фоне натюрморта",
+      "en": "Portrait of Ivan Morozov before a still life"
+     },
+     "caption": {
+      "ru": "Валентин Серов, «Портрет Ивана Морозова», 1910.",
+      "en": "Valentin Serov, Portrait of Ivan Morozov, 1910."
+     },
+     "credit": "Wikimedia Commons, CC BY 2.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Ivan_Abramovich_Morozov._Valentin_Serov._1910_-_51807585113.jpg",
+     "size": "right",
+     "treatment": "print"
+    },
+    {
      "type": "text",
      "text": {
       "ru": "Первыми владельцами картины стали американцы Лео и Гертруда Стайн, брат и сестра, которые одними из первых начали покупать Пикассо. Когда именно и у кого они её купили, неизвестно, но на фотографии их парижской квартиры на улице Флёрюс, сделанной около 1907 года, «Девочка на шаре» уже висит на стене рядом с «Мальчиком, ведущим лошадь».\n\nВ 1913 году брат и сестра поссорились и делили коллекцию. Торговец Даниэль-Анри Канвейлер оценил «Девочку на шаре» в десять тысяч франков. 17 октября 1913 года Гертруда отдала её Канвейлеру вместе с двумя другими ранними работами в обмен на новую кубистическую картину Пикассо «Человек с гитарой». Похоже, новый Пикассо интересовал её уже больше прежнего.\n\nКанвейлер сразу перепродал «Девочку» московскому промышленнику Ивану Морозову. Сколько тот заплатил, источники расходятся: тринадцать или шестнадцать тысяч франков. Для сравнения, «Странствующих гимнастов» Пикассо Морозов купил у Воллара всего за триста. За всю жизнь у Морозова было только три картины Пикассо, а у его соперника Сергея Щукина около пятидесяти.",
@@ -659,22 +675,6 @@
        "url": "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/morozov"
       }
      ]
-    },
-    {
-     "type": "photo",
-     "src": "ivan_morozov_serov_1910.jpg",
-     "alt": {
-      "ru": "Портрет Ивана Морозова на фоне натюрморта",
-      "en": "Portrait of Ivan Morozov before a still life"
-     },
-     "caption": {
-      "ru": "Валентин Серов, «Портрет Ивана Морозова», 1910.",
-      "en": "Valentin Serov, Portrait of Ivan Morozov, 1910."
-     },
-     "credit": "Wikimedia Commons, CC BY 2.0",
-     "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Ivan_Abramovich_Morozov._Valentin_Serov._1910_-_51807585113.jpg",
-     "size": "right",
-     "treatment": "print"
     }
    ]
   },
@@ -685,6 +685,22 @@
     "en": "Storerooms and a queue"
    },
    "blocks": [
+    {
+     "type": "photo",
+     "src": "ussr_stamp_1971_cpa4024.jpg",
+     "alt": {
+      "ru": "Советская почтовая марка с «Девочкой на шаре»",
+      "en": "A Soviet postage stamp with the girl on the ball"
+     },
+     "caption": {
+      "ru": "Почтовая марка СССР, 1971 год, 20 копеек.",
+      "en": "Soviet postage stamp, 1971, 20 kopecks."
+     },
+     "credit": "Wikimedia Commons (public domain)",
+     "source_url": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1971_CPA_4024_stamp_(Child_on_Ball_(Pablo_Picasso)).jpg",
+     "size": "right",
+     "treatment": "print"
+    },
     {
      "type": "text",
      "text": {
@@ -701,22 +717,6 @@
        "url": "https://namednibook.ru/vystavka-pikasso.html"
       }
      ]
-    },
-    {
-     "type": "photo",
-     "src": "ussr_stamp_1971_cpa4024.jpg",
-     "alt": {
-      "ru": "Советская почтовая марка с «Девочкой на шаре»",
-      "en": "A Soviet postage stamp with the girl on the ball"
-     },
-     "caption": {
-      "ru": "Почтовая марка СССР, 1971 год, 20 копеек.",
-      "en": "Soviet postage stamp, 1971, 20 kopecks."
-     },
-     "credit": "Wikimedia Commons (public domain)",
-     "source_url": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1971_CPA_4024_stamp_(Child_on_Ball_(Pablo_Picasso)).jpg",
-     "size": "right",
-     "treatment": "print"
     }
    ]
   },
