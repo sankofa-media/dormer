@@ -48,6 +48,14 @@ km -n dormer rollout status deploy/dormer --timeout=180s
 for attempt in {1..20}; do
   if curl --fail --silent --show-error --max-time 20 "https://$DORMER_HOST/" -o "$work/served.html" && cmp -s dist/index.html "$work/served.html"; then
     echo "Deployed $DORMER_IMAGE at https://$DORMER_HOST"
+    # Tell IndexNow search engines (Yandex, Bing and others) about every page in the sitemap.
+    key=$(ls public | grep -E '^[0-9a-f]{32}\.txt$' | head -1); key=${key%.txt}
+    if [ -n "$key" ]; then
+      urls=$(curl -fsS "https://$DORMER_HOST/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's#</*loc>##g')
+      body=$(printf '%s\n' "$urls" | jq -R . | jq -s --arg h "$DORMER_HOST" --arg k "$key" '{host:$h,key:$k,keyLocation:"https://\($h)/\($k).txt",urlList:.}')
+      code=$(curl -s -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json; charset=utf-8' -d "$body" https://api.indexnow.org/indexnow || true)
+      echo "indexnow: $(printf '%s\n' "$urls" | grep -c .) page(s) sent, HTTP $code"
+    fi
     exit 0
   fi
   sleep 3

@@ -11,7 +11,7 @@ if(!/^https?:\/\//.test(site))throw Error('SITE_URL must be an absolute HTTP(S) 
 const json=(v:unknown)=>JSON.stringify(v).replace(/</g,'\\u003c');
 const pages:{path:string;lang:Lang;title:string;description:string;alternate:string;body:string;id?:string}[]=[];
 for(const lang of ['en','ru'] as Lang[]){
- pages.push({path:home(lang),lang,title:'Dormer',description:lang==='ru'?'Большие истории о музыке, живописи, театре, запахах — обо всём, что нам интересно.':'Independent multimedia stories about music and art.',alternate:home(lang==='ru'?'en':'ru'),body:homePage(data,lang)});
+ pages.push({path:home(lang),lang,title:'Dormer',description:lang==='ru'?'Большие истории о музыке, живописи, театре, ароматах — обо всём, что нам интересно.':'Independent multimedia stories about music and art.',alternate:home(lang==='ru'?'en':'ru'),body:homePage(data,lang)});
  pages.push({path:home(lang)+'friends/',lang,title:lang==='ru'?'Другие наши проекты — Dormer':'Our other projects — Dormer',description:lang==='ru'?'Sankofa, damn.academy, Sheet-Native Computing Foundation и Палеокомпьютинг':'Sankofa, damn.academy, Sheet-Native Computing Foundation and Paleocomputing',alternate:home(lang==='ru'?'en':'ru')+'friends/',body:friendsPage(lang)});
  for(const p of Object.values(data.projects))pages.push({path:url(p.id,lang),lang,title:local(p.title,lang),description:local(p.dek,lang),alternate:url(p.id,lang==='ru'?'en':'ru'),body:projectPage(data,p,lang),id:p.id});
 }
@@ -25,7 +25,7 @@ for(const p of pages){
  const html=template.replace('<html lang="en">',`<html lang="${p.lang}">`).replace('<!-- seo --><title>Dormer</title>',head).replace('<!-- app -->',()=>p.body);
  await mkdir('dist'+p.path,{recursive:true});await writeFile('dist'+p.path+'index.html',html);
 }
-await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${pages.map(p=>`<url><loc>${esc(site+p.path)}</loc><xhtml:link rel="alternate" hreflang="${p.lang==='en'?'ru':'en'}" href="${esc(site+p.alternate)}"/></url>`).join('')}</urlset>`);
+await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${pages.map(p=>`<url><loc>${esc(site+p.path)}</loc><lastmod>${p.id?data.projects[p.id].date:new Date().toISOString().slice(0,10)}</lastmod><xhtml:link rel="alternate" hreflang="${p.lang==='en'?'ru':'en'}" href="${esc(site+p.alternate)}"/></url>`).join('')}</urlset>`);
 await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${site}/sitemap.xml\n`);
 await writeFile('dist/llms.txt',`# Dormer\n\n> Independent bilingual multimedia special projects.\n\nEnglish translations are drafts. Artwork may be placeholder. Sources are linked at the end of each chapter.\n\n${pages.map(p=>`- [${p.title} (${p.lang})](${site+p.path}): ${p.description}`).join('\n')}\n\n- [Full text](${site}/llms-full.txt)\n- [Atom](${site}/projects.atom)\n`);
 for(const lang of ['en','ru'] as Lang[]){
