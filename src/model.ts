@@ -21,11 +21,12 @@ export type Block = Art | Photo | Collage
  | {type:'tour';src:string;alt:Bi;credit:Copy;source_url:string;stops:{x:number;y:number;w:number;h:number;title:Bi;text:Bi}[]}
  | {type:'ladder';title:Bi;left:Bi;right:Bi;items:{step:number;anchor:string;name:string;brand:string;year:string;image?:string;popsa:number;zhest:number;teaser:Bi}[]}
  | {type:'scorecard';popsa:number;zhest:number;facts:{label:Bi;value:Bi}[]}
+ | {type:'door';label:Bi;lines:Bi[];credits:{text:Copy;url:string}[]}
  | {type:'shelf';title:Bi;items:{name:string;brand:string;year:string;image?:string;credit?:string;source_url?:string;popsa:number;zhest:number;who?:Bi;notes:Bi;text:Bi;teaser:Bi}[]}
  | {type:'scentmap';title:Bi;lede:Bi;x:Bi;y:Bi;families:{id:string;label:Bi;color:string}[];items:{id:string;name:string;brand:string;year:string;family:string;step:number;anchor?:string;image?:string;popsa:number;zhest:number;px:number;py:number;flip?:boolean;who?:Bi;notes:Bi;text:Bi;teaser:Bi;invented?:boolean}[]};
 export type Cover = (Omit<Art,'type'> & {kind:'art'}) | (Omit<Collage,'type'> & {kind:'collage'});
 export interface Chapter {id:string;name:Bi;kicker?:Bi;heat?:number;blocks:Block[]}
-export interface Project {id:string;layout:'longread';theme:'watercolor'|'yeye';title:Bi;dek:Bi;date:string;cover:Cover;paper?:string;chapters:Chapter[]}
+export interface Project {id:string;layout:'longread';theme:'watercolor'|'yeye'|'rose'|'scent'|'void';title:Bi;dek:Bi;date:string;cover:Cover;paper?:string;chapters:Chapter[]}
 export interface Entry {id:string;title:Bi;dek?:Bi;tags:string[];upcoming?:boolean;tile:{type:'art'|'collage'|'empty'|'type'|'image'|'video';src?:string;quote?:Bi}}
 export interface Media {src:string;widths:Record<string,string>;width:number;height:number}
 export interface Data {entries:Entry[];projects:Record<string,Project>;media:Record<string,Media>}
@@ -80,12 +81,13 @@ export function validateBlock(b:any):asserts b is Block {
  case 'scentmap':bi(b.title);bi(b.lede);bi(b.x);bi(b.y);list(b.families);list(b.items);{const fam=new Set(b.families.map((f:{id:string;label:Bi;color:string})=>{if(!/^[a-z0-9-]+$/.test(f.id)||!/^#[0-9a-f]{6}$/i.test(f.color))fail('Invalid scentmap family');bi(f.label);return f.id}));const ids=new Set<string>();for(const it of b.items){finite(it.step,it.popsa,it.zhest,it.px,it.py);if(!/^[a-z0-9-]+$/.test(it.id)||ids.has(it.id)||!str(it.name)||!str(it.brand)||!fam.has(it.family)||(it.anchor&&!/^[a-z0-9-]+$/.test(it.anchor)))fail(`Invalid scentmap item ${it.id}`);ids.add(it.id);if(it.image)asset(it.image,'photos');if(it.who)bi(it.who);bi(it.notes);bi(it.text);bi(it.teaser)}}break;
  case 'ladder':bi(b.title);bi(b.left);bi(b.right);list(b.items);for(const it of b.items){finite(it.step,it.popsa,it.zhest);if(!str(it.name)||!str(it.brand)||!str(it.year)||!/^[a-z0-9-]+$/.test(it.anchor))fail('Invalid ladder item');if(it.image)asset(it.image,'photos');bi(it.teaser)}break;
  case 'scorecard':finite(b.popsa,b.zhest);list(b.facts);for(const f of b.facts){bi(f.label);bi(f.value)}break;
+ case 'door':bi(b.label);list(b.lines);b.lines.forEach(bi);list(b.credits);for(const c of b.credits){copy(c.text);if(!http(c.url))fail('Invalid door credit')}break;
  default:fail(`Unknown block type: ${b.type}`);
  }
 }
 export function validateProject(p:any):Project {
  if(!p||! /^[a-z0-9-]+$/.test(p.id)||p.layout!=='longread')fail('Invalid project');
- choice(p.theme,['watercolor','yeye','rose','scent']);bi(p.title);bi(p.dek);if(!/^\d{4}-\d{2}-\d{2}$/.test(p.date))fail('Invalid date');
+ choice(p.theme,['watercolor','yeye','rose','scent','void']);bi(p.title);bi(p.dek);if(!/^\d{4}-\d{2}-\d{2}$/.test(p.date))fail('Invalid date');
  choice(p.cover?.kind,['art','collage']);validateBlock({...p.cover,type:p.cover.kind});if(p.paper)asset(p.paper);
  list(p.chapters);const ids=new Set<string>();for(const c of p.chapters){if(!/^[a-z0-9-]+$/.test(c.id)||ids.has(c.id))fail('Invalid chapter id');ids.add(c.id);bi(c.name);if(c.kicker)bi(c.kicker);list(c.blocks);c.blocks.forEach(validateBlock)}return p;
 }

@@ -200,3 +200,47 @@
 @media(max-width:700px){.shelf ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.shelf li{padding:8px}.shelf-meters{grid-template-columns:52px 1fr 14px}.shelf h4{font-size:12px}}
 .header-tg{text-decoration:none}@media(max-width:700px){.header-tg{font-size:11px}}
 .visual:not(.size-left):not(.size-right),.gallery,.collage,.video,.clipping,.pullquote,.timeline,.structure{clear:both}
+/* void: one door, one line */
+body:has(.theme-void){background:#0d1016}
+body:has(.theme-void) header{display:none}
+.theme-void{background:radial-gradient(ellipse 70% 55% at 50% 58%,#2a303b 0,#161a22 60%,#0d1016 100%);color:#d9dde6;min-height:100dvh;padding:0;display:grid;place-items:center;overflow:hidden}
+.theme-void:before{display:none}
+.door-scene{position:relative;display:grid;place-items:center;min-height:100dvh;width:100%}
+.door{list-style:none;cursor:pointer;display:grid;justify-items:center;padding:0;outline-offset:14px}
+.door::-webkit-details-marker{display:none}
+.door-frame{position:relative;display:block;width:min(240px,46vw);aspect-ratio:1/2.05;background:#05060a;border:10px solid #3a3f49;border-bottom:0;box-shadow:0 0 0 1px #00000080,0 30px 80px #000a,inset 0 0 30px #000;perspective:900px}
+.door-space{position:absolute;inset:0;background:radial-gradient(circle at 40% 30%,#3c3170 0,transparent 45%),radial-gradient(circle at 70% 75%,#123a5a 0,transparent 40%),#03040a;overflow:hidden}
+.door-space:after{content:'';position:absolute;inset:-50%;background-image:radial-gradient(1px 1px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 63% 41%,#fff,transparent),radial-gradient(1.5px 1.5px at 32% 72%,#cfe0ff,transparent),radial-gradient(1px 1px at 84% 12%,#fff,transparent),radial-gradient(1px 1px at 48% 91%,#fff,transparent),radial-gradient(1px 1px at 91% 66%,#ffe9d6,transparent);background-size:90px 90px;animation:drift 120s linear infinite}
+.door-leaf{position:absolute;inset:0;background:linear-gradient(90deg,#4b5361,#3f4652 60%,#363c47);transform-origin:left center;transition:transform 2.2s cubic-bezier(.5,0,.2,1);display:grid;grid-template-rows:1fr 1.25fr;gap:9%;padding:12% 14%;box-shadow:inset -6px 0 12px #0005}
+.door-panel{display:block;border:2px solid #2d323b;box-shadow:inset 1px 1px 0 #5b6372,1px 1px 0 #5b6372}
+.door-knob{position:absolute;right:9%;top:52%;width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#b9a98a,#5d5240);box-shadow:0 2px 3px #0008}
+.door-floor{display:block;width:min(520px,92vw);height:2px;background:linear-gradient(90deg,transparent,#8fa3c855,transparent);box-shadow:0 0 18px 2px #8fa3c822}
+.door:hover .door-leaf{transform:rotateY(-6deg)}
+.door-scene[open] .door-leaf{transform:rotateY(-108deg)}
+.void{position:fixed;inset:0;z-index:40;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 30% 25%,#241d4a 0,transparent 55%),radial-gradient(ellipse at 75% 80%,#0c2a44 0,transparent 50%),#02030a;animation:void-in 3s 1.8s ease-in forwards}
+.stars{position:absolute;inset:-50%;background-repeat:repeat}
+.stars-far{background-image:radial-gradient(1px 1px at 10% 20%,#fff,transparent),radial-gradient(1px 1px at 70% 35%,#dfe8ff,transparent),radial-gradient(1px 1px at 40% 80%,#fff,transparent),radial-gradient(1px 1px at 85% 60%,#fff4e8,transparent),radial-gradient(1px 1px at 25% 55%,#fff,transparent);background-size:140px 140px;opacity:.55;animation:drift 240s linear infinite}
+.stars-near{background-image:radial-gradient(1.5px 1.5px at 30% 40%,#fff,transparent),radial-gradient(2px 2px at 80% 15%,#cfe0ff,transparent),radial-gradient(1.5px 1.5px at 55% 75%,#fff,transparent);background-size:310px 310px;animation:drift 160s linear infinite reverse,twinkle 6s ease-in-out infinite alternate}
+.nebula{position:absolute;inset:0;background:radial-gradient(ellipse 40% 25% at 62% 38%,#5a4a9a1f,transparent 70%),radial-gradient(ellipse 35% 30% at 30% 70%,#2a6a8a17,transparent 70%);filter:blur(10px)}
+.void-lines{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:1.4em;padding:0 24px;text-align:center}
+.void-lines p{margin:0;max-width:34ch;font:400 clamp(20px,2.6vw,34px)/1.45 'Lora',Georgia,serif;color:#e6e9f2;letter-spacing:.01em;opacity:0;translate:0 8px;animation:line-in 2.4s calc(4.6s + var(--i) * 3s) ease-out forwards;text-shadow:0 0 24px #8fa3ff33}
+.void-foot{position:fixed;inset:auto 0 0;z-index:50;display:flex;justify-content:space-between;gap:16px;margin:0;padding:14px 4.5%;border:0;font:10px/1.5 monospace;color:#7c8496;opacity:.55}
+.void-foot a{color:inherit}
+.void-foot span{text-align:right}
+@keyframes void-in{to{opacity:1}}
+@keyframes line-in{to{opacity:1;translate:0 0}}
+@keyframes drift{to{transform:translate(-140px,-60px)}}
+@keyframes twinkle{from{opacity:.5}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.door-leaf{transition:none}.void,.void-lines p{animation-duration:.01s;animation-delay:0s}.stars,.door-space:after{animation:none}}
+.calm .void,.calm .void-lines p{animation-duration:.01s;animation-delay:0s}
+/* tile */
+.tile-id-ponadobilsya .tile-inner{background:#2b3240;color:#e3e7ef}
+.tile-id-ponadobilsya .collage{opacity:.9}
+.tile-id-ponadobilsya h2{font:400 clamp(20px,1.9vw,28px)/1.15 'Lora',Georgia,serif;letter-spacing:-.01em;margin-top:auto;text-shadow:0 1px 12px #000c}
+.tile-id-ponadobilsya .tile-inner{display:flex;flex-direction:column}
+.tile-id-ponadobilsya p{color:#c8cedb;text-shadow:0 1px 8px #000c}
+@media(min-width:701px){.wall{min-height:1300px}.tile-4{grid-column:2/12;grid-row:17/25;transform:rotate(-1.2deg) translate(0,20px);z-index:7}.tile-id-ponadobilsya h2{font-size:clamp(30px,3.2vw,48px);max-width:35%;font-style:normal;margin:auto 0 12px}.tile-id-ponadobilsya p{max-width:40%}.tile-id-ponadobilsya .collage{inset:0 0 0 38%}}
+.tile-id-ponadobilsya .collage-stage{aspect-ratio:auto}
+.tile.tile-id-ponadobilsya h2{font-family:'Lora',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:-.01em}
+@media(max-width:700px){.wall .tile-id-ponadobilsya{min-height:560px}.tile-id-ponadobilsya .collage{inset:0 0 auto 0;height:300px}.tile-id-ponadobilsya .collage-stage{height:100%}.tile.tile-id-ponadobilsya h2{font-size:28px;margin:250px 0 10px}.tile-id-ponadobilsya p{font-size:13px}}
+@media(max-width:700px){.tile-id-perfume .tile-inner:after{display:none}.tile.tile-id-perfume h2{font-size:38px;max-width:100%}.tile-id-perfume p{max-width:58%}.tile-id-perfume .tile-foot{color:#2a1f1a}}

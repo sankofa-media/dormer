@@ -28,8 +28,8 @@ projects:
       ru: Кто держит равновесие
       en: Who Keeps the Balance
     dek:
-      ru: «Девочка на шаре» Пикассо — о лёгкости, тяжести и любви
-      en: Picasso's Young Acrobat on a Ball, on lightness, weight and love
+      ru: «Девочка на шаре» Пикассо — о лёгкости и тяжести
+      en: Picasso's Young Acrobat on a Ball, on lightness and weight
     tags:
       - art
     tile:
@@ -45,3 +45,14 @@ projects:
       - perfume
     tile:
       type: art
+  - id: ponadobilsya
+    title:
+      ru: Это значит, что теперь ты кому-то понадо-понадо-понанадобился
+      en: It means that now somebody ne-, ne-, needs you
+    dek:
+      ru: Одна строчка «Гражданской обороны»
+      en: One line from Grazhdanskaya Oborona
+    tags:
+      - music
+    tile:
+      type: collage

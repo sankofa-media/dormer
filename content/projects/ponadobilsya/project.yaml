@@ -1,0 +1,45 @@
+id: ponadobilsya
+layout: longread
+theme: void
+title:
+  ru: Это значит, что теперь ты кому-то понадо-понадо-понанадобился
+  en: It means that now somebody ne-, ne-, needs you
+dek:
+  ru: Одна строчка «Гражданской обороны»
+  en: One line from Grazhdanskaya Oborona
+date: 2026-11-27
+cover:
+  kind: collage
+  background: bg-dusk.jpg
+  pieces:
+    - {src: letov-portrait.jpg, x: 6, y: 8, w: 34, rotate: -3, z: 3, depth: 10}
+    - {src: flyer-2002.jpg, x: 52, y: 6, w: 34, rotate: 4, z: 2, depth: 6}
+    - {src: letov-stage-2000.jpg, x: 44, y: 38, w: 20, rotate: -5, z: 4, depth: 14}
+    - {src: ticket-2002.jpg, x: 62, y: 60, w: 30, rotate: 7, z: 5, depth: 18}
+  balloons: []
+chapters:
+  - id: door
+    name:
+      ru: Дверь
+      en: The door
+    blocks:
+      - type: door
+        label:
+          ru: Открыть дверь
+          en: Open the door
+        lines:
+          - ru: За открывшейся дверью пустота
+            en: Beyond the opened door, emptiness
+          - ru: Это значит, что кто-то пришёл за тобой
+            en: It means that someone has come for you
+          - ru: Это значит, что теперь ты кому-то понадо-понадо-понанадобился
+            en: It means that now somebody ne-, ne-, needs you
+        credits:
+          - text: {ru: "Строки: «Гражданская оборона»", en: "Lines: Grazhdanskaya Oborona"}
+            url: https://ru.wikipedia.org/wiki/Гражданская_оборона_(группа)
+          - text: {ru: "Фото Летова: Наталья Чумакова, CC BY-SA 4.0", en: "Letov portrait: Natalia Chumakova, CC BY-SA 4.0"}
+            url: https://commons.wikimedia.org/wiki/File:Egor_Letov_Nature.jpg
+          - text: {ru: "Концерт 2000 года: Alex Ex, CC BY-SA 3.0", en: "2000 concert: Alex Ex, CC BY-SA 3.0"}
+            url: https://commons.wikimedia.org/wiki/File:Egor_Letov_2000-11-04_Nuernberg.jpg
+          - text: {ru: "Билет и флаер 2002 года: общественное достояние", en: "2002 ticket and flyer: public domain"}
+            url: https://commons.wikimedia.org/wiki/File:Flyer_advertising_concert_by_Yegor_Letov_in_Moscow_on_April_27,_2002.jpg
