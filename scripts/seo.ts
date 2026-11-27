@@ -1,5 +1,6 @@
 // Adapted from Sankofa scripts/seo: prerender, alternates, JSON-LD, discovery files.
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 import sharp from 'sharp';
 import {homePage,projectPage,friendsPage,esc,url,home} from '../src/render.ts';
 import {type Data,type Lang,text,local} from '../src/model.ts';
@@ -17,7 +18,7 @@ for(const lang of ['en','ru'] as Lang[]){
 await mkdir('dist/media',{recursive:true});
 await sharp(Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="#bec6ac"/><path d="M0 450 Q350 300 1200 420V630H0" fill="#879477"/><path d="M0 500H1200" stroke="#eee7d3" stroke-width="12"/><text x="70" y="90" font-family="Georgia" font-size="38" fill="#29392d">Dormer ↗</text><text x="70" y="280" font-family="Georgia" font-size="110" fill="#29392d">Independent stories</text><text x="75" y="365" font-family="monospace" font-size="25" fill="#29392d">MUSIC / ART / CULTURE</text></svg>`)).png().toFile('dist/media/og.png');
 for(const p of pages){
- const canonical=site+p.path;const image=site+'/media/og.png';const project=p.id?data.projects[p.id]:undefined;
+ const canonical=site+p.path;const shot=`og/${p.id??(p.path.endsWith('friends/')?'friends':'home')}-${p.lang}.jpg`;const image=existsSync('public/'+shot)?`${site}/${shot}`:site+'/media/og.png';const project=p.id?data.projects[p.id]:undefined;
  const schema={'@context':'https://schema.org','@type':p.id?'Article':'CollectionPage',headline:p.title,name:p.title,description:p.description,inLanguage:p.lang,url:canonical,image,...(project?{datePublished:project.date+'T00:00:00Z',dateModified:project.date+'T00:00:00Z',author:{'@type':'Organization',name:'Dormer'},publisher:{'@type':'Organization',name:'Dormer'},articleBody:project.chapters.flatMap(s=>s.blocks.map(b=>text(b,p.lang))).join('\n\n')}: {})};
  const en=p.lang==='en'?p.path:p.alternate,ru=p.lang==='ru'?p.path:p.alternate;
  const head=`<title>${esc(p.title)}${p.id?' — Dormer':''}</title><meta name="description" content="${esc(p.description)}"><link rel="canonical" href="${esc(canonical)}"><link rel="alternate" hreflang="en" href="${site+en}"><link rel="alternate" hreflang="ru" href="${site+ru}"><link rel="alternate" hreflang="x-default" href="${site+en}"><meta property="og:title" content="${esc(p.title)}"><meta property="og:description" content="${esc(p.description)}"><meta property="og:site_name" content="Dormer"><meta property="og:type" content="${p.id?'article':'website'}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:locale" content="${p.lang==='en'?'en_US':'ru_RU'}"><meta property="og:image" content="${image}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Dormer — Independent stories"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/atom+xml" href="${home(p.lang)}projects.atom"><script type="application/ld+json">${json(schema)}</script>`;
